@@ -4,7 +4,8 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+const light = require('prism-react-renderer/themes/github');
+const dark = require('prism-react-renderer/themes/duotoneDark');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Skill World",
@@ -127,11 +128,11 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Skillw Project, Inc. Built with Docusaurus.`,
       },
       prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.oneDark,
+        theme: light,
+        darkTheme: dark,
         additionalLanguages: ['java','yaml','kotlin'],
       },
     }),
 };
 
-export default config;
+module.exports = config;

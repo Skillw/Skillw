@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: '高客制化',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/home/customization.svg').default,
     description: (
       <>
         所见皆可自定义, 我们凭借着高客制化能力, 为客户提供最佳体验。
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: '高性能',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/home/performance.svg').default,
     description: (
       <>
         多年迭代升级算法, 数次重构优化结构, 为客户提供最佳性能。
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: '活跃的社区',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/home/consultation.svg').default,
     description: (
       <>
         我们的项目正在蒸蒸日上哦！

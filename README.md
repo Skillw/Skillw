@@ -1,35 +1,41 @@
-# Skill World Project
+# Website
 
-一个平平无奇的编程组织，致力于为开源社区做贡献。
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-### Website
+### Installation
 
-会部署 Wiki 与 Glom 的 Blog  
+```
+$ yarn
+```
 
-Powered by [Docusaurus 3](https://docusaurus.io/)
+### Local Development
 
-## 鸣谢
-
-在我繁忙于学业时，他们自发地为Asahi维护WIKI，感激不尽！
-
-[https://github.com/Nerorrlex911/Asahi-Wiki](https://github.com/Nerorrlex911/Asahi-Wiki)
-
-### 贡献者
-
-- [Zoyn_](https://github.com/602723113) 提供Asahi网站服务器的大哥哥
-- [Zima_Blue](https://github.com/Nerorrlex911)
-- [q210520993](https://github.com/q210520993)
-- [BrassiCold](https://github.com/BrassiCold)
-
-### 本地部署
 ```
 $ yarn start
 ```
 
-### 构建
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+### Build
 
 ```
 $ yarn build
 ```
-构建出一个静态网站
 
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+Using SSH:
+
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
