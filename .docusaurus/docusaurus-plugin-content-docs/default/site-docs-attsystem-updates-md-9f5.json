@@ -1,4 +1,5 @@
 {
+  "unversionedId": "attsystem/updates",
   "id": "attsystem/updates",
   "title": "更新日志",
   "description": "1.0.0 2022 年 2 月 20 日",
@@ -7,7 +8,6 @@
   "slug": "/attsystem/updates",
   "permalink": "/docs/attsystem/updates",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/attsystem/updates.md",
   "tags": [],
   "version": "current",

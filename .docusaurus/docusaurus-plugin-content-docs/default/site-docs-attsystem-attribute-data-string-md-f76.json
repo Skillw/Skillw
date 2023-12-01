@@ -1,4 +1,5 @@
 {
+  "unversionedId": "attsystem/attribute/data/string",
   "id": "attsystem/attribute/data/string",
   "title": "字符串",
   "description": "格式",
@@ -7,7 +8,6 @@
   "slug": "/attsystem/attribute/data/string",
   "permalink": "/docs/attsystem/attribute/data/string",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/attsystem/attribute/data/string.md",
   "tags": [],
   "version": "current",

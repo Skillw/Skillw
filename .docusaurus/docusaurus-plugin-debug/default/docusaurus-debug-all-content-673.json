@@ -15,11 +15,12 @@
           "editUrlLocalized": "https://github.com/Skillw/Website/i18n/cn/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/glom/桌面/git/Website/sidebars.js",
-          "contentPath": "/home/glom/桌面/git/Website/docs",
-          "contentPathLocalized": "/home/glom/桌面/git/Website/i18n/cn/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/www/wwwroot/www.skillw.com/sidebars.js",
+          "contentPath": "/www/wwwroot/www.skillw.com/docs",
+          "contentPathLocalized": "/www/wwwroot/www.skillw.com/i18n/cn/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "unversionedId": "attsystem/about",
               "id": "attsystem/about",
               "title": "前言",
               "description": "icon",
@@ -28,7 +29,6 @@
               "slug": "/attsystem/about",
               "permalink": "/docs/attsystem/about",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/about.md",
               "tags": [],
               "version": "current",
@@ -46,6 +46,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/attribute/data/intro",
               "id": "attsystem/attribute/data/intro",
               "title": "属性数据",
               "description": "初始结构",
@@ -54,7 +55,6 @@
               "slug": "/attsystem/attribute/data/intro",
               "permalink": "/docs/attsystem/attribute/data/intro",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/attribute/data/intro.md",
               "tags": [],
               "version": "current",
@@ -72,6 +72,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/attribute/data/nbt",
               "id": "attsystem/attribute/data/nbt",
               "title": "NBT",
               "description": "格式",
@@ -80,7 +81,6 @@
               "slug": "/attsystem/attribute/data/nbt",
               "permalink": "/docs/attsystem/attribute/data/nbt",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/attribute/data/nbt.md",
               "tags": [],
               "version": "current",
@@ -98,6 +98,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/attribute/data/string",
               "id": "attsystem/attribute/data/string",
               "title": "字符串",
               "description": "格式",
@@ -106,7 +107,6 @@
               "slug": "/attsystem/attribute/data/string",
               "permalink": "/docs/attsystem/attribute/data/string",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/attribute/data/string.md",
               "tags": [],
               "version": "current",
@@ -124,6 +124,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/attribute/function/realise",
               "id": "attsystem/attribute/function/realise",
               "title": "属性功能实现",
               "description": "原版属性",
@@ -132,7 +133,6 @@
               "slug": "/attsystem/attribute/function/realise",
               "permalink": "/docs/attsystem/attribute/function/realise",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/attribute/function/realise.md",
               "tags": [],
               "version": "current",
@@ -150,6 +150,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/attribute/intro",
               "id": "attsystem/attribute/intro",
               "title": "属性",
               "description": "介绍",
@@ -158,7 +159,6 @@
               "slug": "/attsystem/attribute/intro",
               "permalink": "/docs/attsystem/attribute/intro",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/attribute/intro.md",
               "tags": [],
               "version": "current",
@@ -176,6 +176,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/attribute/read-group/intro",
               "id": "attsystem/attribute/read-group/intro",
               "title": "读取组",
               "description": "ReadPattern 子类，用于读取属性",
@@ -184,7 +185,6 @@
               "slug": "/attsystem/attribute/read-group/intro",
               "permalink": "/docs/attsystem/attribute/read-group/intro",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/attribute/read-group/intro.md",
               "tags": [],
               "version": "current",
@@ -202,6 +202,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/attribute/read-group/matcher",
               "id": "attsystem/attribute/read-group/matcher",
               "title": "捕获组",
               "description": "什么是捕获组？",
@@ -210,7 +211,6 @@
               "slug": "/attsystem/attribute/read-group/matcher",
               "permalink": "/docs/attsystem/attribute/read-group/matcher",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/attribute/read-group/matcher.md",
               "tags": [],
               "version": "current",
@@ -228,6 +228,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/attribute/read-group/operation",
               "id": "attsystem/attribute/read-group/operation",
               "title": "运算操作",
               "description": "默认",
@@ -236,7 +237,6 @@
               "slug": "/attsystem/attribute/read-group/operation",
               "permalink": "/docs/attsystem/attribute/read-group/operation",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/attribute/read-group/operation.md",
               "tags": [],
               "version": "current",
@@ -254,6 +254,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/equipment/condition/intro",
               "id": "attsystem/equipment/condition/intro",
               "title": "条件",
               "description": "介绍",
@@ -262,7 +263,6 @@
               "slug": "/attsystem/equipment/condition/intro",
               "permalink": "/docs/attsystem/equipment/condition/intro",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/equipment/condition/intro.md",
               "tags": [],
               "version": "current",
@@ -280,6 +280,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/equipment/condition/list",
               "id": "attsystem/equipment/condition/list",
               "title": "条件列表",
               "description": "是参数",
@@ -288,7 +289,6 @@
               "slug": "/attsystem/equipment/condition/list",
               "permalink": "/docs/attsystem/equipment/condition/list",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/equipment/condition/list.md",
               "tags": [],
               "version": "current",
@@ -306,6 +306,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/equipment/condition/usage",
               "id": "attsystem/equipment/condition/usage",
               "title": "usage",
               "description": "条件的使用",
@@ -314,7 +315,6 @@
               "slug": "/attsystem/equipment/condition/usage",
               "permalink": "/docs/attsystem/equipment/condition/usage",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/equipment/condition/usage.md",
               "tags": [],
               "version": "current",
@@ -330,6 +330,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/equipment/slot",
               "id": "attsystem/equipment/slot",
               "title": "槽位系统",
               "description": "介绍",
@@ -338,7 +339,6 @@
               "slug": "/attsystem/equipment/slot",
               "permalink": "/docs/attsystem/equipment/slot",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/equipment/slot.md",
               "tags": [],
               "version": "current",
@@ -356,6 +356,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/extension/fight",
               "id": "attsystem/extension/fight",
               "title": "触发战斗机制组",
               "description": "见AttributeSystemAPI",
@@ -364,7 +365,6 @@
               "slug": "/attsystem/extension/fight",
               "permalink": "/docs/attsystem/extension/fight",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/extension/fight.md",
               "tags": [],
               "version": "current",
@@ -382,6 +382,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/extension/intro",
               "id": "attsystem/extension/intro",
               "title": "基本操作",
               "description": "见 AttrAPI",
@@ -390,7 +391,6 @@
               "slug": "/attsystem/extension/intro",
               "permalink": "/docs/attsystem/extension/intro",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/extension/intro.md",
               "tags": [],
               "version": "current",
@@ -408,6 +408,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/extension/message",
               "id": "attsystem/extension/message",
               "title": "战斗信息显示方式",
               "description": "Kotlin / Java",
@@ -416,7 +417,6 @@
               "slug": "/attsystem/extension/message",
               "permalink": "/docs/attsystem/extension/message",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/extension/message.md",
               "tags": [],
               "version": "current",
@@ -434,6 +434,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/extension/read-pattern",
               "id": "attsystem/extension/read-pattern",
               "title": "读取格式拓展",
               "description": "Kotlin",
@@ -442,7 +443,6 @@
               "slug": "/attsystem/extension/read-pattern",
               "permalink": "/docs/attsystem/extension/read-pattern",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/extension/read-pattern.md",
               "tags": [],
               "version": "current",
@@ -460,6 +460,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/faq",
               "id": "attsystem/faq",
               "title": "FAQ",
               "description": "插件卸载了攻击速度不正常",
@@ -468,7 +469,6 @@
               "slug": "/attsystem/faq",
               "permalink": "/docs/attsystem/faq",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/faq.md",
               "tags": [],
               "version": "current",
@@ -486,6 +486,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/fight/damage-type",
               "id": "attsystem/fight/damage-type",
               "title": "伤害类型",
               "description": "介绍",
@@ -494,7 +495,6 @@
               "slug": "/attsystem/fight/damage-type",
               "permalink": "/docs/attsystem/fight/damage-type",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/fight/damage-type.md",
               "tags": [],
               "version": "current",
@@ -512,6 +512,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/fight/data",
               "id": "attsystem/fight/data",
               "title": "战斗数据",
               "description": "在开读战斗系统前，你需要了解一下AttributeSystem中的战斗数据",
@@ -520,7 +521,6 @@
               "slug": "/attsystem/fight/data",
               "permalink": "/docs/attsystem/fight/data",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/fight/data.md",
               "tags": [],
               "version": "current",
@@ -538,6 +538,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/fight/mechanic",
               "id": "attsystem/fight/mechanic",
               "title": "机制",
               "description": "介绍",
@@ -546,7 +547,6 @@
               "slug": "/attsystem/fight/mechanic",
               "permalink": "/docs/attsystem/fight/mechanic",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/fight/mechanic.md",
               "tags": [],
               "version": "current",
@@ -564,6 +564,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/fight/mechanic-group",
               "id": "attsystem/fight/mechanic-group",
               "title": "战斗机制组",
               "description": "介绍",
@@ -572,7 +573,6 @@
               "slug": "/attsystem/fight/mechanic-group",
               "permalink": "/docs/attsystem/fight/mechanic-group",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/fight/mechanic-group.md",
               "tags": [],
               "version": "current",
@@ -590,6 +590,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/fight/mechanics",
               "id": "attsystem/fight/mechanics",
               "title": "机制列表",
               "description": "damage [伤害]",
@@ -598,7 +599,6 @@
               "slug": "/attsystem/fight/mechanics",
               "permalink": "/docs/attsystem/fight/mechanics",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/fight/mechanics.md",
               "tags": [],
               "version": "current",
@@ -616,6 +616,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/intro",
               "id": "attsystem/intro",
               "title": "介绍",
               "description": "icon",
@@ -624,7 +625,6 @@
               "slug": "/attsystem/intro",
               "permalink": "/docs/attsystem/intro",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/intro.md",
               "tags": [],
               "version": "current",
@@ -642,6 +642,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/other/config",
               "id": "attsystem/other/config",
               "title": "配置文件",
               "description": "config.yml",
@@ -650,7 +651,6 @@
               "slug": "/attsystem/other/config",
               "permalink": "/docs/attsystem/other/config",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/other/config.md",
               "tags": [],
               "version": "current",
@@ -668,6 +668,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/other/formula",
               "id": "attsystem/other/formula",
               "title": "公式系统",
               "description": "介绍",
@@ -676,7 +677,6 @@
               "slug": "/attsystem/other/formula",
               "permalink": "/docs/attsystem/other/formula",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/other/formula.md",
               "tags": [],
               "version": "current",
@@ -694,6 +694,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/other/mythic-mobs",
               "id": "attsystem/other/mythic-mobs",
               "title": "MythicMobs",
               "description": "MM 技能",
@@ -702,7 +703,6 @@
               "slug": "/attsystem/other/mythic-mobs",
               "permalink": "/docs/attsystem/other/mythic-mobs",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/other/mythic-mobs.md",
               "tags": [],
               "version": "current",
@@ -720,6 +720,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/other/placeholder",
               "id": "attsystem/other/placeholder",
               "title": "占位符",
               "description": "%asatt:属性id占位符id% - 属性值",
@@ -728,7 +729,6 @@
               "slug": "/attsystem/other/placeholder",
               "permalink": "/docs/attsystem/other/placeholder",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/other/placeholder.md",
               "tags": [],
               "version": "current",
@@ -746,6 +746,7 @@
               }
             },
             {
+              "unversionedId": "attsystem/updates",
               "id": "attsystem/updates",
               "title": "更新日志",
               "description": "1.0.0 2022 年 2 月 20 日",
@@ -754,7 +755,6 @@
               "slug": "/attsystem/updates",
               "permalink": "/docs/attsystem/updates",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/attsystem/updates.md",
               "tags": [],
               "version": "current",
@@ -772,6 +772,7 @@
               }
             },
             {
+              "unversionedId": "buffsystem/buff/data",
               "id": "buffsystem/buff/data",
               "title": "Buff 数据",
               "description": "你需要了解一下BuffSystem中的Buff 数据",
@@ -780,7 +781,6 @@
               "slug": "/buffsystem/buff/data",
               "permalink": "/docs/buffsystem/buff/data",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/buff/data.md",
               "tags": [],
               "version": "current",
@@ -798,6 +798,7 @@
               }
             },
             {
+              "unversionedId": "buffsystem/buff/intro",
               "id": "buffsystem/buff/intro",
               "title": "Buff",
               "description": "自定义",
@@ -806,7 +807,6 @@
               "slug": "/buffsystem/buff/intro",
               "permalink": "/docs/buffsystem/buff/intro",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/buff/intro.md",
               "tags": [],
               "version": "current",
@@ -824,6 +824,7 @@
               }
             },
             {
+              "unversionedId": "buffsystem/condition/custom",
               "id": "buffsystem/condition/custom",
               "title": "拓展条件",
               "description": "BuffSystem默认提供了 2 种条件",
@@ -832,7 +833,6 @@
               "slug": "/buffsystem/condition/custom",
               "permalink": "/docs/buffsystem/condition/custom",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/condition/custom.md",
               "tags": [],
               "version": "current",
@@ -850,6 +850,7 @@
               }
             },
             {
+              "unversionedId": "buffsystem/condition/intro",
               "id": "buffsystem/condition/intro",
               "title": "条件",
               "description": "条件决定着一个 Buff 是否生效，是否删除",
@@ -858,7 +859,6 @@
               "slug": "/buffsystem/condition/intro",
               "permalink": "/docs/buffsystem/condition/intro",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/condition/intro.md",
               "tags": [],
               "version": "current",
@@ -876,6 +876,7 @@
               }
             },
             {
+              "unversionedId": "buffsystem/condition/type/permission",
               "id": "buffsystem/condition/type/permission",
               "title": "权限条件",
               "description": "条件",
@@ -884,7 +885,6 @@
               "slug": "/buffsystem/condition/type/permission",
               "permalink": "/docs/buffsystem/condition/type/permission",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/condition/type/permission.md",
               "tags": [],
               "version": "current",
@@ -902,6 +902,7 @@
               }
             },
             {
+              "unversionedId": "buffsystem/condition/type/time",
               "id": "buffsystem/condition/type/time",
               "title": "时间条件",
               "description": "条件",
@@ -910,7 +911,6 @@
               "slug": "/buffsystem/condition/type/time",
               "permalink": "/docs/buffsystem/condition/type/time",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/condition/type/time.md",
               "tags": [],
               "version": "current",
@@ -928,6 +928,7 @@
               }
             },
             {
+              "unversionedId": "buffsystem/effect/intro",
               "id": "buffsystem/effect/intro",
               "title": "效果",
               "description": "自定义效果",
@@ -936,7 +937,6 @@
               "slug": "/buffsystem/effect/intro",
               "permalink": "/docs/buffsystem/effect/intro",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/effect/intro.md",
               "tags": [],
               "version": "current",
@@ -954,6 +954,7 @@
               }
             },
             {
+              "unversionedId": "buffsystem/effect/type",
               "id": "buffsystem/effect/type",
               "title": "效果类型",
               "description": "BuffSystem默认提供了 3 种效果类型",
@@ -962,7 +963,6 @@
               "slug": "/buffsystem/effect/type",
               "permalink": "/docs/buffsystem/effect/type",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/effect/type.md",
               "tags": [],
               "version": "current",
@@ -980,6 +980,7 @@
               }
             },
             {
+              "unversionedId": "buffsystem/effect/type/attribute",
               "id": "buffsystem/effect/type/attribute",
               "title": "属性效果",
               "description": "效果",
@@ -988,7 +989,6 @@
               "slug": "/buffsystem/effect/type/attribute",
               "permalink": "/docs/buffsystem/effect/type/attribute",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/effect/type/attribute.md",
               "tags": [],
               "version": "current",
@@ -1006,6 +1006,7 @@
               }
             },
             {
+              "unversionedId": "buffsystem/effect/type/permission",
               "id": "buffsystem/effect/type/permission",
               "title": "权限效果",
               "description": "效果",
@@ -1014,7 +1015,6 @@
               "slug": "/buffsystem/effect/type/permission",
               "permalink": "/docs/buffsystem/effect/type/permission",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/effect/type/permission.md",
               "tags": [],
               "version": "current",
@@ -1032,6 +1032,7 @@
               }
             },
             {
+              "unversionedId": "buffsystem/effect/type/potion",
               "id": "buffsystem/effect/type/potion",
               "title": "原版药水效果",
               "description": "效果",
@@ -1040,7 +1041,6 @@
               "slug": "/buffsystem/effect/type/potion",
               "permalink": "/docs/buffsystem/effect/type/potion",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/effect/type/potion.md",
               "tags": [],
               "version": "current",
@@ -1058,6 +1058,7 @@
               }
             },
             {
+              "unversionedId": "buffsystem/extension/example",
               "id": "buffsystem/extension/example",
               "title": "例子",
               "description": "兼容属性插件",
@@ -1066,7 +1067,6 @@
               "slug": "/buffsystem/extension/example",
               "permalink": "/docs/buffsystem/extension/example",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/extension/example.md",
               "tags": [],
               "version": "current",
@@ -1084,6 +1084,7 @@
               }
             },
             {
+              "unversionedId": "buffsystem/extension/intro",
               "id": "buffsystem/extension/intro",
               "title": "基本操作",
               "description": "见 BuffAPI",
@@ -1092,7 +1093,6 @@
               "slug": "/buffsystem/extension/intro",
               "permalink": "/docs/buffsystem/extension/intro",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/extension/intro.md",
               "tags": [],
               "version": "current",
@@ -1110,6 +1110,7 @@
               }
             },
             {
+              "unversionedId": "buffsystem/faq",
               "id": "buffsystem/faq",
               "title": "FAQ",
               "description": "暂无",
@@ -1118,7 +1119,6 @@
               "slug": "/buffsystem/faq",
               "permalink": "/docs/buffsystem/faq",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/faq.md",
               "tags": [],
               "version": "current",
@@ -1136,6 +1136,7 @@
               }
             },
             {
+              "unversionedId": "buffsystem/intro",
               "id": "buffsystem/intro",
               "title": "intro",
               "description": "header",
@@ -1144,7 +1145,6 @@
               "slug": "/buffsystem/intro",
               "permalink": "/docs/buffsystem/intro",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/intro.md",
               "tags": [],
               "version": "current",
@@ -1160,6 +1160,7 @@
               }
             },
             {
+              "unversionedId": "buffsystem/other/mythic-mobs",
               "id": "buffsystem/other/mythic-mobs",
               "title": "MythicMobs 机制",
               "description": "提供 MM 机制",
@@ -1168,7 +1169,6 @@
               "slug": "/buffsystem/other/mythic-mobs",
               "permalink": "/docs/buffsystem/other/mythic-mobs",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/other/mythic-mobs.md",
               "tags": [],
               "version": "current",
@@ -1186,6 +1186,7 @@
               }
             },
             {
+              "unversionedId": "buffsystem/other/placeholder",
               "id": "buffsystem/other/placeholder",
               "title": "占位符",
               "description": "%bsbuff:key1key2% - Buff 信息",
@@ -1194,7 +1195,6 @@
               "slug": "/buffsystem/other/placeholder",
               "permalink": "/docs/buffsystem/other/placeholder",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/other/placeholder.md",
               "tags": [],
               "version": "current",
@@ -1212,6 +1212,7 @@
               }
             },
             {
+              "unversionedId": "buffsystem/updates",
               "id": "buffsystem/updates",
               "title": "BuffSystem",
               "description": "---",
@@ -1220,7 +1221,6 @@
               "slug": "/buffsystem/updates",
               "permalink": "/docs/buffsystem/updates",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/updates.md",
               "tags": [],
               "version": "current",
@@ -1238,6 +1238,7 @@
               }
             },
             {
+              "unversionedId": "intro",
               "id": "intro",
               "title": "前言",
               "description": "本人已然升入高三，学业繁忙，有时间会更新，望见谅。",
@@ -1246,7 +1247,6 @@
               "slug": "/intro",
               "permalink": "/docs/intro",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/intro.mdx",
               "tags": [],
               "version": "current",
@@ -1262,6 +1262,7 @@
               }
             },
             {
+              "unversionedId": "itemsystem/faq",
               "id": "itemsystem/faq",
               "title": "FAQ",
               "description": "暂无",
@@ -1270,7 +1271,6 @@
               "slug": "/itemsystem/faq",
               "permalink": "/docs/itemsystem/faq",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/faq.md",
               "tags": [],
               "version": "current",
@@ -1288,6 +1288,7 @@
               }
             },
             {
+              "unversionedId": "itemsystem/further/action",
               "id": "itemsystem/further/action",
               "title": "物品动作",
               "description": "一个非常自由的物品动作系统",
@@ -1296,7 +1297,6 @@
               "slug": "/itemsystem/further/action",
               "permalink": "/docs/itemsystem/further/action",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/further/action.md",
               "tags": [],
               "version": "current",
@@ -1314,6 +1314,7 @@
               }
             },
             {
+              "unversionedId": "itemsystem/further/actions",
               "id": "itemsystem/further/actions",
               "title": "物品动作列表",
               "description": "|      动作 id       |          何时触发          |",
@@ -1322,7 +1323,6 @@
               "slug": "/itemsystem/further/actions",
               "permalink": "/docs/itemsystem/further/actions",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/further/actions.md",
               "tags": [],
               "version": "current",
@@ -1340,6 +1340,7 @@
               }
             },
             {
+              "unversionedId": "itemsystem/further/extends",
               "id": "itemsystem/further/extends",
               "title": "物品继承",
               "description": "为什么要有物品继承",
@@ -1348,7 +1349,6 @@
               "slug": "/itemsystem/further/extends",
               "permalink": "/docs/itemsystem/further/extends",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/further/extends.md",
               "tags": [],
               "version": "current",
@@ -1366,6 +1366,7 @@
               }
             },
             {
+              "unversionedId": "itemsystem/intro",
               "id": "itemsystem/intro",
               "title": "intro",
               "description": "header",
@@ -1374,7 +1375,6 @@
               "slug": "/itemsystem/intro",
               "permalink": "/docs/itemsystem/intro",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/intro.md",
               "tags": [],
               "version": "current",
@@ -1390,6 +1390,7 @@
               }
             },
             {
+              "unversionedId": "itemsystem/item/intro",
               "id": "itemsystem/item/intro",
               "title": "物品",
               "description": "你应该在 ItemSystem/items 文件夹下定义物品",
@@ -1398,7 +1399,6 @@
               "slug": "/itemsystem/item/intro",
               "permalink": "/docs/itemsystem/item/intro",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/item/intro.md",
               "tags": [],
               "version": "current",
@@ -1416,6 +1416,7 @@
               }
             },
             {
+              "unversionedId": "itemsystem/item/option",
               "id": "itemsystem/item/option",
               "title": "物品选项",
               "description": "自动更新 [auto-update]",
@@ -1424,7 +1425,6 @@
               "slug": "/itemsystem/item/option",
               "permalink": "/docs/itemsystem/item/option",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/item/option.md",
               "tags": [],
               "version": "current",
@@ -1442,6 +1442,7 @@
               }
             },
             {
+              "unversionedId": "itemsystem/item/process",
               "id": "itemsystem/item/process",
               "title": "物品流程",
               "description": "组成",
@@ -1450,7 +1451,6 @@
               "slug": "/itemsystem/item/process",
               "permalink": "/docs/itemsystem/item/process",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/item/process.md",
               "tags": [],
               "version": "current",
@@ -1468,6 +1468,7 @@
               }
             },
             {
+              "unversionedId": "itemsystem/item/process-data",
               "id": "itemsystem/item/process-data",
               "title": "流程数据",
               "description": "你需要了解一下ItemSystem中的流程数据",
@@ -1476,7 +1477,6 @@
               "slug": "/itemsystem/item/process-data",
               "permalink": "/docs/itemsystem/item/process-data",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/item/process-data.md",
               "tags": [],
               "version": "current",
@@ -1494,6 +1494,7 @@
               }
             },
             {
+              "unversionedId": "itemsystem/meta/global-meta-data",
               "id": "itemsystem/meta/global-meta-data",
               "title": "全局物品元数据",
               "description": "什么是全局物品元数据?",
@@ -1502,7 +1503,6 @@
               "slug": "/itemsystem/meta/global-meta-data",
               "permalink": "/docs/itemsystem/meta/global-meta-data",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/meta/global-meta-data.md",
               "tags": [],
               "version": "current",
@@ -1520,6 +1520,7 @@
               }
             },
             {
+              "unversionedId": "itemsystem/meta/intro",
               "id": "itemsystem/meta/intro",
               "title": "物品元",
               "description": "物品元是干什么的?",
@@ -1528,7 +1529,6 @@
               "slug": "/itemsystem/meta/intro",
               "permalink": "/docs/itemsystem/meta/intro",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/meta/intro.md",
               "tags": [],
               "version": "current",
@@ -1546,6 +1546,7 @@
               }
             },
             {
+              "unversionedId": "itemsystem/meta/list",
               "id": "itemsystem/meta/list",
               "title": "物品元列表",
               "description": "物品[Bukkit]",
@@ -1554,7 +1555,6 @@
               "slug": "/itemsystem/meta/list",
               "permalink": "/docs/itemsystem/meta/list",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/meta/list.md",
               "tags": [],
               "version": "current",
@@ -1572,6 +1572,7 @@
               }
             },
             {
+              "unversionedId": "itemsystem/other/mythic-mobs",
               "id": "itemsystem/other/mythic-mobs",
               "title": "MythicMobs 兼容",
               "description": "ItemSystem 节点下的值均支持内联函数",
@@ -1580,7 +1581,6 @@
               "slug": "/itemsystem/other/mythic-mobs",
               "permalink": "/docs/itemsystem/other/mythic-mobs",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/other/mythic-mobs.md",
               "tags": [],
               "version": "current",
@@ -1598,6 +1598,7 @@
               }
             },
             {
+              "unversionedId": "itemsystem/start/command",
               "id": "itemsystem/start/command",
               "title": "指令",
               "description": "",
@@ -1606,7 +1607,6 @@
               "slug": "/itemsystem/start/command",
               "permalink": "/docs/itemsystem/start/command",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/start/command.md",
               "tags": [],
               "version": "current",
@@ -1624,6 +1624,7 @@
               }
             },
             {
+              "unversionedId": "itemsystem/start/config",
               "id": "itemsystem/start/config",
               "title": "配置",
               "description": "config.yml",
@@ -1632,7 +1633,6 @@
               "slug": "/itemsystem/start/config",
               "permalink": "/docs/itemsystem/start/config",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/start/config.md",
               "tags": [],
               "version": "current",
@@ -1650,6 +1650,7 @@
               }
             },
             {
+              "unversionedId": "itemsystem/updates",
               "id": "itemsystem/updates",
               "title": "ItemSystem",
               "description": "---",
@@ -1658,7 +1659,6 @@
               "slug": "/itemsystem/updates",
               "permalink": "/docs/itemsystem/updates",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/updates.md",
               "tags": [],
               "version": "current",
@@ -1672,6 +1672,7 @@
               }
             },
             {
+              "unversionedId": "itemsystem/variable/intro",
               "id": "itemsystem/variable/intro",
               "title": "变量",
               "description": "这里的变量指的是 内联函数 中的变量",
@@ -1680,7 +1681,6 @@
               "slug": "/itemsystem/variable/intro",
               "permalink": "/docs/itemsystem/variable/intro",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/variable/intro.md",
               "tags": [],
               "version": "current",
@@ -1698,6 +1698,7 @@
               }
             },
             {
+              "unversionedId": "itemsystem/variable/type",
               "id": "itemsystem/variable/type",
               "title": "变量类型",
               "description": "狭义的变量类型，仅限define 物品元中使用",
@@ -1706,7 +1707,6 @@
               "slug": "/itemsystem/variable/type",
               "permalink": "/docs/itemsystem/variable/type",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/variable/type.md",
               "tags": [],
               "version": "current",
@@ -1724,6 +1724,7 @@
               }
             },
             {
+              "unversionedId": "itemsystem/variable/types",
               "id": "itemsystem/variable/types",
               "title": "变量类型列表",
               "description": "提供 IS 自带的，如果您有意愿，可以给我 pr 你拓展的变量类型",
@@ -1732,7 +1733,6 @@
               "slug": "/itemsystem/variable/types",
               "permalink": "/docs/itemsystem/variable/types",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/variable/types.md",
               "tags": [],
               "version": "current",
@@ -1750,6 +1750,7 @@
               }
             },
             {
+              "unversionedId": "pouvoir/basic/awake",
               "id": "pouvoir/basic/awake",
               "title": "何时醒来?",
               "description": "在 JS 中，一段写好的程序该从哪里开始执行？",
@@ -1758,7 +1759,6 @@
               "slug": "/pouvoir/basic/awake",
               "permalink": "/docs/pouvoir/basic/awake",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/basic/awake.md",
               "tags": [],
               "version": "current",
@@ -1776,6 +1776,7 @@
               }
             },
             {
+              "unversionedId": "pouvoir/basic/command",
               "id": "pouvoir/basic/command",
               "title": "指令",
               "description": "给个例子，请看注释",
@@ -1784,7 +1785,6 @@
               "slug": "/pouvoir/basic/command",
               "permalink": "/docs/pouvoir/basic/command",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/basic/command.md",
               "tags": [],
               "version": "current",
@@ -1802,6 +1802,7 @@
               }
             },
             {
+              "unversionedId": "pouvoir/basic/import",
               "id": "pouvoir/basic/import",
               "title": "从导入开始",
               "description": "导入(获取类对象)",
@@ -1810,7 +1811,6 @@
               "slug": "/pouvoir/basic/import",
               "permalink": "/docs/pouvoir/basic/import",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/basic/import.md",
               "tags": [],
               "version": "current",
@@ -1828,6 +1828,7 @@
               }
             },
             {
+              "unversionedId": "pouvoir/basic/javadoc",
               "id": "pouvoir/basic/javadoc",
               "title": "自给自足",
               "description": "自给自足 丰衣足食",
@@ -1836,7 +1837,6 @@
               "slug": "/pouvoir/basic/javadoc",
               "permalink": "/docs/pouvoir/basic/javadoc",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/basic/javadoc.md",
               "tags": [],
               "version": "current",
@@ -1854,6 +1854,7 @@
               }
             },
             {
+              "unversionedId": "pouvoir/basic/listener",
               "id": "pouvoir/basic/listener",
               "title": "脚本监听器",
               "description": "本节改编自 https://bdn.tdiant.net/#/unit/2-2",
@@ -1862,7 +1863,6 @@
               "slug": "/pouvoir/basic/listener",
               "permalink": "/docs/pouvoir/basic/listener",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/basic/listener.md",
               "tags": [],
               "version": "current",
@@ -1880,6 +1880,7 @@
               }
             },
             {
+              "unversionedId": "pouvoir/basic/top-level",
               "id": "pouvoir/basic/top-level",
               "title": "顶级成员",
               "description": "在编写 js 脚本时，会有许多不便之处，例如非常冗长的类名，如果需要使用的话要写下完整包名，",
@@ -1888,7 +1889,6 @@
               "slug": "/pouvoir/basic/top-level",
               "permalink": "/docs/pouvoir/basic/top-level",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/basic/top-level.md",
               "tags": [],
               "version": "current",
@@ -1906,6 +1906,7 @@
               }
             },
             {
+              "unversionedId": "pouvoir/extension/script-annotation",
               "id": "pouvoir/extension/script-annotation",
               "title": "脚本注解",
               "description": "需要用到 ScriptAnnotationData",
@@ -1914,7 +1915,6 @@
               "slug": "/pouvoir/extension/script-annotation",
               "permalink": "/docs/pouvoir/extension/script-annotation",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/extension/script-annotation.md",
               "tags": [],
               "version": "current",
@@ -1932,6 +1932,7 @@
               }
             },
             {
+              "unversionedId": "pouvoir/extension/script-engine",
               "id": "pouvoir/extension/script-engine",
               "title": "脚本引擎",
               "description": "",
@@ -1940,7 +1941,6 @@
               "slug": "/pouvoir/extension/script-engine",
               "permalink": "/docs/pouvoir/extension/script-engine",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/extension/script-engine.md",
               "tags": [],
               "version": "current",
@@ -1958,6 +1958,7 @@
               }
             },
             {
+              "unversionedId": "pouvoir/extension/script-source",
               "id": "pouvoir/extension/script-source",
               "title": "脚本源",
               "description": "添加脚本源",
@@ -1966,7 +1967,6 @@
               "slug": "/pouvoir/extension/script-source",
               "permalink": "/docs/pouvoir/extension/script-source",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/extension/script-source.md",
               "tags": [],
               "version": "current",
@@ -1984,6 +1984,7 @@
               }
             },
             {
+              "unversionedId": "pouvoir/extension/script-top-level",
               "id": "pouvoir/extension/script-top-level",
               "title": "脚本顶级成员",
               "description": "需用到 ScriptTopLevel",
@@ -1992,7 +1993,6 @@
               "slug": "/pouvoir/extension/script-top-level",
               "permalink": "/docs/pouvoir/extension/script-top-level",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/extension/script-top-level.md",
               "tags": [],
               "version": "current",
@@ -2010,6 +2010,7 @@
               }
             },
             {
+              "unversionedId": "pouvoir/features/container",
               "id": "pouvoir/features/container",
               "title": "持久化容器",
               "description": "",
@@ -2018,7 +2019,6 @@
               "slug": "/pouvoir/features/container",
               "permalink": "/docs/pouvoir/features/container",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/features/container.md",
               "tags": [],
               "version": "current",
@@ -2036,6 +2036,7 @@
               }
             },
             {
+              "unversionedId": "pouvoir/features/hologram",
               "id": "pouvoir/features/hologram",
               "title": "全息文字",
               "description": "",
@@ -2044,7 +2045,6 @@
               "slug": "/pouvoir/features/hologram",
               "permalink": "/docs/pouvoir/features/hologram",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/features/hologram.md",
               "tags": [],
               "version": "current",
@@ -2062,6 +2062,7 @@
               }
             },
             {
+              "unversionedId": "pouvoir/features/monitor",
               "id": "pouvoir/features/monitor",
               "title": "性能监控器",
               "description": "",
@@ -2070,7 +2071,6 @@
               "slug": "/pouvoir/features/monitor",
               "permalink": "/docs/pouvoir/features/monitor",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/features/monitor.md",
               "tags": [],
               "version": "current",
@@ -2088,6 +2088,7 @@
               }
             },
             {
+              "unversionedId": "pouvoir/intro",
               "id": "pouvoir/intro",
               "title": "介绍",
               "description": "header.png",
@@ -2096,7 +2097,6 @@
               "slug": "/pouvoir/intro",
               "permalink": "/docs/pouvoir/intro",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/intro.md",
               "tags": [],
               "version": "current",
@@ -2114,6 +2114,7 @@
               }
             },
             {
+              "unversionedId": "pouvoir/other/actions",
               "id": "pouvoir/other/actions",
               "title": "动作列表",
               "description": "格式: {对象}",
@@ -2122,7 +2123,6 @@
               "slug": "/pouvoir/other/actions",
               "permalink": "/docs/pouvoir/other/actions",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/other/actions.md",
               "tags": [],
               "version": "current",
@@ -2140,6 +2140,7 @@
               }
             },
             {
+              "unversionedId": "pouvoir/other/asahi",
               "id": "pouvoir/other/asahi",
               "title": "Asahi",
               "description": "自1.6.0后,重构为类似kether的动作系统",
@@ -2148,7 +2149,6 @@
               "slug": "/pouvoir/other/asahi",
               "permalink": "/docs/pouvoir/other/asahi",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/other/asahi.md",
               "tags": [],
               "version": "current",
@@ -2166,6 +2166,7 @@
               }
             },
             {
+              "unversionedId": "pouvoir/other/functions",
               "id": "pouvoir/other/functions",
               "title": "函数列表",
               "description": ">>From Pouvoir",
@@ -2174,7 +2175,6 @@
               "slug": "/pouvoir/other/functions",
               "permalink": "/docs/pouvoir/other/functions",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/other/functions.md",
               "tags": [],
               "version": "current",
@@ -2192,6 +2192,7 @@
               }
             },
             {
+              "unversionedId": "pouvoir/other/placeholder",
               "id": "pouvoir/other/placeholder",
               "title": "占位符",
               "description": "PouPlaceHolderAPI",
@@ -2200,7 +2201,6 @@
               "slug": "/pouvoir/other/placeholder",
               "permalink": "/docs/pouvoir/other/placeholder",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/other/placeholder.md",
               "tags": [],
               "version": "current",
@@ -2218,6 +2218,7 @@
               }
             },
             {
+              "unversionedId": "pouvoir/start/control-flow",
               "id": "pouvoir/start/control-flow",
               "title": "控制流程",
               "description": "控制流程是每个编程语言都有类似的概念，在此推荐几篇教程了解一下",
@@ -2226,7 +2227,6 @@
               "slug": "/pouvoir/start/control-flow",
               "permalink": "/docs/pouvoir/start/control-flow",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/start/control-flow.md",
               "tags": [],
               "version": "current",
@@ -2244,6 +2244,7 @@
               }
             },
             {
+              "unversionedId": "pouvoir/start/function",
               "id": "pouvoir/start/function",
               "title": "函数",
               "description": "第一个函数-函数的定义",
@@ -2252,7 +2253,6 @@
               "slug": "/pouvoir/start/function",
               "permalink": "/docs/pouvoir/start/function",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/start/function.md",
               "tags": [],
               "version": "current",
@@ -2270,6 +2270,7 @@
               }
             },
             {
+              "unversionedId": "pouvoir/start/nashorn",
               "id": "pouvoir/start/nashorn",
               "title": "Nashorn",
               "description": "Nashorn 是一个基于 JVM 的轻量级高性能的 JavaScript 运行环境。",
@@ -2278,7 +2279,6 @@
               "slug": "/pouvoir/start/nashorn",
               "permalink": "/docs/pouvoir/start/nashorn",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/start/nashorn.md",
               "tags": [],
               "version": "current",
@@ -2296,6 +2296,7 @@
               }
             },
             {
+              "unversionedId": "pouvoir/start/variable",
               "id": "pouvoir/start/variable",
               "title": "变量",
               "description": "本章将会简单地讲解 JavaScript 的语法基础",
@@ -2304,7 +2305,6 @@
               "slug": "/pouvoir/start/variable",
               "permalink": "/docs/pouvoir/start/variable",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/start/variable.md",
               "tags": [],
               "version": "current",
@@ -2322,6 +2322,7 @@
               }
             },
             {
+              "unversionedId": "pouvoir/updates",
               "id": "pouvoir/updates",
               "title": "更新日志",
               "description": "Pouvoir",
@@ -2330,7 +2331,6 @@
               "slug": "/pouvoir/updates",
               "permalink": "/docs/pouvoir/updates",
               "draft": false,
-              "unlisted": false,
               "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/updates.md",
               "tags": [],
               "version": "current",
@@ -3190,7 +3190,7 @@
   },
   "docusaurus-plugin-content-blog": {
     "default": {
-      "blogSidebarTitle": "All posts",
+      "blogSidebarTitle": "文章列表",
       "blogPosts": [
         {
           "id": "welcome",
@@ -3201,7 +3201,7 @@
             "title": "欢迎",
             "description": "欢迎来到我的博客！",
             "date": "2023-11-30T00:00:00.000Z",
-            "formattedDate": "2023年11月30日",
+            "formattedDate": "November 30, 2023",
             "tags": [
               {
                 "label": "hello",
@@ -3234,7 +3234,6 @@
                 "docusaurus"
               ]
             },
-            "unlisted": false,
             "nextItem": {
               "title": "编程思想",
               "permalink": "/blog/2022/7/16/codemind/codemind"
@@ -3251,7 +3250,7 @@
             "title": "编程思想",
             "description": "前言",
             "date": "2022-07-16T00:00:00.000Z",
-            "formattedDate": "2022年7月16日",
+            "formattedDate": "July 16, 2022",
             "tags": [
               {
                 "label": "codemind",
@@ -3278,7 +3277,6 @@
               "toc_min_heading_level": 2,
               "toc_max_heading_level": 4
             },
-            "unlisted": false,
             "prevItem": {
               "title": "欢迎",
               "permalink": "/blog/welcome"
@@ -3326,8 +3324,7 @@
                 "blogTitle": "Blog"
               }
             }
-          ],
-          "unlisted": false
+          ]
         },
         "/blog/tags/docusaurus": {
           "label": "docusaurus",
@@ -3350,8 +3347,7 @@
                 "blogTitle": "Blog"
               }
             }
-          ],
-          "unlisted": false
+          ]
         },
         "/blog/tags/codemind": {
           "label": "codemind",
@@ -3374,8 +3370,7 @@
                 "blogTitle": "Blog"
               }
             }
-          ],
-          "unlisted": false
+          ]
         }
       },
       "blogTagsListPath": "/blog/tags"
@@ -3396,8 +3391,7 @@
         "description": "You don't need React to write simple standalone pages.",
         "frontMatter": {
           "title": "Markdown page example"
-        },
-        "unlisted": false
+        }
       },
       {
         "type": "jsx",

@@ -5,7 +5,7 @@
   "title": "欢迎",
   "description": "欢迎来到我的博客！",
   "date": "2023-11-30T00:00:00.000Z",
-  "formattedDate": "2023年11月30日",
+  "formattedDate": "November 30, 2023",
   "tags": [
     {
       "label": "hello",
@@ -38,7 +38,6 @@
       "docusaurus"
     ]
   },
-  "unlisted": false,
   "nextItem": {
     "title": "编程思想",
     "permalink": "/blog/2022/7/16/codemind/codemind"

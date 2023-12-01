@@ -1,4 +1,5 @@
 {
+  "unversionedId": "pouvoir/other/asahi",
   "id": "pouvoir/other/asahi",
   "title": "Asahi",
   "description": "自1.6.0后,重构为类似kether的动作系统",
@@ -7,7 +8,6 @@
   "slug": "/pouvoir/other/asahi",
   "permalink": "/docs/pouvoir/other/asahi",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/other/asahi.md",
   "tags": [],
   "version": "current",

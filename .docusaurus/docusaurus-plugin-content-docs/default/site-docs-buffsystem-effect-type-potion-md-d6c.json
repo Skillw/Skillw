@@ -1,4 +1,5 @@
 {
+  "unversionedId": "buffsystem/effect/type/potion",
   "id": "buffsystem/effect/type/potion",
   "title": "原版药水效果",
   "description": "效果",
@@ -7,7 +8,6 @@
   "slug": "/buffsystem/effect/type/potion",
   "permalink": "/docs/buffsystem/effect/type/potion",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/effect/type/potion.md",
   "tags": [],
   "version": "current",

@@ -1,4 +1,5 @@
 {
+  "unversionedId": "itemsystem/further/extends",
   "id": "itemsystem/further/extends",
   "title": "物品继承",
   "description": "为什么要有物品继承",
@@ -7,7 +8,6 @@
   "slug": "/itemsystem/further/extends",
   "permalink": "/docs/itemsystem/further/extends",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/further/extends.md",
   "tags": [],
   "version": "current",

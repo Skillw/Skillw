@@ -1,4 +1,5 @@
 {
+  "unversionedId": "itemsystem/meta/global-meta-data",
   "id": "itemsystem/meta/global-meta-data",
   "title": "全局物品元数据",
   "description": "什么是全局物品元数据?",
@@ -7,7 +8,6 @@
   "slug": "/itemsystem/meta/global-meta-data",
   "permalink": "/docs/itemsystem/meta/global-meta-data",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/meta/global-meta-data.md",
   "tags": [],
   "version": "current",

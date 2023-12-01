@@ -1,4 +1,5 @@
 {
+  "unversionedId": "pouvoir/updates",
   "id": "pouvoir/updates",
   "title": "更新日志",
   "description": "Pouvoir",
@@ -7,7 +8,6 @@
   "slug": "/pouvoir/updates",
   "permalink": "/docs/pouvoir/updates",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/updates.md",
   "tags": [],
   "version": "current",

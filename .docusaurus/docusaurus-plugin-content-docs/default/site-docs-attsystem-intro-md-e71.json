@@ -1,4 +1,5 @@
 {
+  "unversionedId": "attsystem/intro",
   "id": "attsystem/intro",
   "title": "介绍",
   "description": "icon",
@@ -7,7 +8,6 @@
   "slug": "/attsystem/intro",
   "permalink": "/docs/attsystem/intro",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/attsystem/intro.md",
   "tags": [],
   "version": "current",

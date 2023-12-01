@@ -1,4 +1,5 @@
 {
+  "unversionedId": "buffsystem/extension/example",
   "id": "buffsystem/extension/example",
   "title": "例子",
   "description": "兼容属性插件",
@@ -7,7 +8,6 @@
   "slug": "/buffsystem/extension/example",
   "permalink": "/docs/buffsystem/extension/example",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/extension/example.md",
   "tags": [],
   "version": "current",

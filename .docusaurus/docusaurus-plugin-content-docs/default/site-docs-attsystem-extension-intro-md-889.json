@@ -1,4 +1,5 @@
 {
+  "unversionedId": "attsystem/extension/intro",
   "id": "attsystem/extension/intro",
   "title": "基本操作",
   "description": "见 AttrAPI",
@@ -7,7 +8,6 @@
   "slug": "/attsystem/extension/intro",
   "permalink": "/docs/attsystem/extension/intro",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/attsystem/extension/intro.md",
   "tags": [],
   "version": "current",

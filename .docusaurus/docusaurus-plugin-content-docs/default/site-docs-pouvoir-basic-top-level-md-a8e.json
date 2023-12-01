@@ -1,4 +1,5 @@
 {
+  "unversionedId": "pouvoir/basic/top-level",
   "id": "pouvoir/basic/top-level",
   "title": "顶级成员",
   "description": "在编写 js 脚本时，会有许多不便之处，例如非常冗长的类名，如果需要使用的话要写下完整包名，",
@@ -7,7 +8,6 @@
   "slug": "/pouvoir/basic/top-level",
   "permalink": "/docs/pouvoir/basic/top-level",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/basic/top-level.md",
   "tags": [],
   "version": "current",

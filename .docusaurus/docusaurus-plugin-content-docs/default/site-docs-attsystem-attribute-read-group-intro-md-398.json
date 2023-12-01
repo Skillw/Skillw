@@ -1,4 +1,5 @@
 {
+  "unversionedId": "attsystem/attribute/read-group/intro",
   "id": "attsystem/attribute/read-group/intro",
   "title": "读取组",
   "description": "ReadPattern 子类，用于读取属性",
@@ -7,7 +8,6 @@
   "slug": "/attsystem/attribute/read-group/intro",
   "permalink": "/docs/attsystem/attribute/read-group/intro",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/attsystem/attribute/read-group/intro.md",
   "tags": [],
   "version": "current",

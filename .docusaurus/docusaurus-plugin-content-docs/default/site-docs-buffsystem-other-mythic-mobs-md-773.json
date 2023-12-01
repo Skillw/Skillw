@@ -1,4 +1,5 @@
 {
+  "unversionedId": "buffsystem/other/mythic-mobs",
   "id": "buffsystem/other/mythic-mobs",
   "title": "MythicMobs 机制",
   "description": "提供 MM 机制",
@@ -7,7 +8,6 @@
   "slug": "/buffsystem/other/mythic-mobs",
   "permalink": "/docs/buffsystem/other/mythic-mobs",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/other/mythic-mobs.md",
   "tags": [],
   "version": "current",

@@ -1,4 +1,5 @@
 {
+  "unversionedId": "itemsystem/meta/list",
   "id": "itemsystem/meta/list",
   "title": "物品元列表",
   "description": "物品[Bukkit]",
@@ -7,7 +8,6 @@
   "slug": "/itemsystem/meta/list",
   "permalink": "/docs/itemsystem/meta/list",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/meta/list.md",
   "tags": [],
   "version": "current",

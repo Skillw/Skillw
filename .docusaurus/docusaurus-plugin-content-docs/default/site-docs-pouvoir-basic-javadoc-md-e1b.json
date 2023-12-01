@@ -1,4 +1,5 @@
 {
+  "unversionedId": "pouvoir/basic/javadoc",
   "id": "pouvoir/basic/javadoc",
   "title": "自给自足",
   "description": "自给自足 丰衣足食",
@@ -7,7 +8,6 @@
   "slug": "/pouvoir/basic/javadoc",
   "permalink": "/docs/pouvoir/basic/javadoc",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/basic/javadoc.md",
   "tags": [],
   "version": "current",

@@ -13,8 +13,7 @@
         "type": "link",
         "label": "前言",
         "href": "/docs/intro",
-        "docId": "intro",
-        "unlisted": false
+        "docId": "intro"
       },
       {
         "type": "category",
@@ -24,8 +23,7 @@
             "type": "link",
             "label": "介绍",
             "href": "/docs/pouvoir/intro",
-            "docId": "pouvoir/intro",
-            "unlisted": false
+            "docId": "pouvoir/intro"
           },
           {
             "type": "category",
@@ -35,29 +33,25 @@
                 "type": "link",
                 "label": "变量",
                 "href": "/docs/pouvoir/start/variable",
-                "docId": "pouvoir/start/variable",
-                "unlisted": false
+                "docId": "pouvoir/start/variable"
               },
               {
                 "type": "link",
                 "label": "函数",
                 "href": "/docs/pouvoir/start/function",
-                "docId": "pouvoir/start/function",
-                "unlisted": false
+                "docId": "pouvoir/start/function"
               },
               {
                 "type": "link",
                 "label": "控制流程",
                 "href": "/docs/pouvoir/start/control-flow",
-                "docId": "pouvoir/start/control-flow",
-                "unlisted": false
+                "docId": "pouvoir/start/control-flow"
               },
               {
                 "type": "link",
                 "label": "Nashorn",
                 "href": "/docs/pouvoir/start/nashorn",
-                "docId": "pouvoir/start/nashorn",
-                "unlisted": false
+                "docId": "pouvoir/start/nashorn"
               }
             ],
             "collapsed": true,
@@ -72,43 +66,37 @@
                 "type": "link",
                 "label": "自给自足",
                 "href": "/docs/pouvoir/basic/javadoc",
-                "docId": "pouvoir/basic/javadoc",
-                "unlisted": false
+                "docId": "pouvoir/basic/javadoc"
               },
               {
                 "type": "link",
                 "label": "从导入开始",
                 "href": "/docs/pouvoir/basic/import",
-                "docId": "pouvoir/basic/import",
-                "unlisted": false
+                "docId": "pouvoir/basic/import"
               },
               {
                 "type": "link",
                 "label": "何时醒来?",
                 "href": "/docs/pouvoir/basic/awake",
-                "docId": "pouvoir/basic/awake",
-                "unlisted": false
+                "docId": "pouvoir/basic/awake"
               },
               {
                 "type": "link",
                 "label": "指令",
                 "href": "/docs/pouvoir/basic/command",
-                "docId": "pouvoir/basic/command",
-                "unlisted": false
+                "docId": "pouvoir/basic/command"
               },
               {
                 "type": "link",
                 "label": "脚本监听器",
                 "href": "/docs/pouvoir/basic/listener",
-                "docId": "pouvoir/basic/listener",
-                "unlisted": false
+                "docId": "pouvoir/basic/listener"
               },
               {
                 "type": "link",
                 "label": "顶级成员",
                 "href": "/docs/pouvoir/basic/top-level",
-                "docId": "pouvoir/basic/top-level",
-                "unlisted": false
+                "docId": "pouvoir/basic/top-level"
               }
             ],
             "collapsed": true,
@@ -123,22 +111,19 @@
                 "type": "link",
                 "label": "持久化容器",
                 "href": "/docs/pouvoir/features/container",
-                "docId": "pouvoir/features/container",
-                "unlisted": false
+                "docId": "pouvoir/features/container"
               },
               {
                 "type": "link",
                 "label": "全息文字",
                 "href": "/docs/pouvoir/features/hologram",
-                "docId": "pouvoir/features/hologram",
-                "unlisted": false
+                "docId": "pouvoir/features/hologram"
               },
               {
                 "type": "link",
                 "label": "性能监控器",
                 "href": "/docs/pouvoir/features/monitor",
-                "docId": "pouvoir/features/monitor",
-                "unlisted": false
+                "docId": "pouvoir/features/monitor"
               }
             ],
             "collapsed": true,
@@ -153,29 +138,25 @@
                 "type": "link",
                 "label": "脚本源",
                 "href": "/docs/pouvoir/extension/script-source",
-                "docId": "pouvoir/extension/script-source",
-                "unlisted": false
+                "docId": "pouvoir/extension/script-source"
               },
               {
                 "type": "link",
                 "label": "脚本顶级成员",
                 "href": "/docs/pouvoir/extension/script-top-level",
-                "docId": "pouvoir/extension/script-top-level",
-                "unlisted": false
+                "docId": "pouvoir/extension/script-top-level"
               },
               {
                 "type": "link",
                 "label": "脚本引擎",
                 "href": "/docs/pouvoir/extension/script-engine",
-                "docId": "pouvoir/extension/script-engine",
-                "unlisted": false
+                "docId": "pouvoir/extension/script-engine"
               },
               {
                 "type": "link",
                 "label": "脚本注解",
                 "href": "/docs/pouvoir/extension/script-annotation",
-                "docId": "pouvoir/extension/script-annotation",
-                "unlisted": false
+                "docId": "pouvoir/extension/script-annotation"
               }
             ],
             "collapsed": true,
@@ -190,29 +171,25 @@
                 "type": "link",
                 "label": "占位符",
                 "href": "/docs/pouvoir/other/placeholder",
-                "docId": "pouvoir/other/placeholder",
-                "unlisted": false
+                "docId": "pouvoir/other/placeholder"
               },
               {
                 "type": "link",
                 "label": "Asahi",
                 "href": "/docs/pouvoir/other/asahi",
-                "docId": "pouvoir/other/asahi",
-                "unlisted": false
+                "docId": "pouvoir/other/asahi"
               },
               {
                 "type": "link",
                 "label": "函数列表",
                 "href": "/docs/pouvoir/other/functions",
-                "docId": "pouvoir/other/functions",
-                "unlisted": false
+                "docId": "pouvoir/other/functions"
               },
               {
                 "type": "link",
                 "label": "动作列表",
                 "href": "/docs/pouvoir/other/actions",
-                "docId": "pouvoir/other/actions",
-                "unlisted": false
+                "docId": "pouvoir/other/actions"
               }
             ],
             "collapsed": true,
@@ -228,8 +205,7 @@
             "type": "link",
             "label": "更新日志",
             "href": "/docs/pouvoir/updates",
-            "docId": "pouvoir/updates",
-            "unlisted": false
+            "docId": "pouvoir/updates"
           }
         ],
         "collapsed": true,
@@ -244,15 +220,13 @@
             "type": "link",
             "label": "前言",
             "href": "/docs/attsystem/about",
-            "docId": "attsystem/about",
-            "unlisted": false
+            "docId": "attsystem/about"
           },
           {
             "type": "link",
             "label": "介绍",
             "href": "/docs/attsystem/intro",
-            "docId": "attsystem/intro",
-            "unlisted": false
+            "docId": "attsystem/intro"
           },
           {
             "type": "category",
@@ -262,8 +236,7 @@
                 "type": "link",
                 "label": "属性",
                 "href": "/docs/attsystem/attribute/intro",
-                "docId": "attsystem/attribute/intro",
-                "unlisted": false
+                "docId": "attsystem/attribute/intro"
               },
               {
                 "type": "category",
@@ -273,22 +246,19 @@
                     "type": "link",
                     "label": "读取组",
                     "href": "/docs/attsystem/attribute/read-group/intro",
-                    "docId": "attsystem/attribute/read-group/intro",
-                    "unlisted": false
+                    "docId": "attsystem/attribute/read-group/intro"
                   },
                   {
                     "type": "link",
                     "label": "捕获组",
                     "href": "/docs/attsystem/attribute/read-group/matcher",
-                    "docId": "attsystem/attribute/read-group/matcher",
-                    "unlisted": false
+                    "docId": "attsystem/attribute/read-group/matcher"
                   },
                   {
                     "type": "link",
                     "label": "运算操作",
                     "href": "/docs/attsystem/attribute/read-group/operation",
-                    "docId": "attsystem/attribute/read-group/operation",
-                    "unlisted": false
+                    "docId": "attsystem/attribute/read-group/operation"
                   }
                 ],
                 "collapsed": true,
@@ -303,22 +273,19 @@
                     "type": "link",
                     "label": "属性数据",
                     "href": "/docs/attsystem/attribute/data/intro",
-                    "docId": "attsystem/attribute/data/intro",
-                    "unlisted": false
+                    "docId": "attsystem/attribute/data/intro"
                   },
                   {
                     "type": "link",
                     "label": "NBT",
                     "href": "/docs/attsystem/attribute/data/nbt",
-                    "docId": "attsystem/attribute/data/nbt",
-                    "unlisted": false
+                    "docId": "attsystem/attribute/data/nbt"
                   },
                   {
                     "type": "link",
                     "label": "字符串",
                     "href": "/docs/attsystem/attribute/data/string",
-                    "docId": "attsystem/attribute/data/string",
-                    "unlisted": false
+                    "docId": "attsystem/attribute/data/string"
                   }
                 ],
                 "collapsed": true,
@@ -333,8 +300,7 @@
                     "type": "link",
                     "label": "属性功能实现",
                     "href": "/docs/attsystem/attribute/function/realise",
-                    "docId": "attsystem/attribute/function/realise",
-                    "unlisted": false
+                    "docId": "attsystem/attribute/function/realise"
                   }
                 ],
                 "collapsed": true,
@@ -354,8 +320,7 @@
                 "type": "link",
                 "label": "槽位系统",
                 "href": "/docs/attsystem/equipment/slot",
-                "docId": "attsystem/equipment/slot",
-                "unlisted": false
+                "docId": "attsystem/equipment/slot"
               },
               {
                 "type": "category",
@@ -365,22 +330,19 @@
                     "type": "link",
                     "label": "条件",
                     "href": "/docs/attsystem/equipment/condition/intro",
-                    "docId": "attsystem/equipment/condition/intro",
-                    "unlisted": false
+                    "docId": "attsystem/equipment/condition/intro"
                   },
                   {
                     "type": "link",
                     "label": "usage",
                     "href": "/docs/attsystem/equipment/condition/usage",
-                    "docId": "attsystem/equipment/condition/usage",
-                    "unlisted": false
+                    "docId": "attsystem/equipment/condition/usage"
                   },
                   {
                     "type": "link",
                     "label": "条件列表",
                     "href": "/docs/attsystem/equipment/condition/list",
-                    "docId": "attsystem/equipment/condition/list",
-                    "unlisted": false
+                    "docId": "attsystem/equipment/condition/list"
                   }
                 ],
                 "collapsed": true,
@@ -400,36 +362,31 @@
                 "type": "link",
                 "label": "战斗数据",
                 "href": "/docs/attsystem/fight/data",
-                "docId": "attsystem/fight/data",
-                "unlisted": false
+                "docId": "attsystem/fight/data"
               },
               {
                 "type": "link",
                 "label": "伤害类型",
                 "href": "/docs/attsystem/fight/damage-type",
-                "docId": "attsystem/fight/damage-type",
-                "unlisted": false
+                "docId": "attsystem/fight/damage-type"
               },
               {
                 "type": "link",
                 "label": "机制",
                 "href": "/docs/attsystem/fight/mechanic",
-                "docId": "attsystem/fight/mechanic",
-                "unlisted": false
+                "docId": "attsystem/fight/mechanic"
               },
               {
                 "type": "link",
                 "label": "机制列表",
                 "href": "/docs/attsystem/fight/mechanics",
-                "docId": "attsystem/fight/mechanics",
-                "unlisted": false
+                "docId": "attsystem/fight/mechanics"
               },
               {
                 "type": "link",
                 "label": "战斗机制组",
                 "href": "/docs/attsystem/fight/mechanic-group",
-                "docId": "attsystem/fight/mechanic-group",
-                "unlisted": false
+                "docId": "attsystem/fight/mechanic-group"
               }
             ],
             "collapsed": true,
@@ -444,29 +401,25 @@
                 "type": "link",
                 "label": "配置文件",
                 "href": "/docs/attsystem/other/config",
-                "docId": "attsystem/other/config",
-                "unlisted": false
+                "docId": "attsystem/other/config"
               },
               {
                 "type": "link",
                 "label": "公式系统",
                 "href": "/docs/attsystem/other/formula",
-                "docId": "attsystem/other/formula",
-                "unlisted": false
+                "docId": "attsystem/other/formula"
               },
               {
                 "type": "link",
                 "label": "占位符",
                 "href": "/docs/attsystem/other/placeholder",
-                "docId": "attsystem/other/placeholder",
-                "unlisted": false
+                "docId": "attsystem/other/placeholder"
               },
               {
                 "type": "link",
                 "label": "MythicMobs",
                 "href": "/docs/attsystem/other/mythic-mobs",
-                "docId": "attsystem/other/mythic-mobs",
-                "unlisted": false
+                "docId": "attsystem/other/mythic-mobs"
               }
             ],
             "collapsed": true,
@@ -481,29 +434,25 @@
                 "type": "link",
                 "label": "基本操作",
                 "href": "/docs/attsystem/extension/intro",
-                "docId": "attsystem/extension/intro",
-                "unlisted": false
+                "docId": "attsystem/extension/intro"
               },
               {
                 "type": "link",
                 "label": "读取格式拓展",
                 "href": "/docs/attsystem/extension/read-pattern",
-                "docId": "attsystem/extension/read-pattern",
-                "unlisted": false
+                "docId": "attsystem/extension/read-pattern"
               },
               {
                 "type": "link",
                 "label": "触发战斗机制组",
                 "href": "/docs/attsystem/extension/fight",
-                "docId": "attsystem/extension/fight",
-                "unlisted": false
+                "docId": "attsystem/extension/fight"
               },
               {
                 "type": "link",
                 "label": "战斗信息显示方式",
                 "href": "/docs/attsystem/extension/message",
-                "docId": "attsystem/extension/message",
-                "unlisted": false
+                "docId": "attsystem/extension/message"
               }
             ],
             "collapsed": true,
@@ -519,15 +468,13 @@
             "type": "link",
             "label": "FAQ",
             "href": "/docs/attsystem/faq",
-            "docId": "attsystem/faq",
-            "unlisted": false
+            "docId": "attsystem/faq"
           },
           {
             "type": "link",
             "label": "更新日志",
             "href": "/docs/attsystem/updates",
-            "docId": "attsystem/updates",
-            "unlisted": false
+            "docId": "attsystem/updates"
           }
         ],
         "collapsed": true,
@@ -542,8 +489,7 @@
             "type": "link",
             "label": "介绍",
             "href": "/docs/buffsystem/intro",
-            "docId": "buffsystem/intro",
-            "unlisted": false
+            "docId": "buffsystem/intro"
           },
           {
             "type": "category",
@@ -553,8 +499,7 @@
                 "type": "link",
                 "label": "效果",
                 "href": "/docs/buffsystem/effect/intro",
-                "docId": "buffsystem/effect/intro",
-                "unlisted": false
+                "docId": "buffsystem/effect/intro"
               },
               {
                 "type": "category",
@@ -564,22 +509,19 @@
                     "type": "link",
                     "label": "属性效果",
                     "href": "/docs/buffsystem/effect/type/attribute",
-                    "docId": "buffsystem/effect/type/attribute",
-                    "unlisted": false
+                    "docId": "buffsystem/effect/type/attribute"
                   },
                   {
                     "type": "link",
                     "label": "原版药水效果",
                     "href": "/docs/buffsystem/effect/type/potion",
-                    "docId": "buffsystem/effect/type/potion",
-                    "unlisted": false
+                    "docId": "buffsystem/effect/type/potion"
                   },
                   {
                     "type": "link",
                     "label": "权限效果",
                     "href": "/docs/buffsystem/effect/type/permission",
-                    "docId": "buffsystem/effect/type/permission",
-                    "unlisted": false
+                    "docId": "buffsystem/effect/type/permission"
                   }
                 ],
                 "collapsed": true,
@@ -599,8 +541,7 @@
                 "type": "link",
                 "label": "条件",
                 "href": "/docs/buffsystem/condition/intro",
-                "docId": "buffsystem/condition/intro",
-                "unlisted": false
+                "docId": "buffsystem/condition/intro"
               },
               {
                 "type": "category",
@@ -610,15 +551,13 @@
                     "type": "link",
                     "label": "时间条件",
                     "href": "/docs/buffsystem/condition/type/time",
-                    "docId": "buffsystem/condition/type/time",
-                    "unlisted": false
+                    "docId": "buffsystem/condition/type/time"
                   },
                   {
                     "type": "link",
                     "label": "权限条件",
                     "href": "/docs/buffsystem/condition/type/permission",
-                    "docId": "buffsystem/condition/type/permission",
-                    "unlisted": false
+                    "docId": "buffsystem/condition/type/permission"
                   }
                 ],
                 "collapsed": true,
@@ -629,8 +568,7 @@
                 "type": "link",
                 "label": "拓展条件",
                 "href": "/docs/buffsystem/condition/custom",
-                "docId": "buffsystem/condition/custom",
-                "unlisted": false
+                "docId": "buffsystem/condition/custom"
               }
             ],
             "collapsed": true,
@@ -645,15 +583,13 @@
                 "type": "link",
                 "label": "Buff",
                 "href": "/docs/buffsystem/buff/intro",
-                "docId": "buffsystem/buff/intro",
-                "unlisted": false
+                "docId": "buffsystem/buff/intro"
               },
               {
                 "type": "link",
                 "label": "Buff 数据",
                 "href": "/docs/buffsystem/buff/data",
-                "docId": "buffsystem/buff/data",
-                "unlisted": false
+                "docId": "buffsystem/buff/data"
               }
             ],
             "collapsed": true,
@@ -668,15 +604,13 @@
                 "type": "link",
                 "label": "占位符",
                 "href": "/docs/buffsystem/other/placeholder",
-                "docId": "buffsystem/other/placeholder",
-                "unlisted": false
+                "docId": "buffsystem/other/placeholder"
               },
               {
                 "type": "link",
                 "label": "MythicMobs 机制",
                 "href": "/docs/buffsystem/other/mythic-mobs",
-                "docId": "buffsystem/other/mythic-mobs",
-                "unlisted": false
+                "docId": "buffsystem/other/mythic-mobs"
               }
             ],
             "collapsed": true,
@@ -691,15 +625,13 @@
                 "type": "link",
                 "label": "基本操作",
                 "href": "/docs/buffsystem/extension/intro",
-                "docId": "buffsystem/extension/intro",
-                "unlisted": false
+                "docId": "buffsystem/extension/intro"
               },
               {
                 "type": "link",
                 "label": "例子",
                 "href": "/docs/buffsystem/extension/example",
-                "docId": "buffsystem/extension/example",
-                "unlisted": false
+                "docId": "buffsystem/extension/example"
               }
             ],
             "collapsed": true,
@@ -715,15 +647,13 @@
             "type": "link",
             "label": "FAQ",
             "href": "/docs/buffsystem/faq",
-            "docId": "buffsystem/faq",
-            "unlisted": false
+            "docId": "buffsystem/faq"
           },
           {
             "type": "link",
             "label": "更新日志",
             "href": "/docs/buffsystem/updates",
-            "docId": "buffsystem/updates",
-            "unlisted": false
+            "docId": "buffsystem/updates"
           }
         ],
         "collapsed": true,
@@ -738,8 +668,7 @@
             "type": "link",
             "label": "介绍",
             "href": "/docs/itemsystem/intro",
-            "docId": "itemsystem/intro",
-            "unlisted": false
+            "docId": "itemsystem/intro"
           },
           {
             "type": "category",
@@ -749,15 +678,13 @@
                 "type": "link",
                 "label": "指令",
                 "href": "/docs/itemsystem/start/command",
-                "docId": "itemsystem/start/command",
-                "unlisted": false
+                "docId": "itemsystem/start/command"
               },
               {
                 "type": "link",
                 "label": "配置",
                 "href": "/docs/itemsystem/start/config",
-                "docId": "itemsystem/start/config",
-                "unlisted": false
+                "docId": "itemsystem/start/config"
               }
             ],
             "collapsed": true,
@@ -772,29 +699,25 @@
                 "type": "link",
                 "label": "物品",
                 "href": "/docs/itemsystem/item/intro",
-                "docId": "itemsystem/item/intro",
-                "unlisted": false
+                "docId": "itemsystem/item/intro"
               },
               {
                 "type": "link",
                 "label": "物品选项",
                 "href": "/docs/itemsystem/item/option",
-                "docId": "itemsystem/item/option",
-                "unlisted": false
+                "docId": "itemsystem/item/option"
               },
               {
                 "type": "link",
                 "label": "物品流程",
                 "href": "/docs/itemsystem/item/process",
-                "docId": "itemsystem/item/process",
-                "unlisted": false
+                "docId": "itemsystem/item/process"
               },
               {
                 "type": "link",
                 "label": "流程数据",
                 "href": "/docs/itemsystem/item/process-data",
-                "docId": "itemsystem/item/process-data",
-                "unlisted": false
+                "docId": "itemsystem/item/process-data"
               }
             ],
             "collapsed": true,
@@ -809,22 +732,19 @@
                 "type": "link",
                 "label": "物品元",
                 "href": "/docs/itemsystem/meta/intro",
-                "docId": "itemsystem/meta/intro",
-                "unlisted": false
+                "docId": "itemsystem/meta/intro"
               },
               {
                 "type": "link",
                 "label": "物品元列表",
                 "href": "/docs/itemsystem/meta/list",
-                "docId": "itemsystem/meta/list",
-                "unlisted": false
+                "docId": "itemsystem/meta/list"
               },
               {
                 "type": "link",
                 "label": "全局物品元数据",
                 "href": "/docs/itemsystem/meta/global-meta-data",
-                "docId": "itemsystem/meta/global-meta-data",
-                "unlisted": false
+                "docId": "itemsystem/meta/global-meta-data"
               }
             ],
             "collapsed": true,
@@ -839,22 +759,19 @@
                 "type": "link",
                 "label": "变量",
                 "href": "/docs/itemsystem/variable/intro",
-                "docId": "itemsystem/variable/intro",
-                "unlisted": false
+                "docId": "itemsystem/variable/intro"
               },
               {
                 "type": "link",
                 "label": "变量类型",
                 "href": "/docs/itemsystem/variable/type",
-                "docId": "itemsystem/variable/type",
-                "unlisted": false
+                "docId": "itemsystem/variable/type"
               },
               {
                 "type": "link",
                 "label": "变量类型列表",
                 "href": "/docs/itemsystem/variable/types",
-                "docId": "itemsystem/variable/types",
-                "unlisted": false
+                "docId": "itemsystem/variable/types"
               }
             ],
             "collapsed": true,
@@ -869,22 +786,19 @@
                 "type": "link",
                 "label": "变量",
                 "href": "/docs/itemsystem/variable/intro",
-                "docId": "itemsystem/variable/intro",
-                "unlisted": false
+                "docId": "itemsystem/variable/intro"
               },
               {
                 "type": "link",
                 "label": "变量类型",
                 "href": "/docs/itemsystem/variable/type",
-                "docId": "itemsystem/variable/type",
-                "unlisted": false
+                "docId": "itemsystem/variable/type"
               },
               {
                 "type": "link",
                 "label": "变量类型列表",
                 "href": "/docs/itemsystem/variable/types",
-                "docId": "itemsystem/variable/types",
-                "unlisted": false
+                "docId": "itemsystem/variable/types"
               }
             ],
             "collapsed": true,
@@ -899,22 +813,19 @@
                 "type": "link",
                 "label": "物品动作",
                 "href": "/docs/itemsystem/further/action",
-                "docId": "itemsystem/further/action",
-                "unlisted": false
+                "docId": "itemsystem/further/action"
               },
               {
                 "type": "link",
                 "label": "物品动作列表",
                 "href": "/docs/itemsystem/further/actions",
-                "docId": "itemsystem/further/actions",
-                "unlisted": false
+                "docId": "itemsystem/further/actions"
               },
               {
                 "type": "link",
                 "label": "物品继承",
                 "href": "/docs/itemsystem/further/extends",
-                "docId": "itemsystem/further/extends",
-                "unlisted": false
+                "docId": "itemsystem/further/extends"
               }
             ],
             "collapsed": true,
@@ -929,8 +840,7 @@
                 "type": "link",
                 "label": "MythicMobs 兼容",
                 "href": "/docs/itemsystem/other/mythic-mobs",
-                "docId": "itemsystem/other/mythic-mobs",
-                "unlisted": false
+                "docId": "itemsystem/other/mythic-mobs"
               }
             ],
             "collapsed": true,
@@ -946,15 +856,13 @@
             "type": "link",
             "label": "FAQ",
             "href": "/docs/itemsystem/faq",
-            "docId": "itemsystem/faq",
-            "unlisted": false
+            "docId": "itemsystem/faq"
           },
           {
             "type": "link",
             "label": "更新日志",
             "href": "/docs/itemsystem/updates",
-            "docId": "itemsystem/updates",
-            "unlisted": false
+            "docId": "itemsystem/updates"
           }
         ],
         "collapsed": true,

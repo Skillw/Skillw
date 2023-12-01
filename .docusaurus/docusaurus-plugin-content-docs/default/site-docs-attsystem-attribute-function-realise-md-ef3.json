@@ -1,4 +1,5 @@
 {
+  "unversionedId": "attsystem/attribute/function/realise",
   "id": "attsystem/attribute/function/realise",
   "title": "属性功能实现",
   "description": "原版属性",
@@ -7,7 +8,6 @@
   "slug": "/attsystem/attribute/function/realise",
   "permalink": "/docs/attsystem/attribute/function/realise",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/attsystem/attribute/function/realise.md",
   "tags": [],
   "version": "current",

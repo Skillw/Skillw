@@ -1,4 +1,5 @@
 {
+  "unversionedId": "buffsystem/buff/intro",
   "id": "buffsystem/buff/intro",
   "title": "Buff",
   "description": "自定义",
@@ -7,7 +8,6 @@
   "slug": "/buffsystem/buff/intro",
   "permalink": "/docs/buffsystem/buff/intro",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/buff/intro.md",
   "tags": [],
   "version": "current",

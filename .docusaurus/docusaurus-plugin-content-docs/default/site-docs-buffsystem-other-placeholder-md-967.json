@@ -1,4 +1,5 @@
 {
+  "unversionedId": "buffsystem/other/placeholder",
   "id": "buffsystem/other/placeholder",
   "title": "占位符",
   "description": "%bsbuff:key1key2% - Buff 信息",
@@ -7,7 +8,6 @@
   "slug": "/buffsystem/other/placeholder",
   "permalink": "/docs/buffsystem/other/placeholder",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/other/placeholder.md",
   "tags": [],
   "version": "current",

@@ -1,4 +1,5 @@
 {
+  "unversionedId": "itemsystem/item/process",
   "id": "itemsystem/item/process",
   "title": "物品流程",
   "description": "组成",
@@ -7,7 +8,6 @@
   "slug": "/itemsystem/item/process",
   "permalink": "/docs/itemsystem/item/process",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/item/process.md",
   "tags": [],
   "version": "current",

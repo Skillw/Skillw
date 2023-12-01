@@ -1,15 +1,13 @@
 {
-  "title": "All posts",
+  "title": "文章列表",
   "items": [
     {
       "title": "欢迎",
-      "permalink": "/blog/welcome",
-      "unlisted": false
+      "permalink": "/blog/welcome"
     },
     {
       "title": "编程思想",
-      "permalink": "/blog/2022/7/16/codemind/codemind",
-      "unlisted": false
+      "permalink": "/blog/2022/7/16/codemind/codemind"
     }
   ]
 }

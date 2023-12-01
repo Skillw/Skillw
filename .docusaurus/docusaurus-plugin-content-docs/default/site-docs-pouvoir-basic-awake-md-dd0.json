@@ -1,4 +1,5 @@
 {
+  "unversionedId": "pouvoir/basic/awake",
   "id": "pouvoir/basic/awake",
   "title": "何时醒来?",
   "description": "在 JS 中，一段写好的程序该从哪里开始执行？",
@@ -7,7 +8,6 @@
   "slug": "/pouvoir/basic/awake",
   "permalink": "/docs/pouvoir/basic/awake",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/basic/awake.md",
   "tags": [],
   "version": "current",

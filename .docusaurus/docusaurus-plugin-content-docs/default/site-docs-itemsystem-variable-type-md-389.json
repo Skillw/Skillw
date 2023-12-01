@@ -1,4 +1,5 @@
 {
+  "unversionedId": "itemsystem/variable/type",
   "id": "itemsystem/variable/type",
   "title": "变量类型",
   "description": "狭义的变量类型，仅限define 物品元中使用",
@@ -7,7 +8,6 @@
   "slug": "/itemsystem/variable/type",
   "permalink": "/docs/itemsystem/variable/type",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/variable/type.md",
   "tags": [],
   "version": "current",

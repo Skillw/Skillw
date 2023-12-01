@@ -1,4 +1,5 @@
 {
+  "unversionedId": "attsystem/about",
   "id": "attsystem/about",
   "title": "前言",
   "description": "icon",
@@ -7,7 +8,6 @@
   "slug": "/attsystem/about",
   "permalink": "/docs/attsystem/about",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/attsystem/about.md",
   "tags": [],
   "version": "current",

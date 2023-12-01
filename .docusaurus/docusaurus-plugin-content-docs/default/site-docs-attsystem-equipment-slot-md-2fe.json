@@ -1,4 +1,5 @@
 {
+  "unversionedId": "attsystem/equipment/slot",
   "id": "attsystem/equipment/slot",
   "title": "槽位系统",
   "description": "介绍",
@@ -7,7 +8,6 @@
   "slug": "/attsystem/equipment/slot",
   "permalink": "/docs/attsystem/equipment/slot",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/attsystem/equipment/slot.md",
   "tags": [],
   "version": "current",

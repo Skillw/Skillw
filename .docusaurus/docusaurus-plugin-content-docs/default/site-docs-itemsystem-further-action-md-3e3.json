@@ -1,4 +1,5 @@
 {
+  "unversionedId": "itemsystem/further/action",
   "id": "itemsystem/further/action",
   "title": "物品动作",
   "description": "一个非常自由的物品动作系统",
@@ -7,7 +8,6 @@
   "slug": "/itemsystem/further/action",
   "permalink": "/docs/itemsystem/further/action",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/further/action.md",
   "tags": [],
   "version": "current",

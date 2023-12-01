@@ -1,4 +1,5 @@
 {
+  "unversionedId": "attsystem/fight/mechanic",
   "id": "attsystem/fight/mechanic",
   "title": "机制",
   "description": "介绍",
@@ -7,7 +8,6 @@
   "slug": "/attsystem/fight/mechanic",
   "permalink": "/docs/attsystem/fight/mechanic",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/attsystem/fight/mechanic.md",
   "tags": [],
   "version": "current",

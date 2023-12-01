@@ -1,4 +1,5 @@
 {
+  "unversionedId": "buffsystem/condition/intro",
   "id": "buffsystem/condition/intro",
   "title": "条件",
   "description": "条件决定着一个 Buff 是否生效，是否删除",
@@ -7,7 +8,6 @@
   "slug": "/buffsystem/condition/intro",
   "permalink": "/docs/buffsystem/condition/intro",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/condition/intro.md",
   "tags": [],
   "version": "current",

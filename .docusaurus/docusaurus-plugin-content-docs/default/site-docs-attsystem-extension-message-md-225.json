@@ -1,4 +1,5 @@
 {
+  "unversionedId": "attsystem/extension/message",
   "id": "attsystem/extension/message",
   "title": "战斗信息显示方式",
   "description": "Kotlin / Java",
@@ -7,7 +8,6 @@
   "slug": "/attsystem/extension/message",
   "permalink": "/docs/attsystem/extension/message",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/attsystem/extension/message.md",
   "tags": [],
   "version": "current",

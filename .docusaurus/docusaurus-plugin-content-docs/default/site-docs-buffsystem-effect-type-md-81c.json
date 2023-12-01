@@ -1,4 +1,5 @@
 {
+  "unversionedId": "buffsystem/effect/type",
   "id": "buffsystem/effect/type",
   "title": "效果类型",
   "description": "BuffSystem默认提供了 3 种效果类型",
@@ -7,7 +8,6 @@
   "slug": "/buffsystem/effect/type",
   "permalink": "/docs/buffsystem/effect/type",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/effect/type.md",
   "tags": [],
   "version": "current",

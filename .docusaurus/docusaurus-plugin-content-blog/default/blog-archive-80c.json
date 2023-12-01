@@ -9,7 +9,7 @@
         "title": "欢迎",
         "description": "欢迎来到我的博客！",
         "date": "2023-11-30T00:00:00.000Z",
-        "formattedDate": "2023年11月30日",
+        "formattedDate": "November 30, 2023",
         "tags": [
           {
             "label": "hello",
@@ -42,7 +42,6 @@
             "docusaurus"
           ]
         },
-        "unlisted": false,
         "nextItem": {
           "title": "编程思想",
           "permalink": "/blog/2022/7/16/codemind/codemind"
@@ -59,7 +58,7 @@
         "title": "编程思想",
         "description": "前言",
         "date": "2022-07-16T00:00:00.000Z",
-        "formattedDate": "2022年7月16日",
+        "formattedDate": "July 16, 2022",
         "tags": [
           {
             "label": "codemind",
@@ -86,7 +85,6 @@
           "toc_min_heading_level": 2,
           "toc_max_heading_level": 4
         },
-        "unlisted": false,
         "prevItem": {
           "title": "欢迎",
           "permalink": "/blog/welcome"

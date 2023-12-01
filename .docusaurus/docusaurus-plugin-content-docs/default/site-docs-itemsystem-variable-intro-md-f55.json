@@ -1,4 +1,5 @@
 {
+  "unversionedId": "itemsystem/variable/intro",
   "id": "itemsystem/variable/intro",
   "title": "变量",
   "description": "这里的变量指的是 内联函数 中的变量",
@@ -7,7 +8,6 @@
   "slug": "/itemsystem/variable/intro",
   "permalink": "/docs/itemsystem/variable/intro",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/variable/intro.md",
   "tags": [],
   "version": "current",

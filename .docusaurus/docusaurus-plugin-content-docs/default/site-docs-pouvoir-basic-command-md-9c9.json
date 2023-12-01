@@ -1,4 +1,5 @@
 {
+  "unversionedId": "pouvoir/basic/command",
   "id": "pouvoir/basic/command",
   "title": "指令",
   "description": "给个例子，请看注释",
@@ -7,7 +8,6 @@
   "slug": "/pouvoir/basic/command",
   "permalink": "/docs/pouvoir/basic/command",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/basic/command.md",
   "tags": [],
   "version": "current",

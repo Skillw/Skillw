@@ -1,4 +1,5 @@
 {
+  "unversionedId": "pouvoir/basic/listener",
   "id": "pouvoir/basic/listener",
   "title": "脚本监听器",
   "description": "本节改编自 https://bdn.tdiant.net/#/unit/2-2",
@@ -7,7 +8,6 @@
   "slug": "/pouvoir/basic/listener",
   "permalink": "/docs/pouvoir/basic/listener",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/basic/listener.md",
   "tags": [],
   "version": "current",

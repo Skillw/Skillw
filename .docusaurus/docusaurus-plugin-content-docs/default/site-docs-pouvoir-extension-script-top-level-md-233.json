@@ -1,4 +1,5 @@
 {
+  "unversionedId": "pouvoir/extension/script-top-level",
   "id": "pouvoir/extension/script-top-level",
   "title": "脚本顶级成员",
   "description": "需用到 ScriptTopLevel",
@@ -7,7 +8,6 @@
   "slug": "/pouvoir/extension/script-top-level",
   "permalink": "/docs/pouvoir/extension/script-top-level",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/extension/script-top-level.md",
   "tags": [],
   "version": "current",

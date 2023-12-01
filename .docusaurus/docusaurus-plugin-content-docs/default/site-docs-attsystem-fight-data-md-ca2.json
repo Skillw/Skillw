@@ -1,4 +1,5 @@
 {
+  "unversionedId": "attsystem/fight/data",
   "id": "attsystem/fight/data",
   "title": "战斗数据",
   "description": "在开读战斗系统前，你需要了解一下AttributeSystem中的战斗数据",
@@ -7,7 +8,6 @@
   "slug": "/attsystem/fight/data",
   "permalink": "/docs/attsystem/fight/data",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/attsystem/fight/data.md",
   "tags": [],
   "version": "current",

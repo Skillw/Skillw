@@ -1,4 +1,5 @@
 {
+  "unversionedId": "pouvoir/other/functions",
   "id": "pouvoir/other/functions",
   "title": "函数列表",
   "description": ">>From Pouvoir",
@@ -7,7 +8,6 @@
   "slug": "/pouvoir/other/functions",
   "permalink": "/docs/pouvoir/other/functions",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/other/functions.md",
   "tags": [],
   "version": "current",

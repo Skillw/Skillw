@@ -1,4 +1,5 @@
 {
+  "unversionedId": "pouvoir/extension/script-engine",
   "id": "pouvoir/extension/script-engine",
   "title": "脚本引擎",
   "description": "",
@@ -7,7 +8,6 @@
   "slug": "/pouvoir/extension/script-engine",
   "permalink": "/docs/pouvoir/extension/script-engine",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/extension/script-engine.md",
   "tags": [],
   "version": "current",

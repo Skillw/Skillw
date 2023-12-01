@@ -1,4 +1,5 @@
 {
+  "unversionedId": "itemsystem/start/command",
   "id": "itemsystem/start/command",
   "title": "指令",
   "description": "",
@@ -7,7 +8,6 @@
   "slug": "/itemsystem/start/command",
   "permalink": "/docs/itemsystem/start/command",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/start/command.md",
   "tags": [],
   "version": "current",

@@ -1,4 +1,5 @@
 {
+  "unversionedId": "itemsystem/further/actions",
   "id": "itemsystem/further/actions",
   "title": "物品动作列表",
   "description": "|      动作 id       |          何时触发          |",
@@ -7,7 +8,6 @@
   "slug": "/itemsystem/further/actions",
   "permalink": "/docs/itemsystem/further/actions",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/further/actions.md",
   "tags": [],
   "version": "current",

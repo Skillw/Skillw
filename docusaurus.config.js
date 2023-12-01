@@ -48,7 +48,7 @@ const config = {
           showReadingTime: true,
           editUrl:
             'https://github.com/Skillw/Website/',
-            blogSidebarTitle: 'All posts',
+            blogSidebarTitle: '文章列表',
             blogSidebarCount: 'ALL',
           },
         theme: {
@@ -76,13 +76,14 @@ const config = {
             position: "left",
             type: "docSidebar",
           },
+          { to: "/blog", label: "博客", position: "left" },
+          { href: "https://doc.skillw.com/", label: "Javadoc", position: "left" },
           // {
           //   label: "Pouvoir",
           //   sidebarId: "pouvoir",
           //   to: "/pouvoir",
           //   position: "left",
           // },
-          { to: "/blog", label: "博客", position: "left" },
           {
             href: "https://github.com/Skillw/Website",
             label: "GitHub",

@@ -1,4 +1,5 @@
 {
+  "unversionedId": "buffsystem/faq",
   "id": "buffsystem/faq",
   "title": "FAQ",
   "description": "暂无",
@@ -7,7 +8,6 @@
   "slug": "/buffsystem/faq",
   "permalink": "/docs/buffsystem/faq",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/faq.md",
   "tags": [],
   "version": "current",

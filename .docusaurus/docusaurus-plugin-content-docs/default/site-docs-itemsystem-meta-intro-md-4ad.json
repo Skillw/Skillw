@@ -1,4 +1,5 @@
 {
+  "unversionedId": "itemsystem/meta/intro",
   "id": "itemsystem/meta/intro",
   "title": "物品元",
   "description": "物品元是干什么的?",
@@ -7,7 +8,6 @@
   "slug": "/itemsystem/meta/intro",
   "permalink": "/docs/itemsystem/meta/intro",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/meta/intro.md",
   "tags": [],
   "version": "current",

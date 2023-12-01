@@ -1,4 +1,5 @@
 {
+  "unversionedId": "pouvoir/basic/import",
   "id": "pouvoir/basic/import",
   "title": "从导入开始",
   "description": "导入(获取类对象)",
@@ -7,7 +8,6 @@
   "slug": "/pouvoir/basic/import",
   "permalink": "/docs/pouvoir/basic/import",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/basic/import.md",
   "tags": [],
   "version": "current",

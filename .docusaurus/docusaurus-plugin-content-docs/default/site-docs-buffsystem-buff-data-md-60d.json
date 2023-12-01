@@ -1,4 +1,5 @@
 {
+  "unversionedId": "buffsystem/buff/data",
   "id": "buffsystem/buff/data",
   "title": "Buff 数据",
   "description": "你需要了解一下BuffSystem中的Buff 数据",
@@ -7,7 +8,6 @@
   "slug": "/buffsystem/buff/data",
   "permalink": "/docs/buffsystem/buff/data",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/buff/data.md",
   "tags": [],
   "version": "current",

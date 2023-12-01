@@ -1,4 +1,5 @@
 {
+  "unversionedId": "intro",
   "id": "intro",
   "title": "前言",
   "description": "本人已然升入高三，学业繁忙，有时间会更新，望见谅。",
@@ -7,7 +8,6 @@
   "slug": "/intro",
   "permalink": "/docs/intro",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/intro.mdx",
   "tags": [],
   "version": "current",

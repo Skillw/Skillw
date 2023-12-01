@@ -1,4 +1,5 @@
 {
+  "unversionedId": "buffsystem/condition/type/time",
   "id": "buffsystem/condition/type/time",
   "title": "时间条件",
   "description": "条件",
@@ -7,7 +8,6 @@
   "slug": "/buffsystem/condition/type/time",
   "permalink": "/docs/buffsystem/condition/type/time",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/condition/type/time.md",
   "tags": [],
   "version": "current",

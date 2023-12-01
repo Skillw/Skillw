@@ -1,4 +1,5 @@
 {
+  "unversionedId": "attsystem/extension/read-pattern",
   "id": "attsystem/extension/read-pattern",
   "title": "读取格式拓展",
   "description": "Kotlin",
@@ -7,7 +8,6 @@
   "slug": "/attsystem/extension/read-pattern",
   "permalink": "/docs/attsystem/extension/read-pattern",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/attsystem/extension/read-pattern.md",
   "tags": [],
   "version": "current",

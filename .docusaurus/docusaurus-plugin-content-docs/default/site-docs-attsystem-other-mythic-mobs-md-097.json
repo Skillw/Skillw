@@ -1,4 +1,5 @@
 {
+  "unversionedId": "attsystem/other/mythic-mobs",
   "id": "attsystem/other/mythic-mobs",
   "title": "MythicMobs",
   "description": "MM 技能",
@@ -7,7 +8,6 @@
   "slug": "/attsystem/other/mythic-mobs",
   "permalink": "/docs/attsystem/other/mythic-mobs",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/attsystem/other/mythic-mobs.md",
   "tags": [],
   "version": "current",

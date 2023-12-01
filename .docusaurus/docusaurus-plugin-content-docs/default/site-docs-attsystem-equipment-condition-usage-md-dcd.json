@@ -1,4 +1,5 @@
 {
+  "unversionedId": "attsystem/equipment/condition/usage",
   "id": "attsystem/equipment/condition/usage",
   "title": "usage",
   "description": "条件的使用",
@@ -7,7 +8,6 @@
   "slug": "/attsystem/equipment/condition/usage",
   "permalink": "/docs/attsystem/equipment/condition/usage",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/attsystem/equipment/condition/usage.md",
   "tags": [],
   "version": "current",

@@ -1,4 +1,5 @@
 {
+  "unversionedId": "pouvoir/extension/script-source",
   "id": "pouvoir/extension/script-source",
   "title": "脚本源",
   "description": "添加脚本源",
@@ -7,7 +8,6 @@
   "slug": "/pouvoir/extension/script-source",
   "permalink": "/docs/pouvoir/extension/script-source",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/extension/script-source.md",
   "tags": [],
   "version": "current",

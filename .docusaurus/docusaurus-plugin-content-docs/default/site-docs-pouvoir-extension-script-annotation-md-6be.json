@@ -1,4 +1,5 @@
 {
+  "unversionedId": "pouvoir/extension/script-annotation",
   "id": "pouvoir/extension/script-annotation",
   "title": "脚本注解",
   "description": "需要用到 ScriptAnnotationData",
@@ -7,7 +8,6 @@
   "slug": "/pouvoir/extension/script-annotation",
   "permalink": "/docs/pouvoir/extension/script-annotation",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/extension/script-annotation.md",
   "tags": [],
   "version": "current",

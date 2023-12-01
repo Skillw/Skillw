@@ -1,4 +1,5 @@
 {
+  "unversionedId": "buffsystem/condition/custom",
   "id": "buffsystem/condition/custom",
   "title": "拓展条件",
   "description": "BuffSystem默认提供了 2 种条件",
@@ -7,7 +8,6 @@
   "slug": "/buffsystem/condition/custom",
   "permalink": "/docs/buffsystem/condition/custom",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/condition/custom.md",
   "tags": [],
   "version": "current",

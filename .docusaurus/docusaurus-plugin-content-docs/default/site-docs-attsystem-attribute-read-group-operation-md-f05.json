@@ -1,4 +1,5 @@
 {
+  "unversionedId": "attsystem/attribute/read-group/operation",
   "id": "attsystem/attribute/read-group/operation",
   "title": "运算操作",
   "description": "默认",
@@ -7,7 +8,6 @@
   "slug": "/attsystem/attribute/read-group/operation",
   "permalink": "/docs/attsystem/attribute/read-group/operation",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/attsystem/attribute/read-group/operation.md",
   "tags": [],
   "version": "current",

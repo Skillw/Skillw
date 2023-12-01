@@ -1,4 +1,5 @@
 {
+  "unversionedId": "buffsystem/intro",
   "id": "buffsystem/intro",
   "title": "intro",
   "description": "header",
@@ -7,7 +8,6 @@
   "slug": "/buffsystem/intro",
   "permalink": "/docs/buffsystem/intro",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/intro.md",
   "tags": [],
   "version": "current",

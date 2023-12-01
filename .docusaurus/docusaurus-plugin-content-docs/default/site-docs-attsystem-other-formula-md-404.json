@@ -1,4 +1,5 @@
 {
+  "unversionedId": "attsystem/other/formula",
   "id": "attsystem/other/formula",
   "title": "公式系统",
   "description": "介绍",
@@ -7,7 +8,6 @@
   "slug": "/attsystem/other/formula",
   "permalink": "/docs/attsystem/other/formula",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/attsystem/other/formula.md",
   "tags": [],
   "version": "current",

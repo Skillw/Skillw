@@ -1,4 +1,5 @@
 {
+  "unversionedId": "attsystem/other/placeholder",
   "id": "attsystem/other/placeholder",
   "title": "占位符",
   "description": "%asatt:属性id占位符id% - 属性值",
@@ -7,7 +8,6 @@
   "slug": "/attsystem/other/placeholder",
   "permalink": "/docs/attsystem/other/placeholder",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/attsystem/other/placeholder.md",
   "tags": [],
   "version": "current",

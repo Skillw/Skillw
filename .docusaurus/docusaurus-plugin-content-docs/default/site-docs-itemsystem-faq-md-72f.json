@@ -1,4 +1,5 @@
 {
+  "unversionedId": "itemsystem/faq",
   "id": "itemsystem/faq",
   "title": "FAQ",
   "description": "暂无",
@@ -7,7 +8,6 @@
   "slug": "/itemsystem/faq",
   "permalink": "/docs/itemsystem/faq",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/faq.md",
   "tags": [],
   "version": "current",

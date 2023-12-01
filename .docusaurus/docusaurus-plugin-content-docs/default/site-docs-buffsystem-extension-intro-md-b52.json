@@ -1,4 +1,5 @@
 {
+  "unversionedId": "buffsystem/extension/intro",
   "id": "buffsystem/extension/intro",
   "title": "基本操作",
   "description": "见 BuffAPI",
@@ -7,7 +8,6 @@
   "slug": "/buffsystem/extension/intro",
   "permalink": "/docs/buffsystem/extension/intro",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/extension/intro.md",
   "tags": [],
   "version": "current",

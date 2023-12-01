@@ -1,4 +1,5 @@
 {
+  "unversionedId": "attsystem/extension/fight",
   "id": "attsystem/extension/fight",
   "title": "触发战斗机制组",
   "description": "见AttributeSystemAPI",
@@ -7,7 +8,6 @@
   "slug": "/attsystem/extension/fight",
   "permalink": "/docs/attsystem/extension/fight",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/attsystem/extension/fight.md",
   "tags": [],
   "version": "current",

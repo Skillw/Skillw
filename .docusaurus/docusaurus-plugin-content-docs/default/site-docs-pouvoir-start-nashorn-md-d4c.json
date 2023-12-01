@@ -1,4 +1,5 @@
 {
+  "unversionedId": "pouvoir/start/nashorn",
   "id": "pouvoir/start/nashorn",
   "title": "Nashorn",
   "description": "Nashorn 是一个基于 JVM 的轻量级高性能的 JavaScript 运行环境。",
@@ -7,7 +8,6 @@
   "slug": "/pouvoir/start/nashorn",
   "permalink": "/docs/pouvoir/start/nashorn",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/start/nashorn.md",
   "tags": [],
   "version": "current",

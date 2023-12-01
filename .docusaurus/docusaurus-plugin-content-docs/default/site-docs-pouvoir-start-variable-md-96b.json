@@ -1,4 +1,5 @@
 {
+  "unversionedId": "pouvoir/start/variable",
   "id": "pouvoir/start/variable",
   "title": "变量",
   "description": "本章将会简单地讲解 JavaScript 的语法基础",
@@ -7,7 +8,6 @@
   "slug": "/pouvoir/start/variable",
   "permalink": "/docs/pouvoir/start/variable",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/start/variable.md",
   "tags": [],
   "version": "current",

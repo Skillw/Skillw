@@ -6,6 +6,5 @@
   "description": "You don't need React to write simple standalone pages.",
   "frontMatter": {
     "title": "Markdown page example"
-  },
-  "unlisted": false
+  }
 }

@@ -1,4 +1,5 @@
 {
+  "unversionedId": "attsystem/fight/mechanics",
   "id": "attsystem/fight/mechanics",
   "title": "机制列表",
   "description": "damage [伤害]",
@@ -7,7 +8,6 @@
   "slug": "/attsystem/fight/mechanics",
   "permalink": "/docs/attsystem/fight/mechanics",
   "draft": false,
-  "unlisted": false,
   "editUrl": "https://github.com/Skillw/Website/docs/attsystem/fight/mechanics.md",
   "tags": [],
   "version": "current",
