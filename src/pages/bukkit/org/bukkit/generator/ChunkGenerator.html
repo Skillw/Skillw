@@ -1,0 +1,1237 @@
+<!DOCTYPE HTML>
+<!-- NewPage -->
+<html lang="en"><head>
+    <title>ChunkGenerator 1.20.1-SNAPSHOT API </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="dc.created" content="2020-03-25">
+    <link rel="stylesheet" type="text/css" href="../../../stylesheet.css" title="Style">
+    <link rel="stylesheet" type="text/css" href="../../../dokka-javadoc-stylesheet.css" title="Style">
+    <link rel="stylesheet" type="text/css" href="../../../_jquery_/jquery-ui.css" title="Style">
+    <script type="text/javascript" src="../../../_jquery_/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../../../_jquery_/jquery-migrate-3.4.0.min.js"></script>
+    <script type="text/javascript" src="../../../_jquery_/jquery-ui.js"></script>
+
+    <script type="text/javascript" src="../../../search.js"></script>
+    <script async type="text/javascript" src="../../../module-search-index.js"></script>
+    <script async type="text/javascript" src="../../../package-search-index.js"></script>
+    <script async type="text/javascript" src="../../../type-search-index.js"></script>
+    <script async type="text/javascript" src="../../../member-search-index.js"></script>
+    <script async type="text/javascript" src="../../../tag-search-index.js"></script>
+</head><body>
+<script type="text/javascript">
+var pathtoroot = "../../../";
+</script>
+<noscript>
+    <div>JavaScript is disabled on your browser.</div>
+</noscript><header role="banner">
+    <nav role="navigation">
+        <div class="fixedNav">
+            <!-- ========= START OF TOP NAVBAR ======= -->
+            <div class="topNav"><a id="navbar.top">
+                <!--   -->
+            </a>
+                <div class="skipNav"><a href="#skip.navbar.top" title="Skip navigation links">Skip navigation links</a>
+                </div>
+                <a id="navbar.top.firstrow">
+                    <!--   -->
+                </a>
+                <ul class="navList" title="Navigation">
+    <li><a href="../../../index.html">Overview</a></li>
+    
+    <li><a href="package-summary.html">Package</a></li>
+    
+    <li class="navBarCell1Rev">Class</li>
+    
+    <li><a href="package-tree.html">Tree</a></li>
+    
+    <li><a href="../../../deprecated.html">Deprecated</a></li>
+    <li><a href="../../../index-files/index-1.html">Index</a></li>
+    <li>Help</li>
+</ul></div>
+            <div class="subNav">
+<ul class="navList" id="allclasses_navbar_top" style="display: block;">
+    <li><a href="../../../allclasses.html">All&nbsp;Classes</a></li>
+</ul>
+
+<ul class="navListSearch">
+<li><label for="search">SEARCH:</label>
+<input type="text" id="search" value="search" class="ui-autocomplete-input" autocomplete="off" placeholder="Search">
+<input type="reset" id="reset" value="reset">
+</li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+</div>
+<a id="skip.navbar.top">
+<!--   -->
+</a></div><!-- ========= END OF TOP NAVBAR ========= -->
+        </div>
+        <div class="navPadding">&nbsp;</div>
+        <script type="text/javascript"><!--
+        $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
+        //-->
+        </script>
+    </nav>
+</header>
+
+<main role="main">
+    <div class="header">
+        <div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html"></a></div>
+        <h2 title="Class ChunkGenerator" class="title">Class ChunkGenerator</h2>
+    </div>
+    <div class="contentContainer">
+        <!-- <ul class="inheritance">
+            <li>java.lang.Object</li>
+            <li>
+                <ul class="inheritance">
+                    <li>adaptation.Adaptation</li>
+                </ul>
+            </li>
+        </ul> TODO inheritance tree -->
+        <div class="description">
+            <ul class="blockList">
+                <li class="blockList">
+                    
+                    <dl>
+                        <dt>All Implemented Interfaces:</dt>
+                        <dd>
+                            
+                        </dd>
+                    </dl>
+                    
+                    <hr>
+                    <pre class="wrap-overflow">
+
+public abstract class <span class="typeNameLabel"><a href=ChunkGenerator.html>ChunkGenerator</a></span>
+
+                    </pre>
+                    <div class="block"><p>用于初始化一个整体的区块的区块生成器。比如说，地狱的区块生成器用于生成地狱岩和灵魂沙. A chunk is generated in multiple steps, those steps are always in the same order. Between those steps however an unlimited time may pass. This means, a chunk may generated until the surface step and continue with the bedrock step after one or multiple server restarts or even after multiple Minecraft versions. The order of generation is as follows </p><ul><li><a href=ChunkGenerator.html#generateNoise(WorldInfo,Random,int,int,ChunkGenerator.ChunkData)>generateNoise</a></li><li><a href=ChunkGenerator.html#generateSurface(WorldInfo,Random,int,int,ChunkGenerator.ChunkData)>generateSurface</a></li><li><a href=ChunkGenerator.html#generateBedrock(WorldInfo,Random,int,int,ChunkGenerator.ChunkData)>generateBedrock</a></li><li><a href=ChunkGenerator.html#generateCaves(WorldInfo,Random,int,int,ChunkGenerator.ChunkData)>generateCaves</a></li></ul> Every method listed above as well as <a href=ChunkGenerator.html#getBaseHeight(WorldInfo,Random,int,int,HeightMap)>getBaseHeight</a>must be completely thread safe and able to handle multiple concurrent callers. Some aspects of world generation can be delegated to the Vanilla generator. The following methods can be overridden to enable this: <ul><li><a href=ChunkGenerator.html#shouldGenerateNoise()>shouldGenerateNoise</a> or <a href=ChunkGenerator.html#shouldGenerateNoise(WorldInfo,Random,int,int)>shouldGenerateNoise</a></li><li><a href=ChunkGenerator.html#shouldGenerateSurface()>shouldGenerateSurface</a> or <a href=ChunkGenerator.html#shouldGenerateSurface(WorldInfo,Random,int,int)>shouldGenerateSurface</a></li><li><a href=ChunkGenerator.html#shouldGenerateCaves()>shouldGenerateCaves</a> or <a href=ChunkGenerator.html#shouldGenerateCaves(WorldInfo,Random,int,int)>shouldGenerateCaves</a></li><li><a href=ChunkGenerator.html#shouldGenerateDecorations()>shouldGenerateDecorations</a> or <a href=ChunkGenerator.html#shouldGenerateDecorations(WorldInfo,Random,int,int)>shouldGenerateDecorations</a></li><li><a href=ChunkGenerator.html#shouldGenerateMobs()>shouldGenerateMobs</a> or <a href=ChunkGenerator.html#shouldGenerateMobs(WorldInfo,Random,int,int)>shouldGenerateMobs</a></li><li><a href=ChunkGenerator.html#shouldGenerateStructures()>shouldGenerateStructures</a> or <a href=ChunkGenerator.html#shouldGenerateStructures(WorldInfo,Random,int,int)>shouldGenerateStructures</a></li></ul></div>
+                </li>
+            </ul>
+        </div>
+        <div class="summary">
+            <ul class="blockList">
+                <li class="blockList">
+                <!-- ======== NESTED CLASS SUMMARY ======== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="nested.class.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Nested Class Summary</h3>
+                                <div class="memberSummary">
+                                    <table>
+                                        <caption><span>Nested Classes</span><span class="tabEnd">&nbsp;</span></caption>
+                                        <tr>
+                                            <th class="colFirst" scope="col">Modifier and Type</th>
+                                            <th class="colSecond" scope="col">Class</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>public interface</code></td>
+                                            <th class="colSecond" scope="row"><code><a href="ChunkGenerator.BiomeGrid.html">ChunkGenerator.BiomeGrid</a></span></code>
+                                            </th>
+                                            <td class="colLast"><p>被生成区块的生物群系数据的接口：根据世界类型和种子的默认值初始化。 </p><p> 自定义生成器使用以下接口可以自由地访问和调整数值：generateBlockSections() 或 generateExtBlockSections() </p><p> 原文： Interface to biome section for chunk to be generated: initialized with default values for world type and seed. </p><p> Custom generator is free to access and tailor values during generateBlockSections() or generateExtBlockSections().</p></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>public interface</code></td>
+                                            <th class="colSecond" scope="row"><code><a href="ChunkGenerator.ChunkData.html">ChunkGenerator.ChunkData</a></span></code>
+                                            </th>
+                                            <td class="colLast"><p>Data for a Chunk.</p></td>
+                                        </tr>
+                                        
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- =========== FIELD SUMMARY =========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="field.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Field Summary</h3>
+                                <div class="memberSummary">
+                                    <table>
+                                        <caption><span>Fields</span><span class="tabEnd">&nbsp;</span></caption>
+                                        <tr>
+                                            <th class="colFirst" scope="col">Modifier and Type</th>
+                                            <th class="colSecond" scope="col">Field</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+                                        
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- ======== CONSTRUCTOR SUMMARY ======== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="constructor.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Constructor Summary</h3>
+                                <div class="memberSummary">
+                                    <table>
+                                        <caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+                                        <tbody>
+                                        <tr>
+                                            <th class="colFirst" scope="col">Constructor</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+
+                                        
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- =========== ENUM CONSTANT SUMMARY =========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="enum.constant.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Enum Constant Summary</h3>
+                                <table class="memberSummary">
+                                    <caption><span>Enum Constants</span><span class="tabEnd">&nbsp;</span></caption>
+                                    <tr>
+                                        <th class="colFirst" scope="col">Enum Constant</th>
+                                        <th class="colLast" scope="col">Description</th>
+                                    </tr>
+                                    
+                                </table>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- ========== METHOD SUMMARY =========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="method.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Method Summary</h3>
+                                <div class="memberSummary">
+                                    <div role="tablist" aria-orientation="horizontal">
+                                        <button role="tab" aria-selected="true" aria-controls="memberSummary_tabpanel" tabindex="0" onkeydown="switchTab(event)" id="t0" class="activeTableTab">All Methods</button>
+                                        <!-- TODO: Instance and Concrete Methods #1118 -->
+                                    </div>
+                                    <div id="memberSummary_tabpanel" role="tabpanel">
+                                    <table aria-labelledby="t0">
+                                        <tr>
+                                            <th class="colFirst" scope="col">Modifier and Type</th>
+                                            <th class="colSecond" scope="col">Method</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+                                        
+                                        <tr id="i0" class="altColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ChunkGenerator.html#generateNoise(WorldInfo,Random,int,int,ChunkGenerator.ChunkData)>generateNoise</a>(@NotNull() <a href=WorldInfo.html>WorldInfo</a> worldInfo, @NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Random.html>Random</a> random, int chunkX, int chunkZ, @NotNull() <a href=ChunkGenerator.ChunkData.html>ChunkGenerator.ChunkData</a> chunkData) </code>
+                                            </th>
+                                            <td class="colLast">Shapes the Chunk noise for the given coordinates.</td>
+                                        </tr>
+                                        
+                                        <tr id="i1" class="rowColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ChunkGenerator.html#generateSurface(WorldInfo,Random,int,int,ChunkGenerator.ChunkData)>generateSurface</a>(@NotNull() <a href=WorldInfo.html>WorldInfo</a> worldInfo, @NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Random.html>Random</a> random, int chunkX, int chunkZ, @NotNull() <a href=ChunkGenerator.ChunkData.html>ChunkGenerator.ChunkData</a> chunkData) </code>
+                                            </th>
+                                            <td class="colLast">Shapes the Chunk surface for the given coordinates.</td>
+                                        </tr>
+                                        
+                                        <tr id="i2" class="altColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ChunkGenerator.html#generateBedrock(WorldInfo,Random,int,int,ChunkGenerator.ChunkData)>generateBedrock</a>(@NotNull() <a href=WorldInfo.html>WorldInfo</a> worldInfo, @NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Random.html>Random</a> random, int chunkX, int chunkZ, @NotNull() <a href=ChunkGenerator.ChunkData.html>ChunkGenerator.ChunkData</a> chunkData) </code>
+                                            </th>
+                                            <td class="colLast">Shapes the Chunk bedrock layer for the given coordinates.</td>
+                                        </tr>
+                                        
+                                        <tr id="i3" class="rowColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ChunkGenerator.html#generateCaves(WorldInfo,Random,int,int,ChunkGenerator.ChunkData)>generateCaves</a>(@NotNull() <a href=WorldInfo.html>WorldInfo</a> worldInfo, @NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Random.html>Random</a> random, int chunkX, int chunkZ, @NotNull() <a href=ChunkGenerator.ChunkData.html>ChunkGenerator.ChunkData</a> chunkData) </code>
+                                            </th>
+                                            <td class="colLast">Shapes the Chunk caves for the given coordinates.</td>
+                                        </tr>
+                                        
+                                        <tr id="i4" class="altColor">
+                                            <td class="colFirst"><code><a href=BiomeProvider.html>BiomeProvider</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ChunkGenerator.html#getDefaultBiomeProvider(WorldInfo)>getDefaultBiomeProvider</a>(@NotNull() <a href=WorldInfo.html>WorldInfo</a> worldInfo) </code>
+                                            </th>
+                                            <td class="colLast">Gets called when no <a href=BiomeProvider.html>BiomeProvider</a> is set in <a href=../WorldCreator.html>org.bukkit.WorldCreator</a> or via the server configuration files.</td>
+                                        </tr>
+                                        
+                                        <tr id="i5" class="rowColor">
+                                            <td class="colFirst"><code>int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ChunkGenerator.html#getBaseHeight(WorldInfo,Random,int,int,HeightMap)>getBaseHeight</a>(@NotNull() <a href=WorldInfo.html>WorldInfo</a> worldInfo, @NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Random.html>Random</a> random, int x, int z, @NotNull() <a href=../HeightMap.html>HeightMap</a> heightMap) </code>
+                                            </th>
+                                            <td class="colLast">This method is similar to <a href=../World.html#getHighestBlockAt(int,int,HeightMap)>getHighestBlockAt</a>.</td>
+                                        </tr>
+                                        
+                                        <tr id="i6" class="altColor">
+                                            <td class="colFirst"><code><a href=ChunkGenerator.ChunkData.html>ChunkGenerator.ChunkData</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ChunkGenerator.html#generateChunkData(World,Random,int,int,ChunkGenerator.BiomeGrid)>generateChunkData</a>(@NotNull() <a href=../World.html>World</a> world, @NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Random.html>Random</a> random, int x, int z, @NotNull() <a href=ChunkGenerator.BiomeGrid.html>ChunkGenerator.BiomeGrid</a> biome) </code>
+                                            </th>
+                                            <td class="colLast">Shapes the chunk for the given coordinates.</td>
+                                        </tr>
+                                        
+                                        <tr id="i7" class="rowColor">
+                                            <td class="colFirst"><code>boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ChunkGenerator.html#canSpawn(World,int,int)>canSpawn</a>(@NotNull() <a href=../World.html>World</a> world, int x, int z) </code>
+                                            </th>
+                                            <td class="colLast">测试指定方位是否对自然生成的方位有效。  原文： Tests if the specified location is valid for a natural spawn position</td>
+                                        </tr>
+                                        
+                                        <tr id="i8" class="altColor">
+                                            <td class="colFirst"><code><a href=https://docs.oracle.com/javase/8/docs/api/java/util/List.html>List</a>&lt;<a href=BlockPopulator.html>BlockPopulator</a>&gt;</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ChunkGenerator.html#getDefaultPopulators(World)>getDefaultPopulators</a>(@NotNull() <a href=../World.html>World</a> world) </code>
+                                            </th>
+                                            <td class="colLast">得到一个用于提供指定世界的默认的<a href=BlockPopulator.html>BlockPopulator</a>列表。  原文： Gets a list of default <a href=BlockPopulator.html>BlockPopulator</a>s to apply to a given world</td>
+                                        </tr>
+                                        
+                                        <tr id="i9" class="rowColor">
+                                            <td class="colFirst"><code><a href=../Location.html>Location</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ChunkGenerator.html#getFixedSpawnLocation(World,Random)>getFixedSpawnLocation</a>(@NotNull() <a href=../World.html>World</a> world, @NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Random.html>Random</a> random) </code>
+                                            </th>
+                                            <td class="colLast">获取一个固定出生方位用于一个指定的世界。  如果一个世界没有使用一个固定出生点就会返回空值，并且会试图随机寻找一个以代替。  原文： Gets a fixed spawn location to use for a given world.</td>
+                                        </tr>
+                                        
+                                        <tr id="i10" class="altColor">
+                                            <td class="colFirst"><code>boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ChunkGenerator.html#isParallelCapable()>isParallelCapable</a>() </code>
+                                            </th>
+                                            <td class="colLast">Gets if this ChunkGenerator is parallel capable.</td>
+                                        </tr>
+                                        
+                                        <tr id="i11" class="rowColor">
+                                            <td class="colFirst"><code>boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ChunkGenerator.html#shouldGenerateNoise()>shouldGenerateNoise</a>() </code>
+                                            </th>
+                                            <td class="colLast">Gets if the server should generate Vanilla noise.</td>
+                                        </tr>
+                                        
+                                        <tr id="i12" class="altColor">
+                                            <td class="colFirst"><code>boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ChunkGenerator.html#shouldGenerateNoise(WorldInfo,Random,int,int)>shouldGenerateNoise</a>(@NotNull() <a href=WorldInfo.html>WorldInfo</a> worldInfo, @NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Random.html>Random</a> random, int chunkX, int chunkZ) </code>
+                                            </th>
+                                            <td class="colLast">Gets if the server should generate Vanilla noise.</td>
+                                        </tr>
+                                        
+                                        <tr id="i13" class="rowColor">
+                                            <td class="colFirst"><code>boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ChunkGenerator.html#shouldGenerateSurface()>shouldGenerateSurface</a>() </code>
+                                            </th>
+                                            <td class="colLast">Gets if the server should generate Vanilla surface.</td>
+                                        </tr>
+                                        
+                                        <tr id="i14" class="altColor">
+                                            <td class="colFirst"><code>boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ChunkGenerator.html#shouldGenerateSurface(WorldInfo,Random,int,int)>shouldGenerateSurface</a>(@NotNull() <a href=WorldInfo.html>WorldInfo</a> worldInfo, @NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Random.html>Random</a> random, int chunkX, int chunkZ) </code>
+                                            </th>
+                                            <td class="colLast">Gets if the server should generate Vanilla surface.</td>
+                                        </tr>
+                                        
+                                        <tr id="i15" class="rowColor">
+                                            <td class="colFirst"><code>boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ChunkGenerator.html#shouldGenerateBedrock()>shouldGenerateBedrock</a>() </code>
+                                            </th>
+                                            <td class="colLast">Gets if the server should generate Vanilla bedrock.</td>
+                                        </tr>
+                                        
+                                        <tr id="i16" class="altColor">
+                                            <td class="colFirst"><code>boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ChunkGenerator.html#shouldGenerateCaves()>shouldGenerateCaves</a>() </code>
+                                            </th>
+                                            <td class="colLast">Gets if the server should generate Vanilla caves.</td>
+                                        </tr>
+                                        
+                                        <tr id="i17" class="rowColor">
+                                            <td class="colFirst"><code>boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ChunkGenerator.html#shouldGenerateCaves(WorldInfo,Random,int,int)>shouldGenerateCaves</a>(@NotNull() <a href=WorldInfo.html>WorldInfo</a> worldInfo, @NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Random.html>Random</a> random, int chunkX, int chunkZ) </code>
+                                            </th>
+                                            <td class="colLast">Gets if the server should generate Vanilla caves.</td>
+                                        </tr>
+                                        
+                                        <tr id="i18" class="altColor">
+                                            <td class="colFirst"><code>boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ChunkGenerator.html#shouldGenerateDecorations()>shouldGenerateDecorations</a>() </code>
+                                            </th>
+                                            <td class="colLast">Gets if the server should generate Vanilla decorations after this ChunkGenerator.</td>
+                                        </tr>
+                                        
+                                        <tr id="i19" class="rowColor">
+                                            <td class="colFirst"><code>boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ChunkGenerator.html#shouldGenerateDecorations(WorldInfo,Random,int,int)>shouldGenerateDecorations</a>(@NotNull() <a href=WorldInfo.html>WorldInfo</a> worldInfo, @NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Random.html>Random</a> random, int chunkX, int chunkZ) </code>
+                                            </th>
+                                            <td class="colLast">Gets if the server should generate Vanilla decorations after this ChunkGenerator.</td>
+                                        </tr>
+                                        
+                                        <tr id="i20" class="altColor">
+                                            <td class="colFirst"><code>boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ChunkGenerator.html#shouldGenerateMobs()>shouldGenerateMobs</a>() </code>
+                                            </th>
+                                            <td class="colLast">Gets if the server should generate Vanilla mobs after this ChunkGenerator.</td>
+                                        </tr>
+                                        
+                                        <tr id="i21" class="rowColor">
+                                            <td class="colFirst"><code>boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ChunkGenerator.html#shouldGenerateMobs(WorldInfo,Random,int,int)>shouldGenerateMobs</a>(@NotNull() <a href=WorldInfo.html>WorldInfo</a> worldInfo, @NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Random.html>Random</a> random, int chunkX, int chunkZ) </code>
+                                            </th>
+                                            <td class="colLast">Gets if the server should generate Vanilla mobs after this ChunkGenerator.</td>
+                                        </tr>
+                                        
+                                        <tr id="i22" class="altColor">
+                                            <td class="colFirst"><code>boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ChunkGenerator.html#shouldGenerateStructures()>shouldGenerateStructures</a>() </code>
+                                            </th>
+                                            <td class="colLast">Gets if the server should generate Vanilla structures after this ChunkGenerator.</td>
+                                        </tr>
+                                        
+                                        <tr id="i23" class="rowColor">
+                                            <td class="colFirst"><code>boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ChunkGenerator.html#shouldGenerateStructures(WorldInfo,Random,int,int)>shouldGenerateStructures</a>(@NotNull() <a href=WorldInfo.html>WorldInfo</a> worldInfo, @NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Random.html>Random</a> random, int chunkX, int chunkZ) </code>
+                                            </th>
+                                            <td class="colLast">Gets if the server should generate Vanilla structures after this ChunkGenerator.</td>
+                                        </tr>
+                                        
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <ul class="blockList">
+                                
+                                    <li class="blockList"><a id="methods.inherited.from.class.java.lang.Object">
+                                        <!--   -->
+                                    </a>
+                                        <h3>Methods inherited from class&nbsp;java.lang.Object</h3>
+                                        <code>clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString,
+                                            wait, wait, wait</code></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                </li>
+            </ul>
+        </div>
+        <div class="details">
+            <ul class="blockList">
+                <li class="blockList">
+                    <!-- ========= CONSTRUCTOR DETAIL ======== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="constructor.detail">
+                                <!--   -->
+                            </a>
+                                <h3>Constructor Detail</h3>
+                                
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- ============ METHOD DETAIL ========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="method.detail">
+                                <!--   -->
+                            </a>
+                                <h3>Method Detail</h3>
+                                
+                                <a id="generateNoise(WorldInfo,Random,int,int,ChunkGenerator.ChunkData)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>generateNoise</h4>
+                                        <pre class="methodSignature"> void <a href=ChunkGenerator.html#generateNoise(WorldInfo,Random,int,int,ChunkGenerator.ChunkData)>generateNoise</a>(@NotNull() <a href=WorldInfo.html>WorldInfo</a> worldInfo, @NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Random.html>Random</a> random, int chunkX, int chunkZ, @NotNull() <a href=ChunkGenerator.ChunkData.html>ChunkGenerator.ChunkData</a> chunkData)</pre>
+                                        <div class="block"><p>Shapes the Chunk noise for the given coordinates. </p><p> Notes: </p><p> This method should never attempt to get the Chunk at the passed coordinates, as doing so may cause an infinite loop. </p><p> This method should never modify the <a href=ChunkGenerator.ChunkData.html>ChunkData</a> at a later point of time. </p><p> The Y-coordinate range should never be hardcoded, to get the Y-coordinate range use the methods <a href=ChunkGenerator.ChunkData.html#getMinHeight()>getMinHeight</a> and <a href=ChunkGenerator.ChunkData.html#getMaxHeight()>getMaxHeight</a>. </p><p> If <a href=ChunkGenerator.html#shouldGenerateNoise()>shouldGenerateNoise</a> is set to true, the given <a href=ChunkGenerator.ChunkData.html>ChunkData</a> contains already the Vanilla noise generation.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>worldInfo</code> - The world info of the world this chunk will be used for</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>random</code> - The random generator to use</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>chunkX</code> - The X-coordinate of the chunk</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>chunkZ</code> - The Z-coordinate of the chunk</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>chunkData</code> - To modify</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="generateSurface(WorldInfo,Random,int,int,ChunkGenerator.ChunkData)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>generateSurface</h4>
+                                        <pre class="methodSignature"> void <a href=ChunkGenerator.html#generateSurface(WorldInfo,Random,int,int,ChunkGenerator.ChunkData)>generateSurface</a>(@NotNull() <a href=WorldInfo.html>WorldInfo</a> worldInfo, @NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Random.html>Random</a> random, int chunkX, int chunkZ, @NotNull() <a href=ChunkGenerator.ChunkData.html>ChunkGenerator.ChunkData</a> chunkData)</pre>
+                                        <div class="block"><p>Shapes the Chunk surface for the given coordinates. </p><p> Notes: </p><p> This method should never attempt to get the Chunk at the passed coordinates, as doing so may cause an infinite loop. </p><p> This method should never modify the <a href=ChunkGenerator.ChunkData.html>ChunkData</a> at a later point of time. </p><p> The Y-coordinate range should never be hardcoded, to get the Y-coordinate range use the methods <a href=ChunkGenerator.ChunkData.html#getMinHeight()>getMinHeight</a> and <a href=ChunkGenerator.ChunkData.html#getMaxHeight()>getMaxHeight</a>. </p><p> If <a href=ChunkGenerator.html#shouldGenerateSurface()>shouldGenerateSurface</a> is set to true, the given <a href=ChunkGenerator.ChunkData.html>ChunkData</a> contains already the Vanilla surface generation.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>worldInfo</code> - The world info of the world this chunk will be used for</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>random</code> - The random generator to use</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>chunkX</code> - The X-coordinate of the chunk</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>chunkZ</code> - The Z-coordinate of the chunk</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>chunkData</code> - To modify</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="generateBedrock(WorldInfo,Random,int,int,ChunkGenerator.ChunkData)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>generateBedrock</h4>
+                                        <pre class="methodSignature"> void <a href=ChunkGenerator.html#generateBedrock(WorldInfo,Random,int,int,ChunkGenerator.ChunkData)>generateBedrock</a>(@NotNull() <a href=WorldInfo.html>WorldInfo</a> worldInfo, @NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Random.html>Random</a> random, int chunkX, int chunkZ, @NotNull() <a href=ChunkGenerator.ChunkData.html>ChunkGenerator.ChunkData</a> chunkData)</pre>
+                                        <div class="block"><p>Shapes the Chunk bedrock layer for the given coordinates. </p><p> Notes: </p><p> This method should never attempt to get the Chunk at the passed coordinates, as doing so may cause an infinite loop. </p><p> This method should never modify the <a href=ChunkGenerator.ChunkData.html>ChunkData</a> at a later point of time. </p><p> The Y-coordinate range should never be hardcoded, to get the Y-coordinate range use the methods <a href=ChunkGenerator.ChunkData.html#getMinHeight()>getMinHeight</a> and <a href=ChunkGenerator.ChunkData.html#getMaxHeight()>getMaxHeight</a>. </p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>worldInfo</code> - The world info of the world this chunk will be used for</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>random</code> - The random generator to use</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>chunkX</code> - The X-coordinate of the chunk</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>chunkZ</code> - The Z-coordinate of the chunk</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>chunkData</code> - To modify</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="generateCaves(WorldInfo,Random,int,int,ChunkGenerator.ChunkData)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>generateCaves</h4>
+                                        <pre class="methodSignature"> void <a href=ChunkGenerator.html#generateCaves(WorldInfo,Random,int,int,ChunkGenerator.ChunkData)>generateCaves</a>(@NotNull() <a href=WorldInfo.html>WorldInfo</a> worldInfo, @NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Random.html>Random</a> random, int chunkX, int chunkZ, @NotNull() <a href=ChunkGenerator.ChunkData.html>ChunkGenerator.ChunkData</a> chunkData)</pre>
+                                        <div class="block"><p>Shapes the Chunk caves for the given coordinates. </p><p> Notes: </p><p> This method should never attempt to get the Chunk at the passed coordinates, as doing so may cause an infinite loop. </p><p> This method should never modify the <a href=ChunkGenerator.ChunkData.html>ChunkData</a> at a later point of time. </p><p> The Y-coordinate range should never be hardcoded, to get the Y-coordinate range use the methods <a href=ChunkGenerator.ChunkData.html#getMinHeight()>getMinHeight</a> and <a href=ChunkGenerator.ChunkData.html#getMaxHeight()>getMaxHeight</a>. </p><p> If <a href=ChunkGenerator.html#shouldGenerateCaves()>shouldGenerateCaves</a> is set to true, the given <a href=ChunkGenerator.ChunkData.html>ChunkData</a> contains already the Vanilla cave generation.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>worldInfo</code> - The world info of the world this chunk will be used for</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>random</code> - The random generator to use</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>chunkX</code> - The X-coordinate of the chunk</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>chunkZ</code> - The Z-coordinate of the chunk</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>chunkData</code> - To modify</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getDefaultBiomeProvider(WorldInfo)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getDefaultBiomeProvider</h4>
+                                        <pre class="methodSignature">@Nullable() <a href=BiomeProvider.html>BiomeProvider</a> <a href=ChunkGenerator.html#getDefaultBiomeProvider(WorldInfo)>getDefaultBiomeProvider</a>(@NotNull() <a href=WorldInfo.html>WorldInfo</a> worldInfo)</pre>
+                                        <div class="block"><p>Gets called when no <a href=BiomeProvider.html>BiomeProvider</a> is set in <a href=../WorldCreator.html>org.bukkit.WorldCreator</a> or via the server configuration files. It is therefore possible that one plugin can provide the Biomes and another one the generation. </p><p> Notes: </p><p> If <code>null</code> is returned, than Vanilla biomes are used. </p><p> This method only gets called once when the world is loaded. Returning another <a href=BiomeProvider.html>BiomeProvider</a> later one is not respected.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>worldInfo</code> - The world info of the world the biome provider will be used for</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getBaseHeight(WorldInfo,Random,int,int,HeightMap)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getBaseHeight</h4>
+                                        <pre class="methodSignature"> int <a href=ChunkGenerator.html#getBaseHeight(WorldInfo,Random,int,int,HeightMap)>getBaseHeight</a>(@NotNull() <a href=WorldInfo.html>WorldInfo</a> worldInfo, @NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Random.html>Random</a> random, int x, int z, @NotNull() <a href=../HeightMap.html>HeightMap</a> heightMap)</pre>
+                                        <div class="block"><p>This method is similar to <a href=../World.html#getHighestBlockAt(int,int,HeightMap)>getHighestBlockAt</a>. With the difference being, that the highest y coordinate should be the block before any surface, bedrock, caves or decoration is applied. Or in other words the highest block when only the noise is present at the chunk. </p><p> Notes: </p><p> When this method is not overridden, the Vanilla base height is used. </p><p> This method should never attempt to get the Chunk at the passed coordinates, or use the method <a href=../World.html#getHighestBlockAt(int,int,HeightMap)>getHighestBlockAt</a>, as doing so may cause an infinite loop.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>worldInfo</code> - The world info of the world this chunk will be used for</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>random</code> - The random generator to use</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>x</code> - The X-coordinate from world origin</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>z</code> - The Z-coordinate from world origin</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>heightMap</code> - From the highest block should be get</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="generateChunkData(World,Random,int,int,ChunkGenerator.BiomeGrid)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>generateChunkData</h4>
+                                        <pre class="methodSignature">@NotNull()@<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html>Deprecated</a>() <a href=ChunkGenerator.ChunkData.html>ChunkGenerator.ChunkData</a> <a href=ChunkGenerator.html#generateChunkData(World,Random,int,int,ChunkGenerator.BiomeGrid)>generateChunkData</a>(@NotNull() <a href=../World.html>World</a> world, @NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Random.html>Random</a> random, int x, int z, @NotNull() <a href=ChunkGenerator.BiomeGrid.html>ChunkGenerator.BiomeGrid</a> biome)</pre>
+                                        <div class="block"><p>Shapes the chunk for the given coordinates. This method must return a ChunkData. </p><p> Notes: </p><p> This method should never attempt to get the Chunk at the passed coordinates, as doing so may cause an infinite loop </p><p> This method should never modify a ChunkData after it has been returned. </p><p> This method must return a ChunkData returned by createChunkData</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>world</code> - The world this chunk will be used for</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>random</code> - The random generator to use</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>x</code> - The X-coordinate of the chunk</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>z</code> - The Z-coordinate of the chunk</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>biome</code> - Proposed biome values for chunk - can be updated by generator</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="canSpawn(World,int,int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>canSpawn</h4>
+                                        <pre class="methodSignature"> boolean <a href=ChunkGenerator.html#canSpawn(World,int,int)>canSpawn</a>(@NotNull() <a href=../World.html>World</a> world, int x, int z)</pre>
+                                        <div class="block"><p>测试指定方位是否对自然生成的方位有效。 </p><p> 原文： Tests if the specified location is valid for a natural spawn position</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>world</code> - 用于测试的世界</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>x</code> - 用于测试的方块的X坐标</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>z</code> - 用于测试的方块的Z坐标</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getDefaultPopulators(World)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getDefaultPopulators</h4>
+                                        <pre class="methodSignature">@NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/List.html>List</a>&lt;<a href=BlockPopulator.html>BlockPopulator</a>&gt; <a href=ChunkGenerator.html#getDefaultPopulators(World)>getDefaultPopulators</a>(@NotNull() <a href=../World.html>World</a> world)</pre>
+                                        <div class="block"><p>得到一个用于提供指定世界的默认的<a href=BlockPopulator.html>BlockPopulator</a>列表。 </p><p> 原文： Gets a list of default <a href=BlockPopulator.html>BlockPopulator</a>s to apply to a given world</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>world</code> - 用于提供的世界</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getFixedSpawnLocation(World,Random)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getFixedSpawnLocation</h4>
+                                        <pre class="methodSignature">@Nullable() <a href=../Location.html>Location</a> <a href=ChunkGenerator.html#getFixedSpawnLocation(World,Random)>getFixedSpawnLocation</a>(@NotNull() <a href=../World.html>World</a> world, @NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Random.html>Random</a> random)</pre>
+                                        <div class="block"><p>获取一个固定出生方位用于一个指定的世界。 </p><p> 如果一个世界没有使用一个固定出生点就会返回空值，并且会试图随机寻找一个以代替。 </p><p> 原文： Gets a fixed spawn location to use for a given world. </p><p> A null value is returned if a world should not use a fixed spawn point, and will instead attempt to find one randomly.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>world</code> - 用于定位出生点的世界</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>random</code> - 这个计算器中使用的随机生成器</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="isParallelCapable()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>isParallelCapable</h4>
+                                        <pre class="methodSignature">@<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html>Deprecated</a>() boolean <a href=ChunkGenerator.html#isParallelCapable()>isParallelCapable</a>()</pre>
+                                        <div class="block"><p>Gets if this ChunkGenerator is parallel capable. See <a href=ChunkGenerator.html>ChunkGenerator</a> for more information.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="shouldGenerateNoise()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>shouldGenerateNoise</h4>
+                                        <pre class="methodSignature"> boolean <a href=ChunkGenerator.html#shouldGenerateNoise()>shouldGenerateNoise</a>()</pre>
+                                        <div class="block"><p>Gets if the server should generate Vanilla noise. </p><p> The Vanilla noise is generated before<a href=ChunkGenerator.html#generateNoise(WorldInfo,Random,int,int,ChunkGenerator.ChunkData)>generateNoise</a> is called. </p><p> This is method is not called (and has therefore no effect), if <a href=ChunkGenerator.html#shouldGenerateNoise(WorldInfo,Random,int,int)>shouldGenerateNoise</a> is overridden.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="shouldGenerateNoise(WorldInfo,Random,int,int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>shouldGenerateNoise</h4>
+                                        <pre class="methodSignature"> boolean <a href=ChunkGenerator.html#shouldGenerateNoise(WorldInfo,Random,int,int)>shouldGenerateNoise</a>(@NotNull() <a href=WorldInfo.html>WorldInfo</a> worldInfo, @NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Random.html>Random</a> random, int chunkX, int chunkZ)</pre>
+                                        <div class="block"><p>Gets if the server should generate Vanilla noise. </p><p> The Vanilla noise is generated before<a href=ChunkGenerator.html#generateNoise(WorldInfo,Random,int,int,ChunkGenerator.ChunkData)>generateNoise</a> is called. </p><p> Only this method is called if both this and <a href=ChunkGenerator.html#shouldGenerateNoise()>shouldGenerateNoise</a> are overridden.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>worldInfo</code> - The world info of the world this chunk will be used for</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>random</code> - The random generator to use</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>chunkX</code> - The X-coordinate of the chunk</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>chunkZ</code> - The Z-coordinate of the chunk</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="shouldGenerateSurface()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>shouldGenerateSurface</h4>
+                                        <pre class="methodSignature"> boolean <a href=ChunkGenerator.html#shouldGenerateSurface()>shouldGenerateSurface</a>()</pre>
+                                        <div class="block"><p>Gets if the server should generate Vanilla surface. </p><p> The Vanilla surface is generated before<a href=ChunkGenerator.html#generateSurface(WorldInfo,Random,int,int,ChunkGenerator.ChunkData)>generateSurface</a> is called. </p><p> This is method is not called (and has therefore no effect), if <a href=ChunkGenerator.html#shouldGenerateSurface(WorldInfo,Random,int,int)>shouldGenerateSurface</a> is overridden.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="shouldGenerateSurface(WorldInfo,Random,int,int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>shouldGenerateSurface</h4>
+                                        <pre class="methodSignature"> boolean <a href=ChunkGenerator.html#shouldGenerateSurface(WorldInfo,Random,int,int)>shouldGenerateSurface</a>(@NotNull() <a href=WorldInfo.html>WorldInfo</a> worldInfo, @NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Random.html>Random</a> random, int chunkX, int chunkZ)</pre>
+                                        <div class="block"><p>Gets if the server should generate Vanilla surface. </p><p> The Vanilla surface is generated before<a href=ChunkGenerator.html#generateSurface(WorldInfo,Random,int,int,ChunkGenerator.ChunkData)>generateSurface</a> is called. </p><p> Only this method is called if both this and <a href=ChunkGenerator.html#shouldGenerateSurface()>shouldGenerateSurface</a> are overridden.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>worldInfo</code> - The world info of the world this chunk will be used for</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>random</code> - The random generator to use</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>chunkX</code> - The X-coordinate of the chunk</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>chunkZ</code> - The Z-coordinate of the chunk</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="shouldGenerateBedrock()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>shouldGenerateBedrock</h4>
+                                        <pre class="methodSignature">@<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html>Deprecated</a>() boolean <a href=ChunkGenerator.html#shouldGenerateBedrock()>shouldGenerateBedrock</a>()</pre>
+                                        <div class="block"><p>Gets if the server should generate Vanilla bedrock. </p><p> The Vanilla bedrock is generated before<a href=ChunkGenerator.html#generateBedrock(WorldInfo,Random,int,int,ChunkGenerator.ChunkData)>generateBedrock</a> is called.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="shouldGenerateCaves()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>shouldGenerateCaves</h4>
+                                        <pre class="methodSignature"> boolean <a href=ChunkGenerator.html#shouldGenerateCaves()>shouldGenerateCaves</a>()</pre>
+                                        <div class="block"><p>Gets if the server should generate Vanilla caves. </p><p> The Vanilla caves are generated before<a href=ChunkGenerator.html#generateCaves(WorldInfo,Random,int,int,ChunkGenerator.ChunkData)>generateCaves</a> is called. </p><p> This is method is not called (and has therefore no effect), if <a href=ChunkGenerator.html#shouldGenerateCaves(WorldInfo,Random,int,int)>shouldGenerateCaves</a> is overridden.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="shouldGenerateCaves(WorldInfo,Random,int,int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>shouldGenerateCaves</h4>
+                                        <pre class="methodSignature"> boolean <a href=ChunkGenerator.html#shouldGenerateCaves(WorldInfo,Random,int,int)>shouldGenerateCaves</a>(@NotNull() <a href=WorldInfo.html>WorldInfo</a> worldInfo, @NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Random.html>Random</a> random, int chunkX, int chunkZ)</pre>
+                                        <div class="block"><p>Gets if the server should generate Vanilla caves. </p><p> The Vanilla caves are generated before<a href=ChunkGenerator.html#generateCaves(WorldInfo,Random,int,int,ChunkGenerator.ChunkData)>generateCaves</a> is called. </p><p> Only this method is called if both this and <a href=ChunkGenerator.html#shouldGenerateCaves()>shouldGenerateCaves</a> are overridden.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>worldInfo</code> - The world info of the world this chunk will be used for</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>random</code> - The random generator to use</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>chunkX</code> - The X-coordinate of the chunk</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>chunkZ</code> - The Z-coordinate of the chunk</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="shouldGenerateDecorations()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>shouldGenerateDecorations</h4>
+                                        <pre class="methodSignature"> boolean <a href=ChunkGenerator.html#shouldGenerateDecorations()>shouldGenerateDecorations</a>()</pre>
+                                        <div class="block"><p>Gets if the server should generate Vanilla decorations after this ChunkGenerator. </p><p> The Vanilla decoration are generated before any <a href=BlockPopulator.html>BlockPopulator</a> are called. </p><p> This is method is not called (and has therefore no effect), if <a href=ChunkGenerator.html#shouldGenerateDecorations(WorldInfo,Random,int,int)>shouldGenerateDecorations</a> is overridden.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="shouldGenerateDecorations(WorldInfo,Random,int,int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>shouldGenerateDecorations</h4>
+                                        <pre class="methodSignature"> boolean <a href=ChunkGenerator.html#shouldGenerateDecorations(WorldInfo,Random,int,int)>shouldGenerateDecorations</a>(@NotNull() <a href=WorldInfo.html>WorldInfo</a> worldInfo, @NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Random.html>Random</a> random, int chunkX, int chunkZ)</pre>
+                                        <div class="block"><p>Gets if the server should generate Vanilla decorations after this ChunkGenerator. </p><p> The Vanilla decoration are generated before any <a href=BlockPopulator.html>BlockPopulator</a> are called. </p><p> Only this method is called if both this and <a href=ChunkGenerator.html#shouldGenerateDecorations()>shouldGenerateDecorations</a> are overridden.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>worldInfo</code> - The world info of the world this chunk will be used for</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>random</code> - The random generator to use</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>chunkX</code> - The X-coordinate of the chunk</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>chunkZ</code> - The Z-coordinate of the chunk</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="shouldGenerateMobs()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>shouldGenerateMobs</h4>
+                                        <pre class="methodSignature"> boolean <a href=ChunkGenerator.html#shouldGenerateMobs()>shouldGenerateMobs</a>()</pre>
+                                        <div class="block"><p>Gets if the server should generate Vanilla mobs after this ChunkGenerator. </p><p> This is method is not called (and has therefore no effect), if <a href=ChunkGenerator.html#shouldGenerateMobs(WorldInfo,Random,int,int)>shouldGenerateMobs</a> is overridden.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="shouldGenerateMobs(WorldInfo,Random,int,int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>shouldGenerateMobs</h4>
+                                        <pre class="methodSignature"> boolean <a href=ChunkGenerator.html#shouldGenerateMobs(WorldInfo,Random,int,int)>shouldGenerateMobs</a>(@NotNull() <a href=WorldInfo.html>WorldInfo</a> worldInfo, @NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Random.html>Random</a> random, int chunkX, int chunkZ)</pre>
+                                        <div class="block"><p>Gets if the server should generate Vanilla mobs after this ChunkGenerator. </p><p> Only this method is called if both this and <a href=ChunkGenerator.html#shouldGenerateMobs()>shouldGenerateMobs</a> are overridden.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>worldInfo</code> - The world info of the world this chunk will be used for</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>random</code> - The random generator to use</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>chunkX</code> - The X-coordinate of the chunk</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>chunkZ</code> - The Z-coordinate of the chunk</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="shouldGenerateStructures()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>shouldGenerateStructures</h4>
+                                        <pre class="methodSignature"> boolean <a href=ChunkGenerator.html#shouldGenerateStructures()>shouldGenerateStructures</a>()</pre>
+                                        <div class="block"><p>Gets if the server should generate Vanilla structures after this ChunkGenerator. </p><p> This is method is not called (and has therefore no effect), if <a href=ChunkGenerator.html#shouldGenerateStructures(WorldInfo,Random,int,int)>shouldGenerateStructures</a> is overridden.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="shouldGenerateStructures(WorldInfo,Random,int,int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockListLast"
+                                          >
+                                    <li class="blockList">
+                                        <h4>shouldGenerateStructures</h4>
+                                        <pre class="methodSignature"> boolean <a href=ChunkGenerator.html#shouldGenerateStructures(WorldInfo,Random,int,int)>shouldGenerateStructures</a>(@NotNull() <a href=WorldInfo.html>WorldInfo</a> worldInfo, @NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Random.html>Random</a> random, int chunkX, int chunkZ)</pre>
+                                        <div class="block"><p>Gets if the server should generate Vanilla structures after this ChunkGenerator. </p><p> Only this method is called if both this and <a href=ChunkGenerator.html#shouldGenerateStructures()>shouldGenerateStructures</a> are overridden.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>worldInfo</code> - The world info of the world this chunk will be used for</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>random</code> - The random generator to use</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>chunkX</code> - The X-coordinate of the chunk</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>chunkZ</code> - The Z-coordinate of the chunk</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                            </li>
+                        </ul>
+                    </section>
+                    
+                </li>
+            </ul>
+        </div>
+    </div>
+</main>
+<footer role="contentinfo">
+    <nav role="navigation">
+        <!-- ======= START OF BOTTOM NAVBAR ====== -->
+        <div class="bottomNav"><a id="navbar.bottom">
+            <!--   -->
+        </a>
+            <div class="skipNav"><a href="#skip.navbar.bottom" title="Skip navigation links">Skip navigation links</a>
+            </div>
+            <a id="navbar.bottom.firstrow">
+                <!--   -->
+            </a>
+            <ul class="navList" title="Navigation">
+    <li><a href="../../../index.html">Overview</a></li>
+    
+    <li><a href="package-summary.html">Package</a></li>
+    
+    <li class="navBarCell1Rev">Class</li>
+    
+    <li><a href="package-tree.html">Tree</a></li>
+    
+    <li><a href="../../../deprecated.html">Deprecated</a></li>
+    <li><a href="../../../index-files/index-1.html">Index</a></li>
+    <li>Help</li>
+</ul></div>
+        <a id="skip.navbar.bottom">
+            <!--   -->
+        </a>
+        <div class="subNav">
+<ul class="navList" id="allclasses_navbar_top" style="display: block;">
+    <li><a href="../../../allclasses.html">All&nbsp;Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+</div>
+<a id="skip.navbar.top">
+<!--   -->
+</a></div><!-- ======== END OF BOTTOM NAVBAR ======= -->
+    </nav>
+</footer><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-1" tabindex="0"
+    style="display: none;"></ul>
+<span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span>
+</body>
+</html>

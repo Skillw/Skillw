@@ -1,0 +1,2334 @@
+<!DOCTYPE HTML>
+<!-- NewPage -->
+<html lang="en"><head>
+    <title>LivingEntity 1.20.1-SNAPSHOT API </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="dc.created" content="2020-03-25">
+    <link rel="stylesheet" type="text/css" href="../../../stylesheet.css" title="Style">
+    <link rel="stylesheet" type="text/css" href="../../../dokka-javadoc-stylesheet.css" title="Style">
+    <link rel="stylesheet" type="text/css" href="../../../_jquery_/jquery-ui.css" title="Style">
+    <script type="text/javascript" src="../../../_jquery_/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../../../_jquery_/jquery-migrate-3.4.0.min.js"></script>
+    <script type="text/javascript" src="../../../_jquery_/jquery-ui.js"></script>
+
+    <script type="text/javascript" src="../../../search.js"></script>
+    <script async type="text/javascript" src="../../../module-search-index.js"></script>
+    <script async type="text/javascript" src="../../../package-search-index.js"></script>
+    <script async type="text/javascript" src="../../../type-search-index.js"></script>
+    <script async type="text/javascript" src="../../../member-search-index.js"></script>
+    <script async type="text/javascript" src="../../../tag-search-index.js"></script>
+</head><body>
+<script type="text/javascript">
+var pathtoroot = "../../../";
+</script>
+<noscript>
+    <div>JavaScript is disabled on your browser.</div>
+</noscript><header role="banner">
+    <nav role="navigation">
+        <div class="fixedNav">
+            <!-- ========= START OF TOP NAVBAR ======= -->
+            <div class="topNav"><a id="navbar.top">
+                <!--   -->
+            </a>
+                <div class="skipNav"><a href="#skip.navbar.top" title="Skip navigation links">Skip navigation links</a>
+                </div>
+                <a id="navbar.top.firstrow">
+                    <!--   -->
+                </a>
+                <ul class="navList" title="Navigation">
+    <li><a href="../../../index.html">Overview</a></li>
+    
+    <li><a href="package-summary.html">Package</a></li>
+    
+    <li>Class</li>
+    
+    <li><a href="package-tree.html">Tree</a></li>
+    
+    <li><a href="../../../deprecated.html">Deprecated</a></li>
+    <li><a href="../../../index-files/index-1.html">Index</a></li>
+    <li>Help</li>
+</ul></div>
+            <div class="subNav">
+<ul class="navList" id="allclasses_navbar_top" style="display: block;">
+    <li><a href="../../../allclasses.html">All&nbsp;Classes</a></li>
+</ul>
+
+<ul class="navListSearch">
+<li><label for="search">SEARCH:</label>
+<input type="text" id="search" value="search" class="ui-autocomplete-input" autocomplete="off" placeholder="Search">
+<input type="reset" id="reset" value="reset">
+</li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+</div>
+<a id="skip.navbar.top">
+<!--   -->
+</a></div><!-- ========= END OF TOP NAVBAR ========= -->
+        </div>
+        <div class="navPadding">&nbsp;</div>
+        <script type="text/javascript"><!--
+        $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
+        //-->
+        </script>
+    </nav>
+</header>
+
+<main role="main">
+    <div class="header">
+        <div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html"></a></div>
+        <h2 title="Interface LivingEntity" class="title">Interface LivingEntity</h2>
+    </div>
+    <div class="contentContainer">
+        <!-- <ul class="inheritance">
+            <li>java.lang.Object</li>
+            <li>
+                <ul class="inheritance">
+                    <li>adaptation.Adaptation</li>
+                </ul>
+            </li>
+        </ul> TODO inheritance tree -->
+        <div class="description">
+            <ul class="blockList">
+                <li class="blockList">
+                    
+                    <dl>
+                        <dt>All Implemented Interfaces:</dt>
+                        <dd>
+                            
+                            <code>org.bukkit.Nameable</code>
+                            
+                            ,
+                            
+                            
+                            <code>org.bukkit.attribute.Attributable</code>
+                            
+                            ,
+                            
+                            
+                            <code>org.bukkit.command.CommandSender</code>
+                            
+                            ,
+                            
+                            
+                            <code>org.bukkit.entity.Damageable</code>
+                            
+                            ,
+                            
+                            
+                            <code>org.bukkit.entity.Entity</code>
+                            
+                            ,
+                            
+                            
+                            <code>org.bukkit.metadata.Metadatable</code>
+                            
+                            ,
+                            
+                            
+                            <code>org.bukkit.permissions.Permissible</code>
+                            
+                            ,
+                            
+                            
+                            <code>org.bukkit.permissions.ServerOperator</code>
+                            
+                            ,
+                            
+                            
+                            <code>org.bukkit.persistence.PersistentDataHolder</code>
+                            
+                            ,
+                            
+                            
+                            <code>org.bukkit.projectiles.ProjectileSource</code>
+                            
+                            
+                        </dd>
+                    </dl>
+                    
+                    <hr>
+                    <pre class="wrap-overflow">
+
+public interface <span class="typeNameLabel"><a href=LivingEntity.html>LivingEntity</a></span>
+ implements <a href=../attribute/Attributable.html>Attributable</a>, <a href=Damageable.html>Damageable</a>, <a href=../projectiles/ProjectileSource.html>ProjectileSource</a>
+                    </pre>
+                    <div class="block"><p>代表一个生物实体，比如一只怪物或一名玩家.</p></div>
+                </li>
+            </ul>
+        </div>
+        <div class="summary">
+            <ul class="blockList">
+                <li class="blockList">
+                <!-- ======== NESTED CLASS SUMMARY ======== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="nested.class.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Nested Class Summary</h3>
+                                <div class="memberSummary">
+                                    <table>
+                                        <caption><span>Nested Classes</span><span class="tabEnd">&nbsp;</span></caption>
+                                        <tr>
+                                            <th class="colFirst" scope="col">Modifier and Type</th>
+                                            <th class="colSecond" scope="col">Class</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+                                        
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- =========== FIELD SUMMARY =========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="field.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Field Summary</h3>
+                                <div class="memberSummary">
+                                    <table>
+                                        <caption><span>Fields</span><span class="tabEnd">&nbsp;</span></caption>
+                                        <tr>
+                                            <th class="colFirst" scope="col">Modifier and Type</th>
+                                            <th class="colSecond" scope="col">Field</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+                                        
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- ======== CONSTRUCTOR SUMMARY ======== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="constructor.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Constructor Summary</h3>
+                                <div class="memberSummary">
+                                    <table>
+                                        <caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+                                        <tbody>
+                                        <tr>
+                                            <th class="colFirst" scope="col">Constructor</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+
+                                        
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- =========== ENUM CONSTANT SUMMARY =========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="enum.constant.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Enum Constant Summary</h3>
+                                <table class="memberSummary">
+                                    <caption><span>Enum Constants</span><span class="tabEnd">&nbsp;</span></caption>
+                                    <tr>
+                                        <th class="colFirst" scope="col">Enum Constant</th>
+                                        <th class="colLast" scope="col">Description</th>
+                                    </tr>
+                                    
+                                </table>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- ========== METHOD SUMMARY =========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="method.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Method Summary</h3>
+                                <div class="memberSummary">
+                                    <div role="tablist" aria-orientation="horizontal">
+                                        <button role="tab" aria-selected="true" aria-controls="memberSummary_tabpanel" tabindex="0" onkeydown="switchTab(event)" id="t0" class="activeTableTab">All Methods</button>
+                                        <!-- TODO: Instance and Concrete Methods #1118 -->
+                                    </div>
+                                    <div id="memberSummary_tabpanel" role="tabpanel">
+                                    <table aria-labelledby="t0">
+                                        <tr>
+                                            <th class="colFirst" scope="col">Modifier and Type</th>
+                                            <th class="colSecond" scope="col">Method</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+                                        
+                                        <tr id="i0" class="altColor">
+                                            <td class="colFirst"><code>abstract double</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getEyeHeight()>getEyeHeight</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取生物实体眼睛离脚高度.</td>
+                                        </tr>
+                                        
+                                        <tr id="i1" class="rowColor">
+                                            <td class="colFirst"><code>abstract double</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getEyeHeight(boolean)>getEyeHeight</a>(boolean ignorePose) </code>
+                                            </th>
+                                            <td class="colLast">获取生物实体眼睛离脚高度.</td>
+                                        </tr>
+                                        
+                                        <tr id="i2" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=../Location.html>Location</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getEyeLocation()>getEyeLocation</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取生物实体眼睛的详细方位的Location对象.</td>
+                                        </tr>
+                                        
+                                        <tr id="i3" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/util/List.html>List</a>&lt;<a href=../block/Block.html>Block</a>&gt;</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getLineOfSight(Set,int)>getLineOfSight</a>(@Nullable() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Set.html>Set</a>&lt;<a href=../Material.html>Material</a>&gt; transparent, int maxDistance) </code>
+                                            </th>
+                                            <td class="colLast">获取沿生物实体视线上的所有方块.</td>
+                                        </tr>
+                                        
+                                        <tr id="i4" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=../block/Block.html>Block</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getTargetBlock(Set,int)>getTargetBlock</a>(@Nullable() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Set.html>Set</a>&lt;<a href=../Material.html>Material</a>&gt; transparent, int maxDistance) </code>
+                                            </th>
+                                            <td class="colLast">获取生物实体的目标方块.</td>
+                                        </tr>
+                                        
+                                        <tr id="i5" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/util/List.html>List</a>&lt;<a href=../block/Block.html>Block</a>&gt;</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getLastTwoTargetBlocks(Set,int)>getLastTwoTargetBlocks</a>(@Nullable() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Set.html>Set</a>&lt;<a href=../Material.html>Material</a>&gt; transparent, int maxDistance) </code>
+                                            </th>
+                                            <td class="colLast">获取沿生物实体视线上最后两个方块.</td>
+                                        </tr>
+                                        
+                                        <tr id="i6" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=../block/Block.html>Block</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getTargetBlockExact(int)>getTargetBlockExact</a>(int maxDistance) </code>
+                                            </th>
+                                            <td class="colLast">Gets the block that the living entity has targeted.</td>
+                                        </tr>
+                                        
+                                        <tr id="i7" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=../block/Block.html>Block</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getTargetBlockExact(int,FluidCollisionMode)>getTargetBlockExact</a>(int maxDistance, @NotNull() <a href=../FluidCollisionMode.html>FluidCollisionMode</a> fluidCollisionMode) </code>
+                                            </th>
+                                            <td class="colLast">Gets the block that the living entity has targeted.</td>
+                                        </tr>
+                                        
+                                        <tr id="i8" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=../util/RayTraceResult.html>RayTraceResult</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#rayTraceBlocks(double)>rayTraceBlocks</a>(double maxDistance) </code>
+                                            </th>
+                                            <td class="colLast">Performs a ray trace that provides information on the targeted block.</td>
+                                        </tr>
+                                        
+                                        <tr id="i9" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=../util/RayTraceResult.html>RayTraceResult</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#rayTraceBlocks(double,FluidCollisionMode)>rayTraceBlocks</a>(double maxDistance, @NotNull() <a href=../FluidCollisionMode.html>FluidCollisionMode</a> fluidCollisionMode) </code>
+                                            </th>
+                                            <td class="colLast">Performs a ray trace that provides information on the targeted block.</td>
+                                        </tr>
+                                        
+                                        <tr id="i10" class="altColor">
+                                            <td class="colFirst"><code>abstract int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getRemainingAir()>getRemainingAir</a>() </code>
+                                            </th>
+                                            <td class="colLast">返回生物实体剩余的氧气值，单位为tick.</td>
+                                        </tr>
+                                        
+                                        <tr id="i11" class="rowColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#setRemainingAir(int)>setRemainingAir</a>(int ticks) </code>
+                                            </th>
+                                            <td class="colLast">设置生物实体剩余的氧气值，单位为tick.</td>
+                                        </tr>
+                                        
+                                        <tr id="i12" class="altColor">
+                                            <td class="colFirst"><code>abstract int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getMaximumAir()>getMaximumAir</a>() </code>
+                                            </th>
+                                            <td class="colLast">返回生物实体所能拥有的氧气最大值，单位为tick.</td>
+                                        </tr>
+                                        
+                                        <tr id="i13" class="rowColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#setMaximumAir(int)>setMaximumAir</a>(int ticks) </code>
+                                            </th>
+                                            <td class="colLast">设置生物实体所能拥有的氧气最大值，单位为tick.</td>
+                                        </tr>
+                                        
+                                        <tr id="i14" class="altColor">
+                                            <td class="colFirst"><code>abstract int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getArrowCooldown()>getArrowCooldown</a>() </code>
+                                            </th>
+                                            <td class="colLast">Gets the time in ticks until the next arrow leaves the entity's body.</td>
+                                        </tr>
+                                        
+                                        <tr id="i15" class="rowColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#setArrowCooldown(int)>setArrowCooldown</a>(int ticks) </code>
+                                            </th>
+                                            <td class="colLast">Sets the time in ticks until the next arrow leaves the entity's body.</td>
+                                        </tr>
+                                        
+                                        <tr id="i16" class="altColor">
+                                            <td class="colFirst"><code>abstract int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getArrowsInBody()>getArrowsInBody</a>() </code>
+                                            </th>
+                                            <td class="colLast">Gets the amount of arrows in an entity's body.</td>
+                                        </tr>
+                                        
+                                        <tr id="i17" class="rowColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#setArrowsInBody(int)>setArrowsInBody</a>(int count) </code>
+                                            </th>
+                                            <td class="colLast">Set the amount of arrows in the entity's body.</td>
+                                        </tr>
+                                        
+                                        <tr id="i18" class="altColor">
+                                            <td class="colFirst"><code>abstract int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getMaximumNoDamageTicks()>getMaximumNoDamageTicks</a>() </code>
+                                            </th>
+                                            <td class="colLast">返回生物实体当前最大无伤害时间，单位为tick.</td>
+                                        </tr>
+                                        
+                                        <tr id="i19" class="rowColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#setMaximumNoDamageTicks(int)>setMaximumNoDamageTicks</a>(int ticks) </code>
+                                            </th>
+                                            <td class="colLast">设置生物实体当前当前最大无伤害时间，单位为tick.</td>
+                                        </tr>
+                                        
+                                        <tr id="i20" class="altColor">
+                                            <td class="colFirst"><code>abstract double</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getLastDamage()>getLastDamage</a>() </code>
+                                            </th>
+                                            <td class="colLast">返回生物实体在当前无伤害时间最后受到的伤害.</td>
+                                        </tr>
+                                        
+                                        <tr id="i21" class="rowColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#setLastDamage(double)>setLastDamage</a>(double damage) </code>
+                                            </th>
+                                            <td class="colLast">设置当前无伤害时间段内处理的伤害.</td>
+                                        </tr>
+                                        
+                                        <tr id="i22" class="altColor">
+                                            <td class="colFirst"><code>abstract int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getNoDamageTicks()>getNoDamageTicks</a>() </code>
+                                            </th>
+                                            <td class="colLast">返回生物实体当前无伤害时间，单位为tick.</td>
+                                        </tr>
+                                        
+                                        <tr id="i23" class="rowColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#setNoDamageTicks(int)>setNoDamageTicks</a>(int ticks) </code>
+                                            </th>
+                                            <td class="colLast">设置生物实体当前无伤害时间，单位为tick.</td>
+                                        </tr>
+                                        
+                                        <tr id="i24" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=Player.html>Player</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getKiller()>getKiller</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取击杀指定生物实体的玩家.</td>
+                                        </tr>
+                                        
+                                        <tr id="i25" class="rowColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#addPotionEffect(PotionEffect)>addPotionEffect</a>(@NotNull() <a href=../potion/PotionEffect.html>PotionEffect</a> effect) </code>
+                                            </th>
+                                            <td class="colLast">向生物实体添加指定的<a href=../potion/PotionEffect.html>PotionEffect</a>（药水效果）.</td>
+                                        </tr>
+                                        
+                                        <tr id="i26" class="altColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#addPotionEffect(PotionEffect,boolean)>addPotionEffect</a>(@NotNull() <a href=../potion/PotionEffect.html>PotionEffect</a> effect, boolean force) </code>
+                                            </th>
+                                            <td class="colLast">向生物实体添加指定的<a href=../potion/PotionEffect.html>PotionEffect</a>（药水效果）.</td>
+                                        </tr>
+                                        
+                                        <tr id="i27" class="rowColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#addPotionEffects(Collection)>addPotionEffects</a>(@NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html>Collection</a>&lt;<a href=../potion/PotionEffect.html>PotionEffect</a>&gt; effects) </code>
+                                            </th>
+                                            <td class="colLast">尝试向生物实体添加所有指定的<a href=../potion/PotionEffect.html>PotionEffect</a>（药水效果）.</td>
+                                        </tr>
+                                        
+                                        <tr id="i28" class="altColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#hasPotionEffect(PotionEffectType)>hasPotionEffect</a>(@NotNull() <a href=../potion/PotionEffectType.html>PotionEffectType</a> type) </code>
+                                            </th>
+                                            <td class="colLast">返回生物实体是否已经存在一个指定的<a href=../potion/PotionEffectType.html>PotionEffectType</a>效果.</td>
+                                        </tr>
+                                        
+                                        <tr id="i29" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=../potion/PotionEffect.html>PotionEffect</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getPotionEffect(PotionEffectType)>getPotionEffect</a>(@NotNull() <a href=../potion/PotionEffectType.html>PotionEffectType</a> type) </code>
+                                            </th>
+                                            <td class="colLast">返回指定类型的有效<a href=../potion/PotionEffect.html>PotionEffect</a>.</td>
+                                        </tr>
+                                        
+                                        <tr id="i30" class="altColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#removePotionEffect(PotionEffectType)>removePotionEffect</a>(@NotNull() <a href=../potion/PotionEffectType.html>PotionEffectType</a> type) </code>
+                                            </th>
+                                            <td class="colLast">移除当前所有指定的<a href=../potion/PotionEffectType.html>PotionEffectType</a>效果.</td>
+                                        </tr>
+                                        
+                                        <tr id="i31" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html>Collection</a>&lt;<a href=../potion/PotionEffect.html>PotionEffect</a>&gt;</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getActivePotionEffects()>getActivePotionEffects</a>() </code>
+                                            </th>
+                                            <td class="colLast">返回当前作用于生物实体的所有<a href=../potion/PotionEffect.html>PotionEffect</a>.</td>
+                                        </tr>
+                                        
+                                        <tr id="i32" class="altColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#hasLineOfSight(Entity)>hasLineOfSight</a>(@NotNull() <a href=Entity.html>Entity</a> other) </code>
+                                            </th>
+                                            <td class="colLast">检查生物实体是否阻挡另一个的视线.</td>
+                                        </tr>
+                                        
+                                        <tr id="i33" class="rowColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getRemoveWhenFarAway()>getRemoveWhenFarAway</a>() </code>
+                                            </th>
+                                            <td class="colLast">返回生物实体是否会在远离玩家时消失.</td>
+                                        </tr>
+                                        
+                                        <tr id="i34" class="altColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#setRemoveWhenFarAway(boolean)>setRemoveWhenFarAway</a>(boolean remove) </code>
+                                            </th>
+                                            <td class="colLast">设置生物实体是否会在远离玩家时消失.</td>
+                                        </tr>
+                                        
+                                        <tr id="i35" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=../inventory/EntityEquipment.html>EntityEquipment</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getEquipment()>getEquipment</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取生物实体穿戴的装备背包栏.</td>
+                                        </tr>
+                                        
+                                        <tr id="i36" class="altColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#setCanPickupItems(boolean)>setCanPickupItems</a>(boolean pickup) </code>
+                                            </th>
+                                            <td class="colLast">设置生物实体是否能捡拾物品.</td>
+                                        </tr>
+                                        
+                                        <tr id="i37" class="rowColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getCanPickupItems()>getCanPickupItems</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取生物实体是否能捡拾物品.</td>
+                                        </tr>
+                                        
+                                        <tr id="i38" class="altColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#isLeashed()>isLeashed</a>() </code>
+                                            </th>
+                                            <td class="colLast">返回实体当前是否被拴住.</td>
+                                        </tr>
+                                        
+                                        <tr id="i39" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=Entity.html>Entity</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getLeashHolder()>getLeashHolder</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取当前牵引此实体的实体.</td>
+                                        </tr>
+                                        
+                                        <tr id="i40" class="altColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#setLeashHolder(Entity)>setLeashHolder</a>(@Nullable() <a href=Entity.html>Entity</a> holder) </code>
+                                            </th>
+                                            <td class="colLast">设置握持拴绳的实体.</td>
+                                        </tr>
+                                        
+                                        <tr id="i41" class="rowColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#isGliding()>isGliding</a>() </code>
+                                            </th>
+                                            <td class="colLast">检查实体是否正在滑翔，如正在使用鞘翅.</td>
+                                        </tr>
+                                        
+                                        <tr id="i42" class="altColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#setGliding(boolean)>setGliding</a>(boolean gliding) </code>
+                                            </th>
+                                            <td class="colLast">Makes entity start or stop gliding.</td>
+                                        </tr>
+                                        
+                                        <tr id="i43" class="rowColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#isSwimming()>isSwimming</a>() </code>
+                                            </th>
+                                            <td class="colLast">Checks to see if an entity is swimming.</td>
+                                        </tr>
+                                        
+                                        <tr id="i44" class="altColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#setSwimming(boolean)>setSwimming</a>(boolean swimming) </code>
+                                            </th>
+                                            <td class="colLast">Makes entity start or stop swimming.</td>
+                                        </tr>
+                                        
+                                        <tr id="i45" class="rowColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#isRiptiding()>isRiptiding</a>() </code>
+                                            </th>
+                                            <td class="colLast">Checks to see if an entity is currently using the Riptide enchantment.</td>
+                                        </tr>
+                                        
+                                        <tr id="i46" class="altColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#isSleeping()>isSleeping</a>() </code>
+                                            </th>
+                                            <td class="colLast">返回实体是否正在睡觉.</td>
+                                        </tr>
+                                        
+                                        <tr id="i47" class="rowColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#isClimbing()>isClimbing</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取实体是否正在攀爬.</td>
+                                        </tr>
+                                        
+                                        <tr id="i48" class="altColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#setAI(boolean)>setAI</a>(boolean ai) </code>
+                                            </th>
+                                            <td class="colLast">设置实体是否具有AI.</td>
+                                        </tr>
+                                        
+                                        <tr id="i49" class="rowColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#hasAI()>hasAI</a>() </code>
+                                            </th>
+                                            <td class="colLast">检查实体是否具有AI.</td>
+                                        </tr>
+                                        
+                                        <tr id="i50" class="altColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#attack(Entity)>attack</a>(@NotNull() <a href=Entity.html>Entity</a> target) </code>
+                                            </th>
+                                            <td class="colLast">Makes this entity attack the given entity with a melee attack.</td>
+                                        </tr>
+                                        
+                                        <tr id="i51" class="rowColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#swingMainHand()>swingMainHand</a>() </code>
+                                            </th>
+                                            <td class="colLast">Makes this entity swing their main hand.</td>
+                                        </tr>
+                                        
+                                        <tr id="i52" class="altColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#swingOffHand()>swingOffHand</a>() </code>
+                                            </th>
+                                            <td class="colLast">Makes this entity swing their off hand.</td>
+                                        </tr>
+                                        
+                                        <tr id="i53" class="rowColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#setCollidable(boolean)>setCollidable</a>(boolean collidable) </code>
+                                            </th>
+                                            <td class="colLast">Set if this entity will be subject to collisions with other entities.</td>
+                                        </tr>
+                                        
+                                        <tr id="i54" class="altColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#isCollidable()>isCollidable</a>() </code>
+                                            </th>
+                                            <td class="colLast">Gets if this entity is subject to collisions with other entities.</td>
+                                        </tr>
+                                        
+                                        <tr id="i55" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Set.html>Set</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html>UUID</a>&gt;</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getCollidableExemptions()>getCollidableExemptions</a>() </code>
+                                            </th>
+                                            <td class="colLast">Gets a mutable set of UUIDs of the entities which are exempt from the entity's collidable rule and which's collision with this entity will behave the opposite of it.</td>
+                                        </tr>
+                                        
+                                        <tr id="i56" class="altColor">
+                                            <td class="colFirst"><code>abstract &lt;T&gt; <a href=LivingEntity.html#getMemory(MemoryKey)>T</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getMemory(MemoryKey)>getMemory</a>(@NotNull() <a href=memory/MemoryKey.html>MemoryKey</a>&lt;<a href=LivingEntity.html#getMemory(MemoryKey)>T</a>&gt; memoryKey) </code>
+                                            </th>
+                                            <td class="colLast">Returns the value of the memory specified.</td>
+                                        </tr>
+                                        
+                                        <tr id="i57" class="rowColor">
+                                            <td class="colFirst"><code>abstract &lt;T&gt; void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#setMemory(MemoryKey,T)>setMemory</a>(@NotNull() <a href=memory/MemoryKey.html>MemoryKey</a>&lt;<a href=LivingEntity.html#setMemory(MemoryKey,T)>T</a>&gt; memoryKey, @Nullable() <a href=LivingEntity.html#setMemory(MemoryKey,T)>T</a> memoryValue) </code>
+                                            </th>
+                                            <td class="colLast">Sets the value of the memory specified.</td>
+                                        </tr>
+                                        
+                                        <tr id="i58" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=../Sound.html>Sound</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getHurtSound()>getHurtSound</a>() </code>
+                                            </th>
+                                            <td class="colLast">Get the <a href=../Sound.html>Sound</a> this entity will make when damaged.</td>
+                                        </tr>
+                                        
+                                        <tr id="i59" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=../Sound.html>Sound</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getDeathSound()>getDeathSound</a>() </code>
+                                            </th>
+                                            <td class="colLast">Get the <a href=../Sound.html>Sound</a> this entity will make on death.</td>
+                                        </tr>
+                                        
+                                        <tr id="i60" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=../Sound.html>Sound</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getFallDamageSound(int)>getFallDamageSound</a>(int fallHeight) </code>
+                                            </th>
+                                            <td class="colLast">Get the <a href=../Sound.html>Sound</a> this entity will make when falling from the given height (in blocks).</td>
+                                        </tr>
+                                        
+                                        <tr id="i61" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=../Sound.html>Sound</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getFallDamageSoundSmall()>getFallDamageSoundSmall</a>() </code>
+                                            </th>
+                                            <td class="colLast">Get the <a href=../Sound.html>Sound</a> this entity will make when falling from a small height.</td>
+                                        </tr>
+                                        
+                                        <tr id="i62" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=../Sound.html>Sound</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getFallDamageSoundBig()>getFallDamageSoundBig</a>() </code>
+                                            </th>
+                                            <td class="colLast">Get the <a href=../Sound.html>Sound</a> this entity will make when falling from a large height.</td>
+                                        </tr>
+                                        
+                                        <tr id="i63" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=../Sound.html>Sound</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getDrinkingSound(ItemStack)>getDrinkingSound</a>(@NotNull() <a href=../inventory/ItemStack.html>ItemStack</a> itemStack) </code>
+                                            </th>
+                                            <td class="colLast">Get the <a href=../Sound.html>Sound</a> this entity will make when drinking the given <a href=../inventory/ItemStack.html>ItemStack</a>.</td>
+                                        </tr>
+                                        
+                                        <tr id="i64" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=../Sound.html>Sound</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getEatingSound(ItemStack)>getEatingSound</a>(@NotNull() <a href=../inventory/ItemStack.html>ItemStack</a> itemStack) </code>
+                                            </th>
+                                            <td class="colLast">Get the <a href=../Sound.html>Sound</a> this entity will make when eating the given <a href=../inventory/ItemStack.html>ItemStack</a>.</td>
+                                        </tr>
+                                        
+                                        <tr id="i65" class="rowColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#canBreatheUnderwater()>canBreatheUnderwater</a>() </code>
+                                            </th>
+                                            <td class="colLast">Returns true if this entity can breathe underwater and will not take suffocation damage when its air supply reaches zero.</td>
+                                        </tr>
+                                        
+                                        <tr id="i66" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=EntityCategory.html>EntityCategory</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#getCategory()>getCategory</a>() </code>
+                                            </th>
+                                            <td class="colLast">Get the category to which this entity belongs.</td>
+                                        </tr>
+                                        
+                                        <tr id="i67" class="rowColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#setInvisible(boolean)>setInvisible</a>(boolean invisible) </code>
+                                            </th>
+                                            <td class="colLast">Sets whether the entity is invisible or not.</td>
+                                        </tr>
+                                        
+                                        <tr id="i68" class="altColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=LivingEntity.html#isInvisible()>isInvisible</a>() </code>
+                                            </th>
+                                            <td class="colLast">Gets whether the entity is invisible or not.</td>
+                                        </tr>
+                                        
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <ul class="blockList">
+                                
+                                    <li class="blockList"><a id="methods.inherited.from.class.java.lang.Object">
+                                        <!--   -->
+                                    </a>
+                                        <h3>Methods inherited from class&nbsp;java.lang.Object</h3>
+                                        <code>clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString,
+                                            wait, wait, wait</code></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                </li>
+            </ul>
+        </div>
+        <div class="details">
+            <ul class="blockList">
+                <li class="blockList">
+                    <!-- ========= CONSTRUCTOR DETAIL ======== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="constructor.detail">
+                                <!--   -->
+                            </a>
+                                <h3>Constructor Detail</h3>
+                                
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- ============ METHOD DETAIL ========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="method.detail">
+                                <!--   -->
+                            </a>
+                                <h3>Method Detail</h3>
+                                
+                                <a id="getEyeHeight()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getEyeHeight</h4>
+                                        <pre class="methodSignature"> abstract double <a href=LivingEntity.html#getEyeHeight()>getEyeHeight</a>()</pre>
+                                        <div class="block"><p>获取生物实体眼睛离脚高度. </p><p> 原文： Gets the height of the living entity's eyes above its Location.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getEyeHeight(boolean)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getEyeHeight</h4>
+                                        <pre class="methodSignature"> abstract double <a href=LivingEntity.html#getEyeHeight(boolean)>getEyeHeight</a>(boolean ignorePose)</pre>
+                                        <div class="block"><p>获取生物实体眼睛离脚高度. </p><p> 原文： Gets the height of the living entity's eyes above its Location.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>ignorePose</code> - 若为true则会无视姿势改变的效果,例如潜行和滑翔</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getEyeLocation()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getEyeLocation</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=../Location.html>Location</a> <a href=LivingEntity.html#getEyeLocation()>getEyeLocation</a>()</pre>
+                                        <div class="block"><p>获取生物实体眼睛的详细方位的Location对象. </p><p> 原文： Get a Location detailing the current eye position of the living entity.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getLineOfSight(Set,int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getLineOfSight</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/util/List.html>List</a>&lt;<a href=../block/Block.html>Block</a>&gt; <a href=LivingEntity.html#getLineOfSight(Set,int)>getLineOfSight</a>(@Nullable() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Set.html>Set</a>&lt;<a href=../Material.html>Material</a>&gt; transparent, int maxDistance)</pre>
+                                        <div class="block"><p>获取沿生物实体视线上的所有方块. </p><p> 这个列表包含生物实体眼睛到目标位置的所有方块. 本方法认为所有方块体积为1x1x1. </p><p> 原文： Gets all blocks along the living entity's line of sight. </p><p> This list contains all blocks from the living entity's eye position to target inclusive. This method considers all blocks as 1x1x1 in size.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>transparent</code> - 将包含的所有透明方块的ID的Set（设置为null则只包含空气）</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>maxDistance</code> - 扫描的最大距离（可能被服务器限制，但至少为100个方块）</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getTargetBlock(Set,int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getTargetBlock</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=../block/Block.html>Block</a> <a href=LivingEntity.html#getTargetBlock(Set,int)>getTargetBlock</a>(@Nullable() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Set.html>Set</a>&lt;<a href=../Material.html>Material</a>&gt; transparent, int maxDistance)</pre>
+                                        <div class="block"><p>获取生物实体的目标方块. </p><p> 本方法认为所有方块体积为1x1x1. To take exact block collision shapes into account, see <a href=LivingEntity.html#getTargetBlockExact(int,FluidCollisionMode)>getTargetBlockExact</a>. </p><p> 原文： Gets the block that the living entity has targeted. </p><p> This method considers all blocks as 1x1x1 in size. To take exact block collision shapes into account, see <a href=LivingEntity.html#getTargetBlockExact(int,FluidCollisionMode)>getTargetBlockExact</a>.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>transparent</code> - 将包含的所有透明方块的ID的Set（设置为null则只包含空气）</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>maxDistance</code> - 扫描的最大距离（可能被服务器限制，但至少为100个方块）</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getLastTwoTargetBlocks(Set,int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getLastTwoTargetBlocks</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/util/List.html>List</a>&lt;<a href=../block/Block.html>Block</a>&gt; <a href=LivingEntity.html#getLastTwoTargetBlocks(Set,int)>getLastTwoTargetBlocks</a>(@Nullable() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Set.html>Set</a>&lt;<a href=../Material.html>Material</a>&gt; transparent, int maxDistance)</pre>
+                                        <div class="block"><p>获取沿生物实体视线上最后两个方块. </p><p> 目标方块将是列表中最后的方块. 本方法认为所有方块体积为1x1x1. </p><p> 原文： Gets the last two blocks along the living entity's line of sight. </p><p> The target block will be the last block in the list. This method considers all blocks as 1x1x1 in size.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>transparent</code> - 将包含的所有透明方块的ID的Set（设置为null则只包含空气）</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>maxDistance</code> - 扫描的最大距离。可能被服务器限制，但不会低于100个方块</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getTargetBlockExact(int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getTargetBlockExact</h4>
+                                        <pre class="methodSignature">@Nullable() abstract <a href=../block/Block.html>Block</a> <a href=LivingEntity.html#getTargetBlockExact(int)>getTargetBlockExact</a>(int maxDistance)</pre>
+                                        <div class="block"><p>Gets the block that the living entity has targeted. </p><p> This takes the blocks' precise collision shapes into account. Fluids are ignored. </p><p> This may cause loading of chunks! Some implementations may impose artificial restrictions on the maximum distance.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>maxDistance</code> - the maximum distance to scan</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getTargetBlockExact(int,FluidCollisionMode)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getTargetBlockExact</h4>
+                                        <pre class="methodSignature">@Nullable() abstract <a href=../block/Block.html>Block</a> <a href=LivingEntity.html#getTargetBlockExact(int,FluidCollisionMode)>getTargetBlockExact</a>(int maxDistance, @NotNull() <a href=../FluidCollisionMode.html>FluidCollisionMode</a> fluidCollisionMode)</pre>
+                                        <div class="block"><p>Gets the block that the living entity has targeted. </p><p> This takes the blocks' precise collision shapes into account. </p><p> This may cause loading of chunks! Some implementations may impose artificial restrictions on the maximum distance.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>maxDistance</code> - the maximum distance to scan</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>fluidCollisionMode</code> - the fluid collision mode</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="rayTraceBlocks(double)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>rayTraceBlocks</h4>
+                                        <pre class="methodSignature">@Nullable() abstract <a href=../util/RayTraceResult.html>RayTraceResult</a> <a href=LivingEntity.html#rayTraceBlocks(double)>rayTraceBlocks</a>(double maxDistance)</pre>
+                                        <div class="block"><p>Performs a ray trace that provides information on the targeted block. </p><p> This takes the blocks' precise collision shapes into account. Fluids are ignored. </p><p> This may cause loading of chunks! Some implementations may impose artificial restrictions on the maximum distance.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>maxDistance</code> - the maximum distance to scan</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="rayTraceBlocks(double,FluidCollisionMode)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>rayTraceBlocks</h4>
+                                        <pre class="methodSignature">@Nullable() abstract <a href=../util/RayTraceResult.html>RayTraceResult</a> <a href=LivingEntity.html#rayTraceBlocks(double,FluidCollisionMode)>rayTraceBlocks</a>(double maxDistance, @NotNull() <a href=../FluidCollisionMode.html>FluidCollisionMode</a> fluidCollisionMode)</pre>
+                                        <div class="block"><p>Performs a ray trace that provides information on the targeted block. </p><p> This takes the blocks' precise collision shapes into account. </p><p> This may cause loading of chunks! Some implementations may impose artificial restrictions on the maximum distance.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>maxDistance</code> - the maximum distance to scan</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>fluidCollisionMode</code> - the fluid collision mode</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getRemainingAir()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getRemainingAir</h4>
+                                        <pre class="methodSignature"> abstract int <a href=LivingEntity.html#getRemainingAir()>getRemainingAir</a>()</pre>
+                                        <div class="block"><p>返回生物实体剩余的氧气值，单位为tick. </p><p> 原文： Returns the amount of air that the living entity has remaining, in ticks.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setRemainingAir(int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setRemainingAir</h4>
+                                        <pre class="methodSignature"> abstract void <a href=LivingEntity.html#setRemainingAir(int)>setRemainingAir</a>(int ticks)</pre>
+                                        <div class="block"><p>设置生物实体剩余的氧气值，单位为tick. </p><p> 原文： Sets the amount of air that the living entity has remaining, in ticks.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>ticks</code> - 剩余的氧气值</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getMaximumAir()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getMaximumAir</h4>
+                                        <pre class="methodSignature"> abstract int <a href=LivingEntity.html#getMaximumAir()>getMaximumAir</a>()</pre>
+                                        <div class="block"><p>返回生物实体所能拥有的氧气最大值，单位为tick. </p><p> 原文： Returns the maximum amount of air the living entity can have, in ticks.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setMaximumAir(int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setMaximumAir</h4>
+                                        <pre class="methodSignature"> abstract void <a href=LivingEntity.html#setMaximumAir(int)>setMaximumAir</a>(int ticks)</pre>
+                                        <div class="block"><p>设置生物实体所能拥有的氧气最大值，单位为tick. </p><p> 原文： Sets the maximum amount of air the living entity can have, in ticks.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>ticks</code> - 氧气最大值</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getArrowCooldown()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getArrowCooldown</h4>
+                                        <pre class="methodSignature"> abstract int <a href=LivingEntity.html#getArrowCooldown()>getArrowCooldown</a>()</pre>
+                                        <div class="block"><p>Gets the time in ticks until the next arrow leaves the entity's body.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setArrowCooldown(int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setArrowCooldown</h4>
+                                        <pre class="methodSignature"> abstract void <a href=LivingEntity.html#setArrowCooldown(int)>setArrowCooldown</a>(int ticks)</pre>
+                                        <div class="block"><p>Sets the time in ticks until the next arrow leaves the entity's body.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>ticks</code> - time until arrow leaves</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getArrowsInBody()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getArrowsInBody</h4>
+                                        <pre class="methodSignature"> abstract int <a href=LivingEntity.html#getArrowsInBody()>getArrowsInBody</a>()</pre>
+                                        <div class="block"><p>Gets the amount of arrows in an entity's body.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setArrowsInBody(int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setArrowsInBody</h4>
+                                        <pre class="methodSignature"> abstract void <a href=LivingEntity.html#setArrowsInBody(int)>setArrowsInBody</a>(int count)</pre>
+                                        <div class="block"><p>Set the amount of arrows in the entity's body.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>count</code> - amount of arrows in entity's body</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getMaximumNoDamageTicks()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getMaximumNoDamageTicks</h4>
+                                        <pre class="methodSignature"> abstract int <a href=LivingEntity.html#getMaximumNoDamageTicks()>getMaximumNoDamageTicks</a>()</pre>
+                                        <div class="block"><p>返回生物实体当前最大无伤害时间，单位为tick. </p><p> 即生物实体不会受到伤害的最大持续时间. </p><p> 原文： Returns the living entity's current maximum no damage ticks. </p><p> This is the maximum duration in which the living entity will not take damage.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setMaximumNoDamageTicks(int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setMaximumNoDamageTicks</h4>
+                                        <pre class="methodSignature"> abstract void <a href=LivingEntity.html#setMaximumNoDamageTicks(int)>setMaximumNoDamageTicks</a>(int ticks)</pre>
+                                        <div class="block"><p>设置生物实体当前当前最大无伤害时间，单位为tick. </p><p> 原文： Sets the living entity's current maximum no damage ticks.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>ticks</code> - 最大无伤害时间，单位为tick</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getLastDamage()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getLastDamage</h4>
+                                        <pre class="methodSignature"> abstract double <a href=LivingEntity.html#getLastDamage()>getLastDamage</a>()</pre>
+                                        <div class="block"><p>返回生物实体在当前无伤害时间最后受到的伤害. </p><p> 只有当伤害高于这个数值时生物实体才会进一步受到伤害. </p><p> 原文:Returns the living entity's last damage taken in the current no damage ticks time. </p><p> Only damage higher than this amount will further damage the living entity.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setLastDamage(double)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setLastDamage</h4>
+                                        <pre class="methodSignature"> abstract void <a href=LivingEntity.html#setLastDamage(double)>setLastDamage</a>(double damage)</pre>
+                                        <div class="block"><p>设置当前无伤害时间段内处理的伤害. </p><p> 原文： Sets the damage dealt within the current no damage ticks time period.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>damage</code> - 伤害总量</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getNoDamageTicks()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getNoDamageTicks</h4>
+                                        <pre class="methodSignature"> abstract int <a href=LivingEntity.html#getNoDamageTicks()>getNoDamageTicks</a>()</pre>
+                                        <div class="block"><p>返回生物实体当前无伤害时间，单位为tick. </p><p> 原文： Returns the living entity's current no damage ticks.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setNoDamageTicks(int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setNoDamageTicks</h4>
+                                        <pre class="methodSignature"> abstract void <a href=LivingEntity.html#setNoDamageTicks(int)>setNoDamageTicks</a>(int ticks)</pre>
+                                        <div class="block"><p>设置生物实体当前无伤害时间，单位为tick. </p><p> 原文： Sets the living entity's current no damage ticks.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>ticks</code> - 无伤害时间，单位为tick</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getKiller()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getKiller</h4>
+                                        <pre class="methodSignature">@Nullable() abstract <a href=Player.html>Player</a> <a href=LivingEntity.html#getKiller()>getKiller</a>()</pre>
+                                        <div class="block"><p>获取击杀指定生物实体的玩家. </p><p> 可能为空. </p><p> 原文： Gets the player identified as the killer of the living entity. </p><p> May be null.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="addPotionEffect(PotionEffect)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>addPotionEffect</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=LivingEntity.html#addPotionEffect(PotionEffect)>addPotionEffect</a>(@NotNull() <a href=../potion/PotionEffect.html>PotionEffect</a> effect)</pre>
+                                        <div class="block"><p>向生物实体添加指定的<a href=../potion/PotionEffect.html>PotionEffect</a>（药水效果）. </p><p> 原文： Adds the given <a href=../potion/PotionEffect.html>PotionEffect</a> to the living entity.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>effect</code> - 添加的药水效果</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="addPotionEffect(PotionEffect,boolean)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>addPotionEffect</h4>
+                                        <pre class="methodSignature">@<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html>Deprecated</a>() abstract boolean <a href=LivingEntity.html#addPotionEffect(PotionEffect,boolean)>addPotionEffect</a>(@NotNull() <a href=../potion/PotionEffect.html>PotionEffect</a> effect, boolean force)</pre>
+                                        <div class="block"><p>向生物实体添加指定的<a href=../potion/PotionEffect.html>PotionEffect</a>（药水效果）. </p><p> 一个指定的<a href=../potion/PotionEffectType.html>PotionEffectType</a>（药水效果类型）只能有一种药水效果存在. </p><p> 原文： Adds the given <a href=../potion/PotionEffect.html>PotionEffect</a> to the living entity. </p><p> Only one potion effect can be present for a given .</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>effect</code> - 添加的药水效果</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>force</code> - 是否移除冲突的效果</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="addPotionEffects(Collection)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>addPotionEffects</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=LivingEntity.html#addPotionEffects(Collection)>addPotionEffects</a>(@NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html>Collection</a>&lt;<a href=../potion/PotionEffect.html>PotionEffect</a>&gt; effects)</pre>
+                                        <div class="block"><p>尝试向生物实体添加所有指定的<a href=../potion/PotionEffect.html>PotionEffect</a>（药水效果）. </p><p> 原文： Attempts to add all of the given <a href=../potion/PotionEffect.html>PotionEffect</a> to the living entity.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>effects</code> - 添加的效果</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="hasPotionEffect(PotionEffectType)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>hasPotionEffect</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=LivingEntity.html#hasPotionEffect(PotionEffectType)>hasPotionEffect</a>(@NotNull() <a href=../potion/PotionEffectType.html>PotionEffectType</a> type)</pre>
+                                        <div class="block"><p>返回生物实体是否已经存在一个指定的<a href=../potion/PotionEffectType.html>PotionEffectType</a>效果. </p><p> 原文： Returns whether the living entity already has an existing effect of the given <a href=../potion/PotionEffectType.html>PotionEffectType</a> applied to it.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>type</code> - 检查的药水类型</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getPotionEffect(PotionEffectType)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getPotionEffect</h4>
+                                        <pre class="methodSignature">@Nullable() abstract <a href=../potion/PotionEffect.html>PotionEffect</a> <a href=LivingEntity.html#getPotionEffect(PotionEffectType)>getPotionEffect</a>(@NotNull() <a href=../potion/PotionEffectType.html>PotionEffectType</a> type)</pre>
+                                        <div class="block"><p>返回指定类型的有效<a href=../potion/PotionEffect.html>PotionEffect</a>. </p><p> 如果效果不存在则会返回null. </p><p> 原文： Returns the active <a href=../potion/PotionEffect.html>PotionEffect</a> of the specified type. </p><p> If the effect is not present on the entity then null will be returned.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>type</code> - 检查的药水类型</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="removePotionEffect(PotionEffectType)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>removePotionEffect</h4>
+                                        <pre class="methodSignature"> abstract void <a href=LivingEntity.html#removePotionEffect(PotionEffectType)>removePotionEffect</a>(@NotNull() <a href=../potion/PotionEffectType.html>PotionEffectType</a> type)</pre>
+                                        <div class="block"><p>移除当前所有指定的<a href=../potion/PotionEffectType.html>PotionEffectType</a>效果. </p><p> 原文： Removes any effects present of the given <a href=../potion/PotionEffectType.html>PotionEffectType</a>.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>type</code> - 移除的药水类型</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getActivePotionEffects()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getActivePotionEffects</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html>Collection</a>&lt;<a href=../potion/PotionEffect.html>PotionEffect</a>&gt; <a href=LivingEntity.html#getActivePotionEffects()>getActivePotionEffects</a>()</pre>
+                                        <div class="block"><p>返回当前作用于生物实体的所有<a href=../potion/PotionEffect.html>PotionEffect</a>. </p><p> 译注:不要向获得的列表中添加条目, 没有任何效果. </p><p> 原文： Returns all currently active <a href=../potion/PotionEffect.html>PotionEffect</a>s on the living entity.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="hasLineOfSight(Entity)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>hasLineOfSight</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=LivingEntity.html#hasLineOfSight(Entity)>hasLineOfSight</a>(@NotNull() <a href=Entity.html>Entity</a> other)</pre>
+                                        <div class="block"><p>检查生物实体是否阻挡另一个的视线. </p><p> 这使用了与敌对怪物寻找最近玩家相同的算法. </p><p> 原文： Checks whether the living entity has block line of sight to another. </p><p> This uses the same algorithm that hostile mobs use to find the closest player.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>other</code> - 确定视线的实体</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getRemoveWhenFarAway()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getRemoveWhenFarAway</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=LivingEntity.html#getRemoveWhenFarAway()>getRemoveWhenFarAway</a>()</pre>
+                                        <div class="block"><p>返回生物实体是否会在远离玩家时消失. </p><p> 默认情况下，动物不会被移除而怪物会. </p><p> 原文： Returns if the living entity despawns when away from players or not. </p><p> By default, animals are not removed while other mobs are.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setRemoveWhenFarAway(boolean)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setRemoveWhenFarAway</h4>
+                                        <pre class="methodSignature"> abstract void <a href=LivingEntity.html#setRemoveWhenFarAway(boolean)>setRemoveWhenFarAway</a>(boolean remove)</pre>
+                                        <div class="block"><p>设置生物实体是否会在远离玩家时消失. </p><p> 原文： Sets whether or not the living entity despawns when away from players or not.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>remove</code> - 移除状态</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getEquipment()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getEquipment</h4>
+                                        <pre class="methodSignature">@Nullable() abstract <a href=../inventory/EntityEquipment.html>EntityEquipment</a> <a href=LivingEntity.html#getEquipment()>getEquipment</a>()</pre>
+                                        <div class="block"><p>获取生物实体穿戴的装备背包栏. </p><p> 原文： Gets the inventory with the equipment worn by the living entity.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setCanPickupItems(boolean)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setCanPickupItems</h4>
+                                        <pre class="methodSignature"> abstract void <a href=LivingEntity.html#setCanPickupItems(boolean)>setCanPickupItems</a>(boolean pickup)</pre>
+                                        <div class="block"><p>设置生物实体是否能捡拾物品. </p><p> 原文： Sets whether or not the living entity can pick up items.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>pickup</code> - 生物实体是否能捡拾物品</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getCanPickupItems()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getCanPickupItems</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=LivingEntity.html#getCanPickupItems()>getCanPickupItems</a>()</pre>
+                                        <div class="block"><p>获取生物实体是否能捡拾物品. </p><p> 原文： Gets if the living entity can pick up items.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="isLeashed()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>isLeashed</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=LivingEntity.html#isLeashed()>isLeashed</a>()</pre>
+                                        <div class="block"><p>返回实体当前是否被拴住. </p><p> 原文： Returns whether the entity is currently leashed.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getLeashHolder()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getLeashHolder</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=Entity.html>Entity</a> <a href=LivingEntity.html#getLeashHolder()>getLeashHolder</a>()</pre>
+                                        <div class="block"><p>获取当前牵引此实体的实体. </p><p> 原文： Gets the entity that is currently leading this entity.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setLeashHolder(Entity)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setLeashHolder</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=LivingEntity.html#setLeashHolder(Entity)>setLeashHolder</a>(@Nullable() <a href=Entity.html>Entity</a> holder)</pre>
+                                        <div class="block"><p>设置握持拴绳的实体. </p><p> 此方法对末影龙，凋零，玩家或蝙蝠无效。除拴绳外的非生物实体将不会像握持拴绳者一样持续存在. </p><p> 原文： Sets the leash on this entity to be held by the supplied entity. </p><p> This method has no effect on EnderDragons, Withers, Players, or Bats. Non-living entities excluding leashes will not persist as leash holders.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>holder</code> - 握持拴绳的实体</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="isGliding()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>isGliding</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=LivingEntity.html#isGliding()>isGliding</a>()</pre>
+                                        <div class="block"><p>检查实体是否正在滑翔，如正在使用鞘翅. </p><p> 原文： Checks to see if an entity is gliding, such as using an Elytra.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setGliding(boolean)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setGliding</h4>
+                                        <pre class="methodSignature"> abstract void <a href=LivingEntity.html#setGliding(boolean)>setGliding</a>(boolean gliding)</pre>
+                                        <div class="block"><p>Makes entity start or stop gliding. This will work even if an Elytra is not equipped, but will be reverted by the server immediately after unless an event-cancelling mechanism is put in place.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>gliding</code> - True if the entity is gliding.</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="isSwimming()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>isSwimming</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=LivingEntity.html#isSwimming()>isSwimming</a>()</pre>
+                                        <div class="block"><p>Checks to see if an entity is swimming.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setSwimming(boolean)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setSwimming</h4>
+                                        <pre class="methodSignature"> abstract void <a href=LivingEntity.html#setSwimming(boolean)>setSwimming</a>(boolean swimming)</pre>
+                                        <div class="block"><p>Makes entity start or stop swimming. This may have unexpected results if the entity is not in water.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>swimming</code> - True if the entity is swimming.</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="isRiptiding()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>isRiptiding</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=LivingEntity.html#isRiptiding()>isRiptiding</a>()</pre>
+                                        <div class="block"><p>Checks to see if an entity is currently using the Riptide enchantment.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="isSleeping()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>isSleeping</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=LivingEntity.html#isSleeping()>isSleeping</a>()</pre>
+                                        <div class="block"><p>返回实体是否正在睡觉. </p><p> 原文:Returns whether this entity is slumbering.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="isClimbing()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>isClimbing</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=LivingEntity.html#isClimbing()>isClimbing</a>()</pre>
+                                        <div class="block"><p>获取实体是否正在攀爬. </p><p> 原文:Gets if the entity is climbing.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setAI(boolean)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setAI</h4>
+                                        <pre class="methodSignature"> abstract void <a href=LivingEntity.html#setAI(boolean)>setAI</a>(boolean ai)</pre>
+                                        <div class="block"><p>设置实体是否具有AI. 实体若无AI将完全无法自主移动. </p><p> 原文： Sets whether an entity will have AI. The entity will be completely unable to move if it has no AI.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>ai</code> - 怪物是否具有AI</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="hasAI()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>hasAI</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=LivingEntity.html#hasAI()>hasAI</a>()</pre>
+                                        <div class="block"><p>检查实体是否具有AI. 实体若无AI将完全无法自主移动. </p><p> 原文： Checks whether an entity has AI. The entity will be completely unable to move if it has no AI.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="attack(Entity)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>attack</h4>
+                                        <pre class="methodSignature"> abstract void <a href=LivingEntity.html#attack(Entity)>attack</a>(@NotNull() <a href=Entity.html>Entity</a> target)</pre>
+                                        <div class="block"><p>Makes this entity attack the given entity with a melee attack. Attack damage is calculated by the server from the attributes and equipment of this mob, and knockback is applied to <code>target</code> as appropriate.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>target</code> - entity to attack.</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="swingMainHand()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>swingMainHand</h4>
+                                        <pre class="methodSignature"> abstract void <a href=LivingEntity.html#swingMainHand()>swingMainHand</a>()</pre>
+                                        <div class="block"><p>Makes this entity swing their main hand. This method does nothing if this entity does not have an animation for swinging their main hand.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="swingOffHand()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>swingOffHand</h4>
+                                        <pre class="methodSignature"> abstract void <a href=LivingEntity.html#swingOffHand()>swingOffHand</a>()</pre>
+                                        <div class="block"><p>Makes this entity swing their off hand. This method does nothing if this entity does not have an animation for swinging their off hand.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setCollidable(boolean)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setCollidable</h4>
+                                        <pre class="methodSignature"> abstract void <a href=LivingEntity.html#setCollidable(boolean)>setCollidable</a>(boolean collidable)</pre>
+                                        <div class="block"><p>Set if this entity will be subject to collisions with other entities. </p><p> Exemptions to this rule can be managed with <a href=LivingEntity.html#getCollidableExemptions()>getCollidableExemptions</a></p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>collidable</code> - collision status</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="isCollidable()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>isCollidable</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=LivingEntity.html#isCollidable()>isCollidable</a>()</pre>
+                                        <div class="block"><p>Gets if this entity is subject to collisions with other entities. </p><p> Some entities might be exempted from the collidable rule of this entity. Use <a href=LivingEntity.html#getCollidableExemptions()>getCollidableExemptions</a> to get these. </p><p> Please note that this method returns only the custom collidable state, not whether the entity is non-collidable for other reasons such as being dead.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getCollidableExemptions()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getCollidableExemptions</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Set.html>Set</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html>UUID</a>&gt; <a href=LivingEntity.html#getCollidableExemptions()>getCollidableExemptions</a>()</pre>
+                                        <div class="block"><p>Gets a mutable set of UUIDs of the entities which are exempt from the entity's collidable rule and which's collision with this entity will behave the opposite of it. </p><p> This set can be modified to add or remove exemptions. </p><p> For example if collidable is true and an entity is in the exemptions set then it will not collide with it. Similarly if collidable is false and an entity is in this set then it will still collide with it. </p><p> Note these exemptions are not (currently) persistent.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getMemory(MemoryKey)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getMemory</h4>
+                                        <pre class="methodSignature">@Nullable() abstract &lt;T&gt; <a href=LivingEntity.html#getMemory(MemoryKey)>T</a> <a href=LivingEntity.html#getMemory(MemoryKey)>getMemory</a>(@NotNull() <a href=memory/MemoryKey.html>MemoryKey</a>&lt;<a href=LivingEntity.html#getMemory(MemoryKey)>T</a>&gt; memoryKey)</pre>
+                                        <div class="block"><p>Returns the value of the memory specified. </p><p> Note that the value is null when the specific entity does not have that value by default.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>memoryKey</code> - memory to access</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setMemory(MemoryKey,T)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setMemory</h4>
+                                        <pre class="methodSignature"> abstract &lt;T&gt; void <a href=LivingEntity.html#setMemory(MemoryKey,T)>setMemory</a>(@NotNull() <a href=memory/MemoryKey.html>MemoryKey</a>&lt;<a href=LivingEntity.html#setMemory(MemoryKey,T)>T</a>&gt; memoryKey, @Nullable() <a href=LivingEntity.html#setMemory(MemoryKey,T)>T</a> memoryValue)</pre>
+                                        <div class="block"><p>Sets the value of the memory specified. </p><p> Note that the value will not be persisted when the specific entity does not have that value by default.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>memoryKey</code> - the memory to access</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>memoryValue</code> - a typed memory value</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getHurtSound()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getHurtSound</h4>
+                                        <pre class="methodSignature">@Nullable() abstract <a href=../Sound.html>Sound</a> <a href=LivingEntity.html#getHurtSound()>getHurtSound</a>()</pre>
+                                        <div class="block"><p>Get the <a href=../Sound.html>Sound</a> this entity will make when damaged.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getDeathSound()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getDeathSound</h4>
+                                        <pre class="methodSignature">@Nullable() abstract <a href=../Sound.html>Sound</a> <a href=LivingEntity.html#getDeathSound()>getDeathSound</a>()</pre>
+                                        <div class="block"><p>Get the <a href=../Sound.html>Sound</a> this entity will make on death.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getFallDamageSound(int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getFallDamageSound</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=../Sound.html>Sound</a> <a href=LivingEntity.html#getFallDamageSound(int)>getFallDamageSound</a>(int fallHeight)</pre>
+                                        <div class="block"><p>Get the <a href=../Sound.html>Sound</a> this entity will make when falling from the given height (in blocks). The sound will often differ between either a small or a big fall damage sound if the height exceeds 4 blocks.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>fallHeight</code> - the fall height in blocks</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getFallDamageSoundSmall()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getFallDamageSoundSmall</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=../Sound.html>Sound</a> <a href=LivingEntity.html#getFallDamageSoundSmall()>getFallDamageSoundSmall</a>()</pre>
+                                        <div class="block"><p>Get the <a href=../Sound.html>Sound</a> this entity will make when falling from a small height.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getFallDamageSoundBig()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getFallDamageSoundBig</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=../Sound.html>Sound</a> <a href=LivingEntity.html#getFallDamageSoundBig()>getFallDamageSoundBig</a>()</pre>
+                                        <div class="block"><p>Get the <a href=../Sound.html>Sound</a> this entity will make when falling from a large height.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getDrinkingSound(ItemStack)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getDrinkingSound</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=../Sound.html>Sound</a> <a href=LivingEntity.html#getDrinkingSound(ItemStack)>getDrinkingSound</a>(@NotNull() <a href=../inventory/ItemStack.html>ItemStack</a> itemStack)</pre>
+                                        <div class="block"><p>Get the <a href=../Sound.html>Sound</a> this entity will make when drinking the given <a href=../inventory/ItemStack.html>ItemStack</a>.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>itemStack</code> - the item stack being drank</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getEatingSound(ItemStack)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getEatingSound</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=../Sound.html>Sound</a> <a href=LivingEntity.html#getEatingSound(ItemStack)>getEatingSound</a>(@NotNull() <a href=../inventory/ItemStack.html>ItemStack</a> itemStack)</pre>
+                                        <div class="block"><p>Get the <a href=../Sound.html>Sound</a> this entity will make when eating the given <a href=../inventory/ItemStack.html>ItemStack</a>.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>itemStack</code> - the item stack being eaten</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="canBreatheUnderwater()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>canBreatheUnderwater</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=LivingEntity.html#canBreatheUnderwater()>canBreatheUnderwater</a>()</pre>
+                                        <div class="block"><p>Returns true if this entity can breathe underwater and will not take suffocation damage when its air supply reaches zero.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getCategory()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getCategory</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=EntityCategory.html>EntityCategory</a> <a href=LivingEntity.html#getCategory()>getCategory</a>()</pre>
+                                        <div class="block"><p>Get the category to which this entity belongs. Categories may subject this entity to additional effects, benefits or debuffs.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setInvisible(boolean)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setInvisible</h4>
+                                        <pre class="methodSignature"> abstract void <a href=LivingEntity.html#setInvisible(boolean)>setInvisible</a>(boolean invisible)</pre>
+                                        <div class="block"><p>Sets whether the entity is invisible or not.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>invisible</code> - If the entity is invisible</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="isInvisible()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockListLast"
+                                          >
+                                    <li class="blockList">
+                                        <h4>isInvisible</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=LivingEntity.html#isInvisible()>isInvisible</a>()</pre>
+                                        <div class="block"><p>Gets whether the entity is invisible or not.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                            </li>
+                        </ul>
+                    </section>
+                    
+                </li>
+            </ul>
+        </div>
+    </div>
+</main>
+<footer role="contentinfo">
+    <nav role="navigation">
+        <!-- ======= START OF BOTTOM NAVBAR ====== -->
+        <div class="bottomNav"><a id="navbar.bottom">
+            <!--   -->
+        </a>
+            <div class="skipNav"><a href="#skip.navbar.bottom" title="Skip navigation links">Skip navigation links</a>
+            </div>
+            <a id="navbar.bottom.firstrow">
+                <!--   -->
+            </a>
+            <ul class="navList" title="Navigation">
+    <li><a href="../../../index.html">Overview</a></li>
+    
+    <li><a href="package-summary.html">Package</a></li>
+    
+    <li>Class</li>
+    
+    <li><a href="package-tree.html">Tree</a></li>
+    
+    <li><a href="../../../deprecated.html">Deprecated</a></li>
+    <li><a href="../../../index-files/index-1.html">Index</a></li>
+    <li>Help</li>
+</ul></div>
+        <a id="skip.navbar.bottom">
+            <!--   -->
+        </a>
+        <div class="subNav">
+<ul class="navList" id="allclasses_navbar_top" style="display: block;">
+    <li><a href="../../../allclasses.html">All&nbsp;Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+</div>
+<a id="skip.navbar.top">
+<!--   -->
+</a></div><!-- ======== END OF BOTTOM NAVBAR ======= -->
+    </nav>
+</footer><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-1" tabindex="0"
+    style="display: none;"></ul>
+<span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span>
+</body>
+</html>

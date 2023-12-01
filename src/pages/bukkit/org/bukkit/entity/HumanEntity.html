@@ -1,0 +1,2083 @@
+<!DOCTYPE HTML>
+<!-- NewPage -->
+<html lang="en"><head>
+    <title>HumanEntity 1.20.1-SNAPSHOT API </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="dc.created" content="2020-03-25">
+    <link rel="stylesheet" type="text/css" href="../../../stylesheet.css" title="Style">
+    <link rel="stylesheet" type="text/css" href="../../../dokka-javadoc-stylesheet.css" title="Style">
+    <link rel="stylesheet" type="text/css" href="../../../_jquery_/jquery-ui.css" title="Style">
+    <script type="text/javascript" src="../../../_jquery_/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../../../_jquery_/jquery-migrate-3.4.0.min.js"></script>
+    <script type="text/javascript" src="../../../_jquery_/jquery-ui.js"></script>
+
+    <script type="text/javascript" src="../../../search.js"></script>
+    <script async type="text/javascript" src="../../../module-search-index.js"></script>
+    <script async type="text/javascript" src="../../../package-search-index.js"></script>
+    <script async type="text/javascript" src="../../../type-search-index.js"></script>
+    <script async type="text/javascript" src="../../../member-search-index.js"></script>
+    <script async type="text/javascript" src="../../../tag-search-index.js"></script>
+</head><body>
+<script type="text/javascript">
+var pathtoroot = "../../../";
+</script>
+<noscript>
+    <div>JavaScript is disabled on your browser.</div>
+</noscript><header role="banner">
+    <nav role="navigation">
+        <div class="fixedNav">
+            <!-- ========= START OF TOP NAVBAR ======= -->
+            <div class="topNav"><a id="navbar.top">
+                <!--   -->
+            </a>
+                <div class="skipNav"><a href="#skip.navbar.top" title="Skip navigation links">Skip navigation links</a>
+                </div>
+                <a id="navbar.top.firstrow">
+                    <!--   -->
+                </a>
+                <ul class="navList" title="Navigation">
+    <li><a href="../../../index.html">Overview</a></li>
+    
+    <li><a href="package-summary.html">Package</a></li>
+    
+    <li>Class</li>
+    
+    <li><a href="package-tree.html">Tree</a></li>
+    
+    <li><a href="../../../deprecated.html">Deprecated</a></li>
+    <li><a href="../../../index-files/index-1.html">Index</a></li>
+    <li>Help</li>
+</ul></div>
+            <div class="subNav">
+<ul class="navList" id="allclasses_navbar_top" style="display: block;">
+    <li><a href="../../../allclasses.html">All&nbsp;Classes</a></li>
+</ul>
+
+<ul class="navListSearch">
+<li><label for="search">SEARCH:</label>
+<input type="text" id="search" value="search" class="ui-autocomplete-input" autocomplete="off" placeholder="Search">
+<input type="reset" id="reset" value="reset">
+</li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+</div>
+<a id="skip.navbar.top">
+<!--   -->
+</a></div><!-- ========= END OF TOP NAVBAR ========= -->
+        </div>
+        <div class="navPadding">&nbsp;</div>
+        <script type="text/javascript"><!--
+        $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
+        //-->
+        </script>
+    </nav>
+</header>
+
+<main role="main">
+    <div class="header">
+        <div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html"></a></div>
+        <h2 title="Interface HumanEntity" class="title">Interface HumanEntity</h2>
+    </div>
+    <div class="contentContainer">
+        <!-- <ul class="inheritance">
+            <li>java.lang.Object</li>
+            <li>
+                <ul class="inheritance">
+                    <li>adaptation.Adaptation</li>
+                </ul>
+            </li>
+        </ul> TODO inheritance tree -->
+        <div class="description">
+            <ul class="blockList">
+                <li class="blockList">
+                    
+                    <dl>
+                        <dt>All Implemented Interfaces:</dt>
+                        <dd>
+                            
+                            <code>org.bukkit.Nameable</code>
+                            
+                            ,
+                            
+                            
+                            <code>org.bukkit.attribute.Attributable</code>
+                            
+                            ,
+                            
+                            
+                            <code>org.bukkit.command.CommandSender</code>
+                            
+                            ,
+                            
+                            
+                            <code>org.bukkit.entity.AnimalTamer</code>
+                            
+                            ,
+                            
+                            
+                            <code>org.bukkit.entity.Damageable</code>
+                            
+                            ,
+                            
+                            
+                            <code>org.bukkit.entity.Entity</code>
+                            
+                            ,
+                            
+                            
+                            <code>org.bukkit.entity.LivingEntity</code>
+                            
+                            ,
+                            
+                            
+                            <code>org.bukkit.inventory.InventoryHolder</code>
+                            
+                            ,
+                            
+                            
+                            <code>org.bukkit.metadata.Metadatable</code>
+                            
+                            ,
+                            
+                            
+                            <code>org.bukkit.permissions.Permissible</code>
+                            
+                            ,
+                            
+                            
+                            <code>org.bukkit.permissions.ServerOperator</code>
+                            
+                            ,
+                            
+                            
+                            <code>org.bukkit.persistence.PersistentDataHolder</code>
+                            
+                            ,
+                            
+                            
+                            <code>org.bukkit.projectiles.ProjectileSource</code>
+                            
+                            
+                        </dd>
+                    </dl>
+                    
+                    <hr>
+                    <pre class="wrap-overflow">
+
+public interface <span class="typeNameLabel"><a href=HumanEntity.html>HumanEntity</a></span>
+ implements <a href=LivingEntity.html>LivingEntity</a>, <a href=AnimalTamer.html>AnimalTamer</a>, <a href=../inventory/InventoryHolder.html>InventoryHolder</a>
+                    </pre>
+                    <div class="block"><p>代表人类实体, 比如一个NPC或一名玩家</p></div>
+                </li>
+            </ul>
+        </div>
+        <div class="summary">
+            <ul class="blockList">
+                <li class="blockList">
+                <!-- ======== NESTED CLASS SUMMARY ======== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="nested.class.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Nested Class Summary</h3>
+                                <div class="memberSummary">
+                                    <table>
+                                        <caption><span>Nested Classes</span><span class="tabEnd">&nbsp;</span></caption>
+                                        <tr>
+                                            <th class="colFirst" scope="col">Modifier and Type</th>
+                                            <th class="colSecond" scope="col">Class</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+                                        
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- =========== FIELD SUMMARY =========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="field.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Field Summary</h3>
+                                <div class="memberSummary">
+                                    <table>
+                                        <caption><span>Fields</span><span class="tabEnd">&nbsp;</span></caption>
+                                        <tr>
+                                            <th class="colFirst" scope="col">Modifier and Type</th>
+                                            <th class="colSecond" scope="col">Field</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+                                        
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- ======== CONSTRUCTOR SUMMARY ======== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="constructor.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Constructor Summary</h3>
+                                <div class="memberSummary">
+                                    <table>
+                                        <caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+                                        <tbody>
+                                        <tr>
+                                            <th class="colFirst" scope="col">Constructor</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+
+                                        
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- =========== ENUM CONSTANT SUMMARY =========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="enum.constant.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Enum Constant Summary</h3>
+                                <table class="memberSummary">
+                                    <caption><span>Enum Constants</span><span class="tabEnd">&nbsp;</span></caption>
+                                    <tr>
+                                        <th class="colFirst" scope="col">Enum Constant</th>
+                                        <th class="colLast" scope="col">Description</th>
+                                    </tr>
+                                    
+                                </table>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- ========== METHOD SUMMARY =========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="method.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Method Summary</h3>
+                                <div class="memberSummary">
+                                    <div role="tablist" aria-orientation="horizontal">
+                                        <button role="tab" aria-selected="true" aria-controls="memberSummary_tabpanel" tabindex="0" onkeydown="switchTab(event)" id="t0" class="activeTableTab">All Methods</button>
+                                        <!-- TODO: Instance and Concrete Methods #1118 -->
+                                    </div>
+                                    <div id="memberSummary_tabpanel" role="tabpanel">
+                                    <table aria-labelledby="t0">
+                                        <tr>
+                                            <th class="colFirst" scope="col">Modifier and Type</th>
+                                            <th class="colSecond" scope="col">Method</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+                                        
+                                        <tr id="i0" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#getName()>getName</a>() </code>
+                                            </th>
+                                            <td class="colLast">返回该玩家的玩家名.</td>
+                                        </tr>
+                                        
+                                        <tr id="i1" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=../inventory/PlayerInventory.html>PlayerInventory</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#getInventory()>getInventory</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取玩家的物品栏(俗称背包).</td>
+                                        </tr>
+                                        
+                                        <tr id="i2" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=../inventory/Inventory.html>Inventory</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#getEnderChest()>getEnderChest</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取玩家的末影箱物品栏.</td>
+                                        </tr>
+                                        
+                                        <tr id="i3" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=../inventory/MainHand.html>MainHand</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#getMainHand()>getMainHand</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取玩家设置的主手.</td>
+                                        </tr>
+                                        
+                                        <tr id="i4" class="altColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#setWindowProperty(InventoryView.Property,int)>setWindowProperty</a>(@NotNull() <a href=../inventory/InventoryView.Property.html>InventoryView.Property</a> prop, int value) </code>
+                                            </th>
+                                            <td class="colLast">若玩家当前打开了一个物品栏窗口, 此方法将设置窗口的属性, 比如酿造台的酿造进度.</td>
+                                        </tr>
+                                        
+                                        <tr id="i5" class="rowColor">
+                                            <td class="colFirst"><code>abstract int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#getEnchantmentSeed()>getEnchantmentSeed</a>() </code>
+                                            </th>
+                                            <td class="colLast">Gets the player's current enchantment seed.</td>
+                                        </tr>
+                                        
+                                        <tr id="i6" class="altColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#setEnchantmentSeed(int)>setEnchantmentSeed</a>(int seed) </code>
+                                            </th>
+                                            <td class="colLast">Sets the player's enchantment seed.</td>
+                                        </tr>
+                                        
+                                        <tr id="i7" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=../inventory/InventoryView.html>InventoryView</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#getOpenInventory()>getOpenInventory</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取玩家正在查看的物品栏.</td>
+                                        </tr>
+                                        
+                                        <tr id="i8" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=../inventory/InventoryView.html>InventoryView</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#openInventory(Inventory)>openInventory</a>(@NotNull() <a href=../inventory/Inventory.html>Inventory</a> inventory) </code>
+                                            </th>
+                                            <td class="colLast">打开一个物品栏, 窗口顶部为你指定的物品栏, 底部为玩家物品栏(背包).</td>
+                                        </tr>
+                                        
+                                        <tr id="i9" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=../inventory/InventoryView.html>InventoryView</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#openWorkbench(Location,boolean)>openWorkbench</a>(@Nullable() <a href=../Location.html>Location</a> location, boolean force) </code>
+                                            </th>
+                                            <td class="colLast">打开一个空白工作台物品栏界面, 玩家物品栏(背包)在底部.</td>
+                                        </tr>
+                                        
+                                        <tr id="i10" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=../inventory/InventoryView.html>InventoryView</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#openEnchanting(Location,boolean)>openEnchanting</a>(@Nullable() <a href=../Location.html>Location</a> location, boolean force) </code>
+                                            </th>
+                                            <td class="colLast">打开一个空白附魔台物品栏界面, 玩家物品栏(背包)在底部.</td>
+                                        </tr>
+                                        
+                                        <tr id="i11" class="rowColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#openInventory(InventoryView)>openInventory</a>(@NotNull() <a href=../inventory/InventoryView.html>InventoryView</a> inventory) </code>
+                                            </th>
+                                            <td class="colLast">打开指定的物品栏.</td>
+                                        </tr>
+                                        
+                                        <tr id="i12" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=../inventory/InventoryView.html>InventoryView</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#openMerchant(Villager,boolean)>openMerchant</a>(@NotNull() <a href=Villager.html>Villager</a> trader, boolean force) </code>
+                                            </th>
+                                            <td class="colLast">与某村民开始交易.</td>
+                                        </tr>
+                                        
+                                        <tr id="i13" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=../inventory/InventoryView.html>InventoryView</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#openMerchant(Merchant,boolean)>openMerchant</a>(@NotNull() <a href=../inventory/Merchant.html>Merchant</a> merchant, boolean force) </code>
+                                            </th>
+                                            <td class="colLast">与某商人开始交易.</td>
+                                        </tr>
+                                        
+                                        <tr id="i14" class="altColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#closeInventory()>closeInventory</a>() </code>
+                                            </th>
+                                            <td class="colLast">强制关闭玩家当前打开的物品栏视图.</td>
+                                        </tr>
+                                        
+                                        <tr id="i15" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=../inventory/ItemStack.html>ItemStack</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#getItemInHand()>getItemInHand</a>() </code>
+                                            </th>
+                                            <td class="colLast">返回你手握的物品, 可能为空.</td>
+                                        </tr>
+                                        
+                                        <tr id="i16" class="altColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#setItemInHand(ItemStack)>setItemInHand</a>(@Nullable() <a href=../inventory/ItemStack.html>ItemStack</a> item) </code>
+                                            </th>
+                                            <td class="colLast">设置你手握的物品, 将替换你所持的任何物品.</td>
+                                        </tr>
+                                        
+                                        <tr id="i17" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=../inventory/ItemStack.html>ItemStack</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#getItemOnCursor()>getItemOnCursor</a>() </code>
+                                            </th>
+                                            <td class="colLast">返回你的鼠标正在拖动的物品, 可能为空.</td>
+                                        </tr>
+                                        
+                                        <tr id="i18" class="altColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#setItemOnCursor(ItemStack)>setItemOnCursor</a>(@Nullable() <a href=../inventory/ItemStack.html>ItemStack</a> item) </code>
+                                            </th>
+                                            <td class="colLast">设置你正在拖动的物品, 将替换你所拖动的任何物品.</td>
+                                        </tr>
+                                        
+                                        <tr id="i19" class="rowColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#hasCooldown(Material)>hasCooldown</a>(@NotNull() <a href=../Material.html>Material</a> material) </code>
+                                            </th>
+                                            <td class="colLast">检查指定物品是否处于冷却状态.</td>
+                                        </tr>
+                                        
+                                        <tr id="i20" class="altColor">
+                                            <td class="colFirst"><code>abstract int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#getCooldown(Material)>getCooldown</a>(@NotNull() <a href=../Material.html>Material</a> material) </code>
+                                            </th>
+                                            <td class="colLast">获取指定物品的冷却时长 (以tick为单位).</td>
+                                        </tr>
+                                        
+                                        <tr id="i21" class="rowColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#setCooldown(Material,int)>setCooldown</a>(@NotNull() <a href=../Material.html>Material</a> material, int ticks) </code>
+                                            </th>
+                                            <td class="colLast">设置指定物品的冷却时长.</td>
+                                        </tr>
+                                        
+                                        <tr id="i22" class="altColor">
+                                            <td class="colFirst"><code>abstract int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#getSleepTicks()>getSleepTicks</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取玩家的睡眠时间 (以tick为单位), 该值可能有上限.</td>
+                                        </tr>
+                                        
+                                        <tr id="i23" class="rowColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#sleep(Location,boolean)>sleep</a>(@NotNull() <a href=../Location.html>Location</a> location, boolean force) </code>
+                                            </th>
+                                            <td class="colLast">Attempts to make the entity sleep at the given location.</td>
+                                        </tr>
+                                        
+                                        <tr id="i24" class="altColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#wakeup(boolean)>wakeup</a>(boolean setSpawnLocation) </code>
+                                            </th>
+                                            <td class="colLast">Causes the player to wakeup if they are currently sleeping.</td>
+                                        </tr>
+                                        
+                                        <tr id="i25" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=../Location.html>Location</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#getBedLocation()>getBedLocation</a>() </code>
+                                            </th>
+                                            <td class="colLast">Gets the location of the bed the player is currently sleeping in</td>
+                                        </tr>
+                                        
+                                        <tr id="i26" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=../GameMode.html>GameMode</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#getGameMode()>getGameMode</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取此人类当前的<a href=../GameMode.html>游戏模式</a>.</td>
+                                        </tr>
+                                        
+                                        <tr id="i27" class="rowColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#setGameMode(GameMode)>setGameMode</a>(@NotNull() <a href=../GameMode.html>GameMode</a> mode) </code>
+                                            </th>
+                                            <td class="colLast">设置此人类的<a href=../GameMode.html>游戏模式</a>.</td>
+                                        </tr>
+                                        
+                                        <tr id="i28" class="altColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#isBlocking()>isBlocking</a>() </code>
+                                            </th>
+                                            <td class="colLast">检查玩家是否正在格挡 (换言之, 就是他们使用盾牌, 进入了格挡状态).</td>
+                                        </tr>
+                                        
+                                        <tr id="i29" class="rowColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#isHandRaised()>isHandRaised</a>() </code>
+                                            </th>
+                                            <td class="colLast">检查玩家是否举起了他们的手 (换言之, 就是他们刚使用盾牌(这时isBlocking返回false), 数百毫秒后将进入格挡状态(这时isBlocking返回true)).</td>
+                                        </tr>
+                                        
+                                        <tr id="i30" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=../inventory/ItemStack.html>ItemStack</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#getItemInUse()>getItemInUse</a>() </code>
+                                            </th>
+                                            <td class="colLast">Gets the item that the player is using (eating food, drawing back a bow, blocking, etc.</td>
+                                        </tr>
+                                        
+                                        <tr id="i31" class="rowColor">
+                                            <td class="colFirst"><code>abstract int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#getExpToLevel()>getExpToLevel</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取玩家升级所需经验总额.</td>
+                                        </tr>
+                                        
+                                        <tr id="i32" class="altColor">
+                                            <td class="colFirst"><code>abstract float</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#getAttackCooldown()>getAttackCooldown</a>() </code>
+                                            </th>
+                                            <td class="colLast">Gets the current cooldown for a player's attack.</td>
+                                        </tr>
+                                        
+                                        <tr id="i33" class="rowColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#discoverRecipe(NamespacedKey)>discoverRecipe</a>(@NotNull() <a href=../NamespacedKey.html>NamespacedKey</a> recipe) </code>
+                                            </th>
+                                            <td class="colLast">Discover a recipe for this player such that it has not already been discovered.</td>
+                                        </tr>
+                                        
+                                        <tr id="i34" class="altColor">
+                                            <td class="colFirst"><code>abstract int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#discoverRecipes(Collection)>discoverRecipes</a>(@NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html>Collection</a>&lt;<a href=../NamespacedKey.html>NamespacedKey</a>&gt; recipes) </code>
+                                            </th>
+                                            <td class="colLast">Discover a collection of recipes for this player such that they have not already been discovered.</td>
+                                        </tr>
+                                        
+                                        <tr id="i35" class="rowColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#undiscoverRecipe(NamespacedKey)>undiscoverRecipe</a>(@NotNull() <a href=../NamespacedKey.html>NamespacedKey</a> recipe) </code>
+                                            </th>
+                                            <td class="colLast">Undiscover a recipe for this player such that it has already been discovered.</td>
+                                        </tr>
+                                        
+                                        <tr id="i36" class="altColor">
+                                            <td class="colFirst"><code>abstract int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#undiscoverRecipes(Collection)>undiscoverRecipes</a>(@NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html>Collection</a>&lt;<a href=../NamespacedKey.html>NamespacedKey</a>&gt; recipes) </code>
+                                            </th>
+                                            <td class="colLast">Undiscover a collection of recipes for this player such that they have already been discovered.</td>
+                                        </tr>
+                                        
+                                        <tr id="i37" class="rowColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#hasDiscoveredRecipe(NamespacedKey)>hasDiscoveredRecipe</a>(@NotNull() <a href=../NamespacedKey.html>NamespacedKey</a> recipe) </code>
+                                            </th>
+                                            <td class="colLast">Check whether or not this entity has discovered the specified recipe.</td>
+                                        </tr>
+                                        
+                                        <tr id="i38" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Set.html>Set</a>&lt;<a href=../NamespacedKey.html>NamespacedKey</a>&gt;</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#getDiscoveredRecipes()>getDiscoveredRecipes</a>() </code>
+                                            </th>
+                                            <td class="colLast">Get an immutable set of recipes this entity has discovered.</td>
+                                        </tr>
+                                        
+                                        <tr id="i39" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=Entity.html>Entity</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#getShoulderEntityLeft()>getShoulderEntityLeft</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取栖息在玩家左肩上的实体 (通常情况下这是鹦鹉的行为, 目前客户端没有为其他实体定义这一行为), 若没有则返回null.</td>
+                                        </tr>
+                                        
+                                        <tr id="i40" class="altColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#setShoulderEntityLeft(Entity)>setShoulderEntityLeft</a>(@Nullable() <a href=Entity.html>Entity</a> entity) </code>
+                                            </th>
+                                            <td class="colLast">设置栖息在玩家左肩上的实体(设为null则移除).</td>
+                                        </tr>
+                                        
+                                        <tr id="i41" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=Entity.html>Entity</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#getShoulderEntityRight()>getShoulderEntityRight</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取栖息在玩家右肩上的实体, 若没有则返回null.</td>
+                                        </tr>
+                                        
+                                        <tr id="i42" class="altColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#setShoulderEntityRight(Entity)>setShoulderEntityRight</a>(@Nullable() <a href=Entity.html>Entity</a> entity) </code>
+                                            </th>
+                                            <td class="colLast">设置栖息在玩家右肩上的实体(设为null则移除).</td>
+                                        </tr>
+                                        
+                                        <tr id="i43" class="rowColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#dropItem(boolean)>dropItem</a>(boolean dropAll) </code>
+                                            </th>
+                                            <td class="colLast">Make the entity drop the item in their hand.</td>
+                                        </tr>
+                                        
+                                        <tr id="i44" class="altColor">
+                                            <td class="colFirst"><code>abstract float</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#getExhaustion()>getExhaustion</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取玩家的疲劳度.</td>
+                                        </tr>
+                                        
+                                        <tr id="i45" class="rowColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#setExhaustion(float)>setExhaustion</a>(float value) </code>
+                                            </th>
+                                            <td class="colLast">设置玩家的疲劳度.</td>
+                                        </tr>
+                                        
+                                        <tr id="i46" class="altColor">
+                                            <td class="colFirst"><code>abstract float</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#getSaturation()>getSaturation</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取玩家的饱食度(不是饥饿度).</td>
+                                        </tr>
+                                        
+                                        <tr id="i47" class="rowColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#setSaturation(float)>setSaturation</a>(float value) </code>
+                                            </th>
+                                            <td class="colLast">设置玩家的饱食度(不是饥饿度).</td>
+                                        </tr>
+                                        
+                                        <tr id="i48" class="altColor">
+                                            <td class="colFirst"><code>abstract int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#getFoodLevel()>getFoodLevel</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取玩家的饥饿度(不是饱食度).</td>
+                                        </tr>
+                                        
+                                        <tr id="i49" class="rowColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#setFoodLevel(int)>setFoodLevel</a>(int value) </code>
+                                            </th>
+                                            <td class="colLast">设置玩家的饥饿度(不是饱食度).</td>
+                                        </tr>
+                                        
+                                        <tr id="i50" class="altColor">
+                                            <td class="colFirst"><code>abstract int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#getSaturatedRegenRate()>getSaturatedRegenRate</a>() </code>
+                                            </th>
+                                            <td class="colLast">Get the regeneration rate (1 health per x ticks) of the HumanEntity when they have saturation and their food level is &gt;= 20.</td>
+                                        </tr>
+                                        
+                                        <tr id="i51" class="rowColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#setSaturatedRegenRate(int)>setSaturatedRegenRate</a>(int ticks) </code>
+                                            </th>
+                                            <td class="colLast">Set the regeneration rate (1 health per x ticks) of the HumanEntity when they have saturation and their food level is &gt;= 20.</td>
+                                        </tr>
+                                        
+                                        <tr id="i52" class="altColor">
+                                            <td class="colFirst"><code>abstract int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#getUnsaturatedRegenRate()>getUnsaturatedRegenRate</a>() </code>
+                                            </th>
+                                            <td class="colLast">Get the regeneration rate (1 health per x ticks) of the HumanEntity when they have no saturation and their food level is &gt;= 18.</td>
+                                        </tr>
+                                        
+                                        <tr id="i53" class="rowColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#setUnsaturatedRegenRate(int)>setUnsaturatedRegenRate</a>(int ticks) </code>
+                                            </th>
+                                            <td class="colLast">Get the regeneration rate (1 health per x ticks) of the HumanEntity when they have no saturation and their food level is &gt;= 18.</td>
+                                        </tr>
+                                        
+                                        <tr id="i54" class="altColor">
+                                            <td class="colFirst"><code>abstract int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#getStarvationRate()>getStarvationRate</a>() </code>
+                                            </th>
+                                            <td class="colLast">Get the starvation rate (1 health per x ticks) of the HumanEntity.</td>
+                                        </tr>
+                                        
+                                        <tr id="i55" class="rowColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#setStarvationRate(int)>setStarvationRate</a>(int ticks) </code>
+                                            </th>
+                                            <td class="colLast">Get the starvation rate (1 health per x ticks) of the HumanEntity.</td>
+                                        </tr>
+                                        
+                                        <tr id="i56" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=../Location.html>Location</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#getLastDeathLocation()>getLastDeathLocation</a>() </code>
+                                            </th>
+                                            <td class="colLast">Gets the player's last death location.</td>
+                                        </tr>
+                                        
+                                        <tr id="i57" class="rowColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#setLastDeathLocation(Location)>setLastDeathLocation</a>(@Nullable() <a href=../Location.html>Location</a> location) </code>
+                                            </th>
+                                            <td class="colLast">Sets the player's last death location.</td>
+                                        </tr>
+                                        
+                                        <tr id="i58" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=Firework.html>Firework</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=HumanEntity.html#fireworkBoost(ItemStack)>fireworkBoost</a>(@NotNull() <a href=../inventory/ItemStack.html>ItemStack</a> fireworkItemStack) </code>
+                                            </th>
+                                            <td class="colLast">Perform a firework boost.</td>
+                                        </tr>
+                                        
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <ul class="blockList">
+                                
+                                    <li class="blockList"><a id="methods.inherited.from.class.java.lang.Object">
+                                        <!--   -->
+                                    </a>
+                                        <h3>Methods inherited from class&nbsp;java.lang.Object</h3>
+                                        <code>clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString,
+                                            wait, wait, wait</code></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                </li>
+            </ul>
+        </div>
+        <div class="details">
+            <ul class="blockList">
+                <li class="blockList">
+                    <!-- ========= CONSTRUCTOR DETAIL ======== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="constructor.detail">
+                                <!--   -->
+                            </a>
+                                <h3>Constructor Detail</h3>
+                                
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- ============ METHOD DETAIL ========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="method.detail">
+                                <!--   -->
+                            </a>
+                                <h3>Method Detail</h3>
+                                
+                                <a id="getName()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getName</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> <a href=HumanEntity.html#getName()>getName</a>()</pre>
+                                        <div class="block"><p>返回该玩家的玩家名. </p><p> 原文:Returns the name of this player</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getInventory()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getInventory</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=../inventory/PlayerInventory.html>PlayerInventory</a> <a href=HumanEntity.html#getInventory()>getInventory</a>()</pre>
+                                        <div class="block"><p>获取玩家的物品栏(俗称背包). </p><p> 原文:Get the player's inventory.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getEnderChest()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getEnderChest</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=../inventory/Inventory.html>Inventory</a> <a href=HumanEntity.html#getEnderChest()>getEnderChest</a>()</pre>
+                                        <div class="block"><p>获取玩家的末影箱物品栏. </p><p> 原文:Get the player's EnderChest inventory</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getMainHand()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getMainHand</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=../inventory/MainHand.html>MainHand</a> <a href=HumanEntity.html#getMainHand()>getMainHand</a>()</pre>
+                                        <div class="block"><p>获取玩家设置的主手. </p><p> 原文:Gets the player's selected main hand</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setWindowProperty(InventoryView.Property,int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setWindowProperty</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=HumanEntity.html#setWindowProperty(InventoryView.Property,int)>setWindowProperty</a>(@NotNull() <a href=../inventory/InventoryView.Property.html>InventoryView.Property</a> prop, int value)</pre>
+                                        <div class="block"><p>若玩家当前打开了一个物品栏窗口, 此方法将设置窗口的属性, 比如酿造台的酿造进度. </p><p> 原文:If the player currently has an inventory window open, this method will set a property of that window, such as the state of a progress bar.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>prop</code> - 窗口属性</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>value</code> - 要设置的属性值</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getEnchantmentSeed()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getEnchantmentSeed</h4>
+                                        <pre class="methodSignature"> abstract int <a href=HumanEntity.html#getEnchantmentSeed()>getEnchantmentSeed</a>()</pre>
+                                        <div class="block"><p>Gets the player's current enchantment seed. The Seed is used to generate enchantment options in the enchanting table for the player.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setEnchantmentSeed(int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setEnchantmentSeed</h4>
+                                        <pre class="methodSignature"> abstract void <a href=HumanEntity.html#setEnchantmentSeed(int)>setEnchantmentSeed</a>(int seed)</pre>
+                                        <div class="block"><p>Sets the player's enchantment seed. The Seed is used to generate enchantment options in the enchanting table for the player.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>seed</code> - the player's new enchantment seed</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getOpenInventory()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getOpenInventory</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=../inventory/InventoryView.html>InventoryView</a> <a href=HumanEntity.html#getOpenInventory()>getOpenInventory</a>()</pre>
+                                        <div class="block"><p>获取玩家正在查看的物品栏. 如果他们没有打开任何物品栏窗口, 将返回他们的内部合成视图(玩家背包的那四个格子?). </p><p> 原文:Gets the inventory view the player is currently viewing. If they do not have an inventory window open, it returns their internal crafting view.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="openInventory(Inventory)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>openInventory</h4>
+                                        <pre class="methodSignature">@Nullable() abstract <a href=../inventory/InventoryView.html>InventoryView</a> <a href=HumanEntity.html#openInventory(Inventory)>openInventory</a>(@NotNull() <a href=../inventory/Inventory.html>Inventory</a> inventory)</pre>
+                                        <div class="block"><p>打开一个物品栏, 窗口顶部为你指定的物品栏, 底部为玩家物品栏(背包). </p><p> 原文:Opens an inventory window with the specified inventory on the top and the player's inventory on the bottom.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>inventory</code> - 要打开的物品栏</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="openWorkbench(Location,boolean)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>openWorkbench</h4>
+                                        <pre class="methodSignature">@Nullable() abstract <a href=../inventory/InventoryView.html>InventoryView</a> <a href=HumanEntity.html#openWorkbench(Location,boolean)>openWorkbench</a>(@Nullable() <a href=../Location.html>Location</a> location, boolean force)</pre>
+                                        <div class="block"><p>打开一个空白工作台物品栏界面, 玩家物品栏(背包)在底部. </p><p> 原文:Opens an empty workbench inventory window with the player's inventory on the bottom.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>location</code> - 工作台位置.</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>force</code> - 若为false, 同时指定位置不是工作台方块, 将不会打开工作台物品栏, 并返回null(true就是不管怎样都向 玩家展示工作台界面)</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="openEnchanting(Location,boolean)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>openEnchanting</h4>
+                                        <pre class="methodSignature">@Nullable() abstract <a href=../inventory/InventoryView.html>InventoryView</a> <a href=HumanEntity.html#openEnchanting(Location,boolean)>openEnchanting</a>(@Nullable() <a href=../Location.html>Location</a> location, boolean force)</pre>
+                                        <div class="block"><p>打开一个空白附魔台物品栏界面, 玩家物品栏(背包)在底部. </p><p> 原文:Opens an empty enchanting inventory window with the player's inventory on the bottom.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>location</code> - 附魔台位置.</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>force</code> - 若为false, 同时指定位置不是附魔台方块, 将不会打开工作台物品栏, 并返回null(true就是不管怎样都向 玩家展示附魔台界面)</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="openInventory(InventoryView)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>openInventory</h4>
+                                        <pre class="methodSignature"> abstract void <a href=HumanEntity.html#openInventory(InventoryView)>openInventory</a>(@NotNull() <a href=../inventory/InventoryView.html>InventoryView</a> inventory)</pre>
+                                        <div class="block"><p>打开指定的物品栏. </p><p> 原文:Opens an inventory window to the specified inventory view.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>inventory</code> - 要打开的物品栏视图</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="openMerchant(Villager,boolean)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>openMerchant</h4>
+                                        <pre class="methodSignature">@Nullable() abstract <a href=../inventory/InventoryView.html>InventoryView</a> <a href=HumanEntity.html#openMerchant(Villager,boolean)>openMerchant</a>(@NotNull() <a href=Villager.html>Villager</a> trader, boolean force)</pre>
+                                        <div class="block"><p>与某村民开始交易. 注意: 同一时间内只有一名玩家可以与此村民进行交易. 欲使多名玩家能同时与此村民进行交易, 请将“force”参数设为true. </p><p> 原文:Starts a trade between the player and the villager. Note that only one player may trade with a villager at once. You must use the force parameter for this.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>trader</code> - 与哪位村民交易.</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>force</code> - 是否强制开始交易, 即使另一名玩家正在与此村民交易</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="openMerchant(Merchant,boolean)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>openMerchant</h4>
+                                        <pre class="methodSignature">@Nullable() abstract <a href=../inventory/InventoryView.html>InventoryView</a> <a href=HumanEntity.html#openMerchant(Merchant,boolean)>openMerchant</a>(@NotNull() <a href=../inventory/Merchant.html>Merchant</a> merchant, boolean force)</pre>
+                                        <div class="block"><p>与某商人开始交易. 注意: 同一时间内只有一名玩家可以与此商人进行交易. 欲使多名玩家能同时与此商人进行交易, 请将“force”参数设为true. </p><p> 原文:Starts a trade between the player and the merchant. Note that only one player may trade with a merchant at once. You must use the force parameter for this.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>merchant</code> - 与哪个商人交易.</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>force</code> - 是否强制开始交易, 即使另一名玩家正在与此商人交易</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="closeInventory()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>closeInventory</h4>
+                                        <pre class="methodSignature"> abstract void <a href=HumanEntity.html#closeInventory()>closeInventory</a>()</pre>
+                                        <div class="block"><p>强制关闭玩家当前打开的物品栏视图. </p><p> 原文:Force-closes the currently open inventory view for this player, if any.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getItemInHand()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getItemInHand</h4>
+                                        <pre class="methodSignature">@<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html>Deprecated</a>()@NotNull() abstract <a href=../inventory/ItemStack.html>ItemStack</a> <a href=HumanEntity.html#getItemInHand()>getItemInHand</a>()</pre>
+                                        <div class="block"><p>返回你手握的物品, 可能为空. </p><p> 原文:Returns the ItemStack currently in your hand, can be empty.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setItemInHand(ItemStack)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setItemInHand</h4>
+                                        <pre class="methodSignature">@<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html>Deprecated</a>() abstract void <a href=HumanEntity.html#setItemInHand(ItemStack)>setItemInHand</a>(@Nullable() <a href=../inventory/ItemStack.html>ItemStack</a> item)</pre>
+                                        <div class="block"><p>设置你手握的物品, 将替换你所持的任何物品. </p><p> 原文:Sets the item to the given ItemStack, this will replace whatever the user was holding.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>item</code> - 要设置的物品堆</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getItemOnCursor()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getItemOnCursor</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=../inventory/ItemStack.html>ItemStack</a> <a href=HumanEntity.html#getItemOnCursor()>getItemOnCursor</a>()</pre>
+                                        <div class="block"><p>返回你的鼠标正在拖动的物品, 可能为空. 如果玩家没有打开任何窗口, 将永远为空(AIR). </p><p> 译注:这个方法是适用于物品拖动场景的, 只有鼠标指针在物品上而没有拖动它是获取不到的(AIR). </p><p> 原文:Returns the ItemStack currently on your cursor, can be empty. Will always be empty if the player currently has no open window.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setItemOnCursor(ItemStack)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setItemOnCursor</h4>
+                                        <pre class="methodSignature"> abstract void <a href=HumanEntity.html#setItemOnCursor(ItemStack)>setItemOnCursor</a>(@Nullable() <a href=../inventory/ItemStack.html>ItemStack</a> item)</pre>
+                                        <div class="block"><p>设置你正在拖动的物品, 将替换你所拖动的任何物品. 如果玩家没有打开任何窗口, 将永远为空(AIR). </p><p> 原文:Sets the item to the given ItemStack, this will replace whatever the user was moving. Will always be empty if the player currently has no open window.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>item</code> - 要设置的物品堆</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="hasCooldown(Material)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>hasCooldown</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=HumanEntity.html#hasCooldown(Material)>hasCooldown</a>(@NotNull() <a href=../Material.html>Material</a> material)</pre>
+                                        <div class="block"><p>检查指定物品是否处于冷却状态. </p><p> 原文:Check whether a cooldown is active on the specified material.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>material</code> - 要检查的物品种类</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getCooldown(Material)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getCooldown</h4>
+                                        <pre class="methodSignature"> abstract int <a href=HumanEntity.html#getCooldown(Material)>getCooldown</a>(@NotNull() <a href=../Material.html>Material</a> material)</pre>
+                                        <div class="block"><p>获取指定物品的冷却时长 (以tick为单位). </p><p> 原文:Get the cooldown time in ticks remaining for the specified material.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>material</code> - 要检查的物品种类</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setCooldown(Material,int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setCooldown</h4>
+                                        <pre class="methodSignature"> abstract void <a href=HumanEntity.html#setCooldown(Material,int)>setCooldown</a>(@NotNull() <a href=../Material.html>Material</a> material, int ticks)</pre>
+                                        <div class="block"><p>设置指定物品的冷却时长. 设为0 tick将导致移除此物品的冷却. </p><p> 冷却被服务器用来针对某些物品比如末影珍珠、盾牌等以防止它们被经常重复使用. </p><p> 请注意: 冷却时间自身不会阻止某个物品被用来使用或攻击. </p><p> 原文:Set a cooldown on the specified material for a certain amount of ticks. ticks. 0 ticks will result in the removal of the cooldown. </p><p> Cooldowns are used by the server for items such as ender pearls and shields to prevent them from being used repeatedly. </p><p> Note that cooldowns will not by themselves stop an item from being used for attacking.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>material</code> - 为哪个物品设置冷却</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>ticks</code> - 冷却时长(以tick为单位)或设为0来移除它</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getSleepTicks()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getSleepTicks</h4>
+                                        <pre class="methodSignature"> abstract int <a href=HumanEntity.html#getSleepTicks()>getSleepTicks</a>()</pre>
+                                        <div class="block"><p>获取玩家的睡眠时间 (以tick为单位), 该值可能有上限. </p><p> 原文:Get the sleep ticks of the player. This value may be capped.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="sleep(Location,boolean)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>sleep</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=HumanEntity.html#sleep(Location,boolean)>sleep</a>(@NotNull() <a href=../Location.html>Location</a> location, boolean force)</pre>
+                                        <div class="block"><p>Attempts to make the entity sleep at the given location.  The location must be in the current world and have a bed placed at the location. The game may also enforce other requirements such as proximity to bed, monsters, and dimension type if force is not set.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>location</code> - the location of the bed</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>force</code> - whether to try and sleep at the location even if not normally possible</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="wakeup(boolean)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>wakeup</h4>
+                                        <pre class="methodSignature"> abstract void <a href=HumanEntity.html#wakeup(boolean)>wakeup</a>(boolean setSpawnLocation)</pre>
+                                        <div class="block"><p>Causes the player to wakeup if they are currently sleeping.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>setSpawnLocation</code> - whether to set their spawn location to the bed they are currently sleeping in</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getBedLocation()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getBedLocation</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=../Location.html>Location</a> <a href=HumanEntity.html#getBedLocation()>getBedLocation</a>()</pre>
+                                        <div class="block"><p>Gets the location of the bed the player is currently sleeping in</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getGameMode()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getGameMode</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=../GameMode.html>GameMode</a> <a href=HumanEntity.html#getGameMode()>getGameMode</a>()</pre>
+                                        <div class="block"><p>获取此人类当前的<a href=../GameMode.html>游戏模式</a>. </p><p> 原文:Gets this human's current <a href=../GameMode.html>GameMode</a></p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setGameMode(GameMode)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setGameMode</h4>
+                                        <pre class="methodSignature"> abstract void <a href=HumanEntity.html#setGameMode(GameMode)>setGameMode</a>(@NotNull() <a href=../GameMode.html>GameMode</a> mode)</pre>
+                                        <div class="block"><p>设置此人类的<a href=../GameMode.html>游戏模式</a>. </p><p> 原文:Sets this human's current <a href=../GameMode.html>GameMode</a></p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>mode</code> - 新游戏模式</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="isBlocking()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>isBlocking</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=HumanEntity.html#isBlocking()>isBlocking</a>()</pre>
+                                        <div class="block"><p>检查玩家是否正在格挡 (换言之, 就是他们使用盾牌, 进入了格挡状态). </p><p> 原文:Check if the player is currently blocking (ie with a shield).</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="isHandRaised()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>isHandRaised</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=HumanEntity.html#isHandRaised()>isHandRaised</a>()</pre>
+                                        <div class="block"><p>检查玩家是否举起了他们的手 (换言之, 就是他们刚使用盾牌(这时isBlocking返回false), 数百毫秒后将进入格挡状态(这时isBlocking返回true)). </p><p> 原文:Check if the player currently has their hand raised (ie about to begin blocking).</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getItemInUse()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getItemInUse</h4>
+                                        <pre class="methodSignature">@Nullable() abstract <a href=../inventory/ItemStack.html>ItemStack</a> <a href=HumanEntity.html#getItemInUse()>getItemInUse</a>()</pre>
+                                        <div class="block"><p>Gets the item that the player is using (eating food, drawing back a bow, blocking, etc.)</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getExpToLevel()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getExpToLevel</h4>
+                                        <pre class="methodSignature"> abstract int <a href=HumanEntity.html#getExpToLevel()>getExpToLevel</a>()</pre>
+                                        <div class="block"><p>获取玩家升级所需经验总额. </p><p> 原文:Get the total amount of experience required for the player to level</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getAttackCooldown()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getAttackCooldown</h4>
+                                        <pre class="methodSignature"> abstract float <a href=HumanEntity.html#getAttackCooldown()>getAttackCooldown</a>()</pre>
+                                        <div class="block"><p>Gets the current cooldown for a player's attack. This is used to calculate damage, with 1.0 representing a fully charged attack and 0.0 representing a non-charged attack</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="discoverRecipe(NamespacedKey)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>discoverRecipe</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=HumanEntity.html#discoverRecipe(NamespacedKey)>discoverRecipe</a>(@NotNull() <a href=../NamespacedKey.html>NamespacedKey</a> recipe)</pre>
+                                        <div class="block"><p>Discover a recipe for this player such that it has not already been discovered. This method will add the key's associated recipe to the player's recipe book.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>recipe</code> - the key of the recipe to discover</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="discoverRecipes(Collection)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>discoverRecipes</h4>
+                                        <pre class="methodSignature"> abstract int <a href=HumanEntity.html#discoverRecipes(Collection)>discoverRecipes</a>(@NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html>Collection</a>&lt;<a href=../NamespacedKey.html>NamespacedKey</a>&gt; recipes)</pre>
+                                        <div class="block"><p>Discover a collection of recipes for this player such that they have not already been discovered. This method will add the keys' associated recipes to the player's recipe book. If a recipe in the provided collection has already been discovered, it will be silently ignored.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>recipes</code> - the keys of the recipes to discover</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="undiscoverRecipe(NamespacedKey)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>undiscoverRecipe</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=HumanEntity.html#undiscoverRecipe(NamespacedKey)>undiscoverRecipe</a>(@NotNull() <a href=../NamespacedKey.html>NamespacedKey</a> recipe)</pre>
+                                        <div class="block"><p>Undiscover a recipe for this player such that it has already been discovered. This method will remove the key's associated recipe from the player's recipe book.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>recipe</code> - the key of the recipe to undiscover</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="undiscoverRecipes(Collection)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>undiscoverRecipes</h4>
+                                        <pre class="methodSignature"> abstract int <a href=HumanEntity.html#undiscoverRecipes(Collection)>undiscoverRecipes</a>(@NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html>Collection</a>&lt;<a href=../NamespacedKey.html>NamespacedKey</a>&gt; recipes)</pre>
+                                        <div class="block"><p>Undiscover a collection of recipes for this player such that they have already been discovered. This method will remove the keys' associated recipes from the player's recipe book. If a recipe in the provided collection has not yet been discovered, it will be silently ignored.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>recipes</code> - the keys of the recipes to undiscover</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="hasDiscoveredRecipe(NamespacedKey)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>hasDiscoveredRecipe</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=HumanEntity.html#hasDiscoveredRecipe(NamespacedKey)>hasDiscoveredRecipe</a>(@NotNull() <a href=../NamespacedKey.html>NamespacedKey</a> recipe)</pre>
+                                        <div class="block"><p>Check whether or not this entity has discovered the specified recipe.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>recipe</code> - the key of the recipe to check</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getDiscoveredRecipes()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getDiscoveredRecipes</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Set.html>Set</a>&lt;<a href=../NamespacedKey.html>NamespacedKey</a>&gt; <a href=HumanEntity.html#getDiscoveredRecipes()>getDiscoveredRecipes</a>()</pre>
+                                        <div class="block"><p>Get an immutable set of recipes this entity has discovered.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getShoulderEntityLeft()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getShoulderEntityLeft</h4>
+                                        <pre class="methodSignature">@<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html>Deprecated</a>()@Nullable() abstract <a href=Entity.html>Entity</a> <a href=HumanEntity.html#getShoulderEntityLeft()>getShoulderEntityLeft</a>()</pre>
+                                        <div class="block"><p>获取栖息在玩家左肩上的实体 (通常情况下这是鹦鹉的行为, 目前客户端没有为其他实体定义这一行为), 若没有则返回null. </p><p> 返回的实体不会在世界内生成, 因此除非这个实体是首次生成的, 大部分对该实体的操作是无效的. </p><p> 原文:Gets the entity currently perched on the left shoulder or null if no entity.  The returned entity will not be spawned within the world, so most operations are invalid unless the entity is first spawned in.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setShoulderEntityLeft(Entity)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setShoulderEntityLeft</h4>
+                                        <pre class="methodSignature">@<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html>Deprecated</a>() abstract void <a href=HumanEntity.html#setShoulderEntityLeft(Entity)>setShoulderEntityLeft</a>(@Nullable() <a href=Entity.html>Entity</a> entity)</pre>
+                                        <div class="block"><p>设置栖息在玩家左肩上的实体(设为null则移除). 该方法将从世界中删除该实体. </p><p> 请注意: 只有实体的副本将被设置为显示在肩膀上的实体. </p><p> 也请注意游戏客户端目前只会渲染<a href=Parrot.html>鹦鹉</a>的坐在肩膀上的行为. </p><p> 原文:Sets the entity currently perched on the left shoulder, or null to remove. This method will remove the entity from the world.  Note that only a copy of the entity will be set to display on the shoulder.  Also note that the client will currently only render <a href=Parrot.html>Parrot</a> entities.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>entity</code> - 坐在玩家左肩的实体</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getShoulderEntityRight()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getShoulderEntityRight</h4>
+                                        <pre class="methodSignature">@<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html>Deprecated</a>()@Nullable() abstract <a href=Entity.html>Entity</a> <a href=HumanEntity.html#getShoulderEntityRight()>getShoulderEntityRight</a>()</pre>
+                                        <div class="block"><p>获取栖息在玩家右肩上的实体, 若没有则返回null. </p><p> 返回的实体不会在世界内生成, 因此除非这个实体是首次生成的, 大部分对该实体的操作是无效的. </p><p> 原文:Gets the entity currently perched on the right shoulder or null if no entity.  The returned entity will not be spawned within the world, so most operations are invalid unless the entity is first spawned in.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setShoulderEntityRight(Entity)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setShoulderEntityRight</h4>
+                                        <pre class="methodSignature">@<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html>Deprecated</a>() abstract void <a href=HumanEntity.html#setShoulderEntityRight(Entity)>setShoulderEntityRight</a>(@Nullable() <a href=Entity.html>Entity</a> entity)</pre>
+                                        <div class="block"><p>设置栖息在玩家右肩上的实体(设为null则移除). 该方法将从世界中删除该实体. </p><p> 请注意: 只有实体的副本将被设置为显示在肩膀上的实体. </p><p> 也请注意游戏客户端目前只会渲染<a href=Parrot.html>鹦鹉</a>的坐在肩膀上的行为. </p><p> 原文:Sets the entity currently perched on the right shoulder, or null to remove. This method will remove the entity from the world.  Note that only a copy of the entity will be set to display on the shoulder.  Also note that the client will currently only render <a href=Parrot.html>Parrot</a> entities.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>entity</code> - 坐在玩家右肩的实体</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="dropItem(boolean)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>dropItem</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=HumanEntity.html#dropItem(boolean)>dropItem</a>(boolean dropAll)</pre>
+                                        <div class="block"><p>Make the entity drop the item in their hand.  This will force the entity to drop the item they are holding with an option to drop the entire <a href=../inventory/ItemStack.html>ItemStack</a> or just 1 of the items.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>dropAll</code> - True to drop entire stack, false to drop 1 of the stack</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getExhaustion()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getExhaustion</h4>
+                                        <pre class="methodSignature"> abstract float <a href=HumanEntity.html#getExhaustion()>getExhaustion</a>()</pre>
+                                        <div class="block"><p>获取玩家的疲劳度. </p><p> 疲劳度控制者玩家的饥饿消耗. 当玩家达到一定的疲劳度时, 你的饱食度就会下降, 并且疲劳度归零. </p><p> 译注:如果饱食度为0, 那么就扣饥饿度. </p><p> 译注2:运动会产生疲劳度. </p><p> 原文:Gets the players current exhaustion level. </p><p> Exhaustion controls how fast the food level drops. While you have a certain amount of exhaustion, your saturation will drop to zero, and then your food will drop to zero.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setExhaustion(float)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setExhaustion</h4>
+                                        <pre class="methodSignature"> abstract void <a href=HumanEntity.html#setExhaustion(float)>setExhaustion</a>(float value)</pre>
+                                        <div class="block"><p>设置玩家的疲劳度. </p><p> 原文:Sets the players current exhaustion level</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>value</code> - 疲劳度</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getSaturation()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getSaturation</h4>
+                                        <pre class="methodSignature"> abstract float <a href=HumanEntity.html#getSaturation()>getSaturation</a>()</pre>
+                                        <div class="block"><p>获取玩家的饱食度(不是饥饿度). </p><p> 饱食度是一个饥饿度的缓存. 当你的饱食度 &gt; 0的时候,饥饿度是不会下降的. </p><p> 译注:就是说, 吃东西的时候, 你的饥饿度被填满了, 而多出来的部分就是隐藏的饱食度. 当你的疲劳值(见<a href=HumanEntity.html#getExhaustion()>getExhaustion</a>) 达到一定程度时, 如果饱食度不为0, 那么先扣饱食度. 只有当没饱食度时, 才会扣饥饿度. 其实饱食度就是饥饿度, 只不过是隐藏的. </p><p> 原文:Gets the players current saturation level. </p><p> Saturation is a buffer for food level. Your food level will not drop if you are saturated &gt; 0.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setSaturation(float)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setSaturation</h4>
+                                        <pre class="methodSignature"> abstract void <a href=HumanEntity.html#setSaturation(float)>setSaturation</a>(float value)</pre>
+                                        <div class="block"><p>设置玩家的饱食度(不是饥饿度). </p><p> 原文:Sets the players current saturation level</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>value</code> - 饱食度</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getFoodLevel()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getFoodLevel</h4>
+                                        <pre class="methodSignature"> abstract int <a href=HumanEntity.html#getFoodLevel()>getFoodLevel</a>()</pre>
+                                        <div class="block"><p>获取玩家的饥饿度(不是饱食度). </p><p> 原文:Gets the players current food level</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setFoodLevel(int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setFoodLevel</h4>
+                                        <pre class="methodSignature"> abstract void <a href=HumanEntity.html#setFoodLevel(int)>setFoodLevel</a>(int value)</pre>
+                                        <div class="block"><p>设置玩家的饥饿度(不是饱食度). </p><p> 原文:Sets the players current food level</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>value</code> - 饥饿度</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getSaturatedRegenRate()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getSaturatedRegenRate</h4>
+                                        <pre class="methodSignature"> abstract int <a href=HumanEntity.html#getSaturatedRegenRate()>getSaturatedRegenRate</a>()</pre>
+                                        <div class="block"><p>Get the regeneration rate (1 health per x ticks) of the HumanEntity when they have saturation and their food level is &gt;= 20. Default is 10.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setSaturatedRegenRate(int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setSaturatedRegenRate</h4>
+                                        <pre class="methodSignature"> abstract void <a href=HumanEntity.html#setSaturatedRegenRate(int)>setSaturatedRegenRate</a>(int ticks)</pre>
+                                        <div class="block"><p>Set the regeneration rate (1 health per x ticks) of the HumanEntity when they have saturation and their food level is &gt;= 20. Default is 10. Not affected if the world's difficulty is peaceful.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>ticks</code> - the amount of ticks to gain 1 health.</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getUnsaturatedRegenRate()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getUnsaturatedRegenRate</h4>
+                                        <pre class="methodSignature"> abstract int <a href=HumanEntity.html#getUnsaturatedRegenRate()>getUnsaturatedRegenRate</a>()</pre>
+                                        <div class="block"><p>Get the regeneration rate (1 health per x ticks) of the HumanEntity when they have no saturation and their food level is &gt;= 18. Default is 80.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setUnsaturatedRegenRate(int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setUnsaturatedRegenRate</h4>
+                                        <pre class="methodSignature"> abstract void <a href=HumanEntity.html#setUnsaturatedRegenRate(int)>setUnsaturatedRegenRate</a>(int ticks)</pre>
+                                        <div class="block"><p>Get the regeneration rate (1 health per x ticks) of the HumanEntity when they have no saturation and their food level is &gt;= 18. Default is 80. Not affected if the world's difficulty is peaceful.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>ticks</code> - the amount of ticks to gain 1 health.</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getStarvationRate()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getStarvationRate</h4>
+                                        <pre class="methodSignature"> abstract int <a href=HumanEntity.html#getStarvationRate()>getStarvationRate</a>()</pre>
+                                        <div class="block"><p>Get the starvation rate (1 health per x ticks) of the HumanEntity. Default is 80.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setStarvationRate(int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setStarvationRate</h4>
+                                        <pre class="methodSignature"> abstract void <a href=HumanEntity.html#setStarvationRate(int)>setStarvationRate</a>(int ticks)</pre>
+                                        <div class="block"><p>Get the starvation rate (1 health per x ticks) of the HumanEntity. Default is 80.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>ticks</code> - the amount of ticks to lose 1 health</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getLastDeathLocation()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getLastDeathLocation</h4>
+                                        <pre class="methodSignature">@Nullable() abstract <a href=../Location.html>Location</a> <a href=HumanEntity.html#getLastDeathLocation()>getLastDeathLocation</a>()</pre>
+                                        <div class="block"><p>Gets the player's last death location.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setLastDeathLocation(Location)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setLastDeathLocation</h4>
+                                        <pre class="methodSignature"> abstract void <a href=HumanEntity.html#setLastDeathLocation(Location)>setLastDeathLocation</a>(@Nullable() <a href=../Location.html>Location</a> location)</pre>
+                                        <div class="block"><p>Sets the player's last death location. Note: This data is updated in the player's client only when the player respawns.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>location</code> - where to set the last death player location</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="fireworkBoost(ItemStack)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockListLast"
+                                          >
+                                    <li class="blockList">
+                                        <h4>fireworkBoost</h4>
+                                        <pre class="methodSignature">@Nullable() abstract <a href=Firework.html>Firework</a> <a href=HumanEntity.html#fireworkBoost(ItemStack)>fireworkBoost</a>(@NotNull() <a href=../inventory/ItemStack.html>ItemStack</a> fireworkItemStack)</pre>
+                                        <div class="block"><p>Perform a firework boost. </p><p> This method will only work such that <a href=LivingEntity.html#isGliding()>isGliding</a> is true and the entity is actively gliding with an elytra. Additionally, the supplied <code>fireworkItemStack</code> must be a firework rocket. The power of the boost will directly correlate to <a href=../inventory/meta/FireworkMeta.html#getPower()>getPower</a>.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>fireworkItemStack</code> - the firework item stack to use to glide</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                            </li>
+                        </ul>
+                    </section>
+                    
+                </li>
+            </ul>
+        </div>
+    </div>
+</main>
+<footer role="contentinfo">
+    <nav role="navigation">
+        <!-- ======= START OF BOTTOM NAVBAR ====== -->
+        <div class="bottomNav"><a id="navbar.bottom">
+            <!--   -->
+        </a>
+            <div class="skipNav"><a href="#skip.navbar.bottom" title="Skip navigation links">Skip navigation links</a>
+            </div>
+            <a id="navbar.bottom.firstrow">
+                <!--   -->
+            </a>
+            <ul class="navList" title="Navigation">
+    <li><a href="../../../index.html">Overview</a></li>
+    
+    <li><a href="package-summary.html">Package</a></li>
+    
+    <li>Class</li>
+    
+    <li><a href="package-tree.html">Tree</a></li>
+    
+    <li><a href="../../../deprecated.html">Deprecated</a></li>
+    <li><a href="../../../index-files/index-1.html">Index</a></li>
+    <li>Help</li>
+</ul></div>
+        <a id="skip.navbar.bottom">
+            <!--   -->
+        </a>
+        <div class="subNav">
+<ul class="navList" id="allclasses_navbar_top" style="display: block;">
+    <li><a href="../../../allclasses.html">All&nbsp;Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+</div>
+<a id="skip.navbar.top">
+<!--   -->
+</a></div><!-- ======== END OF BOTTOM NAVBAR ======= -->
+    </nav>
+</footer><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-1" tabindex="0"
+    style="display: none;"></ul>
+<span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span>
+</body>
+</html>

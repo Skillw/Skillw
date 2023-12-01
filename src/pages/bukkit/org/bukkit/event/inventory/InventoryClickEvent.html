@@ -1,0 +1,792 @@
+<!DOCTYPE HTML>
+<!-- NewPage -->
+<html lang="en"><head>
+    <title>InventoryClickEvent 1.20.1-SNAPSHOT API </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="dc.created" content="2020-03-25">
+    <link rel="stylesheet" type="text/css" href="../../../../stylesheet.css" title="Style">
+    <link rel="stylesheet" type="text/css" href="../../../../dokka-javadoc-stylesheet.css" title="Style">
+    <link rel="stylesheet" type="text/css" href="../../../../_jquery_/jquery-ui.css" title="Style">
+    <script type="text/javascript" src="../../../../_jquery_/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../../../../_jquery_/jquery-migrate-3.4.0.min.js"></script>
+    <script type="text/javascript" src="../../../../_jquery_/jquery-ui.js"></script>
+
+    <script type="text/javascript" src="../../../../search.js"></script>
+    <script async type="text/javascript" src="../../../../module-search-index.js"></script>
+    <script async type="text/javascript" src="../../../../package-search-index.js"></script>
+    <script async type="text/javascript" src="../../../../type-search-index.js"></script>
+    <script async type="text/javascript" src="../../../../member-search-index.js"></script>
+    <script async type="text/javascript" src="../../../../tag-search-index.js"></script>
+</head><body>
+<script type="text/javascript">
+var pathtoroot = "../../../../";
+</script>
+<noscript>
+    <div>JavaScript is disabled on your browser.</div>
+</noscript><header role="banner">
+    <nav role="navigation">
+        <div class="fixedNav">
+            <!-- ========= START OF TOP NAVBAR ======= -->
+            <div class="topNav"><a id="navbar.top">
+                <!--   -->
+            </a>
+                <div class="skipNav"><a href="#skip.navbar.top" title="Skip navigation links">Skip navigation links</a>
+                </div>
+                <a id="navbar.top.firstrow">
+                    <!--   -->
+                </a>
+                <ul class="navList" title="Navigation">
+    <li><a href="../../../../index.html">Overview</a></li>
+    
+    <li><a href="package-summary.html">Package</a></li>
+    
+    <li class="navBarCell1Rev">Class</li>
+    
+    <li><a href="package-tree.html">Tree</a></li>
+    
+    <li><a href="../../../../deprecated.html">Deprecated</a></li>
+    <li><a href="../../../../index-files/index-1.html">Index</a></li>
+    <li>Help</li>
+</ul></div>
+            <div class="subNav">
+<ul class="navList" id="allclasses_navbar_top" style="display: block;">
+    <li><a href="../../../../allclasses.html">All&nbsp;Classes</a></li>
+</ul>
+
+<ul class="navListSearch">
+<li><label for="search">SEARCH:</label>
+<input type="text" id="search" value="search" class="ui-autocomplete-input" autocomplete="off" placeholder="Search">
+<input type="reset" id="reset" value="reset">
+</li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+</div>
+<a id="skip.navbar.top">
+<!--   -->
+</a></div><!-- ========= END OF TOP NAVBAR ========= -->
+        </div>
+        <div class="navPadding">&nbsp;</div>
+        <script type="text/javascript"><!--
+        $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
+        //-->
+        </script>
+    </nav>
+</header>
+
+<main role="main">
+    <div class="header">
+        <div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html"></a></div>
+        <h2 title="Class InventoryClickEvent" class="title">Class InventoryClickEvent</h2>
+    </div>
+    <div class="contentContainer">
+        <!-- <ul class="inheritance">
+            <li>java.lang.Object</li>
+            <li>
+                <ul class="inheritance">
+                    <li>adaptation.Adaptation</li>
+                </ul>
+            </li>
+        </ul> TODO inheritance tree -->
+        <div class="description">
+            <ul class="blockList">
+                <li class="blockList">
+                    
+                    <dl>
+                        <dt>All Implemented Interfaces:</dt>
+                        <dd>
+                            
+                            <code>org.bukkit.event.Cancellable</code>
+                            
+                            
+                        </dd>
+                    </dl>
+                    
+                    <hr>
+                    <pre class="wrap-overflow">
+
+public class <span class="typeNameLabel"><a href=InventoryClickEvent.html>InventoryClickEvent</a></span>
+extends <a href=InventoryInteractEvent.html>InventoryInteractEvent</a>
+                    </pre>
+                    <div class="block"><p>当玩家点击物品栏中的格子时触发事件事件. 译注：事实上打开任意容器的物品栏(包括玩家的背包)后点击任何一个地方都会触发这个事件。 </p><p> 由于<a href=InventoryClickEvent.html>InventoryClickEvent</a>是通过修改<a href=../../inventory/Inventory.html>物品栏</a> 的实现类来触发的，所以并非所有与<a href=../../inventory/Inventory.html>物品栏</a>相关的方法都是安全的。 </p><p> 下面这些属于<a href=../../entity/HumanEntity.html>HumanEntity</a>和 <a href=../../inventory/InventoryView.html>InventoryView</a>的方法不应该被处理 <a href=InventoryClickEvent.html>InventoryClickEvent</a>事件的 <a href=../EventHandler.html>事件处理器</a>调用 </p><ul><li><a href=../../entity/HumanEntity.html#closeInventory()>closeInventory</a></li><li><a href=../../entity/HumanEntity.html#openInventory(Inventory)>openInventory</a></li><li><a href=../../entity/HumanEntity.html#openWorkbench(Location,boolean)>openWorkbench</a></li><li><a href=../../entity/HumanEntity.html#openEnchanting(Location,boolean)>openEnchanting</a></li><li><a href=../../inventory/InventoryView.html#close()>close</a></li></ul> 如果一定要调用这些方法，请使用 <a href=../../scheduler/BukkitScheduler.html#runTask(Plugin,Runnable)>runTask</a>来执行 ，这个方法将在下一个tick执行你的任务。 注意：上面列出来的这些方法并不全，可能还有其它的方法也存在问题。 <p> Assuming the EntityHuman associated with this event is an instance of a Player, manipulating the MaxStackSize or contents of an Inventory will require an Invocation of <a href=../../entity/Player.html#updateInventory()>updateInventory</a>. </p><p> Modifications to slots that are modified by the results of this InventoryClickEvent can be overwritten. To change these slots, this event should be cancelled and all desired changes to the inventory applied. Alternatively, scheduling a task using <a href=../../scheduler/BukkitScheduler.html#runTask(Plugin,Runnable)>runTask</a>, which would execute the task on the next tick, would work as well.</p></div>
+                </li>
+            </ul>
+        </div>
+        <div class="summary">
+            <ul class="blockList">
+                <li class="blockList">
+                <!-- ======== NESTED CLASS SUMMARY ======== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="nested.class.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Nested Class Summary</h3>
+                                <div class="memberSummary">
+                                    <table>
+                                        <caption><span>Nested Classes</span><span class="tabEnd">&nbsp;</span></caption>
+                                        <tr>
+                                            <th class="colFirst" scope="col">Modifier and Type</th>
+                                            <th class="colSecond" scope="col">Class</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+                                        
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- =========== FIELD SUMMARY =========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="field.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Field Summary</h3>
+                                <div class="memberSummary">
+                                    <table>
+                                        <caption><span>Fields</span><span class="tabEnd">&nbsp;</span></caption>
+                                        <tr>
+                                            <th class="colFirst" scope="col">Modifier and Type</th>
+                                            <th class="colSecond" scope="col">Field</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>public final static <a href=../HandlerList.html>HandlerList</a></code></td>
+                                            <th class="colSecond" scope="row"><code><a href=InventoryClickEvent.html#handlers>handlers</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>public final <a href=ClickType.html>ClickType</a></code></td>
+                                            <th class="colSecond" scope="row"><code><a href=InventoryClickEvent.html#click>click</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>public final <a href=InventoryAction.html>InventoryAction</a></code></td>
+                                            <th class="colSecond" scope="row"><code><a href=InventoryClickEvent.html#action>action</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>public  int</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=InventoryClickEvent.html#rawSlot>rawSlot</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- ======== CONSTRUCTOR SUMMARY ======== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="constructor.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Constructor Summary</h3>
+                                <div class="memberSummary">
+                                    <table>
+                                        <caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+                                        <tbody>
+                                        <tr>
+                                            <th class="colFirst" scope="col">Constructor</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+
+                                        
+                                            <tr class="altColor">
+                                                <th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a
+                                                        href="#InventoryClickEvent(InventoryView,InventoryType.SlotType,int,ClickType,InventoryAction)">InventoryClickEvent</a></span>(<a href=../../inventory/InventoryView.html>InventoryView</a> view, <a href=InventoryType.SlotType.html>InventoryType.SlotType</a> type, int slot, <a href=ClickType.html>ClickType</a> click, <a href=InventoryAction.html>InventoryAction</a> action)</code></th>
+                                                <td class="colLast"></td>
+                                            </tr>
+                                        
+                                            <tr class="rowColor">
+                                                <th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a
+                                                        href="#InventoryClickEvent(InventoryView,InventoryType.SlotType,int,ClickType,InventoryAction,int)">InventoryClickEvent</a></span>(<a href=../../inventory/InventoryView.html>InventoryView</a> view, <a href=InventoryType.SlotType.html>InventoryType.SlotType</a> type, int slot, <a href=ClickType.html>ClickType</a> click, <a href=InventoryAction.html>InventoryAction</a> action, int key)</code></th>
+                                                <td class="colLast"></td>
+                                            </tr>
+                                        
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- =========== ENUM CONSTANT SUMMARY =========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="enum.constant.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Enum Constant Summary</h3>
+                                <table class="memberSummary">
+                                    <caption><span>Enum Constants</span><span class="tabEnd">&nbsp;</span></caption>
+                                    <tr>
+                                        <th class="colFirst" scope="col">Enum Constant</th>
+                                        <th class="colLast" scope="col">Description</th>
+                                    </tr>
+                                    
+                                </table>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- ========== METHOD SUMMARY =========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="method.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Method Summary</h3>
+                                <div class="memberSummary">
+                                    <div role="tablist" aria-orientation="horizontal">
+                                        <button role="tab" aria-selected="true" aria-controls="memberSummary_tabpanel" tabindex="0" onkeydown="switchTab(event)" id="t0" class="activeTableTab">All Methods</button>
+                                        <!-- TODO: Instance and Concrete Methods #1118 -->
+                                    </div>
+                                    <div id="memberSummary_tabpanel" role="tabpanel">
+                                    <table aria-labelledby="t0">
+                                        <tr>
+                                            <th class="colFirst" scope="col">Modifier and Type</th>
+                                            <th class="colSecond" scope="col">Method</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+                                        
+                                        <tr id="i0" class="altColor">
+                                            <td class="colFirst"><code><a href=../HandlerList.html>HandlerList</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=InventoryClickEvent.html#getHandlers()>getHandlers</a>() </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i1" class="rowColor">
+                                            <td class="colFirst"><code><a href=ClickType.html>ClickType</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=InventoryClickEvent.html#getClick()>getClick</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取本事件的ClickType.</td>
+                                        </tr>
+                                        
+                                        <tr id="i2" class="altColor">
+                                            <td class="colFirst"><code><a href=InventoryAction.html>InventoryAction</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=InventoryClickEvent.html#getAction()>getAction</a>() </code>
+                                            </th>
+                                            <td class="colLast">Gets the InventoryAction that triggered this event.</td>
+                                        </tr>
+                                        
+                                        <tr id="i3" class="rowColor">
+                                            <td class="colFirst"><code>int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=InventoryClickEvent.html#getRawSlot()>getRawSlot</a>() </code>
+                                            </th>
+                                            <td class="colLast">返回点击的原始格子序号，可传递给<a href=../../inventory/InventoryView.html>#getItem(int)</a>。这个序号对每个视图是唯一的。  原文:The raw slot number clicked, ready for passing to <a href=../../inventory/InventoryView.html>#getItem(int)</a> This slot number is unique for the view.</td>
+                                        </tr>
+                                        
+                                        <tr id="i4" class="altColor">
+                                            <td class="colFirst"><code><a href=InventoryType.SlotType.html>InventoryType.SlotType</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=InventoryClickEvent.html#getSlotType()>getSlotType</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取被点击的格子的类型.</td>
+                                        </tr>
+                                        
+                                        <tr id="i5" class="rowColor">
+                                            <td class="colFirst"><code><a href=../../inventory/ItemStack.html>ItemStack</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=InventoryClickEvent.html#getCursor()>getCursor</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取被光标所拿起来的物品  原文:Gets the current ItemStack on the cursor.</td>
+                                        </tr>
+                                        
+                                        <tr id="i6" class="altColor">
+                                            <td class="colFirst"><code><a href=../../inventory/ItemStack.html>ItemStack</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=InventoryClickEvent.html#getCurrentItem()>getCurrentItem</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取被点击的格子的物品  原文:Gets the ItemStack currently in the clicked slot.</td>
+                                        </tr>
+                                        
+                                        <tr id="i7" class="rowColor">
+                                            <td class="colFirst"><code>boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=InventoryClickEvent.html#isRightClick()>isRightClick</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取是否右击背包  原文: Gets whether or not the ClickType for this event represents a right click.</td>
+                                        </tr>
+                                        
+                                        <tr id="i8" class="altColor">
+                                            <td class="colFirst"><code>boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=InventoryClickEvent.html#isLeftClick()>isLeftClick</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取是否左击背包  原文:Gets whether or not the ClickType for this event represents a left click.</td>
+                                        </tr>
+                                        
+                                        <tr id="i9" class="rowColor">
+                                            <td class="colFirst"><code>boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=InventoryClickEvent.html#isShiftClick()>isShiftClick</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取是否按住shift点击背包  原文:Gets whether the ClickType for this event indicates that the key was pressed down when the click was made.</td>
+                                        </tr>
+                                        
+                                        <tr id="i10" class="altColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=InventoryClickEvent.html#setCursor(ItemStack)>setCursor</a>(@Nullable() <a href=../../inventory/ItemStack.html>ItemStack</a> stack) </code>
+                                            </th>
+                                            <td class="colLast">Sets the item on the cursor.</td>
+                                        </tr>
+                                        
+                                        <tr id="i11" class="rowColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=InventoryClickEvent.html#setCurrentItem(ItemStack)>setCurrentItem</a>(@Nullable() <a href=../../inventory/ItemStack.html>ItemStack</a> stack) </code>
+                                            </th>
+                                            <td class="colLast">Sets the ItemStack currently in the clicked slot.</td>
+                                        </tr>
+                                        
+                                        <tr id="i12" class="altColor">
+                                            <td class="colFirst"><code><a href=../../inventory/Inventory.html>Inventory</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=InventoryClickEvent.html#getClickedInventory()>getClickedInventory</a>() </code>
+                                            </th>
+                                            <td class="colLast">Gets the inventory corresponding to the clicked slot.</td>
+                                        </tr>
+                                        
+                                        <tr id="i13" class="rowColor">
+                                            <td class="colFirst"><code>int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=InventoryClickEvent.html#getSlot()>getSlot</a>() </code>
+                                            </th>
+                                            <td class="colLast">返回点击的格子序号，可传递给<a href=../../inventory/Inventory.html#getItem(int)>getItem</a>。注意由于连接两个不同背包的视图，可能两个格子都是同一个格子序号  原文:The slot number that was clicked, ready for passing to <a href=../../inventory/Inventory.html#getItem(int)>getItem</a>.</td>
+                                        </tr>
+                                        
+                                        <tr id="i14" class="altColor">
+                                            <td class="colFirst"><code>int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=InventoryClickEvent.html#getHotbarButton()>getHotbarButton</a>() </code>
+                                            </th>
+                                            <td class="colLast">如果ClickType是NUMVER_KEY（按下数字切换物品），这个方法将返回按下的键的索引（0-8）  原文:If the ClickType is NUMBER_KEY, this method will return the index of the pressed key (0-8).</td>
+                                        </tr>
+                                        
+                                        <tr id="i15" class="rowColor">
+                                            <td class="colFirst"><code>static <a href=../HandlerList.html>HandlerList</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=InventoryClickEvent.html#getHandlerList()>getHandlerList</a>() </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <ul class="blockList">
+                                
+                                    <li class="blockList"><a id="methods.inherited.from.class.java.lang.Object">
+                                        <!--   -->
+                                    </a>
+                                        <h3>Methods inherited from class&nbsp;java.lang.Object</h3>
+                                        <code>clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString,
+                                            wait, wait, wait</code></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                </li>
+            </ul>
+        </div>
+        <div class="details">
+            <ul class="blockList">
+                <li class="blockList">
+                    <!-- ========= CONSTRUCTOR DETAIL ======== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="constructor.detail">
+                                <!--   -->
+                            </a>
+                                <h3>Constructor Detail</h3>
+                                
+                                <a name="InventoryClickEvent(InventoryView,InventoryType.SlotType,int,ClickType,InventoryAction)"></a>
+                                <ul class="blockList">
+                                    <li class="blockList">
+                                        <h4>InventoryClickEvent</h4>
+                                        <pre>InventoryClickEvent(<a href=../../inventory/InventoryView.html>InventoryView</a> view, <a href=InventoryType.SlotType.html>InventoryType.SlotType</a> type, int slot, <a href=ClickType.html>ClickType</a> click, <a href=InventoryAction.html>InventoryAction</a> action)</pre>
+                                        <div class="block"></div>
+                                        
+                                    </li>
+                                </ul>
+                                
+                                <a name="InventoryClickEvent(InventoryView,InventoryType.SlotType,int,ClickType,InventoryAction,int)"></a>
+                                <ul class="blockList">
+                                    <li class="blockList">
+                                        <h4>InventoryClickEvent</h4>
+                                        <pre>InventoryClickEvent(<a href=../../inventory/InventoryView.html>InventoryView</a> view, <a href=InventoryType.SlotType.html>InventoryType.SlotType</a> type, int slot, <a href=ClickType.html>ClickType</a> click, <a href=InventoryAction.html>InventoryAction</a> action, int key)</pre>
+                                        <div class="block"></div>
+                                        
+                                    </li>
+                                </ul>
+                                
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- ============ METHOD DETAIL ========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="method.detail">
+                                <!--   -->
+                            </a>
+                                <h3>Method Detail</h3>
+                                
+                                <a id="getHandlers()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getHandlers</h4>
+                                        <pre class="methodSignature">@NotNull() <a href=../HandlerList.html>HandlerList</a> <a href=InventoryClickEvent.html#getHandlers()>getHandlers</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getClick()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getClick</h4>
+                                        <pre class="methodSignature">@NotNull() <a href=ClickType.html>ClickType</a> <a href=InventoryClickEvent.html#getClick()>getClick</a>()</pre>
+                                        <div class="block"><p>获取本事件的ClickType. </p><p> 获取到的结果与其它插件对其的改动相隔离. </p><p> 原文:Gets the ClickType for this event. </p><p> This is insulated against changes to the inventory by other plugins.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getAction()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getAction</h4>
+                                        <pre class="methodSignature">@NotNull() <a href=InventoryAction.html>InventoryAction</a> <a href=InventoryClickEvent.html#getAction()>getAction</a>()</pre>
+                                        <div class="block"><p>Gets the InventoryAction that triggered this event. </p><p> This action cannot be changed, and represents what the normal outcome of the event will be. To change the behavior of this InventoryClickEvent, changes must be manually applied.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getRawSlot()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getRawSlot</h4>
+                                        <pre class="methodSignature"> int <a href=InventoryClickEvent.html#getRawSlot()>getRawSlot</a>()</pre>
+                                        <div class="block"><p>返回点击的原始格子序号，可传递给<a href=../../inventory/InventoryView.html>#getItem(int)</a>。这个序号对每个视图是唯一的。 </p><p> 原文:The raw slot number clicked, ready for passing to <a href=../../inventory/InventoryView.html>#getItem(int)</a> This slot number is unique for the view.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getSlotType()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getSlotType</h4>
+                                        <pre class="methodSignature">@NotNull() <a href=InventoryType.SlotType.html>InventoryType.SlotType</a> <a href=InventoryClickEvent.html#getSlotType()>getSlotType</a>()</pre>
+                                        <div class="block"><p>获取被点击的格子的类型. </p><p> 原文:Gets the type of slot that was clicked.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getCursor()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getCursor</h4>
+                                        <pre class="methodSignature">@Nullable() <a href=../../inventory/ItemStack.html>ItemStack</a> <a href=InventoryClickEvent.html#getCursor()>getCursor</a>()</pre>
+                                        <div class="block"><p>获取被光标所拿起来的物品 </p><p> 原文:Gets the current ItemStack on the cursor.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getCurrentItem()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getCurrentItem</h4>
+                                        <pre class="methodSignature">@Nullable() <a href=../../inventory/ItemStack.html>ItemStack</a> <a href=InventoryClickEvent.html#getCurrentItem()>getCurrentItem</a>()</pre>
+                                        <div class="block"><p>获取被点击的格子的物品 </p><p> 原文:Gets the ItemStack currently in the clicked slot.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="isRightClick()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>isRightClick</h4>
+                                        <pre class="methodSignature"> boolean <a href=InventoryClickEvent.html#isRightClick()>isRightClick</a>()</pre>
+                                        <div class="block"><p>获取是否右击背包 </p><p> 原文: Gets whether or not the ClickType for this event represents a right click.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="isLeftClick()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>isLeftClick</h4>
+                                        <pre class="methodSignature"> boolean <a href=InventoryClickEvent.html#isLeftClick()>isLeftClick</a>()</pre>
+                                        <div class="block"><p>获取是否左击背包 </p><p> 原文:Gets whether or not the ClickType for this event represents a left click.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="isShiftClick()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>isShiftClick</h4>
+                                        <pre class="methodSignature"> boolean <a href=InventoryClickEvent.html#isShiftClick()>isShiftClick</a>()</pre>
+                                        <div class="block"><p>获取是否按住shift点击背包 </p><p> 原文:Gets whether the ClickType for this event indicates that the key was pressed down when the click was made.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setCursor(ItemStack)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setCursor</h4>
+                                        <pre class="methodSignature">@<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html>Deprecated</a>() void <a href=InventoryClickEvent.html#setCursor(ItemStack)>setCursor</a>(@Nullable() <a href=../../inventory/ItemStack.html>ItemStack</a> stack)</pre>
+                                        <div class="block"><p>Sets the item on the cursor.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>stack</code> - the new cursor item</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setCurrentItem(ItemStack)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setCurrentItem</h4>
+                                        <pre class="methodSignature"> void <a href=InventoryClickEvent.html#setCurrentItem(ItemStack)>setCurrentItem</a>(@Nullable() <a href=../../inventory/ItemStack.html>ItemStack</a> stack)</pre>
+                                        <div class="block"><p>Sets the ItemStack currently in the clicked slot.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>stack</code> - the item to be placed in the current slot</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getClickedInventory()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getClickedInventory</h4>
+                                        <pre class="methodSignature">@Nullable() <a href=../../inventory/Inventory.html>Inventory</a> <a href=InventoryClickEvent.html#getClickedInventory()>getClickedInventory</a>()</pre>
+                                        <div class="block"><p>Gets the inventory corresponding to the clicked slot.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getSlot()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getSlot</h4>
+                                        <pre class="methodSignature"> int <a href=InventoryClickEvent.html#getSlot()>getSlot</a>()</pre>
+                                        <div class="block"><p>返回点击的格子序号，可传递给<a href=../../inventory/Inventory.html#getItem(int)>getItem</a>。注意由于连接两个不同背包的视图，可能两个格子都是同一个格子序号 </p><p> 原文:The slot number that was clicked, ready for passing to <a href=../../inventory/Inventory.html#getItem(int)>getItem</a>. Note that there may be two slots with the same slot number, since a view links two different inventories.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getHotbarButton()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getHotbarButton</h4>
+                                        <pre class="methodSignature"> int <a href=InventoryClickEvent.html#getHotbarButton()>getHotbarButton</a>()</pre>
+                                        <div class="block"><p>如果ClickType是NUMVER_KEY（按下数字切换物品），这个方法将返回按下的键的索引（0-8） </p><p> 原文:If the ClickType is NUMBER_KEY, this method will return the index of the pressed key (0-8).</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getHandlerList()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockListLast"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getHandlerList</h4>
+                                        <pre class="methodSignature">@NotNull() static <a href=../HandlerList.html>HandlerList</a> <a href=InventoryClickEvent.html#getHandlerList()>getHandlerList</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                            </li>
+                        </ul>
+                    </section>
+                    
+                </li>
+            </ul>
+        </div>
+    </div>
+</main>
+<footer role="contentinfo">
+    <nav role="navigation">
+        <!-- ======= START OF BOTTOM NAVBAR ====== -->
+        <div class="bottomNav"><a id="navbar.bottom">
+            <!--   -->
+        </a>
+            <div class="skipNav"><a href="#skip.navbar.bottom" title="Skip navigation links">Skip navigation links</a>
+            </div>
+            <a id="navbar.bottom.firstrow">
+                <!--   -->
+            </a>
+            <ul class="navList" title="Navigation">
+    <li><a href="../../../../index.html">Overview</a></li>
+    
+    <li><a href="package-summary.html">Package</a></li>
+    
+    <li class="navBarCell1Rev">Class</li>
+    
+    <li><a href="package-tree.html">Tree</a></li>
+    
+    <li><a href="../../../../deprecated.html">Deprecated</a></li>
+    <li><a href="../../../../index-files/index-1.html">Index</a></li>
+    <li>Help</li>
+</ul></div>
+        <a id="skip.navbar.bottom">
+            <!--   -->
+        </a>
+        <div class="subNav">
+<ul class="navList" id="allclasses_navbar_top" style="display: block;">
+    <li><a href="../../../../allclasses.html">All&nbsp;Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+</div>
+<a id="skip.navbar.top">
+<!--   -->
+</a></div><!-- ======== END OF BOTTOM NAVBAR ======= -->
+    </nav>
+</footer><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-1" tabindex="0"
+    style="display: none;"></ul>
+<span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span>
+</body>
+</html>

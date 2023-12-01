@@ -1,0 +1,1144 @@
+<!DOCTYPE HTML>
+<!-- NewPage -->
+<html lang="en"><head>
+    <title>Team 1.20.1-SNAPSHOT API </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="dc.created" content="2020-03-25">
+    <link rel="stylesheet" type="text/css" href="../../../stylesheet.css" title="Style">
+    <link rel="stylesheet" type="text/css" href="../../../dokka-javadoc-stylesheet.css" title="Style">
+    <link rel="stylesheet" type="text/css" href="../../../_jquery_/jquery-ui.css" title="Style">
+    <script type="text/javascript" src="../../../_jquery_/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../../../_jquery_/jquery-migrate-3.4.0.min.js"></script>
+    <script type="text/javascript" src="../../../_jquery_/jquery-ui.js"></script>
+
+    <script type="text/javascript" src="../../../search.js"></script>
+    <script async type="text/javascript" src="../../../module-search-index.js"></script>
+    <script async type="text/javascript" src="../../../package-search-index.js"></script>
+    <script async type="text/javascript" src="../../../type-search-index.js"></script>
+    <script async type="text/javascript" src="../../../member-search-index.js"></script>
+    <script async type="text/javascript" src="../../../tag-search-index.js"></script>
+</head><body>
+<script type="text/javascript">
+var pathtoroot = "../../../";
+</script>
+<noscript>
+    <div>JavaScript is disabled on your browser.</div>
+</noscript><header role="banner">
+    <nav role="navigation">
+        <div class="fixedNav">
+            <!-- ========= START OF TOP NAVBAR ======= -->
+            <div class="topNav"><a id="navbar.top">
+                <!--   -->
+            </a>
+                <div class="skipNav"><a href="#skip.navbar.top" title="Skip navigation links">Skip navigation links</a>
+                </div>
+                <a id="navbar.top.firstrow">
+                    <!--   -->
+                </a>
+                <ul class="navList" title="Navigation">
+    <li><a href="../../../index.html">Overview</a></li>
+    
+    <li><a href="package-summary.html">Package</a></li>
+    
+    <li>Class</li>
+    
+    <li><a href="package-tree.html">Tree</a></li>
+    
+    <li><a href="../../../deprecated.html">Deprecated</a></li>
+    <li><a href="../../../index-files/index-1.html">Index</a></li>
+    <li>Help</li>
+</ul></div>
+            <div class="subNav">
+<ul class="navList" id="allclasses_navbar_top" style="display: block;">
+    <li><a href="../../../allclasses.html">All&nbsp;Classes</a></li>
+</ul>
+
+<ul class="navListSearch">
+<li><label for="search">SEARCH:</label>
+<input type="text" id="search" value="search" class="ui-autocomplete-input" autocomplete="off" placeholder="Search">
+<input type="reset" id="reset" value="reset">
+</li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+</div>
+<a id="skip.navbar.top">
+<!--   -->
+</a></div><!-- ========= END OF TOP NAVBAR ========= -->
+        </div>
+        <div class="navPadding">&nbsp;</div>
+        <script type="text/javascript"><!--
+        $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
+        //-->
+        </script>
+    </nav>
+</header>
+
+<main role="main">
+    <div class="header">
+        <div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html"></a></div>
+        <h2 title="Interface Team" class="title">Interface Team</h2>
+    </div>
+    <div class="contentContainer">
+        <!-- <ul class="inheritance">
+            <li>java.lang.Object</li>
+            <li>
+                <ul class="inheritance">
+                    <li>adaptation.Adaptation</li>
+                </ul>
+            </li>
+        </ul> TODO inheritance tree -->
+        <div class="description">
+            <ul class="blockList">
+                <li class="blockList">
+                    
+                    <dl>
+                        <dt>All Implemented Interfaces:</dt>
+                        <dd>
+                            
+                        </dd>
+                    </dl>
+                    
+                    <hr>
+                    <pre class="wrap-overflow">
+
+public interface <span class="typeNameLabel"><a href=Team.html>Team</a></span>
+
+                    </pre>
+                    <div class="block"><p>计分板上的队伍, 拥有共同的显示名和其它属性. 此队伍只与 <a href=Team.html#getScoreboard()>getScoreboard</a> 获取的计分板相关联.</p></div>
+                </li>
+            </ul>
+        </div>
+        <div class="summary">
+            <ul class="blockList">
+                <li class="blockList">
+                <!-- ======== NESTED CLASS SUMMARY ======== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="nested.class.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Nested Class Summary</h3>
+                                <div class="memberSummary">
+                                    <table>
+                                        <caption><span>Nested Classes</span><span class="tabEnd">&nbsp;</span></caption>
+                                        <tr>
+                                            <th class="colFirst" scope="col">Modifier and Type</th>
+                                            <th class="colSecond" scope="col">Class</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>public enum</code></td>
+                                            <th class="colSecond" scope="row"><code><a href="Team.Option.html">Team.Option</a></span></code>
+                                            </th>
+                                            <td class="colLast"><p>代表可应用于队伍的选项. </p><p> 译注:对于所有的 Option, 其 OptionStatus 默认值均为 ALWAYS. 这些 Option 对应的 OptionStatus 的意义不尽相同, 为避免歧义, 对应 OptionStatus 的效果用表格列举如下: </p></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>public enum</code></td>
+                                            <th class="colSecond" scope="row"><code><a href="Team.OptionStatus.html">Team.OptionStatus</a></span></code>
+                                            </th>
+                                            <td class="colLast"><p>选项应用给队伍成员的方式. </p><p> 译注:对于所有的 Option, 其 OptionStatus 默认值均为 ALWAYS. 这些 Option 对应的 OptionStatus 的意义不尽相同, 为避免歧义, 对应 OptionStatus 的效果用表格列举如下: </p></td>
+                                        </tr>
+                                        
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- =========== FIELD SUMMARY =========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="field.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Field Summary</h3>
+                                <div class="memberSummary">
+                                    <table>
+                                        <caption><span>Fields</span><span class="tabEnd">&nbsp;</span></caption>
+                                        <tr>
+                                            <th class="colFirst" scope="col">Modifier and Type</th>
+                                            <th class="colSecond" scope="col">Field</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+                                        
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- ======== CONSTRUCTOR SUMMARY ======== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="constructor.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Constructor Summary</h3>
+                                <div class="memberSummary">
+                                    <table>
+                                        <caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+                                        <tbody>
+                                        <tr>
+                                            <th class="colFirst" scope="col">Constructor</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+
+                                        
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- =========== ENUM CONSTANT SUMMARY =========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="enum.constant.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Enum Constant Summary</h3>
+                                <table class="memberSummary">
+                                    <caption><span>Enum Constants</span><span class="tabEnd">&nbsp;</span></caption>
+                                    <tr>
+                                        <th class="colFirst" scope="col">Enum Constant</th>
+                                        <th class="colLast" scope="col">Description</th>
+                                    </tr>
+                                    
+                                </table>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- ========== METHOD SUMMARY =========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="method.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Method Summary</h3>
+                                <div class="memberSummary">
+                                    <div role="tablist" aria-orientation="horizontal">
+                                        <button role="tab" aria-selected="true" aria-controls="memberSummary_tabpanel" tabindex="0" onkeydown="switchTab(event)" id="t0" class="activeTableTab">All Methods</button>
+                                        <!-- TODO: Instance and Concrete Methods #1118 -->
+                                    </div>
+                                    <div id="memberSummary_tabpanel" role="tabpanel">
+                                    <table aria-labelledby="t0">
+                                        <tr>
+                                            <th class="colFirst" scope="col">Modifier and Type</th>
+                                            <th class="colSecond" scope="col">Method</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+                                        
+                                        <tr id="i0" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#getName()>getName</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取此队伍的名称.</td>
+                                        </tr>
+                                        
+                                        <tr id="i1" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#getDisplayName()>getDisplayName</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取此队伍的显示名.</td>
+                                        </tr>
+                                        
+                                        <tr id="i2" class="altColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#setDisplayName(String)>setDisplayName</a>(@NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> displayName) </code>
+                                            </th>
+                                            <td class="colLast">设置队伍的显示名称.</td>
+                                        </tr>
+                                        
+                                        <tr id="i3" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#getPrefix()>getPrefix</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取添加于队员名前的前缀.</td>
+                                        </tr>
+                                        
+                                        <tr id="i4" class="altColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#setPrefix(String)>setPrefix</a>(@NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> prefix) </code>
+                                            </th>
+                                            <td class="colLast">设置添加于队员名前的前缀.</td>
+                                        </tr>
+                                        
+                                        <tr id="i5" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#getSuffix()>getSuffix</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取添加于队员名后的后缀.</td>
+                                        </tr>
+                                        
+                                        <tr id="i6" class="altColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#setSuffix(String)>setSuffix</a>(@NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> suffix) </code>
+                                            </th>
+                                            <td class="colLast">设置添加于队员名后的后缀.</td>
+                                        </tr>
+                                        
+                                        <tr id="i7" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=../ChatColor.html>ChatColor</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#getColor()>getColor</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取队伍的颜色.</td>
+                                        </tr>
+                                        
+                                        <tr id="i8" class="altColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#setColor(ChatColor)>setColor</a>(@NotNull() <a href=../ChatColor.html>ChatColor</a> color) </code>
+                                            </th>
+                                            <td class="colLast">设置队伍的颜色.</td>
+                                        </tr>
+                                        
+                                        <tr id="i9" class="rowColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#allowFriendlyFire()>allowFriendlyFire</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取队伍成员能否互相攻击.</td>
+                                        </tr>
+                                        
+                                        <tr id="i10" class="altColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#setAllowFriendlyFire(boolean)>setAllowFriendlyFire</a>(boolean enabled) </code>
+                                            </th>
+                                            <td class="colLast">设置队伍成员能否互相攻击.</td>
+                                        </tr>
+                                        
+                                        <tr id="i11" class="rowColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#canSeeFriendlyInvisibles()>canSeeFriendlyInvisibles</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取此队伍能否看见处于<a href=../potion/PotionEffectType.html#INVISIBILITY>隐身</a>状态效果下的队友.</td>
+                                        </tr>
+                                        
+                                        <tr id="i12" class="altColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#setCanSeeFriendlyInvisibles(boolean)>setCanSeeFriendlyInvisibles</a>(boolean enabled) </code>
+                                            </th>
+                                            <td class="colLast">设置此队伍能否看见处于<a href=../potion/PotionEffectType.html#INVISIBILITY>隐身</a>状态效果下的队友.</td>
+                                        </tr>
+                                        
+                                        <tr id="i13" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=NameTagVisibility.html>NameTagVisibility</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#getNameTagVisibility()>getNameTagVisibility</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取此队伍的玩家名可见性.</td>
+                                        </tr>
+                                        
+                                        <tr id="i14" class="altColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#setNameTagVisibility(NameTagVisibility)>setNameTagVisibility</a>(@NotNull() <a href=NameTagVisibility.html>NameTagVisibility</a> visibility) </code>
+                                            </th>
+                                            <td class="colLast">设置此队伍的玩家名可见性.</td>
+                                        </tr>
+                                        
+                                        <tr id="i15" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Set.html>Set</a>&lt;<a href=../OfflinePlayer.html>OfflinePlayer</a>&gt;</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#getPlayers()>getPlayers</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取队伍内所有玩家的集合.</td>
+                                        </tr>
+                                        
+                                        <tr id="i16" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Set.html>Set</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a>&gt;</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#getEntries()>getEntries</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取队伍内所有项目的集合.</td>
+                                        </tr>
+                                        
+                                        <tr id="i17" class="rowColor">
+                                            <td class="colFirst"><code>abstract int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#getSize()>getSize</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取此队伍的队员数.</td>
+                                        </tr>
+                                        
+                                        <tr id="i18" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=Scoreboard.html>Scoreboard</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#getScoreboard()>getScoreboard</a>() </code>
+                                            </th>
+                                            <td class="colLast">获取此队伍所附属的计分板.</td>
+                                        </tr>
+                                        
+                                        <tr id="i19" class="rowColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#addPlayer(OfflinePlayer)>addPlayer</a>(@NotNull() <a href=../OfflinePlayer.html>OfflinePlayer</a> player) </code>
+                                            </th>
+                                            <td class="colLast">将某玩家加入这个队伍.</td>
+                                        </tr>
+                                        
+                                        <tr id="i20" class="altColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#addEntry(String)>addEntry</a>(@NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> entry) </code>
+                                            </th>
+                                            <td class="colLast">将某条项目加入这个队伍.</td>
+                                        </tr>
+                                        
+                                        <tr id="i21" class="rowColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#removePlayer(OfflinePlayer)>removePlayer</a>(@NotNull() <a href=../OfflinePlayer.html>OfflinePlayer</a> player) </code>
+                                            </th>
+                                            <td class="colLast">使某玩家离开此队伍.</td>
+                                        </tr>
+                                        
+                                        <tr id="i22" class="altColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#removeEntry(String)>removeEntry</a>(@NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> entry) </code>
+                                            </th>
+                                            <td class="colLast">移除队伍中的某条项目.</td>
+                                        </tr>
+                                        
+                                        <tr id="i23" class="rowColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#unregister()>unregister</a>() </code>
+                                            </th>
+                                            <td class="colLast">从这个计分板上注销这个队伍.</td>
+                                        </tr>
+                                        
+                                        <tr id="i24" class="altColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#hasPlayer(OfflinePlayer)>hasPlayer</a>(@NotNull() <a href=../OfflinePlayer.html>OfflinePlayer</a> player) </code>
+                                            </th>
+                                            <td class="colLast">检测某玩家是否在此队伍内.</td>
+                                        </tr>
+                                        
+                                        <tr id="i25" class="rowColor">
+                                            <td class="colFirst"><code>abstract boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#hasEntry(String)>hasEntry</a>(@NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> entry) </code>
+                                            </th>
+                                            <td class="colLast">检测某项目是否在此队伍内.</td>
+                                        </tr>
+                                        
+                                        <tr id="i26" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=Team.OptionStatus.html>Team.OptionStatus</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#getOption(Team.Option)>getOption</a>(@NotNull() <a href=Team.Option.html>Team.Option</a> option) </code>
+                                            </th>
+                                            <td class="colLast">获取队伍的一个选项.</td>
+                                        </tr>
+                                        
+                                        <tr id="i27" class="rowColor">
+                                            <td class="colFirst"><code>abstract void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=Team.html#setOption(Team.Option,Team.OptionStatus)>setOption</a>(@NotNull() <a href=Team.Option.html>Team.Option</a> option, @NotNull() <a href=Team.OptionStatus.html>Team.OptionStatus</a> status) </code>
+                                            </th>
+                                            <td class="colLast">为队伍设置一个选项.</td>
+                                        </tr>
+                                        
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <ul class="blockList">
+                                
+                                    <li class="blockList"><a id="methods.inherited.from.class.java.lang.Object">
+                                        <!--   -->
+                                    </a>
+                                        <h3>Methods inherited from class&nbsp;java.lang.Object</h3>
+                                        <code>clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString,
+                                            wait, wait, wait</code></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                </li>
+            </ul>
+        </div>
+        <div class="details">
+            <ul class="blockList">
+                <li class="blockList">
+                    <!-- ========= CONSTRUCTOR DETAIL ======== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="constructor.detail">
+                                <!--   -->
+                            </a>
+                                <h3>Constructor Detail</h3>
+                                
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- ============ METHOD DETAIL ========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="method.detail">
+                                <!--   -->
+                            </a>
+                                <h3>Method Detail</h3>
+                                
+                                <a id="getName()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getName</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> <a href=Team.html#getName()>getName</a>()</pre>
+                                        <div class="block"><p>获取此队伍的名称. </p><p> 原文:Gets the name of this Team</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getDisplayName()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getDisplayName</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> <a href=Team.html#getDisplayName()>getDisplayName</a>()</pre>
+                                        <div class="block"><p>获取此队伍的显示名. </p><p> 原文:Gets the name displayed to entries for this team</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setDisplayName(String)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setDisplayName</h4>
+                                        <pre class="methodSignature"> abstract void <a href=Team.html#setDisplayName(String)>setDisplayName</a>(@NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> displayName)</pre>
+                                        <div class="block"><p>设置队伍的显示名称. </p><p> 原文:Sets the name displayed to entries for this team</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>displayName</code> - 队伍显示名</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getPrefix()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getPrefix</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> <a href=Team.html#getPrefix()>getPrefix</a>()</pre>
+                                        <div class="block"><p>获取添加于队员名前的前缀. </p><p> 原文:Gets the prefix prepended to the display of entries on this team.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setPrefix(String)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setPrefix</h4>
+                                        <pre class="methodSignature"> abstract void <a href=Team.html#setPrefix(String)>setPrefix</a>(@NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> prefix)</pre>
+                                        <div class="block"><p>设置添加于队员名前的前缀. </p><p> 原文:Sets the prefix prepended to the display of entries on this team.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>prefix</code> - 队员名前缀</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getSuffix()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getSuffix</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> <a href=Team.html#getSuffix()>getSuffix</a>()</pre>
+                                        <div class="block"><p>获取添加于队员名后的后缀. </p><p> 原文:Gets the suffix appended to the display of entries on this team.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setSuffix(String)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setSuffix</h4>
+                                        <pre class="methodSignature"> abstract void <a href=Team.html#setSuffix(String)>setSuffix</a>(@NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> suffix)</pre>
+                                        <div class="block"><p>设置添加于队员名后的后缀. </p><p> 原文:Sets the suffix appended to the display of entries on this team.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>suffix</code> - 要设置的队员名后缀</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getColor()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getColor</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=../ChatColor.html>ChatColor</a> <a href=Team.html#getColor()>getColor</a>()</pre>
+                                        <div class="block"><p>获取队伍的颜色. </p><p> 此颜色只代表队伍主要颜色, 其它颜色比如队员名前后缀的颜色由其前缀/后缀处理. </p><p> 原文:Gets the color of the team.  This only sets the team outline, other occurrences of colors such as in names are handled by prefixes / suffixes.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setColor(ChatColor)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setColor</h4>
+                                        <pre class="methodSignature"> abstract void <a href=Team.html#setColor(ChatColor)>setColor</a>(@NotNull() <a href=../ChatColor.html>ChatColor</a> color)</pre>
+                                        <div class="block"><p>设置队伍的颜色. </p><p> 本方法只是设置了队伍主要颜色, 其它颜色比如队员名前后缀的颜色由其前缀/后缀处理. </p><p> 原文:Sets the color of the team.  This only sets the team outline, other occurrences of colors such as in names are handled by prefixes / suffixes.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>color</code> - 新颜色, 不能为 null.</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="allowFriendlyFire()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>allowFriendlyFire</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=Team.html#allowFriendlyFire()>allowFriendlyFire</a>()</pre>
+                                        <div class="block"><p>获取队伍成员能否互相攻击. </p><p> 原文:Gets the team friendly fire state</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setAllowFriendlyFire(boolean)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setAllowFriendlyFire</h4>
+                                        <pre class="methodSignature"> abstract void <a href=Team.html#setAllowFriendlyFire(boolean)>setAllowFriendlyFire</a>(boolean enabled)</pre>
+                                        <div class="block"><p>设置队伍成员能否互相攻击. </p><p> 原文:Sets the team friendly fire state</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>enabled</code> - 如果允许互相攻击则为true</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="canSeeFriendlyInvisibles()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>canSeeFriendlyInvisibles</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=Team.html#canSeeFriendlyInvisibles()>canSeeFriendlyInvisibles</a>()</pre>
+                                        <div class="block"><p>获取此队伍能否看见处于<a href=../potion/PotionEffectType.html#INVISIBILITY>隐身</a>状态效果下的队友. </p><p> 原文:Gets the team's ability to see <a href=../potion/PotionEffectType.html#INVISIBILITY>invisible</a> teammates.</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setCanSeeFriendlyInvisibles(boolean)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setCanSeeFriendlyInvisibles</h4>
+                                        <pre class="methodSignature"> abstract void <a href=Team.html#setCanSeeFriendlyInvisibles(boolean)>setCanSeeFriendlyInvisibles</a>(boolean enabled)</pre>
+                                        <div class="block"><p>设置此队伍能否看见处于<a href=../potion/PotionEffectType.html#INVISIBILITY>隐身</a>状态效果下的队友. </p><p> 原文:Sets the team's ability to see <a href=../potion/PotionEffectType.html#INVISIBILITY>invisible</a> teammates.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>enabled</code> - 如果隐身队友可被同队队友看见则为true</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getNameTagVisibility()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getNameTagVisibility</h4>
+                                        <pre class="methodSignature">@<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html>Deprecated</a>()@NotNull() abstract <a href=NameTagVisibility.html>NameTagVisibility</a> <a href=Team.html#getNameTagVisibility()>getNameTagVisibility</a>()</pre>
+                                        <div class="block"><p>获取此队伍的玩家名可见性. </p><p> 原文:Gets the team's ability to see name tags</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setNameTagVisibility(NameTagVisibility)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setNameTagVisibility</h4>
+                                        <pre class="methodSignature">@<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html>Deprecated</a>() abstract void <a href=Team.html#setNameTagVisibility(NameTagVisibility)>setNameTagVisibility</a>(@NotNull() <a href=NameTagVisibility.html>NameTagVisibility</a> visibility)</pre>
+                                        <div class="block"><p>设置此队伍的玩家名可见性. </p><p> 原文:Set's the team's ability to see name tags</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>visibility</code> - 要设置的 nameTagVisibility</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getPlayers()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getPlayers</h4>
+                                        <pre class="methodSignature">@<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html>Deprecated</a>()@NotNull() abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Set.html>Set</a>&lt;<a href=../OfflinePlayer.html>OfflinePlayer</a>&gt; <a href=Team.html#getPlayers()>getPlayers</a>()</pre>
+                                        <div class="block"><p>获取队伍内所有玩家的集合. </p><p> 原文:Gets the Set of players on the team</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getEntries()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getEntries</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Set.html>Set</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a>&gt; <a href=Team.html#getEntries()>getEntries</a>()</pre>
+                                        <div class="block"><p>获取队伍内所有项目的集合. </p><p> 原文:Gets the Set of entries on the team</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getSize()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getSize</h4>
+                                        <pre class="methodSignature"> abstract int <a href=Team.html#getSize()>getSize</a>()</pre>
+                                        <div class="block"><p>获取此队伍的队员数. </p><p> 原文:Gets the size of the team</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getScoreboard()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getScoreboard</h4>
+                                        <pre class="methodSignature">@Nullable() abstract <a href=Scoreboard.html>Scoreboard</a> <a href=Team.html#getScoreboard()>getScoreboard</a>()</pre>
+                                        <div class="block"><p>获取此队伍所附属的计分板. </p><p> 原文:Gets the Scoreboard to which this team is attached</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="addPlayer(OfflinePlayer)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>addPlayer</h4>
+                                        <pre class="methodSignature">@<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html>Deprecated</a>() abstract void <a href=Team.html#addPlayer(OfflinePlayer)>addPlayer</a>(@NotNull() <a href=../OfflinePlayer.html>OfflinePlayer</a> player)</pre>
+                                        <div class="block"><p>将某玩家加入这个队伍. </p><p> 这将使此玩家离开其它队伍. </p><p> 原文:This puts the specified player onto this team for the scoreboard. </p><p> This will remove the player from any other team on the scoreboard.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>player</code> - 要加入的玩家</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="addEntry(String)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>addEntry</h4>
+                                        <pre class="methodSignature"> abstract void <a href=Team.html#addEntry(String)>addEntry</a>(@NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> entry)</pre>
+                                        <div class="block"><p>将某条项目加入这个队伍. </p><p> 这将使此项目离开其它队伍. </p><p> 原文:This puts the specified entry onto this team for the scoreboard. </p><p> This will remove the entry from any other team on the scoreboard.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>entry</code> - 要加入的项目</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="removePlayer(OfflinePlayer)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>removePlayer</h4>
+                                        <pre class="methodSignature">@<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html>Deprecated</a>() abstract boolean <a href=Team.html#removePlayer(OfflinePlayer)>removePlayer</a>(@NotNull() <a href=../OfflinePlayer.html>OfflinePlayer</a> player)</pre>
+                                        <div class="block"><p>使某玩家离开此队伍. </p><p> 原文:Removes the player from this team.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>player</code> - 要移除的玩家</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="removeEntry(String)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>removeEntry</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=Team.html#removeEntry(String)>removeEntry</a>(@NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> entry)</pre>
+                                        <div class="block"><p>移除队伍中的某条项目. </p><p> 原文:Removes the entry from this team.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>entry</code> - 要移除的项目</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="unregister()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>unregister</h4>
+                                        <pre class="methodSignature"> abstract void <a href=Team.html#unregister()>unregister</a>()</pre>
+                                        <div class="block"><p>从这个计分板上注销这个队伍. </p><p> 原文:Unregisters this team from the Scoreboard</p></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="hasPlayer(OfflinePlayer)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>hasPlayer</h4>
+                                        <pre class="methodSignature">@<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html>Deprecated</a>() abstract boolean <a href=Team.html#hasPlayer(OfflinePlayer)>hasPlayer</a>(@NotNull() <a href=../OfflinePlayer.html>OfflinePlayer</a> player)</pre>
+                                        <div class="block"><p>检测某玩家是否在此队伍内. </p><p> 原文:Checks to see if the specified player is a member of this team.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>player</code> - 要查找的玩家</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="hasEntry(String)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>hasEntry</h4>
+                                        <pre class="methodSignature"> abstract boolean <a href=Team.html#hasEntry(String)>hasEntry</a>(@NotNull() <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> entry)</pre>
+                                        <div class="block"><p>检测某项目是否在此队伍内. </p><p> 原文:Checks to see if the specified entry is a member of this team.</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>entry</code> - 要查找的项目</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getOption(Team.Option)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getOption</h4>
+                                        <pre class="methodSignature">@NotNull() abstract <a href=Team.OptionStatus.html>Team.OptionStatus</a> <a href=Team.html#getOption(Team.Option)>getOption</a>(@NotNull() <a href=Team.Option.html>Team.Option</a> option)</pre>
+                                        <div class="block"><p>获取队伍的一个选项. </p><p> 原文:Get an option for this team</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>option</code> - 要获取的选项</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setOption(Team.Option,Team.OptionStatus)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockListLast"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setOption</h4>
+                                        <pre class="methodSignature"> abstract void <a href=Team.html#setOption(Team.Option,Team.OptionStatus)>setOption</a>(@NotNull() <a href=Team.Option.html>Team.Option</a> option, @NotNull() <a href=Team.OptionStatus.html>Team.OptionStatus</a> status)</pre>
+                                        <div class="block"><p>为队伍设置一个选项. </p><p> 原文:Set an option for this team</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>option</code> - 要设置的选项</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>status</code> - 选项状态值</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                            </li>
+                        </ul>
+                    </section>
+                    
+                </li>
+            </ul>
+        </div>
+    </div>
+</main>
+<footer role="contentinfo">
+    <nav role="navigation">
+        <!-- ======= START OF BOTTOM NAVBAR ====== -->
+        <div class="bottomNav"><a id="navbar.bottom">
+            <!--   -->
+        </a>
+            <div class="skipNav"><a href="#skip.navbar.bottom" title="Skip navigation links">Skip navigation links</a>
+            </div>
+            <a id="navbar.bottom.firstrow">
+                <!--   -->
+            </a>
+            <ul class="navList" title="Navigation">
+    <li><a href="../../../index.html">Overview</a></li>
+    
+    <li><a href="package-summary.html">Package</a></li>
+    
+    <li>Class</li>
+    
+    <li><a href="package-tree.html">Tree</a></li>
+    
+    <li><a href="../../../deprecated.html">Deprecated</a></li>
+    <li><a href="../../../index-files/index-1.html">Index</a></li>
+    <li>Help</li>
+</ul></div>
+        <a id="skip.navbar.bottom">
+            <!--   -->
+        </a>
+        <div class="subNav">
+<ul class="navList" id="allclasses_navbar_top" style="display: block;">
+    <li><a href="../../../allclasses.html">All&nbsp;Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+</div>
+<a id="skip.navbar.top">
+<!--   -->
+</a></div><!-- ======== END OF BOTTOM NAVBAR ======= -->
+    </nav>
+</footer><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-1" tabindex="0"
+    style="display: none;"></ul>
+<span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span>
+</body>
+</html>
