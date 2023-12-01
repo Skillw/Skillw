@@ -1,0 +1,26 @@
+{
+  "id": "pouvoir/start/variable",
+  "title": "变量",
+  "description": "本章将会简单地讲解 JavaScript 的语法基础",
+  "source": "@site/docs/pouvoir/start/variable.md",
+  "sourceDirName": "pouvoir/start",
+  "slug": "/pouvoir/start/variable",
+  "permalink": "/docs/pouvoir/start/variable",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/start/variable.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "变量"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "脚本基础",
+    "permalink": "/docs/category/脚本基础"
+  },
+  "next": {
+    "title": "函数",
+    "permalink": "/docs/pouvoir/start/function"
+  }
+}

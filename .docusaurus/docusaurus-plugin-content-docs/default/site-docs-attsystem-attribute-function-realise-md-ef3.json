@@ -1,0 +1,26 @@
+{
+  "id": "attsystem/attribute/function/realise",
+  "title": "属性功能实现",
+  "description": "原版属性",
+  "source": "@site/docs/attsystem/attribute/function/realise.md",
+  "sourceDirName": "attsystem/attribute/function",
+  "slug": "/attsystem/attribute/function/realise",
+  "permalink": "/docs/attsystem/attribute/function/realise",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/attsystem/attribute/function/realise.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "属性功能实现"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "属性功能",
+    "permalink": "/docs/category/属性功能"
+  },
+  "next": {
+    "title": "装备栏系统",
+    "permalink": "/docs/category/装备栏系统"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "itemsystem/other/mythic-mobs",
+  "title": "MythicMobs 兼容",
+  "description": "ItemSystem 节点下的值均支持内联函数",
+  "source": "@site/docs/itemsystem/other/mythic-mobs.md",
+  "sourceDirName": "itemsystem/other",
+  "slug": "/itemsystem/other/mythic-mobs",
+  "permalink": "/docs/itemsystem/other/mythic-mobs",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/other/mythic-mobs.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "MythicMobs 兼容"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "其它",
+    "permalink": "/docs/category/其它-3"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/docs/itemsystem/faq"
+  }
+}

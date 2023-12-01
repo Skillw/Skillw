@@ -1,0 +1,98 @@
+{
+  "blogPosts": [
+    {
+      "id": "welcome",
+      "metadata": {
+        "permalink": "/blog/welcome",
+        "editUrl": "https://github.com/Skillw/Website/blog/2023-11-30-welcome/index.md",
+        "source": "@site/blog/2023-11-30-welcome/index.md",
+        "title": "欢迎",
+        "description": "欢迎来到我的博客！",
+        "date": "2023-11-30T00:00:00.000Z",
+        "formattedDate": "2023年11月30日",
+        "tags": [
+          {
+            "label": "hello",
+            "permalink": "/blog/tags/hello"
+          },
+          {
+            "label": "docusaurus",
+            "permalink": "/blog/tags/docusaurus"
+          }
+        ],
+        "readingTime": 0.095,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Glom_",
+            "title": "Maintainer of Skillw",
+            "url": "https://github.com/Glom-c",
+            "imageURL": "https://avatars.githubusercontent.com/u/70137442",
+            "key": "Glom_"
+          }
+        ],
+        "frontMatter": {
+          "slug": "welcome",
+          "title": "欢迎",
+          "authors": [
+            "Glom_"
+          ],
+          "tags": [
+            "hello",
+            "docusaurus"
+          ]
+        },
+        "unlisted": false,
+        "nextItem": {
+          "title": "编程思想",
+          "permalink": "/blog/2022/7/16/codemind/codemind"
+        }
+      },
+      "content": "欢迎来到我的博客！  \n\n有时间会更新一些好玩的。"
+    },
+    {
+      "id": "/2022/7/16/codemind/codemind",
+      "metadata": {
+        "permalink": "/blog/2022/7/16/codemind/codemind",
+        "editUrl": "https://github.com/Skillw/Website/blog/2022-7-16-codemind/codemind.md",
+        "source": "@site/blog/2022-7-16-codemind/codemind.md",
+        "title": "编程思想",
+        "description": "前言",
+        "date": "2022-07-16T00:00:00.000Z",
+        "formattedDate": "2022年7月16日",
+        "tags": [
+          {
+            "label": "codemind",
+            "permalink": "/blog/tags/codemind"
+          }
+        ],
+        "readingTime": 9.895,
+        "hasTruncateMarker": true,
+        "authors": [
+          {
+            "name": "Glom_",
+            "title": "Maintainer of Skillw",
+            "url": "https://github.com/Glom-c",
+            "imageURL": "https://avatars.githubusercontent.com/u/70137442",
+            "key": "Glom_"
+          }
+        ],
+        "frontMatter": {
+          "title": "编程思想",
+          "authors": "Glom_",
+          "tags": [
+            "codemind"
+          ],
+          "toc_min_heading_level": 2,
+          "toc_max_heading_level": 4
+        },
+        "unlisted": false,
+        "prevItem": {
+          "title": "欢迎",
+          "permalink": "/blog/welcome"
+        }
+      },
+      "content": "## 前言\n\n这里是我学习编程思想的笔记，有需要的同学可以看看。\n\n若发现有误，请尽量向我提出(qq 88595433 , email glom@skillw.com)\n\n![金字塔](./images/total.png)\n\n<!-- truncate -->\n\n## 基础\n\n### 高内聚 低耦合\n\n##### 模块内部元素的相似程度高\n##### 模块之间的依赖程度低\n\n> 模块，即可以输入输出的一个整体 （例如 一个方法 一个类 一个项目都是）\n\n##### 高内聚低耦合是整个编程思想的基础，是编程的最终目的\n\n### 类与类之间的关系\n\n##### 泛化 实现 组合 聚合 关联 依赖\n\n![](./images/basic-total.png)\n\n#### 泛化 (继承)\n\n类与类间的关系\n\nAnimal 是 Tiger 的泛化，Tiger 是 Animal 的特化\n\n![继承](./images/extend.png)\n\n#### 实现\n\n类与接口间的关系\n\n![实现](./images/impl.png)\n\n#### 组合 (强拥有)\n\n整体和部分的关系\n\n个体/部分没有独立的生命周期，与整体的[生命周期](https://baijiahao.baidu.com/s?id=1699294221762201695&wfr=spider&for=pc)保持一致\n\n组合是把个体类对象作为整体类的成员对象\n\n![强拥有](./images/strong_own.png)\n\n#### 聚合 (弱拥有)\n\n整体与部分的关系\n\n个体有独立的生命周期\n\n聚合是把个体类对象的指针(引用)作为整体类的属性\n\n![弱拥有](./images/soft_own.png)\n\n#### 关联\n\n一种拥有关系，不分强拥有弱拥有 （注意与 聚合/组合 的区别）\n\n关联是使一个类知道另一个类的属性或方法\n\n![关联](./images/link.png)\n\n#### 依赖\n\n依赖是一种使用关系\n\n![依赖](./images/depend.png)\n\n### 总结\n\n若 A 要用到 B，则箭头是由 A 到 B\n\n![总结](./images/total.png)\n\n## 设计原则\n\n### 单一职责 [SRP]\n\nSingle Responsibility Principle\n\n- 一个类只干一件事\n- 有且只有一个引起类改变的原因\n\n> 两大原因:\n> \n> 内部改变 - 需要更改方法代码 -> 不能改此类代码\n> \n> 外部改变 - 需要增加方法 -> 只能有这一个原因\n\n##### 解决方法:\n\n面向抽象编程，把类中方法代码改为接口的调用\n\n（同类型的方法提到同一个接口中）\n\n### 开放封闭原则 [OCP]\n\nOpen Closed Principle\n\n##### 面向对象所有原则的核心 面向对象设计的终极目标\n\n- 对功能扩展开放，面向修改代码封闭\n\n即：当需求改变时，在不修改已有代码的前提下，通过拓展功能，使其满足需求\n\n并且只能改某个点的代码，而不是牵一动百\n\n##### 解决方法:\n\n面向抽象编程，使用抽象封装变化\n\n### 里氏替换原则 [LSP]\n\nLiskov Substitution Principle\n\n- 子类可以替换父类\n\n![截图](./images/reletionship.png)\n\n### 接口分离原则 [ISP]\n\nInterface Segragation Principle\n\n##### 设计接口时采用，但首先必须满足单一职责原则\n\n- 客户端不应该依赖它不需要的接口\n- 一个类对另一个类的依赖应该建立在最小接口上\n\n> 单一职责原则 -> 高内聚\n> \n> 接口隔离原则 -> 低耦合\n\n##### 解决方法\n\n接口尽量细分，不要在一个接口中放很多方法\n\n### 依赖倒置原则 [DIP]\n\nDependence Inversion Principle\n\n##### 开放封闭原则的基础\n\n- 高层模块(调用者) 不应该依赖于 低层模块(被调用者)，都应依赖于抽象\n- 抽象不应依赖于实现，实现应依赖于抽象\n- 本质 通过抽象是各个模块的实现彼此独立，互不影响，实现模块间的松耦合\n\n> 依赖：存在模块 A, B\n> \n>  A的变化有没有可能引起B的变化，如果有可能，那么B是依赖于A的。这里的变化是指需不需要修改代码。\n\n##### 解决方法:  通过接口依赖\n\n你可以：\n\n- 通过方法传递\n- 通过构造方法传递\n- 通过属性的set方法传递\n\n### 迪米特原则/最少知识原则\n\n##### 设计类时采用\n\n- 一个对象应该对其他对象有最少的了解\n- 降低类之间的耦合\n\n##### 解决方法\n\n只和直接朋友通信\n\n> 直接朋友:\n> \n> 1. 成员对象\n> 2. 方法参数\n> 3. 方法返回值\n> \n> 出现在局部变量中的类，不是直接朋友\n\n### 合成复用原则 [CRP]\n\nComposite Reuse Principle\n\n###### 将已有对象纳入到新对象中，作为新对象的对象成员来实现，新对象可以调用已有对象的功能，从而达到复用\n\n- 尽量使用对象组合而不是继承来达到复用\n\n##### 继承的问题\n\n- 破坏了系统的封装性，基类发生了改变，子类的实现也会改变\n- 子类可能不需要父类某个方法，那么系统耦合性会变高\n- 继承是静态的，不能在运行时发生改变\n\n##### 解决方法\n\n\"拥有\"组合， \"是\"继承。![x](./images/wrong_structure.png)\n\n上面显得非常臃肿，不符合合成复用原则，下图为解决办法\n\n![o](./images/correct_structure.png)\n\n### 总结\n\n设计原则是高内聚低耦合的具体体现\n\n![总结](./images/mode-total.png)\n\n## 设计模式\n\n### 单例模式\n\n在程序运行中，保证某一个类，有且只有一个实例\n\n#### 饿汉式\n\n```java\nclass LazyManSingle {\n    private static final LazyManSingle INSTANCE = new LazyManSingle();\n\n    private LazyManSingle(){\n\n    }\n\n    public static LazyManSingle getInstance() {\n        return INSTANCE;\n    }\n\n}\n```\n\n缺点：\n\n单例在类初始化时就实例化了，但客户可能不会用这个单例，就造成了资源的浪费。\n\n解决办法即 懒汉式(Lazy) 或 内部静态类 或 枚举\n\n#### 懒汉式\n\n```java\nclass LazyManSingle {\n    private static LazyManSingle instance;\n\n    private LazyManSingle(){\n\n    }\n\n    public static LazyManSingle getInstance() {\n        if (instance == null) {\n            instance = new LazyManSingle();\n        }\n        return instance;\n    }\n}\n```\n\n缺点：\n\n不是线程安全的\n\n如果有个客户多线程调用，那就会寄\n\n```java\npublic class Main {\n    public static void main(String[] args) {\n        for (int i = 0; i < 10; i++) {\n            new Thread(() -> {\n                LazyManSingle single = LazyManSingle.getInstance();\n                single.print();\n            }).start();\n        }\n    }\n}\n\nclass LazyManSingle {\n    private static LazyManSingle instance;\n\n    private LazyManSingle(){\n\n    }\n\n    public static LazyManSingle getInstance() {\n        if (instance == null) {\n            instance = new LazyManSingle();\n            System.out.println(\"Construct!\");\n        }\n        return instance;\n    }\n\n    public void print() {\n        System.out.println(this.hashCode());\n    }\n}\n```\n\n运行结果如下：\n\n```\nConstruct!\n2069791201\n2069791201\n2069791201\n2069791201\nConstruct!\n2069791201\n2069791201\n2069791201\n2069791201\nConstruct!\n2069791201\n2069791201\n进程已结束。\n```\n\n可以发现，虽然拿到的单例都是同一个，但程序运行过程中实例化了 3 次，浪费了内存。\n\n所以为了防止有客户这样做，我们应该写线程安全的懒汉式单例\n\n#### 线程安全的懒汉式\n\n即用即造，造完之后直接用\n\n```java\npublic class Main {\n    public static void main(String[] args) {\n        for (int i = 0; i < 10; i++) {\n            new Thread(() -> {\n                LazyManSingle single = LazyManSingle.getInstance();\n                single.print();\n            }).start();\n        }\n    }\n}\n\nclass LazyManSingle {\n    private static volatile LazyManSingle instance;\n\n    private LazyManSingle(){\n\n    }\n\n    public static LazyManSingle getInstance() {\n        if (instance == null) {\n            synchronized (LazyManSingle.class) {\n                if (instance == null) {\n                    instance = new LazyManSingle();\n                    System.out.println(\"Construct!\");\n                }\n            }\n        }\n        return instance;\n    }\n\n    public void print() {\n        System.out.println(this.hashCode());\n    }\n}\n```\n\n使用同步锁：防止多个线程同时执行\n\n双重判断：让在赋值后的线程直接返回，而不是进锁\n\nvolatile：避免[指令重排](https://baijiahao.baidu.com/s?id=1701616903992143186&wfr=spider&for=pc)\n\n运行结果如下：\n\n```\nConstruct!\n2069791201\n2069791201\n2069791201\n2069791201\n2069791201\n2069791201\n2069791201\n2069791201\n2069791201\n2069791201\n```\n\n如此这般，我们便得到了一个 线程安全的懒汉式单例\n\n此外，还有一种方法实现单例，即内部静态类\n\n#### 内部静态类\n\n也可以实现懒加载\n\n```java\npublic class Main {\n    public static void main(String[] args) {\n        LazyManSingle single = LazyManSingle.getSingle();\n        single.print();\n    }\n}\n\nclass LazyManSingle {\n    public static LazyManSingle getSingle() {\n      //执行这一行时才会实例化\n        return Inner.single;\n    }\n\n    private LazyManSingle(){\n\n    }\n\n    public void print() {\n        System.out.println(this.hashCode());\n    }\n\n    public static class Inner {\n        private static final LazyManSingle single = new LazyManSingle();\n    }\n}\n```\n\n但是！由于 java 中有反射 API 这种变态的存在，以上所有的私有构造方法在反射面前都是毛毛雨。\n\n```java\nConstructor<?> constructor = LazyManSingle.class.getDeclaredConstructors()[0];\nconstructor.setAccessible(true);\nObject o = constructor.newInstance();\n```\n\n可谓防君子不防小人，所以我们要用到 枚举式\n\n#### 枚举式\n\n```java\npublic enum LazyManSingle {\n    INSTANCE;\n    public void print(){\n        System.out.println(this.hashCode());\n    }\n}\n```\n\n#### 总结\n\n饿汉式：如果一定会用这个单例，就用饿汉式\n\n懒汉式： 单线程应用\n\n线程安全的懒汉式：多线程应用\n\n枚举式：仅限 java，完美解决"
+    }
+  ]
+}

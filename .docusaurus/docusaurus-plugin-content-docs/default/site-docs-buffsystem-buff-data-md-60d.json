@@ -1,0 +1,26 @@
+{
+  "id": "buffsystem/buff/data",
+  "title": "Buff 数据",
+  "description": "你需要了解一下BuffSystem中的Buff 数据",
+  "source": "@site/docs/buffsystem/buff/data.md",
+  "sourceDirName": "buffsystem/buff",
+  "slug": "/buffsystem/buff/data",
+  "permalink": "/docs/buffsystem/buff/data",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/buff/data.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Buff 数据"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "Buff",
+    "permalink": "/docs/buffsystem/buff/intro"
+  },
+  "next": {
+    "title": "其它",
+    "permalink": "/docs/category/其它-2"
+  }
+}

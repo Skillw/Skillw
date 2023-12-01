@@ -1,0 +1,16 @@
+{
+  "title": "开发者",
+  "description": "给开发者用的",
+  "slug": "/category/开发者",
+  "permalink": "/docs/category/开发者",
+  "navigation": {
+    "previous": {
+      "title": "性能监控器",
+      "permalink": "/docs/pouvoir/features/monitor"
+    },
+    "next": {
+      "title": "脚本源",
+      "permalink": "/docs/pouvoir/extension/script-source"
+    }
+  }
+}

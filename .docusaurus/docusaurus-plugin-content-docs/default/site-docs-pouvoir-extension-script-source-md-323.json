@@ -1,0 +1,26 @@
+{
+  "id": "pouvoir/extension/script-source",
+  "title": "脚本源",
+  "description": "添加脚本源",
+  "source": "@site/docs/pouvoir/extension/script-source.md",
+  "sourceDirName": "pouvoir/extension",
+  "slug": "/pouvoir/extension/script-source",
+  "permalink": "/docs/pouvoir/extension/script-source",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/extension/script-source.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "脚本源"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "开发者",
+    "permalink": "/docs/category/开发者"
+  },
+  "next": {
+    "title": "脚本顶级成员",
+    "permalink": "/docs/pouvoir/extension/script-top-level"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "attsystem/other/formula",
+  "title": "公式系统",
+  "description": "介绍",
+  "source": "@site/docs/attsystem/other/formula.md",
+  "sourceDirName": "attsystem/other",
+  "slug": "/attsystem/other/formula",
+  "permalink": "/docs/attsystem/other/formula",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/attsystem/other/formula.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "公式系统"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "配置文件",
+    "permalink": "/docs/attsystem/other/config"
+  },
+  "next": {
+    "title": "占位符",
+    "permalink": "/docs/attsystem/other/placeholder"
+  }
+}

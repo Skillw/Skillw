@@ -1,0 +1,26 @@
+{
+  "id": "pouvoir/basic/import",
+  "title": "从导入开始",
+  "description": "导入(获取类对象)",
+  "source": "@site/docs/pouvoir/basic/import.md",
+  "sourceDirName": "pouvoir/basic",
+  "slug": "/pouvoir/basic/import",
+  "permalink": "/docs/pouvoir/basic/import",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/basic/import.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "从导入开始"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "自给自足",
+    "permalink": "/docs/pouvoir/basic/javadoc"
+  },
+  "next": {
+    "title": "何时醒来?",
+    "permalink": "/docs/pouvoir/basic/awake"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "深造",
+  "slug": "/category/深造",
+  "permalink": "/docs/category/深造",
+  "navigation": {
+    "previous": {
+      "title": "变量类型列表",
+      "permalink": "/docs/itemsystem/variable/types"
+    },
+    "next": {
+      "title": "物品动作",
+      "permalink": "/docs/itemsystem/further/action"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "attsystem/equipment/condition/usage",
+  "title": "usage",
+  "description": "条件的使用",
+  "source": "@site/docs/attsystem/equipment/condition/usage.md",
+  "sourceDirName": "attsystem/equipment/condition",
+  "slug": "/attsystem/equipment/condition/usage",
+  "permalink": "/docs/attsystem/equipment/condition/usage",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/attsystem/equipment/condition/usage.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "main",
+  "previous": {
+    "title": "条件",
+    "permalink": "/docs/attsystem/equipment/condition/intro"
+  },
+  "next": {
+    "title": "条件列表",
+    "permalink": "/docs/attsystem/equipment/condition/list"
+  }
+}

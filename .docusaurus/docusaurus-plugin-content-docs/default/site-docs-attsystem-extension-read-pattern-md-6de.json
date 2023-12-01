@@ -1,0 +1,26 @@
+{
+  "id": "attsystem/extension/read-pattern",
+  "title": "读取格式拓展",
+  "description": "Kotlin",
+  "source": "@site/docs/attsystem/extension/read-pattern.md",
+  "sourceDirName": "attsystem/extension",
+  "slug": "/attsystem/extension/read-pattern",
+  "permalink": "/docs/attsystem/extension/read-pattern",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/attsystem/extension/read-pattern.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "读取格式拓展"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "基本操作",
+    "permalink": "/docs/attsystem/extension/intro"
+  },
+  "next": {
+    "title": "触发战斗机制组",
+    "permalink": "/docs/attsystem/extension/fight"
+  }
+}

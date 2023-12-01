@@ -1,0 +1,15 @@
+{
+  "title": "其它",
+  "slug": "/category/其它-3",
+  "permalink": "/docs/category/其它-3",
+  "navigation": {
+    "previous": {
+      "title": "物品继承",
+      "permalink": "/docs/itemsystem/further/extends"
+    },
+    "next": {
+      "title": "MythicMobs 兼容",
+      "permalink": "/docs/itemsystem/other/mythic-mobs"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "attsystem/attribute/data/intro",
+  "title": "属性数据",
+  "description": "初始结构",
+  "source": "@site/docs/attsystem/attribute/data/intro.md",
+  "sourceDirName": "attsystem/attribute/data",
+  "slug": "/attsystem/attribute/data/intro",
+  "permalink": "/docs/attsystem/attribute/data/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/attsystem/attribute/data/intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "属性数据"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "属性数据",
+    "permalink": "/docs/category/属性数据"
+  },
+  "next": {
+    "title": "NBT",
+    "permalink": "/docs/attsystem/attribute/data/nbt"
+  }
+}

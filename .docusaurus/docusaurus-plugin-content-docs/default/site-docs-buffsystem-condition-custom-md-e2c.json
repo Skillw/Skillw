@@ -1,0 +1,26 @@
+{
+  "id": "buffsystem/condition/custom",
+  "title": "拓展条件",
+  "description": "BuffSystem默认提供了 2 种条件",
+  "source": "@site/docs/buffsystem/condition/custom.md",
+  "sourceDirName": "buffsystem/condition",
+  "slug": "/buffsystem/condition/custom",
+  "permalink": "/docs/buffsystem/condition/custom",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/condition/custom.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "拓展条件"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "权限条件",
+    "permalink": "/docs/buffsystem/condition/type/permission"
+  },
+  "next": {
+    "title": "Buff",
+    "permalink": "/docs/category/buff"
+  }
+}

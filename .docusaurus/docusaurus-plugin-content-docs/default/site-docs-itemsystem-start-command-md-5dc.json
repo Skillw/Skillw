@@ -1,0 +1,26 @@
+{
+  "id": "itemsystem/start/command",
+  "title": "指令",
+  "description": "",
+  "source": "@site/docs/itemsystem/start/command.md",
+  "sourceDirName": "itemsystem/start",
+  "slug": "/itemsystem/start/command",
+  "permalink": "/docs/itemsystem/start/command",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/start/command.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "指令"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "开始",
+    "permalink": "/docs/category/开始"
+  },
+  "next": {
+    "title": "配置",
+    "permalink": "/docs/itemsystem/start/config"
+  }
+}

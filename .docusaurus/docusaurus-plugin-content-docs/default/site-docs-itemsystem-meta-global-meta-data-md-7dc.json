@@ -1,0 +1,26 @@
+{
+  "id": "itemsystem/meta/global-meta-data",
+  "title": "全局物品元数据",
+  "description": "什么是全局物品元数据?",
+  "source": "@site/docs/itemsystem/meta/global-meta-data.md",
+  "sourceDirName": "itemsystem/meta",
+  "slug": "/itemsystem/meta/global-meta-data",
+  "permalink": "/docs/itemsystem/meta/global-meta-data",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/meta/global-meta-data.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "全局物品元数据"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "物品元列表",
+    "permalink": "/docs/itemsystem/meta/list"
+  },
+  "next": {
+    "title": "变量",
+    "permalink": "/docs/category/变量"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pouvoir/other/functions",
+  "title": "函数列表",
+  "description": ">>From Pouvoir",
+  "source": "@site/docs/pouvoir/other/functions.md",
+  "sourceDirName": "pouvoir/other",
+  "slug": "/pouvoir/other/functions",
+  "permalink": "/docs/pouvoir/other/functions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/other/functions.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "函数列表"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "Asahi",
+    "permalink": "/docs/pouvoir/other/asahi"
+  },
+  "next": {
+    "title": "动作列表",
+    "permalink": "/docs/pouvoir/other/actions"
+  }
+}

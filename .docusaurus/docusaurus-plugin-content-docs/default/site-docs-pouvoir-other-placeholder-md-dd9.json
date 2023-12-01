@@ -1,0 +1,26 @@
+{
+  "id": "pouvoir/other/placeholder",
+  "title": "占位符",
+  "description": "PouPlaceHolderAPI",
+  "source": "@site/docs/pouvoir/other/placeholder.md",
+  "sourceDirName": "pouvoir/other",
+  "slug": "/pouvoir/other/placeholder",
+  "permalink": "/docs/pouvoir/other/placeholder",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/other/placeholder.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "占位符"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "其它",
+    "permalink": "/docs/category/其它"
+  },
+  "next": {
+    "title": "Asahi",
+    "permalink": "/docs/pouvoir/other/asahi"
+  }
+}

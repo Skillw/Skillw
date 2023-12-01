@@ -1,0 +1,26 @@
+{
+  "id": "buffsystem/effect/type/permission",
+  "title": "权限效果",
+  "description": "效果",
+  "source": "@site/docs/buffsystem/effect/type/permission.md",
+  "sourceDirName": "buffsystem/effect/type",
+  "slug": "/buffsystem/effect/type/permission",
+  "permalink": "/docs/buffsystem/effect/type/permission",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/effect/type/permission.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "权限效果"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "原版药水效果",
+    "permalink": "/docs/buffsystem/effect/type/potion"
+  },
+  "next": {
+    "title": "条件",
+    "permalink": "/docs/buffsystem/condition/intro"
+  }
+}

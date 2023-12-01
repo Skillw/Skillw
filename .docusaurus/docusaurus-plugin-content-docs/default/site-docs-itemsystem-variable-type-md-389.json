@@ -1,0 +1,26 @@
+{
+  "id": "itemsystem/variable/type",
+  "title": "变量类型",
+  "description": "狭义的变量类型，仅限define 物品元中使用",
+  "source": "@site/docs/itemsystem/variable/type.md",
+  "sourceDirName": "itemsystem/variable",
+  "slug": "/itemsystem/variable/type",
+  "permalink": "/docs/itemsystem/variable/type",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/variable/type.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "变量类型"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "变量",
+    "permalink": "/docs/itemsystem/variable/intro"
+  },
+  "next": {
+    "title": "变量类型列表",
+    "permalink": "/docs/itemsystem/variable/types"
+  }
+}

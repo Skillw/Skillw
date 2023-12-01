@@ -1,0 +1,26 @@
+{
+  "id": "buffsystem/updates",
+  "title": "BuffSystem",
+  "description": "---",
+  "source": "@site/docs/buffsystem/updates.md",
+  "sourceDirName": "buffsystem",
+  "slug": "/buffsystem/updates",
+  "permalink": "/docs/buffsystem/updates",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/updates.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "BuffSystem"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "FAQ",
+    "permalink": "/docs/buffsystem/faq"
+  },
+  "next": {
+    "title": "intro",
+    "permalink": "/docs/itemsystem/intro"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "buffsystem/faq",
+  "title": "FAQ",
+  "description": "暂无",
+  "source": "@site/docs/buffsystem/faq.md",
+  "sourceDirName": "buffsystem",
+  "slug": "/buffsystem/faq",
+  "permalink": "/docs/buffsystem/faq",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/faq.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "FAQ"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "例子",
+    "permalink": "/docs/buffsystem/extension/example"
+  },
+  "next": {
+    "title": "BuffSystem",
+    "permalink": "/docs/buffsystem/updates"
+  }
+}

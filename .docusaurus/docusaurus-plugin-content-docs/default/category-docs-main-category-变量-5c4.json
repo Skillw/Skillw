@@ -1,0 +1,15 @@
+{
+  "title": "变量",
+  "slug": "/category/变量",
+  "permalink": "/docs/category/变量",
+  "navigation": {
+    "previous": {
+      "title": "全局物品元数据",
+      "permalink": "/docs/itemsystem/meta/global-meta-data"
+    },
+    "next": {
+      "title": "变量",
+      "permalink": "/docs/itemsystem/variable/intro"
+    }
+  }
+}

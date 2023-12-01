@@ -1,0 +1,26 @@
+{
+  "id": "attsystem/about",
+  "title": "前言",
+  "description": "icon",
+  "source": "@site/docs/attsystem/about.md",
+  "sourceDirName": "attsystem",
+  "slug": "/attsystem/about",
+  "permalink": "/docs/attsystem/about",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/attsystem/about.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "前言"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "介绍",
+    "permalink": "/docs/attsystem/intro"
+  },
+  "next": {
+    "title": "介绍",
+    "permalink": "/docs/attsystem/intro"
+  }
+}

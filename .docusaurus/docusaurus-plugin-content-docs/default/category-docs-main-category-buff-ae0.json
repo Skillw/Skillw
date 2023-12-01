@@ -1,0 +1,15 @@
+{
+  "title": "Buff",
+  "slug": "/category/buff",
+  "permalink": "/docs/category/buff",
+  "navigation": {
+    "previous": {
+      "title": "拓展条件",
+      "permalink": "/docs/buffsystem/condition/custom"
+    },
+    "next": {
+      "title": "Buff",
+      "permalink": "/docs/buffsystem/buff/intro"
+    }
+  }
+}

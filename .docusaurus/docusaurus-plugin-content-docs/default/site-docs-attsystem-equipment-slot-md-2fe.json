@@ -1,0 +1,26 @@
+{
+  "id": "attsystem/equipment/slot",
+  "title": "槽位系统",
+  "description": "介绍",
+  "source": "@site/docs/attsystem/equipment/slot.md",
+  "sourceDirName": "attsystem/equipment",
+  "slug": "/attsystem/equipment/slot",
+  "permalink": "/docs/attsystem/equipment/slot",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/attsystem/equipment/slot.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "槽位系统"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "装备栏系统",
+    "permalink": "/docs/category/装备栏系统"
+  },
+  "next": {
+    "title": "条件",
+    "permalink": "/docs/category/条件"
+  }
+}

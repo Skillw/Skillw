@@ -1,0 +1,15 @@
+{
+  "title": "类型",
+  "slug": "/category/类型",
+  "permalink": "/docs/category/类型",
+  "navigation": {
+    "previous": {
+      "title": "条件",
+      "permalink": "/docs/buffsystem/condition/intro"
+    },
+    "next": {
+      "title": "时间条件",
+      "permalink": "/docs/buffsystem/condition/type/time"
+    }
+  }
+}

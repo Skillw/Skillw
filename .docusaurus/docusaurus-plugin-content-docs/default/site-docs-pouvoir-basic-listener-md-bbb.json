@@ -1,0 +1,26 @@
+{
+  "id": "pouvoir/basic/listener",
+  "title": "脚本监听器",
+  "description": "本节改编自 https://bdn.tdiant.net/#/unit/2-2",
+  "source": "@site/docs/pouvoir/basic/listener.md",
+  "sourceDirName": "pouvoir/basic",
+  "slug": "/pouvoir/basic/listener",
+  "permalink": "/docs/pouvoir/basic/listener",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/basic/listener.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "脚本监听器"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "指令",
+    "permalink": "/docs/pouvoir/basic/command"
+  },
+  "next": {
+    "title": "顶级成员",
+    "permalink": "/docs/pouvoir/basic/top-level"
+  }
+}

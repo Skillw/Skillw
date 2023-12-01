@@ -1,0 +1,16 @@
+{
+  "title": "读取组",
+  "description": "配置中的读取组",
+  "slug": "/category/读取组",
+  "permalink": "/docs/category/读取组",
+  "navigation": {
+    "previous": {
+      "title": "属性",
+      "permalink": "/docs/attsystem/attribute/intro"
+    },
+    "next": {
+      "title": "读取组",
+      "permalink": "/docs/attsystem/attribute/read-group/intro"
+    }
+  }
+}

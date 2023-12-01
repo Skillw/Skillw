@@ -1,0 +1,26 @@
+{
+  "id": "pouvoir/updates",
+  "title": "更新日志",
+  "description": "Pouvoir",
+  "source": "@site/docs/pouvoir/updates.md",
+  "sourceDirName": "pouvoir",
+  "slug": "/pouvoir/updates",
+  "permalink": "/docs/pouvoir/updates",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/updates.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "更新日志"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "动作列表",
+    "permalink": "/docs/pouvoir/other/actions"
+  },
+  "next": {
+    "title": "介绍",
+    "permalink": "/docs/attsystem/intro"
+  }
+}

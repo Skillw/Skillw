@@ -1,0 +1,16 @@
+{
+  "title": "属性数据",
+  "description": "了解属性数据",
+  "slug": "/category/属性数据",
+  "permalink": "/docs/category/属性数据",
+  "navigation": {
+    "previous": {
+      "title": "运算操作",
+      "permalink": "/docs/attsystem/attribute/read-group/operation"
+    },
+    "next": {
+      "title": "属性数据",
+      "permalink": "/docs/attsystem/attribute/data/intro"
+    }
+  }
+}

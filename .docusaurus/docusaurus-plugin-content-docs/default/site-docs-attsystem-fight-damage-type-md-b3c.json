@@ -1,0 +1,26 @@
+{
+  "id": "attsystem/fight/damage-type",
+  "title": "伤害类型",
+  "description": "介绍",
+  "source": "@site/docs/attsystem/fight/damage-type.md",
+  "sourceDirName": "attsystem/fight",
+  "slug": "/attsystem/fight/damage-type",
+  "permalink": "/docs/attsystem/fight/damage-type",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/attsystem/fight/damage-type.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "伤害类型"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "战斗数据",
+    "permalink": "/docs/attsystem/fight/data"
+  },
+  "next": {
+    "title": "机制",
+    "permalink": "/docs/attsystem/fight/mechanic"
+  }
+}

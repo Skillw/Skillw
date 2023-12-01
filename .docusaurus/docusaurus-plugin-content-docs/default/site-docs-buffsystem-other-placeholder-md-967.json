@@ -1,0 +1,26 @@
+{
+  "id": "buffsystem/other/placeholder",
+  "title": "占位符",
+  "description": "%bsbuff:key1key2% - Buff 信息",
+  "source": "@site/docs/buffsystem/other/placeholder.md",
+  "sourceDirName": "buffsystem/other",
+  "slug": "/buffsystem/other/placeholder",
+  "permalink": "/docs/buffsystem/other/placeholder",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/other/placeholder.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "占位符"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "其它",
+    "permalink": "/docs/category/其它-2"
+  },
+  "next": {
+    "title": "MythicMobs 机制",
+    "permalink": "/docs/buffsystem/other/mythic-mobs"
+  }
+}

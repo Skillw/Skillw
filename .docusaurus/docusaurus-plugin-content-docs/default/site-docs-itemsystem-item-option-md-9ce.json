@@ -1,0 +1,26 @@
+{
+  "id": "itemsystem/item/option",
+  "title": "物品选项",
+  "description": "自动更新 [auto-update]",
+  "source": "@site/docs/itemsystem/item/option.md",
+  "sourceDirName": "itemsystem/item",
+  "slug": "/itemsystem/item/option",
+  "permalink": "/docs/itemsystem/item/option",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/item/option.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "物品选项"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "物品",
+    "permalink": "/docs/itemsystem/item/intro"
+  },
+  "next": {
+    "title": "物品流程",
+    "permalink": "/docs/itemsystem/item/process"
+  }
+}

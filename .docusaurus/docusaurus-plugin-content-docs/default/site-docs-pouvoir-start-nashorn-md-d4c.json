@@ -1,0 +1,26 @@
+{
+  "id": "pouvoir/start/nashorn",
+  "title": "Nashorn",
+  "description": "Nashorn 是一个基于 JVM 的轻量级高性能的 JavaScript 运行环境。",
+  "source": "@site/docs/pouvoir/start/nashorn.md",
+  "sourceDirName": "pouvoir/start",
+  "slug": "/pouvoir/start/nashorn",
+  "permalink": "/docs/pouvoir/start/nashorn",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/pouvoir/start/nashorn.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Nashorn"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "控制流程",
+    "permalink": "/docs/pouvoir/start/control-flow"
+  },
+  "next": {
+    "title": "脚本进阶",
+    "permalink": "/docs/category/脚本进阶"
+  }
+}

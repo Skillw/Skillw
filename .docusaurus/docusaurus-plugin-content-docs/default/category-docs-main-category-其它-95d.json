@@ -1,0 +1,15 @@
+{
+  "title": "其它",
+  "slug": "/category/其它",
+  "permalink": "/docs/category/其它",
+  "navigation": {
+    "previous": {
+      "title": "脚本注解",
+      "permalink": "/docs/pouvoir/extension/script-annotation"
+    },
+    "next": {
+      "title": "占位符",
+      "permalink": "/docs/pouvoir/other/placeholder"
+    }
+  }
+}

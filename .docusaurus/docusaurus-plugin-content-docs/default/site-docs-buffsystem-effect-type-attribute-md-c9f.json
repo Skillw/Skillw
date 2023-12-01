@@ -1,0 +1,26 @@
+{
+  "id": "buffsystem/effect/type/attribute",
+  "title": "属性效果",
+  "description": "效果",
+  "source": "@site/docs/buffsystem/effect/type/attribute.md",
+  "sourceDirName": "buffsystem/effect/type",
+  "slug": "/buffsystem/effect/type/attribute",
+  "permalink": "/docs/buffsystem/effect/type/attribute",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/effect/type/attribute.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "属性效果"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "效果类型",
+    "permalink": "/docs/buffsystem/effect/type"
+  },
+  "next": {
+    "title": "原版药水效果",
+    "permalink": "/docs/buffsystem/effect/type/potion"
+  }
+}

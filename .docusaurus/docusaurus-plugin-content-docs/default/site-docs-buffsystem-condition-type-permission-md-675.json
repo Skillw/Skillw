@@ -1,0 +1,26 @@
+{
+  "id": "buffsystem/condition/type/permission",
+  "title": "权限条件",
+  "description": "条件",
+  "source": "@site/docs/buffsystem/condition/type/permission.md",
+  "sourceDirName": "buffsystem/condition/type",
+  "slug": "/buffsystem/condition/type/permission",
+  "permalink": "/docs/buffsystem/condition/type/permission",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/condition/type/permission.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "权限条件"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "时间条件",
+    "permalink": "/docs/buffsystem/condition/type/time"
+  },
+  "next": {
+    "title": "拓展条件",
+    "permalink": "/docs/buffsystem/condition/custom"
+  }
+}

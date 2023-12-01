@@ -1,0 +1,26 @@
+{
+  "id": "itemsystem/further/extends",
+  "title": "物品继承",
+  "description": "为什么要有物品继承",
+  "source": "@site/docs/itemsystem/further/extends.md",
+  "sourceDirName": "itemsystem/further",
+  "slug": "/itemsystem/further/extends",
+  "permalink": "/docs/itemsystem/further/extends",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/further/extends.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "物品继承"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "物品动作列表",
+    "permalink": "/docs/itemsystem/further/actions"
+  },
+  "next": {
+    "title": "其它",
+    "permalink": "/docs/category/其它-3"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "attsystem/fight/mechanics",
+  "title": "机制列表",
+  "description": "damage [伤害]",
+  "source": "@site/docs/attsystem/fight/mechanics.md",
+  "sourceDirName": "attsystem/fight",
+  "slug": "/attsystem/fight/mechanics",
+  "permalink": "/docs/attsystem/fight/mechanics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/attsystem/fight/mechanics.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "机制列表"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "机制",
+    "permalink": "/docs/attsystem/fight/mechanic"
+  },
+  "next": {
+    "title": "战斗机制组",
+    "permalink": "/docs/attsystem/fight/mechanic-group"
+  }
+}

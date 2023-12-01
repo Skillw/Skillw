@@ -1,0 +1,26 @@
+{
+  "id": "buffsystem/extension/example",
+  "title": "例子",
+  "description": "兼容属性插件",
+  "source": "@site/docs/buffsystem/extension/example.md",
+  "sourceDirName": "buffsystem/extension",
+  "slug": "/buffsystem/extension/example",
+  "permalink": "/docs/buffsystem/extension/example",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/extension/example.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "例子"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "基本操作",
+    "permalink": "/docs/buffsystem/extension/intro"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/docs/buffsystem/faq"
+  }
+}

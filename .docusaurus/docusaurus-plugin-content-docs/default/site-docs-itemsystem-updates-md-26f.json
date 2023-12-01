@@ -1,0 +1,22 @@
+{
+  "id": "itemsystem/updates",
+  "title": "ItemSystem",
+  "description": "---",
+  "source": "@site/docs/itemsystem/updates.md",
+  "sourceDirName": "itemsystem",
+  "slug": "/itemsystem/updates",
+  "permalink": "/docs/itemsystem/updates",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/updates.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "ItemSystem"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "FAQ",
+    "permalink": "/docs/itemsystem/faq"
+  }
+}

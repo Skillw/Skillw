@@ -1,0 +1,26 @@
+{
+  "id": "buffsystem/effect/type/potion",
+  "title": "原版药水效果",
+  "description": "效果",
+  "source": "@site/docs/buffsystem/effect/type/potion.md",
+  "sourceDirName": "buffsystem/effect/type",
+  "slug": "/buffsystem/effect/type/potion",
+  "permalink": "/docs/buffsystem/effect/type/potion",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/effect/type/potion.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "原版药水效果"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "属性效果",
+    "permalink": "/docs/buffsystem/effect/type/attribute"
+  },
+  "next": {
+    "title": "权限效果",
+    "permalink": "/docs/buffsystem/effect/type/permission"
+  }
+}

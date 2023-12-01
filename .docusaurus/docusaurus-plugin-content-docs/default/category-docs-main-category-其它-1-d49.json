@@ -1,0 +1,15 @@
+{
+  "title": "其它",
+  "slug": "/category/其它-1",
+  "permalink": "/docs/category/其它-1",
+  "navigation": {
+    "previous": {
+      "title": "战斗机制组",
+      "permalink": "/docs/attsystem/fight/mechanic-group"
+    },
+    "next": {
+      "title": "配置文件",
+      "permalink": "/docs/attsystem/other/config"
+    }
+  }
+}

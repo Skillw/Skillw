@@ -1,0 +1,16 @@
+{
+  "title": "属性功能",
+  "description": "属性功能",
+  "slug": "/category/属性功能",
+  "permalink": "/docs/category/属性功能",
+  "navigation": {
+    "previous": {
+      "title": "字符串",
+      "permalink": "/docs/attsystem/attribute/data/string"
+    },
+    "next": {
+      "title": "属性功能实现",
+      "permalink": "/docs/attsystem/attribute/function/realise"
+    }
+  }
+}

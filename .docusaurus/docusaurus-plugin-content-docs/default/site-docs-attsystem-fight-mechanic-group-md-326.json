@@ -1,0 +1,26 @@
+{
+  "id": "attsystem/fight/mechanic-group",
+  "title": "战斗机制组",
+  "description": "介绍",
+  "source": "@site/docs/attsystem/fight/mechanic-group.md",
+  "sourceDirName": "attsystem/fight",
+  "slug": "/attsystem/fight/mechanic-group",
+  "permalink": "/docs/attsystem/fight/mechanic-group",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/attsystem/fight/mechanic-group.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "战斗机制组"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "机制列表",
+    "permalink": "/docs/attsystem/fight/mechanics"
+  },
+  "next": {
+    "title": "其它",
+    "permalink": "/docs/category/其它-1"
+  }
+}

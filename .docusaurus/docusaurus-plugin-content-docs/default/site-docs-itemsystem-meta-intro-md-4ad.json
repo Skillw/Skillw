@@ -1,0 +1,26 @@
+{
+  "id": "itemsystem/meta/intro",
+  "title": "物品元",
+  "description": "物品元是干什么的?",
+  "source": "@site/docs/itemsystem/meta/intro.md",
+  "sourceDirName": "itemsystem/meta",
+  "slug": "/itemsystem/meta/intro",
+  "permalink": "/docs/itemsystem/meta/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/meta/intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "物品元"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "物品元",
+    "permalink": "/docs/category/物品元"
+  },
+  "next": {
+    "title": "物品元列表",
+    "permalink": "/docs/itemsystem/meta/list"
+  }
+}

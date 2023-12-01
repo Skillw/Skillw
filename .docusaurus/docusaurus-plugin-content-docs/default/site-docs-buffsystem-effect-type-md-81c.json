@@ -1,0 +1,26 @@
+{
+  "id": "buffsystem/effect/type",
+  "title": "效果类型",
+  "description": "BuffSystem默认提供了 3 种效果类型",
+  "source": "@site/docs/buffsystem/effect/type.md",
+  "sourceDirName": "buffsystem/effect",
+  "slug": "/buffsystem/effect/type",
+  "permalink": "/docs/buffsystem/effect/type",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/buffsystem/effect/type.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "效果类型"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "效果",
+    "permalink": "/docs/buffsystem/effect/intro"
+  },
+  "next": {
+    "title": "属性效果",
+    "permalink": "/docs/buffsystem/effect/type/attribute"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "itemsystem/start/config",
+  "title": "配置",
+  "description": "config.yml",
+  "source": "@site/docs/itemsystem/start/config.md",
+  "sourceDirName": "itemsystem/start",
+  "slug": "/itemsystem/start/config",
+  "permalink": "/docs/itemsystem/start/config",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Skillw/Website/docs/itemsystem/start/config.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "配置"
+  },
+  "sidebar": "main",
+  "previous": {
+    "title": "指令",
+    "permalink": "/docs/itemsystem/start/command"
+  },
+  "next": {
+    "title": "物品",
+    "permalink": "/docs/category/物品"
+  }
+}
