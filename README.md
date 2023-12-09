@@ -6,7 +6,7 @@
 
 会部署 Wiki 与 Glom 的 Blog  
 
-Powered by [Docusaurus 3](https://docusaurus.io/)
+Powered by [Docusaurus 2](https://docusaurus.io/)
 
 ## 鸣谢
 
