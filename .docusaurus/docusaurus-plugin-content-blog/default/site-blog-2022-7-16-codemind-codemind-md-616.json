@@ -5,7 +5,7 @@
   "title": "编程思想",
   "description": "前言",
   "date": "2022-07-16T00:00:00.000Z",
-  "formattedDate": "July 16, 2022",
+  "formattedDate": "2022年7月16日",
   "tags": [
     {
       "label": "codemind",
@@ -35,5 +35,9 @@
   "prevItem": {
     "title": "欢迎",
     "permalink": "/blog/welcome"
+  },
+  "nextItem": {
+    "title": "Prolog 教程 基础",
+    "permalink": "/blog/prolog/basic"
   }
 }

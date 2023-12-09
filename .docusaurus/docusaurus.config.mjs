@@ -344,7 +344,8 @@ export default {
       "additionalLanguages": [
         "java",
         "yaml",
-        "kotlin"
+        "kotlin",
+        "prolog"
       ],
       "magicComments": [
         {

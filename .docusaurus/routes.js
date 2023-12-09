@@ -4,92 +4,97 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '94c'),
+    component: ComponentCreator('/__docusaurus/debug', '2b3'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '9b8'),
+    component: ComponentCreator('/__docusaurus/debug/config', '562'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'b96'),
+    component: ComponentCreator('/__docusaurus/debug/content', '352'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', '79f'),
+    component: ComponentCreator('/__docusaurus/debug/globalData', '5e6'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', 'e25'),
+    component: ComponentCreator('/__docusaurus/debug/metadata', 'ee6'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '66a'),
+    component: ComponentCreator('/__docusaurus/debug/registry', 'ba7'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', 'bcf'),
+    component: ComponentCreator('/__docusaurus/debug/routes', 'b62'),
     exact: true
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'c14'),
+    component: ComponentCreator('/blog', 'a01'),
     exact: true
   },
   {
     path: '/blog/2022/7/16/codemind/codemind',
-    component: ComponentCreator('/blog/2022/7/16/codemind/codemind', 'e96'),
+    component: ComponentCreator('/blog/2022/7/16/codemind/codemind', '6c1'),
     exact: true
   },
   {
     path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '0d4'),
+    component: ComponentCreator('/blog/archive', '33d'),
+    exact: true
+  },
+  {
+    path: '/blog/prolog/basic',
+    component: ComponentCreator('/blog/prolog/basic', '930'),
     exact: true
   },
   {
     path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', 'c00'),
+    component: ComponentCreator('/blog/tags', '5b7'),
     exact: true
   },
   {
     path: '/blog/tags/codemind',
-    component: ComponentCreator('/blog/tags/codemind', '60e'),
+    component: ComponentCreator('/blog/tags/codemind', '85c'),
     exact: true
   },
   {
     path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', 'bfd'),
+    component: ComponentCreator('/blog/tags/docusaurus', '837'),
     exact: true
   },
   {
     path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', '94e'),
+    component: ComponentCreator('/blog/tags/hello', '405'),
     exact: true
   },
   {
     path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', '933'),
+    component: ComponentCreator('/blog/welcome', 'd1c'),
     exact: true
   },
   {
     path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '9c4'),
+    component: ComponentCreator('/markdown-page', 'cf6'),
     exact: true
   },
   {
     path: '/my-react-page',
-    component: ComponentCreator('/my-react-page', '43c'),
+    component: ComponentCreator('/my-react-page', 'fa4'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '756'),
+    component: ComponentCreator('/docs', 'bf8'),
     routes: [
       {
         path: '/docs/attsystem/about',
@@ -374,42 +379,6 @@ export default [
         sidebar: "main"
       },
       {
-        path: '/docs/category/buff',
-        component: ComponentCreator('/docs/category/buff', 'e62'),
-        exact: true,
-        sidebar: "main"
-      },
-      {
-        path: '/docs/category/其它',
-        component: ComponentCreator('/docs/category/其它', 'acb'),
-        exact: true,
-        sidebar: "main"
-      },
-      {
-        path: '/docs/category/其它-1',
-        component: ComponentCreator('/docs/category/其它-1', '049'),
-        exact: true,
-        sidebar: "main"
-      },
-      {
-        path: '/docs/category/其它-2',
-        component: ComponentCreator('/docs/category/其它-2', 'aed'),
-        exact: true,
-        sidebar: "main"
-      },
-      {
-        path: '/docs/category/其它-3',
-        component: ComponentCreator('/docs/category/其它-3', 'cfe'),
-        exact: true,
-        sidebar: "main"
-      },
-      {
-        path: '/docs/category/内置功能',
-        component: ComponentCreator('/docs/category/内置功能', '9b2'),
-        exact: true,
-        sidebar: "main"
-      },
-      {
         path: '/docs/category/变量',
         component: ComponentCreator('/docs/category/变量', '54a'),
         exact: true,
@@ -422,20 +391,20 @@ export default [
         sidebar: "main"
       },
       {
-        path: '/docs/category/属性功能',
-        component: ComponentCreator('/docs/category/属性功能', '227'),
+        path: '/docs/category/读取组',
+        component: ComponentCreator('/docs/category/读取组', '4d2'),
         exact: true,
         sidebar: "main"
       },
       {
-        path: '/docs/category/属性引擎',
-        component: ComponentCreator('/docs/category/属性引擎', 'd63'),
+        path: '/docs/category/脚本基础',
+        component: ComponentCreator('/docs/category/脚本基础', 'f03'),
         exact: true,
         sidebar: "main"
       },
       {
-        path: '/docs/category/属性数据',
-        component: ComponentCreator('/docs/category/属性数据', 'b18'),
+        path: '/docs/category/脚本进阶',
+        component: ComponentCreator('/docs/category/脚本进阶', '9b0'),
         exact: true,
         sidebar: "main"
       },
@@ -464,20 +433,68 @@ export default [
         sidebar: "main"
       },
       {
-        path: '/docs/category/战斗系统',
-        component: ComponentCreator('/docs/category/战斗系统', '0fb'),
+        path: '/docs/category/类型',
+        component: ComponentCreator('/docs/category/类型', '291'),
         exact: true,
         sidebar: "main"
       },
       {
-        path: '/docs/category/条件',
-        component: ComponentCreator('/docs/category/条件', 'ec5'),
+        path: '/docs/category/内置功能',
+        component: ComponentCreator('/docs/category/内置功能', '9b2'),
+        exact: true,
+        sidebar: "main"
+      },
+      {
+        path: '/docs/category/其它',
+        component: ComponentCreator('/docs/category/其它', 'acb'),
+        exact: true,
+        sidebar: "main"
+      },
+      {
+        path: '/docs/category/其它-1',
+        component: ComponentCreator('/docs/category/其它-1', '049'),
+        exact: true,
+        sidebar: "main"
+      },
+      {
+        path: '/docs/category/其它-2',
+        component: ComponentCreator('/docs/category/其它-2', 'aed'),
+        exact: true,
+        sidebar: "main"
+      },
+      {
+        path: '/docs/category/其它-3',
+        component: ComponentCreator('/docs/category/其它-3', 'cfe'),
         exact: true,
         sidebar: "main"
       },
       {
         path: '/docs/category/深造',
         component: ComponentCreator('/docs/category/深造', 'd6b'),
+        exact: true,
+        sidebar: "main"
+      },
+      {
+        path: '/docs/category/属性功能',
+        component: ComponentCreator('/docs/category/属性功能', '227'),
+        exact: true,
+        sidebar: "main"
+      },
+      {
+        path: '/docs/category/属性数据',
+        component: ComponentCreator('/docs/category/属性数据', 'b18'),
+        exact: true,
+        sidebar: "main"
+      },
+      {
+        path: '/docs/category/属性引擎',
+        component: ComponentCreator('/docs/category/属性引擎', 'd63'),
+        exact: true,
+        sidebar: "main"
+      },
+      {
+        path: '/docs/category/条件',
+        component: ComponentCreator('/docs/category/条件', 'ec5'),
         exact: true,
         sidebar: "main"
       },
@@ -494,20 +511,8 @@ export default [
         sidebar: "main"
       },
       {
-        path: '/docs/category/类型',
-        component: ComponentCreator('/docs/category/类型', '291'),
-        exact: true,
-        sidebar: "main"
-      },
-      {
-        path: '/docs/category/脚本基础',
-        component: ComponentCreator('/docs/category/脚本基础', 'f03'),
-        exact: true,
-        sidebar: "main"
-      },
-      {
-        path: '/docs/category/脚本进阶',
-        component: ComponentCreator('/docs/category/脚本进阶', '9b0'),
+        path: '/docs/category/战斗系统',
+        component: ComponentCreator('/docs/category/战斗系统', '0fb'),
         exact: true,
         sidebar: "main"
       },
@@ -518,8 +523,8 @@ export default [
         sidebar: "main"
       },
       {
-        path: '/docs/category/读取组',
-        component: ComponentCreator('/docs/category/读取组', '4d2'),
+        path: '/docs/category/buff',
+        component: ComponentCreator('/docs/category/buff', 'e62'),
         exact: true,
         sidebar: "main"
       },
@@ -785,7 +790,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'd99'),
+    component: ComponentCreator('/', 'f8e'),
     exact: true
   },
   {

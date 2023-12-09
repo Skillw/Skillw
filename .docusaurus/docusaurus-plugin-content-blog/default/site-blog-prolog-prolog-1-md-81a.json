@@ -1,0 +1,26 @@
+{
+  "permalink": "/blog/prolog/prolog-1",
+  "editUrl": "https://github.com/Skillw/Website/blog/prolog/prolog-1.md",
+  "source": "@site/blog/prolog/prolog-1.md",
+  "title": "Prolog 教程 基础",
+  "description": "前言",
+  "date": "2022-07-13T18:00:00.000Z",
+  "formattedDate": "2022年7月13日",
+  "tags": [],
+  "readingTime": 10.555,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Glom_"
+    }
+  ],
+  "frontMatter": {
+    "title": "Prolog 教程 基础",
+    "date": "2022-07-13T18:00",
+    "author": "Glom_"
+  },
+  "prevItem": {
+    "title": "编程思想",
+    "permalink": "/blog/2022/7/16/codemind/codemind"
+  }
+}

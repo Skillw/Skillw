@@ -1,6 +1,6 @@
 export default [
-  require('/www/wwwroot/www.skillw.com/node_modules/infima/dist/css/default/default.css'),
-  require('/www/wwwroot/www.skillw.com/node_modules/@docusaurus/theme-classic/lib/prism-include-languages'),
-  require('/www/wwwroot/www.skillw.com/node_modules/@docusaurus/theme-classic/lib/nprogress'),
-  require('/www/wwwroot/www.skillw.com/src/css/custom.css'),
+  require('/home/glom/桌面/git/Website/node_modules/infima/dist/css/default/default.css'),
+  require('/home/glom/桌面/git/Website/node_modules/@docusaurus/theme-classic/lib/prism-include-languages'),
+  require('/home/glom/桌面/git/Website/node_modules/@docusaurus/theme-classic/lib/nprogress'),
+  require('/home/glom/桌面/git/Website/src/css/custom.css'),
 ];

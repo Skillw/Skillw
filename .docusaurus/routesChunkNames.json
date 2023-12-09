@@ -1,51 +1,51 @@
 {
-  "/__docusaurus/debug-94c": {
+  "/__docusaurus/debug-2b3": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-10-a-611"
+      "plugin": "plugin---docusaurus-debug-4-dd-bde"
     }
   },
-  "/__docusaurus/debug/config-9b8": {
+  "/__docusaurus/debug/config-562": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-10-a-611"
+      "plugin": "plugin---docusaurus-debug-4-dd-bde"
     }
   },
-  "/__docusaurus/debug/content-b96": {
+  "/__docusaurus/debug/content-352": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-10-a-611"
+      "plugin": "plugin---docusaurus-debug-4-dd-bde"
     },
     "allContent": "allContent---docusaurus-debug-content-246-9aa"
   },
-  "/__docusaurus/debug/globalData-79f": {
+  "/__docusaurus/debug/globalData-5e6": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-10-a-611"
+      "plugin": "plugin---docusaurus-debug-4-dd-bde"
     }
   },
-  "/__docusaurus/debug/metadata-e25": {
+  "/__docusaurus/debug/metadata-ee6": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-10-a-611"
+      "plugin": "plugin---docusaurus-debug-4-dd-bde"
     }
   },
-  "/__docusaurus/debug/registry-66a": {
+  "/__docusaurus/debug/registry-ba7": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-10-a-611"
+      "plugin": "plugin---docusaurus-debug-4-dd-bde"
     }
   },
-  "/__docusaurus/debug/routes-bcf": {
+  "/__docusaurus/debug/routes-b62": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-10-a-611"
+      "plugin": "plugin---docusaurus-debug-4-dd-bde"
     }
   },
-  "/blog-c14": {
+  "/blog-a01": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
-      "plugin": "plugin---blogc-5-e-bd3"
+      "plugin": "plugin---blog-408-b20"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -54,37 +54,48 @@
       },
       {
         "content": "content---blog-14-a-102"
+      },
+      {
+        "content": "content---blog-0-ee-571"
       }
     ],
     "metadata": "metadata---blogb-2-b-df1"
   },
-  "/blog/2022/7/16/codemind/codemind-e96": {
+  "/blog/2022/7/16/codemind/codemind-6c1": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blogc-5-e-bd3"
+      "plugin": "plugin---blog-408-b20"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-2022-7-16-codemind-codemind-616-368"
   },
-  "/blog/archive-0d4": {
+  "/blog/archive-33d": {
     "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
     "__context": {
-      "plugin": "plugin---blogc-5-e-bd3"
+      "plugin": "plugin---blog-408-b20"
     },
     "archive": "archive---blog-archiveb-2-f-393"
   },
-  "/blog/tags-c00": {
+  "/blog/prolog/basic-930": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blog-408-b20"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-prolog-basica-55-0ff"
+  },
+  "/blog/tags-5b7": {
     "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
     "__context": {
-      "plugin": "plugin---blogc-5-e-bd3"
+      "plugin": "plugin---blog-408-b20"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/codemind-60e": {
+  "/blog/tags/codemind-85c": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blogc-5-e-bd3"
+      "plugin": "plugin---blog-408-b20"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -95,10 +106,10 @@
     "tag": "tag---blog-tags-codemindc-7-b-acf",
     "listMetadata": "listMetadata---blog-tags-codemind-71-f-7b1"
   },
-  "/blog/tags/docusaurus-bfd": {
+  "/blog/tags/docusaurus-837": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blogc-5-e-bd3"
+      "plugin": "plugin---blog-408-b20"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -109,10 +120,10 @@
     "tag": "tag---blog-tags-docusaurusa-80-728",
     "listMetadata": "listMetadata---blog-tags-docusaurus-608-c09"
   },
-  "/blog/tags/hello-94e": {
+  "/blog/tags/hello-405": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blogc-5-e-bd3"
+      "plugin": "plugin---blog-408-b20"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -123,32 +134,32 @@
     "tag": "tag---blog-tags-hello-30-a-bed",
     "listMetadata": "listMetadata---blog-tags-hello-664-70a"
   },
-  "/blog/welcome-933": {
+  "/blog/welcome-d1c": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blogc-5-e-bd3"
+      "plugin": "plugin---blog-408-b20"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-welcome-2-b-8-14b"
   },
-  "/markdown-page-9c4": {
+  "/markdown-page-cf6": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---markdown-pagec-92-8db"
+      "plugin": "plugin---markdown-pageb-2-a-603"
     },
     "content": "content---markdown-page-393-028"
   },
-  "/my-react-page-43c": {
+  "/my-react-page-fa4": {
     "__comp": "__comp---site-src-pages-my-react-page-jsf-85-e77",
     "__context": {
-      "plugin": "plugin---markdown-pagec-92-8db"
+      "plugin": "plugin---markdown-pageb-2-a-603"
     },
     "config": "config---my-react-page-5-e-9-dcc"
   },
-  "/docs-756": {
+  "/docs-bf8": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
-      "plugin": "plugin---docs-422-190"
+      "plugin": "plugin---docs-875-8dc"
     },
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -340,30 +351,6 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-buffsystem-updates-5-ec-1ff"
   },
-  "/docs/category/buff-e62": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-buff-4-ad-d65"
-  },
-  "/docs/category/其它-acb": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-其它-3-af-734"
-  },
-  "/docs/category/其它-1-049": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-其它-1667-446"
-  },
-  "/docs/category/其它-2-aed": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-其它-2-f-59-f74"
-  },
-  "/docs/category/其它-3-cfe": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-其它-3-ef-5-ff6"
-  },
-  "/docs/category/内置功能-9b2": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-内置功能-971-940"
-  },
   "/docs/category/变量-54a": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-变量-1-c-5-20a"
@@ -372,17 +359,17 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-变量-179-c-a57"
   },
-  "/docs/category/属性功能-227": {
+  "/docs/category/读取组-4d2": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-属性功能-068-11c"
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-读取组-426-32a"
   },
-  "/docs/category/属性引擎-d63": {
+  "/docs/category/脚本基础-f03": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-属性引擎a-41-1c0"
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-脚本基础-4-cb-0a1"
   },
-  "/docs/category/属性数据-b18": {
+  "/docs/category/脚本进阶-9b0": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-属性数据-7-a-0-810"
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-脚本进阶be-0-b62"
   },
   "/docs/category/开发者-6e7": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -400,17 +387,49 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-开始-52-b-e50"
   },
-  "/docs/category/战斗系统-0fb": {
+  "/docs/category/类型-291": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-战斗系统-1-d-7-a7b"
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-类型-63-a-97b"
   },
-  "/docs/category/条件-ec5": {
+  "/docs/category/内置功能-9b2": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-条件-0-b-9-edb"
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-内置功能-971-940"
+  },
+  "/docs/category/其它-acb": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-其它-3-af-734"
+  },
+  "/docs/category/其它-1-049": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-其它-1667-446"
+  },
+  "/docs/category/其它-2-aed": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-其它-2-f-59-f74"
+  },
+  "/docs/category/其它-3-cfe": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-其它-3-ef-5-ff6"
   },
   "/docs/category/深造-d6b": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-深造bda-85b"
+  },
+  "/docs/category/属性功能-227": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-属性功能-068-11c"
+  },
+  "/docs/category/属性数据-b18": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-属性数据-7-a-0-810"
+  },
+  "/docs/category/属性引擎-d63": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-属性引擎a-41-1c0"
+  },
+  "/docs/category/条件-ec5": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-条件-0-b-9-edb"
   },
   "/docs/category/物品-162": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -420,25 +439,17 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-物品元-5-fe-cba"
   },
-  "/docs/category/类型-291": {
+  "/docs/category/战斗系统-0fb": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-类型-63-a-97b"
-  },
-  "/docs/category/脚本基础-f03": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-脚本基础-4-cb-0a1"
-  },
-  "/docs/category/脚本进阶-9b0": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-脚本进阶be-0-b62"
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-战斗系统-1-d-7-a7b"
   },
   "/docs/category/装备栏系统-8c0": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-装备栏系统-299-92d"
   },
-  "/docs/category/读取组-4d2": {
+  "/docs/category/buff-e62": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-读取组-426-32a"
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-buff-4-ad-d65"
   },
   "/docs/intro-766": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -612,10 +623,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-pouvoir-updatesf-97-a7d"
   },
-  "/-d99": {
+  "/-f8e": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "plugin---markdown-pagec-92-8db"
+      "plugin": "plugin---markdown-pageb-2-a-603"
     },
     "config": "config---my-react-page-5-e-9-dcc"
   }
