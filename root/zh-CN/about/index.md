@@ -1,5 +1,11 @@
+---
+tags:
+ - Skillw
+category: 'docs'
+---
+
 <p align="center">
-  <img width="350" src="/root/assets/logo.png">
+  <img width="350" src="/assets/logo.png">
 </p>
 <p align="center">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg" /></a>
@@ -10,7 +16,6 @@
 </p>
 
 # Skill World
-# Skillw
  
 > 这是命运石之门世界线，Glomzzz 打赢了复活赛，正在狠狠重构!
 
