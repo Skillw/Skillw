@@ -28,7 +28,7 @@ const data = useData();
     class="text-$vp-c-text-1!"
   >
     <span>
-      <img height="500" width="500" :src="`/assets/docs/${props.package}/icon.png`" />
+      <img height="450" width="450" :src="`/assets/docs/${props.package}/icon.png`" />
       <p align="center">
           <img :src="`https://img.shields.io/github/v/release/Skillw/${props.id}`" />
         </p>
