@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://discord.gg/xp86JxGE"><img src="https://img.shields.io/discord/1241637949875949711?style=flat&logo=discord&logoColor=white&label=Discord&color=%23404eed" /></a>
+  <a href="https://discord.gg/82ZS9jb8gx"><img src="https://img.shields.io/discord/1206323256240377916?style=flat&logo=discord&logoColor=white&label=Discord&color=%23404eed" /></a>
 </p>
 
 # Skill World
@@ -65,7 +65,7 @@
 git clone https://github.com/Skillw/Skillw.git
 ```
 
-### 2. 禁书目录，启动!
+### 2. Skillw，启动!
 
 ```bash
 cd Skillw
@@ -74,5 +74,3 @@ npm run dev
 ```
 
 当然，你可以无缝切换到pnpm, yarn, 甚至是bun.
-
-```
