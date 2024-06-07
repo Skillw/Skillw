@@ -4,7 +4,7 @@ import { markdown } from './config/markdown';
 import { getNav } from './config/nav'
 import {outlines,level} from './config/outline'
 import { locales as sidebarLocales } from './config/sidebar'
-import { locales as siteLocales } from './config/site'
+import { repoURL, locales as siteLocales } from './config/site'
 import {provider,search} from './config/components/search'
 
 export const locales = (()=>{
@@ -56,7 +56,7 @@ export default defineConfig({
     nav: [],
     sidebar: [],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Skillw/Librorum' }
+      { icon: 'github', link: repoURL }
     ],
     search:search[provider]
   }
