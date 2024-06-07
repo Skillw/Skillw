@@ -2,7 +2,7 @@ import { localesOf } from "./locales";
 
 export const image = './assets/logo.png';
 
-export const repoURL = 'https://github.com/Skillw/Librorum'
+export const repoURL = 'https://github.com/Skillw/Skillw'
 
 export interface Site{
   title:string,
@@ -12,8 +12,8 @@ export interface Site{
 
 export const locales = localesOf({
   'zh-CN':{
-    title: '禁书目录例子',
-    description: '技术知识库。',
+    title: 'Skillw',
+    description: 'Skillw 官网',
     link: '/zh-CN/',
     unknown: 'zh-CN/unknown.md',
   },
