@@ -5,7 +5,7 @@ tags:
 category: 'docs'
 ---
 
-![header](/assets/docs/itemsystem/is_icon.png)
+![header](/assets/docs/itemsystem/icon.png)
 
 ###### **基于元流程**的**物品系统**
 
