@@ -65,7 +65,7 @@
 git clone https://github.com/Skillw/Skillw.git
 ```
 
-### 2. 禁书目录，启动!
+### 2. Skillw，启动!
 
 ```bash
 cd Skillw
@@ -74,5 +74,3 @@ npm run dev
 ```
 
 当然，你可以无缝切换到pnpm, yarn, 甚至是bun.
-
-```
