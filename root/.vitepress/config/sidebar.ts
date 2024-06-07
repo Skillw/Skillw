@@ -309,7 +309,7 @@ export const locales = () => {
           link: "/zh-CN/docs/attsystem/updates",
         },
       ],
-      "/zh-CN/docs/buffSystem/": [
+      "/zh-CN/docs/buffsystem/": [
         { text: "BuffSystem", link: "/zh-CN/docs/buffsystem/intro" },
         {
           text: "效果",
