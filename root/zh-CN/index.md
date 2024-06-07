@@ -14,7 +14,7 @@ hero:
   actions:
     - theme: brand
       text: 加入 Discord 服务器
-      link: https://discord.gg/xp86JxGE
+      link: https://discord.gg/82ZS9jb8gx
     - theme: brand
       text: 加入 QQ 群
       link: https://qm.qq.com/q/btBV2Y4jeM
