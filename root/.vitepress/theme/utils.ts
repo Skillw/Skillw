@@ -23,8 +23,8 @@ export function getQueryParam(paramName:string) {
  */
 export function goToLink(lang:string, url:string, paramName?:string, paramValue?:string) {
   if (paramName) {
-    window.location.replace('/'+ lang + url + '?' + paramName + '=' + paramValue)
+    window.location.replace('/'+ url + '?' + paramName + '=' + paramValue)
   } else {
-    window.location.replace('/'+ lang + url)
+    window.location.replace('/'+ url)
   }
 }

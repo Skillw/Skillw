@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { useData } from "vitepress";
 
 const props = withDefaults(
   defineProps<{
@@ -10,12 +9,11 @@ const props = withDefaults(
   }
 );
 
-const data = useData();
 </script>
 
 <template>
   <a
-    :href="`/${data.lang.value}/docs/${props.package}/intro`"
+    :href="`/docs/${props.package}/intro`"
     flex="~ row"
     bg="zinc-100 hover:zinc-200 active:zinc-300 dark:zinc-900 dark:hover:zinc-800 dark:active:zinc-900"
     transition="all duration-200 ease"
