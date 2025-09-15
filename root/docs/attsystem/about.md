@@ -19,11 +19,11 @@ category: 'docs'
 
 ### Links
 
-**WIKI** [http://www.skillw.com/docs/attsystem/intro](https://http://www.skillw.com/docs/attsystem/intro)
+**WIKI** [http://www.skillw.com/docs/attsystem/intro](https://www.skillw.com/docs/attsystem/intro)
 
-**FAQ** [http://www.skillw.com/docs/attsystem/FAQ](https://http://www.skillw.com/docs/attsystem/FAQ)
+**FAQ** [http://www.skillw.com/docs/attsystem/FAQ](https://www.skillw.com/docs/attsystem/FAQ)
 
-**更新记录** [http://www.skillw.com/docs/attsystem/update](https://http://www.skillw.com/docs/attsystem/update)
+**更新记录** [http://www.skillw.com/docs/attsystem/update](https://www.skillw.com/docs/attsystem/update)
 
 **JavaDoc** [doc.skillw.com/attsystem/](https://doc.skillw.com/attsystem/)
 

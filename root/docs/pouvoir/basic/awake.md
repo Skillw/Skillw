@@ -32,7 +32,7 @@ function test() {
 
 #### Pouvoir 的生命周期
 
-[ManagerTime](https://http://doc.skillw.com/pouvoir/com/skillw/pouvoir/api/event/ManagerTime.html)
+[ManagerTime](https://doc.skillw.com/pouvoir/com/skillw/pouvoir/api/event/ManagerTime.html)
 
 | 生命周期(不论大小写) | 对应阶段         |
 | -------------------- | ---------------- |
