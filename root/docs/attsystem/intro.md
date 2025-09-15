@@ -52,7 +52,7 @@ category: 'docs'
 
 > 下载[**AttributeSystem**](https://www.mcbbs.net/thread-1307249-1-1.html)，**Pouvoir**，**PlaceholderAPI**(可选)，**Mythicmobs**(可选)，放入 /plugins 文件夹中后重启服务器
 
-##### 本插件的大部分内容基于**Pouvoir**, 请在阅读本 WIKI 确保前阅读过[Pouvoir WIKI](/zh-CN/docs/pouvoir/intro)
+##### 本插件的大部分内容基于**Pouvoir**, 请在阅读本 WIKI 确保前阅读过[Pouvoir WIKI](/docs/pouvoir/intro)
 
 ### 支持
 
@@ -62,11 +62,11 @@ category: 'docs'
 
 ### Links
 
-**WIKI** [http://www.skillw.com/zh-CN/docs/attsystem/intro](https://intro)
+**WIKI** [http://www.skillw.com/docs/attsystem/intro](https://intro)
 
-**FAQ** [http://www.skillw.com/zh-CN/docs/attsystem/faq](https://faq)
+**FAQ** [http://www.skillw.com/docs/attsystem/faq](https://faq)
 
-**更新记录** [http://www.skillw.com/zh-CN/docs/attsystem/updates](https://updates)
+**更新记录** [http://www.skillw.com/docs/attsystem/updates](https://updates)
 
 **JavaDoc** [doc.skillw.com/attsystem/](https://doc.skillw.com/attsystem/)
 

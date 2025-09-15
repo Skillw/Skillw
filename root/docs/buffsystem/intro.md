@@ -45,7 +45,7 @@ category: 'docs'
 
 > 下载[**BuffSystem**](https://www.mcbbs.net/thread-1371263-1-1.html)，**Pouvoir**，**Mythicmobs**(可选)，**AttributeSystem**/**AttributePlus**/**OriginAttribute**/**SX-Attribute**(四选一)，放入 /plugins 文件夹中后重启服务器
 
-##### 本插件的大部分内容基于**Pouvoir**, 请在阅读本 WIKI 确保前阅读过[Pouvoir WIKI](/zh-CN/docs/pouvoir/intro)
+##### 本插件的大部分内容基于**Pouvoir**, 请在阅读本 WIKI 确保前阅读过[Pouvoir WIKI](/docs/pouvoir/intro)
 
 ### 支持
 
@@ -55,9 +55,9 @@ category: 'docs'
 
 ### Links
 
-**WIKI** [http://www.skillw.com/zh-CN/docs/buffsystem/intro](https://intro)
+**WIKI** [http://www.skillw.com/docs/buffsystem/intro](https://intro)
 
-**更新记录** [http://www.skillw.com/zh-CN/docs/buffsystem/updates](https://updates)
+**更新记录** [http://www.skillw.com/docs/buffsystem/updates](https://updates)
 
 **JavaDoc** [doc.skillw.com/buffsystem/](https://doc.skillw.com/buffsystem/)
 

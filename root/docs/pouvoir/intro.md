@@ -30,7 +30,7 @@ category: 'docs'
 
 Github [github.com/Skillw/Pouvoir](https://github.com/Skillw/Pouvoir)
 
-WIKI [http://www.skillw.com/zh-CN/docs/pouvoir/intro](https://intro)
+WIKI [http://www.skillw.com/docs/pouvoir/intro](https://intro)
 
 JavaDoc [http://doc.skillw.com/pouvoir/](https://http://doc.skillw.com/pouvoir/)
 
