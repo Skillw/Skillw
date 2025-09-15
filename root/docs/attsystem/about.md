@@ -11,7 +11,7 @@ category: 'docs'
 
 ### 提前说一下
 
-##### 本插件的大部分内容基于**Pouvoir**, 请在阅读本 WIKI 确保前阅读过[Pouvoir WIKI](https://www.skillw.com/zh-CN/docs/pouvoir/intro)
+##### 本插件的大部分内容基于**Pouvoir**, 请在阅读本 WIKI 确保前阅读过[Pouvoir WIKI](https://www.skillw.com/docs/pouvoir/intro)
 
 每篇教程都会附带一个例子，方便大家理解。
 
@@ -19,11 +19,11 @@ category: 'docs'
 
 ### Links
 
-**WIKI** [http://www.skillw.com/zh-CN/docs/attsystem/intro](https://http://www.skillw.com/zh-CN/docs/attsystem/intro)
+**WIKI** [http://www.skillw.com/docs/attsystem/intro](https://http://www.skillw.com/docs/attsystem/intro)
 
-**FAQ** [http://www.skillw.com/zh-CN/docs/attsystem/FAQ](https://http://www.skillw.com/zh-CN/docs/attsystem/FAQ)
+**FAQ** [http://www.skillw.com/docs/attsystem/FAQ](https://http://www.skillw.com/docs/attsystem/FAQ)
 
-**更新记录** [http://www.skillw.com/zh-CN/docs/attsystem/update](https://http://www.skillw.com/zh-CN/docs/attsystem/update)
+**更新记录** [http://www.skillw.com/docs/attsystem/update](https://http://www.skillw.com/docs/attsystem/update)
 
 **JavaDoc** [doc.skillw.com/attsystem/](https://doc.skillw.com/attsystem/)
 

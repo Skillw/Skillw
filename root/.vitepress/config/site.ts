@@ -14,13 +14,7 @@ export const locales = localesOf({
   'zh-CN':{
     title: 'Skillw',
     description: 'Skillw 官网',
-    link: '/zh-CN/',
-    unknown: 'zh-CN/unknown.md',
+    link: '/',
+    unknown: 'unknown.md',
   },
-  'en':{
-    title: 'Librorum Example',
-    description: 'Technical knowledge base.',
-    link: '/en/',
-    unknown: 'en/unknown.md',
-  }
 });

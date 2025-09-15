@@ -25,7 +25,7 @@ Physical:
     #攻击者
     attack:
       #下面是字符串内联函数（非常像kether）
-      #www.skillw.com/zh-CN/asahi/intro
+      #www.skillw.com/asahi/intro
       holo: |-
         set common to if check {result} != 0.0 then '&6{ format {result} #.### }' else '&7&lMISS'
         set crit to if check {crit} != 0.0 then '&4✵' else pass

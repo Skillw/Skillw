@@ -10,27 +10,27 @@ const sync = fg.sync;
 export const locales = () => {
   return localesOf<DefaultTheme.Sidebar>({
     "zh-CN": {
-      "/zh-CN/docs/asahi/": [
+      "/docs/asahi/": [
         {
           text: "Asahi",
-          link: "/zh-CN/docs/asahi/intro",
+          link: "/docs/asahi/intro",
         },
         {
           text: "开始使用",
           collapsed: false,
           items: [
-            { text: "第一个脚本", link: "/zh-CN/docs/asahi/start/first-step" },
+            { text: "第一个脚本", link: "/docs/asahi/start/first-step" },
           ],
         },
         {
           text: "基础内容",
           collapsed: false,
           items: [
-            { text: "结构总论", link: "/zh-CN/docs/asahi/basic/intro" },
-            { text: "调度模块", link: "/zh-CN/docs/asahi/basic/dispatcher" },
-            { text: "处理模块", link: "/zh-CN/docs/asahi/basic/handler" },
-            { text: "解释器", link: "/zh-CN/docs/asahi/basic/parser" },
-            { text: "选择器", link: "/zh-CN/docs/asahi/basic/selector" },
+            { text: "结构总论", link: "/docs/asahi/basic/intro" },
+            { text: "调度模块", link: "/docs/asahi/basic/dispatcher" },
+            { text: "处理模块", link: "/docs/asahi/basic/handler" },
+            { text: "解释器", link: "/docs/asahi/basic/parser" },
+            { text: "选择器", link: "/docs/asahi/basic/selector" },
           ],
         },
         {
@@ -39,54 +39,54 @@ export const locales = () => {
           items: [
             {
               text: "命名空间: 语言",
-              link: "/zh-CN/docs/asahi/parsers/namespace-lang",
+              link: "/docs/asahi/parsers/namespace-lang",
             },
             {
               text: "命名空间: 通用",
-              link: "/zh-CN/docs/asahi/parsers/namespace-common",
+              link: "/docs/asahi/parsers/namespace-common",
             },
             {
               text: "命名空间: Bukkit",
-              link: "/zh-CN/docs/asahi/parsers/namespace-bukkit",
+              link: "/docs/asahi/parsers/namespace-bukkit",
             },
             {
               text: "命名空间: 正则",
-              link: "/zh-CN/docs/asahi/parsers/namespace-regex",
+              link: "/docs/asahi/parsers/namespace-regex",
             },
-            { text: "选择器列表", link: "/zh-CN/docs/asahi/parsers/selectors" },
+            { text: "选择器列表", link: "/docs/asahi/parsers/selectors" },
           ],
         },
       ],
-      "/zh-CN/docs/pouvoir/": [
+      "/docs/pouvoir/": [
         {
           text: "Pouvoir",
-          link: "/zh-CN/docs/pouvoir/intro",
+          link: "/docs/pouvoir/intro",
         },
         {
           text: "脚本基础",
           collapsed: false,
           items: [
-            { text: "变量", link: "/zh-CN/docs/pouvoir/start/variable" },
-            { text: "函数", link: "/zh-CN/docs/pouvoir/start/function" },
+            { text: "变量", link: "/docs/pouvoir/start/variable" },
+            { text: "函数", link: "/docs/pouvoir/start/function" },
             {
               text: "控制流",
-              link: "/zh-CN/docs/pouvoir/start/control-flow",
+              link: "/docs/pouvoir/start/control-flow",
             },
-            { text: "Nashorn", link: "/zh-CN/docs/pouvoir/start/nashorn" },
+            { text: "Nashorn", link: "/docs/pouvoir/start/nashorn" },
           ],
         },
         {
           text: "脚本进阶",
           collapsed: false,
           items: [
-            { text: "Javadoc", link: "/zh-CN/docs/pouvoir/basic/javadoc" },
-            { text: "导入", link: "/zh-CN/docs/pouvoir/basic/import" },
-            { text: "何时醒来?", link: "/zh-CN/docs/pouvoir/basic/awake" },
-            { text: "命令", link: "/zh-CN/docs/pouvoir/basic/command" },
-            { text: "监听器", link: "/zh-CN/docs/pouvoir/basic/listener" },
+            { text: "Javadoc", link: "/docs/pouvoir/basic/javadoc" },
+            { text: "导入", link: "/docs/pouvoir/basic/import" },
+            { text: "何时醒来?", link: "/docs/pouvoir/basic/awake" },
+            { text: "命令", link: "/docs/pouvoir/basic/command" },
+            { text: "监听器", link: "/docs/pouvoir/basic/listener" },
             {
               text: "顶层对象",
-              link: "/zh-CN/docs/pouvoir/basic/top-level",
+              link: "/docs/pouvoir/basic/top-level",
             },
           ],
         },
@@ -96,15 +96,15 @@ export const locales = () => {
           items: [
             {
               text: "容器",
-              link: "/zh-CN/docs/pouvoir/features/container",
+              link: "/docs/pouvoir/features/container",
             },
             {
               text: "全息图",
-              link: "/zh-CN/docs/pouvoir/features/hologram",
+              link: "/docs/pouvoir/features/hologram",
             },
             {
               text: "监视器",
-              link: "/zh-CN/docs/pouvoir/features/monitor",
+              link: "/docs/pouvoir/features/monitor",
             },
           ],
         },
@@ -114,19 +114,19 @@ export const locales = () => {
           items: [
             {
               text: "脚本源",
-              link: "/zh-CN/docs/pouvoir/extension/script-source",
+              link: "/docs/pouvoir/extension/script-source",
             },
             {
               text: "脚本顶层对象",
-              link: "/zh-CN/docs/pouvoir/extension/script-top-level",
+              link: "/docs/pouvoir/extension/script-top-level",
             },
             {
               text: "脚本引擎",
-              link: "/zh-CN/docs/pouvoir/extension/script-engine",
+              link: "/docs/pouvoir/extension/script-engine",
             },
             {
               text: "脚本注解",
-              link: "/zh-CN/docs/pouvoir/extension/script-annotation",
+              link: "/docs/pouvoir/extension/script-annotation",
             },
           ],
         },
@@ -136,11 +136,11 @@ export const locales = () => {
           items: [
             {
               text: "占位符",
-              link: "/zh-CN/docs/pouvoir/other/placeholder",
+              link: "/docs/pouvoir/other/placeholder",
             },
-            { text: "Asahi", link: "/zh-CN/docs/pouvoir/other/asahi" },
-            { text: "功能", link: "/zh-CN/docs/pouvoir/other/functions" },
-            { text: "动作", link: "/zh-CN/docs/pouvoir/other/actions" },
+            { text: "Asahi", link: "/docs/pouvoir/other/asahi" },
+            { text: "功能", link: "/docs/pouvoir/other/functions" },
+            { text: "动作", link: "/docs/pouvoir/other/actions" },
           ],
         },
         {
@@ -150,20 +150,20 @@ export const locales = () => {
         },
         {
           text: "更新日志",
-          link: "/zh-CN/docs/pouvoir/updates",
+          link: "/docs/pouvoir/updates",
         },
       ],
-      "/zh-CN/docs/attsystem/": [
+      "/docs/attsystem/": [
         {
           text: "AttributeSystem",
-          link: "/zh-CN/docs/attsystem/intro",
+          link: "/docs/attsystem/intro",
         },
         {
           text: "属性引擎",
           items: [
             {
               text: "属性引擎介绍",
-              link: "/zh-CN/docs/attsystem/attribute/intro",
+              link: "/docs/attsystem/attribute/intro",
             },
             {
               text: "读取组",
@@ -171,15 +171,15 @@ export const locales = () => {
               items: [
                 {
                   text: "读取组介绍",
-                  link: "/zh-CN/docs/attsystem/attribute/read-group/intro",
+                  link: "/docs/attsystem/attribute/read-group/intro",
                 },
                 {
                   text: "匹配器",
-                  link: "/zh-CN/docs/attsystem/attribute/read-group/matcher",
+                  link: "/docs/attsystem/attribute/read-group/matcher",
                 },
                 {
                   text: "操作",
-                  link: "/zh-CN/docs/attsystem/attribute/read-group/operation",
+                  link: "/docs/attsystem/attribute/read-group/operation",
                 },
               ],
             },
@@ -189,15 +189,15 @@ export const locales = () => {
               items: [
                 {
                   text: "属性数据介绍",
-                  link: "/zh-CN/docs/attsystem/attribute/data/intro",
+                  link: "/docs/attsystem/attribute/data/intro",
                 },
                 {
                   text: "NBT",
-                  link: "/zh-CN/docs/attsystem/attribute/data/nbt",
+                  link: "/docs/attsystem/attribute/data/nbt",
                 },
                 {
                   text: "字符串",
-                  link: "/zh-CN/docs/attsystem/attribute/data/string",
+                  link: "/docs/attsystem/attribute/data/string",
                 },
               ],
             },
@@ -207,7 +207,7 @@ export const locales = () => {
               items: [
                 {
                   text: "实现",
-                  link: "/zh-CN/docs/attsystem/attribute/function/realise",
+                  link: "/docs/attsystem/attribute/function/realise",
                 },
               ],
             },
@@ -219,7 +219,7 @@ export const locales = () => {
           items: [
             {
               text: "装备槽",
-              link: "/zh-CN/docs/attsystem/equipment/slot",
+              link: "/docs/attsystem/equipment/slot",
             },
             {
               text: "条件",
@@ -227,15 +227,15 @@ export const locales = () => {
               items: [
                 {
                   text: "条件介绍",
-                  link: "/zh-CN/docs/attsystem/equipment/condition/intro",
+                  link: "/docs/attsystem/equipment/condition/intro",
                 },
                 {
                   text: "使用方法",
-                  link: "/zh-CN/docs/attsystem/equipment/condition/usage",
+                  link: "/docs/attsystem/equipment/condition/usage",
                 },
                 {
                   text: "条件列表",
-                  link: "/zh-CN/docs/attsystem/equipment/condition/list",
+                  link: "/docs/attsystem/equipment/condition/list",
                 },
               ],
             },
@@ -245,19 +245,19 @@ export const locales = () => {
           text: "战斗系统",
           collapsed: false,
           items: [
-            { text: "战斗数据", link: "/zh-CN/docs/attsystem/fight/data" },
+            { text: "战斗数据", link: "/docs/attsystem/fight/data" },
             {
               text: "伤害类型",
-              link: "/zh-CN/docs/attsystem/fight/damage-type",
+              link: "/docs/attsystem/fight/damage-type",
             },
-            { text: "机制", link: "/zh-CN/docs/attsystem/fight/mechanic" },
+            { text: "机制", link: "/docs/attsystem/fight/mechanic" },
             {
               text: "机制集",
-              link: "/zh-CN/docs/attsystem/fight/mechanics",
+              link: "/docs/attsystem/fight/mechanics",
             },
             {
               text: "机制组",
-              link: "/zh-CN/docs/attsystem/fight/mechanic-group",
+              link: "/docs/attsystem/fight/mechanic-group",
             },
           ],
         },
@@ -265,15 +265,15 @@ export const locales = () => {
           text: "其它",
           collapsed: false,
           items: [
-            { text: "配置", link: "/zh-CN/docs/attsystem/other/config" },
-            { text: "公式", link: "/zh-CN/docs/attsystem/other/formula" },
+            { text: "配置", link: "/docs/attsystem/other/config" },
+            { text: "公式", link: "/docs/attsystem/other/formula" },
             {
               text: "占位符",
-              link: "/zh-CN/docs/attsystem/other/placeholder",
+              link: "/docs/attsystem/other/placeholder",
             },
             {
               text: "Mythic Mobs",
-              link: "/zh-CN/docs/attsystem/other/mythic-mobs",
+              link: "/docs/attsystem/other/mythic-mobs",
             },
           ],
         },
@@ -283,16 +283,16 @@ export const locales = () => {
           items: [
             {
               text: "开发者介绍",
-              link: "/zh-CN/docs/attsystem/extension/intro",
+              link: "/docs/attsystem/extension/intro",
             },
             {
               text: "读取模式",
-              link: "/zh-CN/docs/attsystem/extension/read-pattern",
+              link: "/docs/attsystem/extension/read-pattern",
             },
-            { text: "战斗", link: "/zh-CN/docs/attsystem/extension/fight" },
+            { text: "战斗", link: "/docs/attsystem/extension/fight" },
             {
               text: "消息",
-              link: "/zh-CN/docs/attsystem/extension/message",
+              link: "/docs/attsystem/extension/message",
             },
           ],
         },
@@ -302,22 +302,22 @@ export const locales = () => {
         },
         {
           text: "FAQ",
-          link: "/zh-CN/docs/attsystem/faq",
+          link: "/docs/attsystem/faq",
         },
         {
           text: "更新日志",
-          link: "/zh-CN/docs/attsystem/updates",
+          link: "/docs/attsystem/updates",
         },
       ],
-      "/zh-CN/docs/buffsystem/": [
-        { text: "BuffSystem", link: "/zh-CN/docs/buffsystem/intro" },
+      "/docs/buffsystem/": [
+        { text: "BuffSystem", link: "/docs/buffsystem/intro" },
         {
           text: "效果",
           collapsed: false,
           items: [
             {
               text: "效果介绍",
-              link: "/zh-CN/docs/buffsystem/effect/intro",
+              link: "/docs/buffsystem/effect/intro",
             },
             {
               text: "效果类型",
@@ -325,15 +325,15 @@ export const locales = () => {
               items: [
                 {
                   text: "属性效果",
-                  link: "/zh-CN/docs/buffsystem/effect/type/attribute",
+                  link: "/docs/buffsystem/effect/type/attribute",
                 },
                 {
                   text: "药水效果",
-                  link: "/zh-CN/docs/buffsystem/effect/type/potion",
+                  link: "/docs/buffsystem/effect/type/potion",
                 },
                 {
                   text: "权限效果",
-                  link: "/zh-CN/docs/buffsystem/effect/type/permission",
+                  link: "/docs/buffsystem/effect/type/permission",
                 },
               ],
             },
@@ -345,7 +345,7 @@ export const locales = () => {
           items: [
             {
               text: "条件介绍",
-              link: "/zh-CN/docs/buffsystem/condition/intro",
+              link: "/docs/buffsystem/condition/intro",
             },
             {
               text: "类型",
@@ -353,17 +353,17 @@ export const locales = () => {
               items: [
                 {
                   text: "时间条件",
-                  link: "/zh-CN/docs/buffsystem/condition/type/time",
+                  link: "/docs/buffsystem/condition/type/time",
                 },
                 {
                   text: "权限条件",
-                  link: "/zh-CN/docs/buffsystem/condition/type/permission",
+                  link: "/docs/buffsystem/condition/type/permission",
                 },
               ],
             },
             {
               text: "自定义条件",
-              link: "/zh-CN/docs/buffsystem/condition/custom",
+              link: "/docs/buffsystem/condition/custom",
             },
           ],
         },
@@ -373,9 +373,9 @@ export const locales = () => {
           items: [
             {
               text: "Buff 介绍",
-              link: "/zh-CN/docs/buffsystem/buff/intro",
+              link: "/docs/buffsystem/buff/intro",
             },
-            { text: "Buff 数据", link: "/zh-CN/docs/buffsystem/buff/data" },
+            { text: "Buff 数据", link: "/docs/buffsystem/buff/data" },
           ],
         },
         {
@@ -384,11 +384,11 @@ export const locales = () => {
           items: [
             {
               text: "占位符",
-              link: "/zh-CN/docs/buffsystem/other/placeholder",
+              link: "/docs/buffsystem/other/placeholder",
             },
             {
               text: "Mythic Mobs",
-              link: "/zh-CN/docs/buffsystem/other/mythic-mobs",
+              link: "/docs/buffsystem/other/mythic-mobs",
             },
           ],
         },
@@ -398,11 +398,11 @@ export const locales = () => {
           items: [
             {
               text: "开发者介绍",
-              link: "/zh-CN/docs/buffsystem/extension/intro",
+              link: "/docs/buffsystem/extension/intro",
             },
             {
               text: "示例",
-              link: "/zh-CN/docs/buffsystem/extension/example",
+              link: "/docs/buffsystem/extension/example",
             },
           ],
         },
@@ -412,34 +412,34 @@ export const locales = () => {
         },
         {
           text: "FAQ",
-          link: "/zh-CN/docs/buffsystem/faq",
+          link: "/docs/buffsystem/faq",
         },
         {
           text: "更新日志",
-          link: "/zh-CN/docs/buffsystem/updates",
+          link: "/docs/buffsystem/updates",
         },
       ],
-      "/zh-CN/docs/itemsystem/": [
-        { text: "ItemSystem", link: "/zh-CN/docs/itemsystem/intro" },
+      "/docs/itemsystem/": [
+        { text: "ItemSystem", link: "/docs/itemsystem/intro" },
 
         {
           text: "开始",
           collapsed: false,
           items: [
-            { text: "命令", link: "/zh-CN/docs/itemsystem/start/command" },
-            { text: "配置", link: "/zh-CN/docs/itemsystem/start/config" },
+            { text: "命令", link: "/docs/itemsystem/start/command" },
+            { text: "配置", link: "/docs/itemsystem/start/config" },
           ],
         },
         {
           text: "物品",
           collapsed: false,
           items: [
-            { text: "物品介绍", link: "/zh-CN/docs/itemsystem/item/intro" },
-            { text: "选项", link: "/zh-CN/docs/itemsystem/item/option" },
-            { text: "处理", link: "/zh-CN/docs/itemsystem/item/process" },
+            { text: "物品介绍", link: "/docs/itemsystem/item/intro" },
+            { text: "选项", link: "/docs/itemsystem/item/option" },
+            { text: "处理", link: "/docs/itemsystem/item/process" },
             {
               text: "处理数据",
-              link: "/zh-CN/docs/itemsystem/item/process-data",
+              link: "/docs/itemsystem/item/process-data",
             },
           ],
         },
@@ -449,12 +449,12 @@ export const locales = () => {
           items: [
             {
               text: "物品元介绍",
-              link: "/zh-CN/docs/itemsystem/meta/intro",
+              link: "/docs/itemsystem/meta/intro",
             },
-            { text: "列表", link: "/zh-CN/docs/itemsystem/meta/list" },
+            { text: "列表", link: "/docs/itemsystem/meta/list" },
             {
               text: "全局元数据",
-              link: "/zh-CN/docs/itemsystem/meta/global-meta-data",
+              link: "/docs/itemsystem/meta/global-meta-data",
             },
           ],
         },
@@ -464,12 +464,12 @@ export const locales = () => {
           items: [
             {
               text: "变量介绍",
-              link: "/zh-CN/docs/itemsystem/variable/intro",
+              link: "/docs/itemsystem/variable/intro",
             },
-            { text: "类型", link: "/zh-CN/docs/itemsystem/variable/type" },
+            { text: "类型", link: "/docs/itemsystem/variable/type" },
             {
               text: "类型列表",
-              link: "/zh-CN/docs/itemsystem/variable/types",
+              link: "/docs/itemsystem/variable/types",
             },
           ],
         },
@@ -477,14 +477,14 @@ export const locales = () => {
           text: "深造",
           collapsed: false,
           items: [
-            { text: "动作", link: "/zh-CN/docs/itemsystem/further/action" },
+            { text: "动作", link: "/docs/itemsystem/further/action" },
             {
               text: "动作列表",
-              link: "/zh-CN/docs/itemsystem/further/actions",
+              link: "/docs/itemsystem/further/actions",
             },
             {
               text: "扩展",
-              link: "/zh-CN/docs/itemsystem/further/extends",
+              link: "/docs/itemsystem/further/extends",
             },
           ],
         },
@@ -494,7 +494,7 @@ export const locales = () => {
           items: [
             {
               text: "Mythic Mobs",
-              link: "/zh-CN/docs/itemsystem/other/mythic-mobs",
+              link: "/docs/itemsystem/other/mythic-mobs",
             },
           ],
         },
@@ -504,16 +504,13 @@ export const locales = () => {
         },
         {
           text: "FAQ",
-          link: "/zh-CN/docs/itemsystem/faq",
+          link: "/docs/itemsystem/faq",
         },
         {
           text: "更新日志",
-          link: "/zh-CN/docs/itemsystem/updates",
+          link: "/docs/itemsystem/updates",
         },
       ],
-    },
-    en: {
-      "en/blogs/": genSidebar({ path: "en/blogs" }),
     },
   });
 };

@@ -34,7 +34,7 @@ category: 'docs'
 - [**函数列表**](https://../pouvoir/other/functions)
 - [**动作列表**](https://../pouvoir/other/actions)
 
-##### 本插件的大部分内容基于**Pouvoir**, 请在阅读本 WIKI 确保前阅读过[Pouvoir WIKI](/zh-CN/docs/pouvoir/intro)
+##### 本插件的大部分内容基于**Pouvoir**, 请在阅读本 WIKI 确保前阅读过[Pouvoir WIKI](/docs/pouvoir/intro)
 
 ##### **面向函数**
 
@@ -70,7 +70,7 @@ WIKI 中如有不理解的请在 qq 交流群里提问: 950788702
 
 ### Links
 
-**更新记录** [www.skillw.com/zh-CN/docs/itemsystem/updates](https://updates)
+**更新记录** [www.skillw.com/docs/itemsystem/updates](https://updates)
 
 **JavaDoc** [doc.skillw.com/itemsystem/](https://doc.skillw.com/itemsystem/)
 
