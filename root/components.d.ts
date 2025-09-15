@@ -17,10 +17,7 @@ declare module 'vue' {
     ATag: typeof import('@arco-design/web-vue')['Tag']
     HomeContent: typeof import('./.vitepress/theme/components/HomeContent.vue')['default']
     IntegrationCard: typeof import('./.vitepress/theme/components/IntegrationCard.vue')['default']
-    NavHeader: typeof import('./.vitepress/theme/components/NavHeader.vue')['default']
     Tag: typeof import('./.vitepress/theme/components/Tag.vue')['default']
-    VPHeroImageLogo: typeof import('./.vitepress/theme/components/VPHeroImageLogo.vue')['default']
-    VPHeroImageLogoLayer: typeof import('./.vitepress/theme/components/VPHeroImageLogoLayer.vue')['default']
     WordCloud: typeof import('./.vitepress/theme/components/WordCloud.vue')['default']
   }
 }
