@@ -30,9 +30,9 @@ category: 'docs'
 
 Github [github.com/Skillw/Pouvoir](https://github.com/Skillw/Pouvoir)
 
-WIKI [http://www.skillw.com/docs/pouvoir/intro](https://intro)
+WIKI [http://www.skillw.com/docs/pouvoir/intro](http://www.skillw.com/docs/pouvoir/intro)
 
-JavaDoc [http://doc.skillw.com/pouvoir/](https://http://doc.skillw.com/pouvoir/)
+JavaDoc [http://doc.skillw.com/pouvoir/](https://doc.skillw.com/pouvoir/)
 
 MCBBS [www.mcbbs.net/thread-1221977-1-1.html](https://www.mcbbs.net/thread-1221977-1-1.html)
 

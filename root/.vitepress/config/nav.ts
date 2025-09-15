@@ -58,7 +58,7 @@ import { genCategories } from './components/categories';
 
 export function getNav(lang:string,dir?:string):DefaultTheme.Config['nav']{
   const nav = navs[lang]!;
-  addDir(dir ?? lang,nav);
+  // addDir(dir ?? lang,nav);
   return nav;
 }
 

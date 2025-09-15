@@ -9,21 +9,18 @@ import {provider,search} from './config/components/search'
 
 export const locales = (()=>{
   const config:any = {}
-  for(const name in langs){
-    const lang = langs[name];
-    config[name] = {
-      ...langs[name],
-      ...siteLocales[name],
+    config['zh-CN'] = {
+      ...langs['zh-CN'],
+      ...siteLocales['zh-CN'],
       themeConfig: {
-        nav: getNav(lang.lang) ?? getNav(name),
-        sidebar:  sidebarLocales()[lang.lang] ?? sidebarLocales()[name],
+        nav: getNav('zh-CN'),
+        sidebar:  sidebarLocales()['zh-CN'],
         outline: {
-          label: outlines[lang.lang]?.outlineTitle ?? outlines[name]?.outlineTitle,
+          label: outlines['zh-CN']?.outlineTitle ?? outlines['zh-CN']?.outlineTitle,
           level
         }
       }
     }
-  }
   return config
 })()
 
@@ -31,6 +28,10 @@ const defaultLocale = locales[defaultLang.lang]
 
 export default defineConfig({
   head: [['link', { rel: 'icon', href: '/assets/favicon.ico' }]],
+  title: "Skillw",
+  description: "Skillw 官网",
+  locales,
+  //默认语言
   lang: defaultLang.lang,
   //更简洁的url，去掉.html
   cleanUrls: true,
@@ -38,8 +39,6 @@ export default defineConfig({
   metaChunk:true,
   //导入markdown配置
   markdown,
-  //导入locales配置
-  locales,
   vue: {
     template: {
       compilerOptions: {
@@ -52,9 +51,8 @@ export default defineConfig({
   },
 
   themeConfig: {
-    
-    nav: [],
-    sidebar: [],
+    nav: getNav('zh-CN'),
+    sidebar: sidebarLocales()['zh-CN'],
     socialLinks: [
       { icon: 'github', link: repoURL }
     ],

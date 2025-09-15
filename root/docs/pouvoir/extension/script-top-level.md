@@ -8,7 +8,7 @@ category: 'docs'
 # 脚本顶级成员
 
 
-需用到 [`ScriptTopLevel`](https://http://doc.skillw.com/pouvoir/-pouvoir/com.skillw.pouvoir.api.annotation/-script-top-level/index.html)
+需用到 [`ScriptTopLevel`](https://doc.skillw.com/pouvoir/-pouvoir/com.skillw.pouvoir.api.annotation/-script-top-level/index.html)
 
 ```kotlin
 @ScriptTopLevel

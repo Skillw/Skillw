@@ -64,7 +64,7 @@ fun info() = prefixParser {
 ---
 GitHub [github.com/Skillw/Pouvoir](https://github.com/Skillw/Pouvoir)
 
-JavaDoc [http://doc.skillw.com/pouvoir/](https://http://doc.skillw.com/pouvoir/)
+JavaDoc [http://doc.skillw.com/pouvoir/](https://doc.skillw.com/pouvoir/)
 
 MCBBS [www.mcbbs.net/thread-1221977-1-1.html](https://www.mcbbs.net/thread-1221977-1-1.html)
 

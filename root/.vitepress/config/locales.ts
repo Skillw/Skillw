@@ -21,12 +21,5 @@ export function localesOf<Config = any>(
 }
 
 export function parseLang(link: string): string {
-  var lang = link.split("/")[0];
-  if (lang == "") {
-    lang = link.split("/")[1];
-  }
-  if (!Object.keys(langs).includes(lang)) {
-    lang = defaultLang.lang;
-  }
-  return lang;
+  return 'zh-CN';
 }
